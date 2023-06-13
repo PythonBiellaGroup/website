@@ -1,0 +1,186 @@
+# To launch mkdocs use: mkdocs serve
+# To launch with debug mode use: mkdocs serve -v
+# To build mkdocs use: mkdocs build --clean
+
+# Project information
+site_name: "PBG Website"
+site_url: https://pythonbiellagroup.it
+site_description: PBG official website
+site_author: "PythonBiellaGroup"
+copyright: Made with ♥ by PythonBiellaGroup
+
+# Repository
+repo_url: https://github.com/PythonBiellaGroup/website
+repo_name: PythonBiellaGroup/Website
+edit_uri: "" #disables edit button
+
+# Page tree
+nav:
+  - Home:
+      - Startup: index.md
+  - List of functions:
+      - Test functions: functions/workflows.md
+  - Blog:
+      - blog/index.md
+  - Changelog:
+      - changelog/index.md
+      - How to upgrade: upgrade.md
+  - Reference:
+      - reference/index.md
+  - Insiders:
+      - insiders/index.md
+
+# Configuration
+theme:
+  name: material
+  # Static files
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  language: en
+  features:
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    # - navigation.instant
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+    - content.code.annotate
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+  logo: static/images/logo.png
+  favicon: static/images/favicon.ico
+  font:
+    text: Roboto
+    code: Roboto mono
+  palette:
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+
+#Plugins
+plugins:
+  - search
+  # - simple:
+  #     include_folders:
+  #       - "*"
+  #     ignore_folders: []
+  #     ignore_hidden: true
+  #     merge_docs_dir: true
+  - autorefs
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+  - mkdocs-jupyter:
+      kernel_name: python3
+      include_source: True
+  # - gallery:
+  # examples_dirs: docs/examples # path to your example scripts
+  # gallery_dirs: docs/generated/gallery # where to save generated gallery
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          options:
+            show_source: true
+            show_root_heading: yes
+            heading_level: 0
+            filters:
+              - "!^_" # exclude all members starting with _
+              - "!^__init__$" # exclude __init__ modules and methods
+      custom_templates: templates
+      # custom_templates: templates
+      # watch:
+      #   - common
+      #   - component_creator
+      #   - cron
+      #   - importer
+      #   - kpi
+      #   - settings
+  # - redirects:
+  #     redirect_maps:
+  #       changelog/insiders.md: insiders/changelog.md
+  #       reference/meta-tags.md: reference/index.md
+  #       reference/variables.md: https://mkdocs-macros-plugin.readthedocs.io/
+  #       sponsorship.md: insiders/index.md
+  #       upgrading.md: upgrade.md
+
+# Markdown extensions
+markdown_extensions:
+  # - footnotes
+  # - attr_list
+  # - def_list
+  - meta
+  - admonition
+  - codehilite
+  # - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - pymdownx.keys
+  - pymdownx.highlight
+  - pymdownx.snippets:
+      base_path: ["docs"]
+  - pymdownx.tabbed
+  - pymdownx.arithmatex:
+      generic: true
+
+#to use latex equations
+#https://squidfunk.github.io/mkdocs-material/reference/mathjax/
+extra_javascript:
+  - javascript/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - style/custom.css
+
+#Extra material theme settings
+extra:
+  disqus: PythonBiellaGroup
+  generator: false
+  # analytics:
+  #   provider: google
+  #   property: !ENV GOOGLE_ANALYTICS_KEY
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:pythonbiellagroup@gmail.com
+      name: Write to us
+    - icon: fontawesome/brands/gitter
+      link: https://linktr.ee/pythonbiellagroup
+      name: Contacts and social
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/PythonBiella/
+      name: Twitter
+    - icon: fontawesome/brands/github
+      link: https://github.com/PythonBiellaGroup
+    # - icon: fontawesome/brands/docker
+    #   link: https://hub.docker.com/r/squidfunk/mkdocs-material/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/pythonbiellagroup/
+      name: PythonBiellaGroup Linkedin
+    # - icon: fontawesome/brands/instagram
+    #   link: https://instagram.com/squidfunk

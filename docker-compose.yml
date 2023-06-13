@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  #MKDocs documentation on docker
+  backend:
+    build:
+      dockerfile: ./Docker/standard.dockerfile
+      context: .
+    container_name: mkdocs
+    # env_file:
+    #   - .env
+    restart: always
+    environment:
+      APP_DOCKER_PORT: ${APP_DOCKER_PORT:-8044}
+    ports:
+      - "${APP_DOCKER_PORT:-8044}:8000"
