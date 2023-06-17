@@ -14,11 +14,11 @@ repos:
         entry: poetry run flake8 .
         language: system
         types: [python]
-      - entry: gitleaks protect --verbose --staged --no-banner
-        id: gitleaks
-        language: system
-        name: gitleaks
-        types: [file]
+      # - entry: gitleaks protect --verbose --staged --no-banner
+      #  id: gitleaks
+      #  language: system
+      #  name: gitleaks
+      #  types: [file]
       # - id: isort
       #   name: isort
       #   entry: poetry run isort .
