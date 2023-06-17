@@ -22,9 +22,10 @@ nav:
       - Test functions: functions/workflows.md
   - Blog:
       - blog/index.md
-  - Changelog:
-      - changelog/index.md
-      - How to upgrade: upgrade.md
+  - Meetup:
+      - meetup/index.md
+      - Python Base: meetup/python_base/index.md
+      - Python Base - 1: meetup/python_base/python_base_1.md
   - Reference:
       - reference/index.md
   - Insiders:
