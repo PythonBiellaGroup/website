@@ -9,7 +9,7 @@ uninstall_pre_commit: ## configure and install pre commit tool
 .PHONY: install
 install: ## Install the poetry and python environment
 	@echo "🚀 Creating virtual environment using pyenv and poetry"
-	@poetry install
+	@poetry installdocs
 	@poetry shell
 
 .PHONY: check_project
