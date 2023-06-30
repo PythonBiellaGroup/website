@@ -1,8 +1,7 @@
 ---
-title: Meetup Page
+title: Meetup
 disquis: PythonBiellaGroup
 ---
-<!-- metatag example -->
 
 # Meetup in breve
 📆 Ogni lunedì sera alle ore 21.00 online (su Zoom)

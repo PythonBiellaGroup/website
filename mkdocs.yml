@@ -17,19 +17,19 @@ edit_uri: "" #disables edit button
 # Page tree
 nav:
   - Home:
-      - Startup: index.md
-  - List of functions:
-      - Test functions: functions/workflows.md
-  - Blog:
-      - blog/index.md
+      - home/index.md
+      - home/codice_condotta.md
   - Meetup:
       - meetup/index.md
       - Python Base: meetup/python_base/index.md
-      - Python Base - 1: meetup/python_base/python_base_1.md
-  - Reference:
-      - reference/index.md
-  - Insiders:
-      - insiders/index.md
+  - Learning:
+      - learning/index.md
+      - Articoli:
+          - Gestire diverse versioni di python: learning/articles/gestire_versioni_python.md
+      - Wiki:
+          - Creare un package in python: learning/wiki/creare_un_package.md
+  - Blog:
+      - blog/index.md
 
 # Configuration
 theme:

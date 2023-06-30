@@ -1,3 +1,8 @@
+---
+title: Meetup - Python Base
+disquis: PythonBiellaGroup
+---
+
 # Intro
 
 Hai sempre voluto imparare Python oppure ti piacerebbe fare un ripasso dei fondamentali? Allora questo ciclo di incontri fa per te!
@@ -16,3 +21,33 @@ Per qualsiasi domanda, dubbio o perplessità contattaci all'interno dei nostri [
 
 Speriamo con tutto il cuore che questo percorso possa esserti utile ed accompagnarti in questo bellissimo viaggio alla scoperta di Python e della programmazione.
 
+## Python Base - primo incontro
+
+### Concetti affrontati durante il meetup
+
+⭕️ Concetti base:
+
+* Espressioni
+
+* Operatori e precedenza
+
+* Variabili
+
+* Statements
+
+⭕️ Dati:
+
+* Tipi base
+
+* Sequenze
+
+* Liste
+
+* Tuple
+
+* Dizionari
+
+* Insiemi
+  
+### Video del meetup
+<iframe width="50" height="50" src="https://www.youtube.com/embed/wqDY_v7S8F8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
