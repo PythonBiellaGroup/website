@@ -8,7 +8,9 @@ disquis: PythonBiellaGroup
 PythonBiellaGroup é una community composta da appassionatə del mondo della programmazione con Python (ma non solo) o semplicemente da persone che vogliono imparare cose nuove.
 Con il fine di garantire un ambiente stimolante ed inclusivo redigiamo il seguente codice di condotta con il fine di garantire ad ogni membro della community la possibilità di trovare un luogo sicuro e rispettoso. Oltre a questo nel codice di condotta sono presenti anche suggerimenti su come ogni membro può contribuire con la sua partecipazione a rendere migliore la community.
 
-** Entrando nella community di PythonBiellaGroup accetti di seguire il codice di condotta qui sotto **
+** Entrando nella community di PythonBiellaGroup accetti di seguire il seguente codice di condotta **
+
+---
 
 ## Linee guida generali
 
@@ -28,6 +30,7 @@ Con il fine di garantire un ambiente stimolante ed inclusivo redigiamo il seguen
 
 8. I membri a cui viene chiesto di interrompere qualsiasi comportamento molesto sono tenuti a conformarsi immediatamente.
 
+---
 ## Social
 
 1. Non inviare alcunché che possa essere percepito come discriminatorio, volgare od offensivo; ad esempio, contenuti razzisti, sessisti, pornografici, blasfemi, volgari, arroganti, sgradevoli o minacciosi e immagini o siti Web
@@ -36,6 +39,7 @@ Con il fine di garantire un ambiente stimolante ed inclusivo redigiamo il seguen
 
 3. Anche sui social valgono tutte le norme contenute nelle linee guida generali
 
+---
 ## Condivisione materiale e contenuti
 
 1. E' possibile condividere materiale che sia conforme alle norme sopra ma ogni membro della community che condivide materiale deve accertarsi che il suddetto materiale non sia coperto da diritto d'autore o che in generale sia possibile la distribuzione e condivisione dello stesso.

@@ -25,11 +25,19 @@ nav:
   - Learning:
       - learning/index.md
       - Articoli:
+          - Gestire dipendenze: learning/articles/gestire_dipendenze.md
           - Gestire diverse versioni di python: learning/articles/gestire_versioni_python.md
+          - Struttura di progetto: learning/articles/struttura_progetto.md
+          - REPL: learning/articles/repl.md
+          - Documentare il codice: learning/articles/documentare_codice.md
+          - Code style: learning/articles/code_style.md
+          - VS Code: learning/articles/vs_code.md
       - Wiki:
           - Creare un package in python: learning/wiki/creare_un_package.md
   - Blog:
       - blog/index.md
+  - Supporters:
+      - supporters/index.md
 
 # Configuration
 theme:
@@ -53,6 +61,7 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+    - content.code.copy
     - header.autohide
     - content.code.annotate
     - navigation.indexes
@@ -137,6 +146,8 @@ markdown_extensions:
   - meta
   - admonition
   - codehilite
+  - attr_list
+  - md_in_html
   # - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true

@@ -2,8 +2,12 @@
 # Gestire diverse versioni di Python
 In questa prima sezione vediamo come gestire le proprie installazioni di python all’interno della macchina sfruttando: **pyenv**
 
+![Python env](docs/../../../img/articles/python-env.png)
+
+![Python versions](docs/../../../img/articles/pythonversions.png)
+
 ---
-## Pyenv
+## **Pyenv**
 
 ### Overview
 
@@ -58,7 +62,7 @@ Ecco che entrano in gioco i **virtualenvironments**
 
 ---
 
-## Pyenv avanzato
+## **Pyenv avanzato**
 
 In questa sezione avanzata sono presenti appunti, best practice e guide per approfondire tutto ciò che riguarda Pyenv
 
