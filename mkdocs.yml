@@ -45,6 +45,7 @@ theme:
   # Static files
   static_templates:
     - 404.html
+  custom_dir: custom_theme/
 
   # Don't include MkDocs' JavaScript
   include_search_page: false
@@ -189,10 +190,9 @@ extra:
       name: Twitter
     - icon: fontawesome/brands/github
       link: https://github.com/PythonBiellaGroup
-    # - icon: fontawesome/brands/docker
-    #   link: https://hub.docker.com/r/squidfunk/mkdocs-material/
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/pythonbiellagroup/
-      name: PythonBiellaGroup Linkedin
-    # - icon: fontawesome/brands/instagram
-    #   link: https://instagram.com/squidfunk
+      name: Linkedin
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/pythonbiellagroup/
+      name: Instagram
