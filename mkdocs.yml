@@ -21,7 +21,29 @@ nav:
       - home/codice_condotta.md
   - Meetup:
       - meetup/index.md
-      - Python Base: meetup/python_base/index.md
+      - ANTLR: meetup/antlr.md
+      - Airflow + PySpark: meetup/airflow_pyspark.md
+      - Data versioning: meetup/data_versioning.md
+      - Data Science - focus Pharma: meetup/ds_pharma.md
+      - Debito tecnico e architectural smell: meetup/debito_tecnico.md
+      - Docker: meetup/intro_docker.md
+      - Gioco dell' Orso: meetup/gioco_orso.md
+      - GitHub Actions: meetup/github_actions.md
+      - GPT Detection system: meetup/gpt_detection_sys.md
+      - GraphQL e Strawberry: meetup/graphql.md
+      - Introduzione a KB8: meetup/intro_kb8.md
+      - Modern python development: meetup/modern_python_dev.md
+      - MLOps - AWS: meetup/mlops_aws.md
+      - NLP - topic modeling: meetup/nlp_topic_modeling.md
+      - NVIDIA Triton: meetup/nvidia_triton.md
+      - Python Base: meetup/python_base.md
+      - Robotic Process Automation: meetup/rpa.md
+      - Squirrel Telegram Bot: meetup/squirrel_telegram_bot.md
+      - Telegram Bot: meetup/telegram_bot.md
+      - Tensorflow serving: meetup/tensorflow_serving.md
+      - Testare e documentare i dati: meetup/testare_dati.md
+      - Web scraping: meetup/web_scraping.md
+      - XGBoost: meetup/xgboost.md
   - Learning:
       - learning/index.md
       - Articoli:
@@ -34,8 +56,6 @@ nav:
           - VS Code: learning/articles/vs_code.md
       - Wiki:
           - Creare un package in python: learning/wiki/creare_un_package.md
-  - Blog:
-      - blog/index.md
   - Supporters:
       - supporters/index.md
 
@@ -45,7 +65,7 @@ theme:
   # Static files
   static_templates:
     - 404.html
-  custom_dir: custom_theme/
+  #custom_dir: custom_theme/
 
   # Don't include MkDocs' JavaScript
   include_search_page: false

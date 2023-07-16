@@ -25,10 +25,6 @@ Ovviamente la community di PythonBiellaGroup partecipa sempre. Ci vediamo là? �
 ![Image title](/docs/../../img/supporters/theredcode_logo.png)
 
 [TheRedCode](https://www.theredcode.it) di [Serena Sensini](https://www.linkedin.com/in/serena-sensini/?originalSubdomain=it) è ormai un must read per tutti coloro che vogliono trovare tutorial, guide e interessanti articoli sulle ultime novità del mondo tech. **Fateci un salto se non lo conoscete !**
-e](/docs/../../img/supporters/theRedCode_logo.png)
-
-Il blog [TheRedCode](https://www.theredcode.it) di Serena Sensini e' ormai un must read per tutti coloro che vogliono trovare tutorial, guide e interessanti articoli sulle ultime novità del mondo tech. **Fateci un salto se non lo conoscete !**
-
 
 ---
 ### 👩 **Django Girls**
