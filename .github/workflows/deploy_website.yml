@@ -25,10 +25,8 @@ jobs:
               mkdocs-autorefs \
               mkdocs-material \
               mkdocstrings-python-legacy \
-              mkdocs-jupyter \
               mkdocs-macros-plugin \
               mkdocs-simple-plugin \
-              mkdocstrings \
               mkdocs-material-extensions \
               pymdown-extensions \
               mkdocs-minify-plugin \
