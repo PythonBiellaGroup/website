@@ -1,3 +1,5 @@
+[![deploy-website](https://github.com/PythonBiellaGroup/website/actions/workflows/deploy_website.yml/badge.svg)](https://github.com/PythonBiellaGroup/website/actions/workflows/deploy_website.yml)
+
 # PythonBiellaGroup official website
 
 Official PythonBiellaGroup website (WORK IN PROGRESS)
