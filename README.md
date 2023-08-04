@@ -1,4 +1,4 @@
-[![deploy-website](https://github.com/PythonBiellaGroup/website/actions/workflows/deploy_website.yml/badge.svg)](https://github.com/PythonBiellaGroup/website/actions/workflows/deploy_website.yml)
+[![deploy-website](https://github.com/PythonBiellaGroup/website/actions/workflows/deploy_website.yml/badge.svg?branch=main)](https://github.com/PythonBiellaGroup/website/actions/workflows/deploy_website.yml)
 
 # PythonBiellaGroup official website
 

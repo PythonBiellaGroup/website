@@ -1,10 +1,10 @@
 name: deploy-website
 on:
-  # release:
-  #     types: [published]
-  push:
-    branches:
-      - develop
+  release:
+      types: [published]
+  # push:
+  #   branches:
+  #     - develop
 permissions:
   contents: write
 jobs:
