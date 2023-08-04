@@ -9,6 +9,11 @@ permissions:
   contents: write
   pages: write      # to deploy to Pages
   id-token: write   # to verify the deployment originates from an appropriate source
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -32,7 +37,19 @@ jobs:
         run: git config --global --add safe.directory '/__w/website/website'
       - name: publish github pages
         shell: bash
-        run: make docs_deploy
+        # run: make docs_deploy
+        run: make docs_build
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          # Upload entire repository
+          path: './site'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
+
       # - name: publish github pages
       #   shell: bash
       #   run: mkdocs gh-deploy --force
