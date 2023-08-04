@@ -1,10 +1,10 @@
 name: deploy-website
 on:
-  # release:
-  #     types: [published]
-  push:
-    branches:
-      - main
+  release:
+      types: [published]
+  # push:
+  #   branches:
+  #     - main
 permissions:
   contents: write
   pages: write      # to deploy to Pages
@@ -32,9 +32,9 @@ jobs:
       - name: install packages
         shell: bash
         run: poetry install
-      - name: set security policy on folder
-        shell: bash
-        run: git config --global --add safe.directory '/__w/website/website'
+      # - name: set security policy on folder
+      #   shell: bash
+      #   run: git config --global --add safe.directory '/__w/website/website'
       - name: publish github pages
         shell: bash
         # run: make docs_deploy
