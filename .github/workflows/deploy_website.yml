@@ -11,7 +11,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/pythonbiellagroup/dockbase/python-base:${{ secrets.BASE_DOCKER_VERSION }}
+      image: ghcr.io/pythonbiellagroup/dockbase/python-base:$BASE_DOCKER_VERSION
       credentials:
           username: ${{ github.actor }}
           password: ${{  secrets.GITHUB_TOKEN }}
