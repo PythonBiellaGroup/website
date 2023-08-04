@@ -19,6 +19,8 @@ jobs:
       - name: install packages
         shell: bash
         run: poetry install
+      - name: set security policy on folder
+        run: git config --global --add safe.directory '/__w/website/*'
       - name: publish github pages
         run: mkdocs gh-deploy --force
 
