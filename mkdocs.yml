@@ -17,8 +17,8 @@ edit_uri: "" #disables edit button
 # Page tree
 nav:
   - Home:
-      - home/index.md
-      - home/codice_condotta.md
+      - index.md
+      - codice_condotta.md
   - Meetup:
       - meetup/index.md
       - ANTLR: meetup/antlr.md
