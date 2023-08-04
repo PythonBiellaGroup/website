@@ -36,7 +36,7 @@ docs_launch: ## Launch mkdocs documentation locally
 	@poetry run mkdocs serve
 
 docs_build: ## Build mkdocs for local test
-	@poetry run mkdocs build
+	@poetry run mkdocs build --clean --quit
 
 docs_launch_local: ## Launch mkdocs documentation locally with the local building artefacts
 	@poetry run mkdocs build
