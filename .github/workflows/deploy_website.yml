@@ -20,9 +20,14 @@ jobs:
         shell: bash
         run: poetry install
       - name: set security policy on folder
-        run: git config --global --add safe.directory '/__w/website/*'
+        shell: bash
+        run: git config --global --add safe.directory '/__w/website/website'
       - name: publish github pages
-        run: mkdocs gh-deploy --force
+        shell: bash
+        run: make docs_deploy
+      # - name: publish github pages
+      #   shell: bash
+      #   run: mkdocs gh-deploy --force
 
 
       # - uses: actions/setup-python@v4
