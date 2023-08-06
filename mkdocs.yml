@@ -217,7 +217,7 @@ extra:
       name: Instagram
 
 extra_javascript:
-  - theme/javascript/config.js
+  # - theme/javascript/config.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
