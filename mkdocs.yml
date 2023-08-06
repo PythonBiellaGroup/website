@@ -21,6 +21,7 @@ nav:
   - Home:
       - index.md
       - codice_condotta.md
+      - tags.md
   - Meetup:
       - meetup/index.md
       - ANTLR: meetup/antlr.md
@@ -60,11 +61,21 @@ nav:
           - Creare un package in python: learning/wiki/creare_un_package.md
   - Supporters:
       - supporters/index.md
+  - Blog:
+      - blog/index.md
 
 # Configuration
 theme:
   name: material
-  custom_dir: theme/.overrides
+  docs_dir: docs
+  site_dir: site
+  extra_css:
+    - /style/custom.css
+  extra_javascript:
+    # - theme/javascript/config.js
+    - https://polyfill.io/v3/polyfill.min.js?features=es6
+    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  # custom_dir: theme
   # static_templates:
   #   - theme/404.html
   include_search_page: false
@@ -78,17 +89,20 @@ theme:
     - content.code.copy
     - content.tooltips
     - header.autohide
+    # - navigation.expand
     - navigation.footer
     - navigation.indexes
     - navigation.top
     - navigation.tracking
-    - navigation.indexes
-    - navigation.sections
+    # - navigation.indexes
+    - navigation.path
+    # - navigation.sections
     - navigation.tabs
+    - navigation.tabs.sticky
     - search.suggest
     - search.highlight
     - search.share
-    - toc.integrate
+    # - toc.integrate
     - toc.follow
 
   logo: static/images/logo.png
@@ -114,12 +128,10 @@ theme:
 
 # Hooks
 hooks:
-  - theme/.overrides/hooks/translations.py
+  - theme/hooks/translations.py
 
 #Plugins
 plugins:
-  - search:
-      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   # - simple:
   #     include_folders:
   #       - "*"
@@ -145,7 +157,9 @@ markdown_extensions:
   - meta
   - md_in_html
   - toc:
+      title: On this page
       permalink: true
+      permalink_title: Anchor link to this section for reference
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem:
@@ -215,11 +229,3 @@ extra:
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/pythonbiellagroup/
       name: Instagram
-
-extra_javascript:
-  # - theme/javascript/config.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-
-extra_css:
-  - theme/style/custom.css

@@ -33,7 +33,7 @@ poetry_plugins: ## Launch the poetry plugins
 ####----Docs----####
 .PHONY: docs
 docs_launch: ## Launch mkdocs documentation locally
-	@poetry run mkdocs serve --config-file mkdocs.insiders.yml
+	@poetry run mkdocs serve -v --config-file mkdocs.insiders.yml
 
 docs_build: ## Build mkdocs for local test
 	@poetry run mkdocs build --clean --quiet --config-file mkdocs.insiders.yml

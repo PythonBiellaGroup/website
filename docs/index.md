@@ -1,6 +1,16 @@
 ---
 title: Home
 disquis: PythonBiellaGroup
+hide:
+    - path
+    - navigation
+    - toc
+    - tags
+tags:
+    - home
+    - guida
+    - contatti
+    - informazioni
 ---
 
 # Benvenutə!
@@ -41,3 +51,7 @@ Contribuisci alla community!
 * Contattaci su Telegram!
 
 Ma soprattutto: Grazie di essere qui!
+
+---
+
+# Blog posts

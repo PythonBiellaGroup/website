@@ -1,5 +1,50 @@
 INHERIT: mkdocs.yml
 plugins:
-  - search
-  # - social
-  - tags
+  - offline
+  - optimize:
+      concurrency: 2
+      optimize_png: true
+      optimize_png_speed: 10
+      optimize_png_strip: true
+      optimize_jpg: true
+      optimize_jpg_quality: 75
+      optimize_jpg_progressive: true
+      cache: true
+      cache_dir: .cache/plugins/optimize
+  - tags:
+      tags_file: tags.md
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - blog:
+      enabled: true
+      blog_dir: blog
+      blog_toc: true
+      post_date_format: long
+      post_url_date_format: yyyy-MM-dd
+      # post_url_format: "{date}/{slug}/{file}"
+      # post_slugify_separator: "-"
+      post_readtime: true
+      post_readtime_words_per_minute: 265
+      archive: true
+      archive_name: Archive
+      archive_date_format: MMMM yyyy
+      archive_url_date_format: yyyy/MM
+      archive_toc: true
+      categories: true
+      categories_name: Categories
+      categories_toc: true
+      pagination: true
+      pagination_per_page: 5
+      # pagination_url_format: "page/{page}"
+      pagination_keep_content: true
+      authors: true
+      # authors_file: .authors.yml
+      draft: true
+      draft_on_serve: true
+  - rss:
+      match_path: blog/posts/.*
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags

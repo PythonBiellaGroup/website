@@ -2,9 +2,9 @@
 # Gestire diverse versioni di Python
 In questa prima sezione vediamo come gestire le proprie installazioni di python all’interno della macchina sfruttando: **pyenv**
 
-![Python env](docs/../../../img/articles/python-env.png)
+![Python env](../../static/images/articles/python-env.png)
 
-![Python versions](docs/../../../img/articles/pythonversions.png)
+![Python versions](../../static/images/articles/pythonversions.png)
 
 ---
 ## **Pyenv**

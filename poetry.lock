@@ -3117,6 +3117,31 @@ url = "https://pypi.org/simple"
 reference = "pypi.org"
 
 [[package]]
+name = "mkdocs-rss-plugin"
+version = "1.8.0"
+description = "MkDocs plugin which generates a static RSS feed using git log and page.meta."
+optional = false
+python-versions = ">=3.8, <4"
+files = [
+    {file = "mkdocs-rss-plugin-1.8.0.tar.gz", hash = "sha256:475bf4ea05cbe786af38d519b55352b1b2eb87597ad680fcbc309056864ed5c4"},
+    {file = "mkdocs_rss_plugin-1.8.0-py2.py3-none-any.whl", hash = "sha256:0fa13c99730c1d3ad9ec05102ff3d148c9849396c40b30be789339d38722fa8f"},
+]
+
+[package.dependencies]
+GitPython = ">=3.1,<3.2"
+mkdocs = ">=1.1,<2"
+tzdata = {version = "==2023.*", markers = "python_version >= \"3.9\" and sys_platform == \"win32\""}
+
+[package.extras]
+dev = ["black", "feedparser (>=6.0,<6.1)", "flake8 (>=4,<7)", "pre-commit (>=3,<4)", "pytest-cov (>=4,<4.2)", "validator-collection (>=1.5,<1.6)"]
+doc = ["mkdocs-bootswatch (>=1,<2)", "mkdocs-minify-plugin (==0.6.*)", "pygments (>=2.5,<3)", "pymdown-extensions (>=10,<11)"]
+
+[package.source]
+type = "legacy"
+url = "https://pypi.org/simple"
+reference = "pypi.org"
+
+[[package]]
 name = "mkdocs-simple-plugin"
 version = "3.0.0"
 description = "Plugin for adding simple wiki site creation from markdown files interspersed within your code with MkDocs."
@@ -3741,6 +3766,25 @@ files = [
 [package.extras]
 dev = ["pre-commit", "tox"]
 testing = ["pytest", "pytest-benchmark"]
+
+[package.source]
+type = "legacy"
+url = "https://pypi.org/simple"
+reference = "pypi.org"
+
+[[package]]
+name = "pngquant"
+version = "1.0.7"
+description = "A Python Wrapper of pngquant"
+optional = false
+python-versions = "*"
+files = [
+    {file = "pngquant-1.0.7-py2.py3-none-any.whl", hash = "sha256:1bfa5f84ce9907ef8c175fd05809d1e44dacf9c7430523c5c12eb852216dfdc1"},
+    {file = "pngquant-1.0.7.tar.gz", hash = "sha256:bea420002537fdeaf3316b0f06d334f61e89d69f04a30e42c08983f2c6016e15"},
+]
+
+[package.dependencies]
+Pillow = "*"
 
 [package.source]
 type = "legacy"
@@ -5316,6 +5360,22 @@ url = "https://pypi.org/simple"
 reference = "pypi.org"
 
 [[package]]
+name = "tzdata"
+version = "2023.3"
+description = "Provider of IANA time zone data"
+optional = false
+python-versions = ">=2"
+files = [
+    {file = "tzdata-2023.3-py2.py3-none-any.whl", hash = "sha256:7e65763eef3120314099b6939b5546db7adce1e7d6f2e179e3df563c70511eda"},
+    {file = "tzdata-2023.3.tar.gz", hash = "sha256:11ef1e08e54acb0d4f95bdb1be05da659673de4acbd21bf9c69e94cc5e907a3a"},
+]
+
+[package.source]
+type = "legacy"
+url = "https://pypi.org/simple"
+reference = "pypi.org"
+
+[[package]]
 name = "unidecode"
 version = "1.3.6"
 description = "ASCII transliterations of Unicode text"
@@ -5758,4 +5818,4 @@ reference = "pypi.org"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9, !=3.9.7, <3.11"
-content-hash = "9b3d9f2636f31abd3515d34bbc96513e6172130e3c752a40ba3da4acb798252c"
+content-hash = "9a3161ab7858cca59855e005579487fd69ff080f6ac3cb05725bfd5c84b4b035"
