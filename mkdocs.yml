@@ -3,16 +3,18 @@
 # To build mkdocs use: mkdocs build --clean
 
 # Project information
-site_name: "PBG Website"
+site_name: "PythonBiellaGroup website"
 site_url: https://dev.pythonbiellagroup.it
-site_description: PBG official website
 site_author: "PythonBiellaGroup"
+site_description:
+  PythonBiellaGroup official website with all the guides, information, materials,
+  and resource for the community.
 copyright: Made with ♥ by PythonBiellaGroup
 
 # Repository
 repo_url: https://github.com/PythonBiellaGroup/website
 repo_name: PythonBiellaGroup/Website
-edit_uri: "" #disables edit button
+# edit_uri
 
 # Page tree
 nav:
@@ -62,32 +64,33 @@ nav:
 # Configuration
 theme:
   name: material
-  # Static files
-  static_templates:
-    - 404.html
-  #custom_dir: custom_theme/
-
-  # Don't include MkDocs' JavaScript
+  custom_dir: theme/.overrides
+  # static_templates:
+  #   - theme/404.html
   include_search_page: false
   search_index_only: true
-
-  language: en
+  language: it
   features:
-    # - navigation.tabs
-    # - navigation.tabs.sticky
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - header.autohide
+    - navigation.footer
+    - navigation.indexes
     - navigation.top
     - navigation.tracking
-    # - navigation.instant
-    - toc.integrate
-    - search.suggest
-    - search.highlight
-    - search.share
-    - content.code.copy
-    - header.autohide
-    - content.code.annotate
     - navigation.indexes
     - navigation.sections
     - navigation.tabs
+    - search.suggest
+    - search.highlight
+    - search.share
+    - toc.integrate
+    - toc.follow
+
   logo: static/images/logo.png
   favicon: static/images/favicon.ico
   font:
@@ -109,9 +112,14 @@ theme:
         icon: material/toggle-switch-off-outline
         name: Switch to light mode
 
+# Hooks
+hooks:
+  - theme/.overrides/hooks/translations.py
+
 #Plugins
 plugins:
-  - search
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   # - simple:
   #     include_folders:
   #       - "*"
@@ -125,46 +133,67 @@ plugins:
       minify_css: true
       htmlmin_opts:
         remove_comments: true
-  # - gallery:
-  # examples_dirs: docs/examples # path to your example scripts
-  # gallery_dirs: docs/generated/gallery # where to save generated gallery
 
 # Markdown extensions
 markdown_extensions:
-  # - footnotes
-  # - attr_list
-  # - def_list
-  - meta
+  - abbr
   - admonition
-  - codehilite
   - attr_list
+  - codehilite
+  - def_list
+  - footnotes
+  - meta
   - md_in_html
-  # - pymdownx.superfences
-  - pymdownx.tasklist:
-      custom_checkbox: true
-      clickable_checkbox: true
-  - pymdownx.keys
-  - pymdownx.highlight
-  - pymdownx.snippets:
-      base_path: ["docs"]
-  - pymdownx.tabbed
+  - toc:
+      permalink: true
   - pymdownx.arithmatex:
       generic: true
-
-#to use latex equations
-#https://squidfunk.github.io/mkdocs-material/reference/mathjax/
-extra_javascript:
-  - javascript/config.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-
-extra_css:
-  - style/custom.css
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: pythonbiellagroup
+      repo: website
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 
 #Extra material theme settings
 extra:
   disqus: PythonBiellaGroup
+  annotate:
+    json: [.s2]
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
   generator: false
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - Name: Italian
+      link: /it/
+      lang: it
   # analytics:
   #   provider: google
   #   property: !ENV GOOGLE_ANALYTICS_KEY
@@ -186,3 +215,11 @@ extra:
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/pythonbiellagroup/
       name: Instagram
+
+extra_javascript:
+  - theme/javascript/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - theme/style/custom.css
