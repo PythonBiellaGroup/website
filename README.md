@@ -45,3 +45,5 @@ Official PythonBiellaGroup community website (WORK IN PROGRESS)
 ### Publish the package
 
 ## Other informations and documentation
+
+[Multilanguage support on mkdocs](https://github.com/squidfunk/mkdocs-material/discussions/2346)

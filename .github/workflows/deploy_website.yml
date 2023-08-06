@@ -1,14 +1,14 @@
 name: deploy-website
 on:
-  release:
-      types: [published]
-  # push:
-  #   branches:
-  #     - main
+  # release:
+  #   types: [published]
+  push:
+    branches:
+      - main
 permissions:
   contents: write
-  pages: write      # to deploy to Pages
-  id-token: write   # to verify the deployment originates from an appropriate source
+  pages: write # to deploy to Pages
+  id-token: write # to verify the deployment originates from an appropriate source
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
@@ -24,11 +24,14 @@ jobs:
     container:
       image: ghcr.io/pythonbiellagroup/dockbase/python-base:${{vars.BASE_DOCKER_VERSION}}
       credentials:
-          username: ${{ github.actor }}
-          password: ${{  secrets.GITHUB_TOKEN }}
+        username: ${{ github.actor }}
+        password: ${{  secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Add mkdocs-material credentials
+        shell: bash
+        run: poetry config http-basic.mkdocs ${secrets.GHCR_USERNAME} ${secrets.GHCR_TOKEN}
       - name: install packages
         shell: bash
         run: poetry install
@@ -45,7 +48,7 @@ jobs:
         uses: actions/upload-pages-artifact@v2
         with:
           # Upload entire repository
-          path: './site'
+          path: "./site"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
@@ -54,18 +57,17 @@ jobs:
       #   shell: bash
       #   run: mkdocs gh-deploy --force
 
-
       # - uses: actions/setup-python@v4
       #   with:
       #     python-version: 3.x
-      # - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+      # - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
       # - uses: actions/cache@v3
       #   with:
       #     key: mkdocs-material-${{ env.cache_id }}
       #     path: .cache
       #     restore-keys: |
       #       mkdocs-material-
-      # - run: pip install \ 
+      # - run: pip install \
       #         mkdocs \
       #         mkdocs-autorefs \
       #         mkdocs-material \
