@@ -4,7 +4,16 @@
 
 Official PythonBiellaGroup community website (WORK IN PROGRESS)
 
-## Next step
+## Features
+
+In the PBG website you can find:
+
+1. Home page and information about the community
+2. List of all the past meetups
+3. A reference, information and guide about python and tools
+4. A blog with all the news about Python and the community
+
+### Next step
 1. Supporto multilingua
 2. Capire alberatura contenuti con nuove sezioni
    1. Home
@@ -12,8 +21,7 @@ Official PythonBiellaGroup community website (WORK IN PROGRESS)
    facilmente ricercabili e utilizzabili. In ordine dal più nuovo al più vecchio.
    3. Risorse utili
    4. Learning
-   5. Blog
-   6. About 
+   5. About 
       1. Now (what is happening right now in the Python Community)
       2. Contribuisci
       3. Contattaci (capire se su mkdocs si può fare un form per i contatti)
@@ -23,30 +31,93 @@ Official PythonBiellaGroup community website (WORK IN PROGRESS)
 6. Nuova 404 page
 7. Nuovo css con abbellimenti grafici
 
-
-## How to use it
-
-
-### Examples
-
-
-## Features
-
-
-### Features available
-
-### Features not available yet
-
 ## How to maintain
 
-Remember to install the requirements for mkdocs plugins
+### Requirements
+
+1. Remember to install the requirements for mkdocs plugins
 ```bash
 sudo apt-get install pngquant optipng
-``````
+```
+If you are using different operating system, please check how to do it.
 
-### Building the project
+WARNING: this libraries are available only for Linux and MacOs. If you are using Windows, setup and use WSL2 or Docker.
 
-### Publish the package
+2. If you want to test and maintain the project locally, first you need to require the `GITHUB TOKEN` and `GITHUB USERNAME`
+that we are using for the project.
+
+Please ask in the telegram group about it if you want to develop and contribute to the project.
+
+For the admin: you can find the credentials in the team `keeweb` under the name: `github credentials`
+
+When you have the credentials you have to create a `.env` file in the folder of the project with the following content (replacing <token> and <user> with the credentials you have received from the group):
+```
+GHCR_TOKEN=<token>
+GHCR_USERNAME=<user>
+```
+
+This credentials are used to publish the website, use `mkdocs-material-insight` repository that we are using and sponsor, and to download the docker image from the registry.
+
+3. Remember to install `poetry` because the python libraries and dependencies are managed with it.
+
+### Testing and developing (launching the project)
+
+To launch the project locally you need to:
+1. Install the dependencies with poetry configuring the `mkdocs-material-insight` repository
+```bash
+source .env | poetry config http-basic.mkdocs ${GHCR_USERNAME} ${GHCR_TOKEN} && poetry install --with dev
+```
+With this instruction you are reading the .env file, configuring the repository and installing the dependencies with also the dev requirements.
+
+2. To launch the project you can use the `Makefile` with the command:
+```bash
+make docs_launch
+```
+
+3. If you need to build the mkdocs artefacts to see the resources locally, you can use:
+```bash
+make docs_build
+```
+
+Please check the `Makefile` for more informations and commands.
+
+### Launching with docker
+
+If you want to launch the website using `docker` and `nginx` you need to do few steps:
+
+1. Login to the docker registry to be able to download the base docker image we are using in the PythonBiellaGroup community that you can find [here](https://github.com/PythonBiellaGroup/Dockbase)
+```bash
+source .env | docker login ghcr.io -u $GHCR_USERNAME -p $GHCR_TOKEN
+```
+
+2. Using the `Makefile` and `docker-compose` you can now launch directly the website, downloading the image, installing the libraries with poetry and passing the artefacts to a second stage container with nginx that it's service the website on the port `8044`
+```bash
+make docker_launch
+```
+Remember that in this step it's used the `.env` file to access to the github registry to use `mkdocs-material-insight` repository.
+
+3. After few seconds you are able to see the website to the address: `http://localhost:8044`
+
+Remember at the end to logout from docker registry if you are not using it anymore:
+```bash
+docker logout ghcr.io
+```
+
+### Release a new version of the website
+
+To publish the project you need to make a new `GITHUB RELEASE` going on the [webpage of the project](https://github.com/PythonBiellaGroup/website/releases).
+
+Create a new release with a new tag, for example:
+- Release name: Release 0.0.5
+- Tag: 0.0.5
+
+Remember to fill all the information of the new release in the description and then Release the new package.
+
+Automatically the new pipeline will start.
+
+Please remember to test before following the steps in [Building the project](#building-the-project)
+
+Remember also that only the **admins** and **organizer** can make a new release.
 
 ## Other informations and documentation
 
