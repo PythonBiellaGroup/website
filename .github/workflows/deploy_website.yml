@@ -29,6 +29,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: configure safe github directory
+        shell: bash
+        run: git config --global --add safe.directory /__w/website/website
       - name: Add mkdocs-material credentials
         shell: bash
         run: poetry config http-basic.mkdocs ${{secrets.GHCR_USERNAME}} ${{secrets.GHCR_TOKEN}}
@@ -38,9 +41,6 @@ jobs:
       - name: build mkdocs website inside docker
         shell: bash
         run: make docs_build
-      - name: configure safe github directory
-        shell: bash
-        run: git config --global --add safe.directory /__w/website/website
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
