@@ -82,7 +82,7 @@ RUN make docs_build
 
 FROM nginx as deploy
 
-COPY --from=python-base /mkdocs/site /usr/share/nginx/html
+COPY --from=python /mkdocs/site /usr/share/nginx/html
 
 # Copy the nginx config to nginx config directly
 COPY nginx.conf /etc/nginx/conf.d

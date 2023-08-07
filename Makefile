@@ -51,30 +51,30 @@ docs_public: ## Build mkdocs for official online release
 
 ####----Docker----####
 .PHONY: docker
-launch: ## Launch the docker compose and containers
-	@docker-compose -p template up --build -d
+# Remember to login before
+# source .env | echo $GHCR_TOKEN | docker login ghcr.io -u $GHCR_USERNAME -p $GHCR_TOKEN
+docker_launch: ## Launch the docker compose and containers
+	@docker-compose -p pbg up --build -d 
 
-docs_launch_docker: ## Launch mkdocs documentation in the docker
-	@poetry run mkdocs build --clean --quiet --config-file mkdocs.insiders.yml
-	@poetry run mkdocs serve -a localhost:8079
+# --build-arg GHCR_USERNAME=${GHCR_USERNAME} --build-arg GHCR_TOKEN=${GHCR_TOKEN}
+docker_build: ## Build the docker compose and containers
+	@docker-compose -p pbg build 
 
-build: ## Build the docker compose and containers
-	@docker-compose -p template build
+docker_check: ## Check the logs for the docker containers
+	@docker ps -a | grep "pbg"
 
-check: ## Check the logs for the docker containers
-	@docker ps -a | grep "template"
+docker_check_logs: ## Check the logs for the docker containers
+	@docker-compose -p pbg logs -f
 
-check_logs: ## Check the logs for the docker containers
-	@docker-compose -p template logs -f
-
-stop: ## Stop the docker containers
+docker_stop: ## Stop the docker containers
 	@docker-compose down
 
-stop_clear: ## Stop the docker containers and clean the volumes
+docker_stop_clear: ## Stop the docker containers and clean the volumes
 	@docker-compose down -v
 
-clean_volumes: ## Clean the volumes
+docker_clean_volumes: ## Clean the volumes
 	@docker volume prune
+
 ####----Project----####
 .PHONY: poetry_build
 package_build: # Build the package
@@ -112,3 +112,4 @@ restore: ## Restore the projects to the start (hard clean)
 	gitleaks detect --redact --report-path "$@" || true
 
 .DEFAULT_GOAL := help
+SHELL := /bin/bash
