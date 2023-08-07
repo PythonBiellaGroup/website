@@ -3,7 +3,7 @@ services:
   #MKDocs documentation on docker
   backend:
     build:
-      dockerfile: ./Docker/standard.dockerfile
+      dockerfile: ./Docker/nginx.dockerfile
       context: .
     container_name: mkdocs
     # env_file:

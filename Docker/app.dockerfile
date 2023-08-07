@@ -36,7 +36,8 @@ RUN DEBIAN_FRONTEND=noninteractive apt update && apt install -y \
     libpq-dev gcc wget gnupg2 curl openssh-client git make build-essential \
     make build-essential libssl-dev zlib1g-dev \
     libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm \
-    libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+    libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev \
+    pngquant optipng
 
 # # add custom host file for your services
 # COPY hosts tmp/
