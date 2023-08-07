@@ -39,15 +39,15 @@ docs_build: ## Build mkdocs for local test
 	@poetry run mkdocs build --clean --quiet --config-file mkdocs.insiders.yml
 
 docs_launch_local: ## Launch mkdocs documentation locally with the local building artefacts
-	@poetry run mkdocs build
+	@poetry run mkdocs build --clean --quiet --config-file mkdocs.insiders.yml
 	@poetry run mkdocs serve -v --dev-addr=0.0.0.0:8000
 
 docs_deploy: ## Deploy mkdocs documentation to github pages
-	@poetry run mkdocs build
+	@poetry run mkdocs build --clean --quiet --config-file mkdocs.insiders.yml
 	@poetry run mkdocs gh-deploy --force
 
 docs_public: ## Build mkdocs for official online release
-	@poetry run mkdocs build -c -v --site-dir public
+	@poetry run mkdocs build -c -v --site-dir public --quiet --config-file mkdocs.insiders.yml
 
 ####----Docker----####
 .PHONY: docker
@@ -55,7 +55,7 @@ launch: ## Launch the docker compose and containers
 	@docker-compose -p template up --build -d
 
 docs_launch_docker: ## Launch mkdocs documentation in the docker
-	@poetry run mkdocs build
+	@poetry run mkdocs build --clean --quiet --config-file mkdocs.insiders.yml
 	@poetry run mkdocs serve -a localhost:8079
 
 build: ## Build the docker compose and containers
