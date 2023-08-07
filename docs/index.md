@@ -3,7 +3,7 @@ title: Home
 disquis: PythonBiellaGroup
 hide:
     - path
-    - navigation
+    # - navigation
     - toc
     - tags
 tags:
@@ -28,6 +28,8 @@ All'interno potrai trovare:
     - [Bear](https://github.com/PythonBiellaGroup/Bear): a template for a modern python project based on [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/)
     - [Community website](https://github.com/PythonBiellaGroup/website): website for the community based on [MkDocs](https://mkdocs.readthedocs.io/en/stable/)
 
+Qui puoi trovare il nostro [codice di condotta](codice_condotta.md)
+
 ## ☎️ Contatti
 
 Puoi trovare tutti i nostri contatti, materiale e informazioni su questo [link](https://linktr.ee/PythonBiellaGroup)
@@ -51,7 +53,3 @@ Contribuisci alla community!
 * Contattaci su Telegram!
 
 Ma soprattutto: Grazie di essere qui!
-
----
-
-# Blog posts
