@@ -11,7 +11,7 @@ Con lo scopo di garantire un ambiente stimolante ed inclusivo descriviamo il seg
 
 Oltre a questo nel codice di condotta sono presenti anche suggerimenti su come ogni membro può contribuire con la sua partecipazione a rendere migliore la community.
 
-** Entrando nella community di PythonBiellaGroup accetti di seguire il seguente codice di condotta **
+**Entrando nella community di PythonBiellaGroup accetti di seguire il seguente codice di condotta**
 
 ---
 

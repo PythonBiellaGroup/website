@@ -1,7 +1,3 @@
-# To launch mkdocs use: mkdocs serve
-# To launch with debug mode use: mkdocs serve -v
-# To build mkdocs use: mkdocs build --clean
-
 # Project information
 site_name: "PythonBiellaGroup website"
 site_url: https://dev.pythonbiellagroup.it
@@ -20,6 +16,7 @@ repo_name: PythonBiellaGroup/Website
 nav:
   - Home:
       - index.md
+      - index.en.md
       - codice_condotta.md
       - tags.md
   - Meetup:
@@ -71,13 +68,10 @@ theme:
   site_dir: site
   extra_css:
     - /style/custom.css
+    - /style/hide_lang_links.css
   extra_javascript:
-    # - theme/javascript/config.js
     - https://polyfill.io/v3/polyfill.min.js?features=es6
     - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  # custom_dir: theme
-  # static_templates:
-  #   - theme/404.html
   include_search_page: false
   search_index_only: true
   language: it
@@ -89,20 +83,16 @@ theme:
     - content.code.copy
     - content.tooltips
     - header.autohide
-    # - navigation.expand
     - navigation.footer
     - navigation.indexes
     - navigation.top
     - navigation.tracking
-    # - navigation.indexes
     - navigation.path
-    # - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
     - search.suggest
     - search.highlight
     - search.share
-    # - toc.integrate
     - toc.follow
 
   logo: static/images/logo.png
@@ -132,13 +122,14 @@ hooks:
 
 #Plugins
 plugins:
-  # - simple:
-  #     include_folders:
-  #       - "*"
-  #     ignore_folders: []
-  #     ignore_hidden: true
-  #     merge_docs_dir: true
+  - search
+  - i18n:
+      default_language: 'it'
+      languages:
+        it: "Italian"
+        en: "English"
   - autorefs
+  - git-revision-date-localized
   - minify:
       minify_html: true
       minify_js: true
@@ -194,6 +185,13 @@ markdown_extensions:
 
 #Extra material theme settings
 extra:
+  alternate:
+    - name: "Italian"
+      link: ""
+      lang: it
+    - name: "English"
+      link: index.en/
+      lang: en
   disqus: PythonBiellaGroup
   annotate:
     json: [.s2]
@@ -201,16 +199,6 @@ extra:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY
   generator: false
-  alternate:
-    - name: English
-      link: /en/
-      lang: en
-    - Name: Italian
-      link: /it/
-      lang: it
-  # analytics:
-  #   provider: google
-  #   property: !ENV GOOGLE_ANALYTICS_KEY
   social:
     - icon: fontawesome/solid/paper-plane
       link: mailto:pythonbiellagroup@gmail.com

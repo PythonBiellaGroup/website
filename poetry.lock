@@ -2996,6 +2996,51 @@ url = "https://pypi.org/simple"
 reference = "pypi.org"
 
 [[package]]
+name = "mkdocs-git-revision-date-localized-plugin"
+version = "1.2.0"
+description = "Mkdocs plugin that enables displaying the localized date of the last git modification of a markdown file."
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "mkdocs-git-revision-date-localized-plugin-1.2.0.tar.gz", hash = "sha256:7752edd7c4dcaa9383e9a5b6a4f729831a62d604b0c43b319331127720c6a2bf"},
+    {file = "mkdocs_git_revision_date_localized_plugin-1.2.0-py3-none-any.whl", hash = "sha256:540b9c930d8d48630c090b72ac2c3900ac2ed0799b23738a33b88e31f5198fe7"},
+]
+
+[package.dependencies]
+babel = ">=2.7.0"
+GitPython = "*"
+mkdocs = ">=1.0"
+pytz = "*"
+
+[package.source]
+type = "legacy"
+url = "https://pypi.org/simple"
+reference = "pypi.org"
+
+[[package]]
+name = "mkdocs-i18n"
+version = "0.4.6"
+description = "MkDocs i18n plugin"
+optional = false
+python-versions = "<4,>=3.7"
+files = [
+    {file = "mkdocs-i18n-0.4.6.tar.gz", hash = "sha256:977736ac643e6a9fece2f331c72168dda298b09ed55049a9c3bb6be33e099af0"},
+    {file = "mkdocs_i18n-0.4.6-py3-none-any.whl", hash = "sha256:44054cd7de6150f8e03aa074fc46d9ea661e660c9df0aab802115dd30636bc08"},
+]
+
+[package.dependencies]
+mkdocs = ">=1.1"
+mkdocs-material = "*"
+
+[package.extras]
+test = ["bandit", "black", "bs4", "coverage", "expects", "flake8", "gitlint", "isort", "lxml", "mamba", "pylint"]
+
+[package.source]
+type = "legacy"
+url = "https://pypi.org/simple"
+reference = "pypi.org"
+
+[[package]]
 name = "mkdocs-macros-plugin"
 version = "1.0.2"
 description = "Unleash the power of MkDocs with macros and variables"
@@ -4320,6 +4365,22 @@ python-versions = ">=3.6"
 files = [
     {file = "python-json-logger-2.0.7.tar.gz", hash = "sha256:23e7ec02d34237c5aa1e29a070193a4ea87583bb4e7f8fd06d3de8264c4b2e1c"},
     {file = "python_json_logger-2.0.7-py3-none-any.whl", hash = "sha256:f380b826a991ebbe3de4d897aeec42760035ac760345e57b812938dc8b35e2bd"},
+]
+
+[package.source]
+type = "legacy"
+url = "https://pypi.org/simple"
+reference = "pypi.org"
+
+[[package]]
+name = "pytz"
+version = "2023.3"
+description = "World timezone definitions, modern and historical"
+optional = false
+python-versions = "*"
+files = [
+    {file = "pytz-2023.3-py2.py3-none-any.whl", hash = "sha256:a151b3abb88eda1d4e34a9814df37de2a80e301e68ba0fd856fb9b46bfbbbffb"},
+    {file = "pytz-2023.3.tar.gz", hash = "sha256:1d8ce29db189191fb55338ee6d0387d82ab59f3d00eac103412d64e0ebd0c588"},
 ]
 
 [package.source]
@@ -5818,4 +5879,4 @@ reference = "pypi.org"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9, !=3.9.7, <3.11"
-content-hash = "9a3161ab7858cca59855e005579487fd69ff080f6ac3cb05725bfd5c84b4b035"
+content-hash = "6c2e9a55295e0f073f68e409d372caa707a374b10a045ca0a62b6925f2cdbf60"

@@ -35,7 +35,15 @@ In the PBG website you can find:
 
 ### Requirements
 
-1. Remember to install the requirements for mkdocs plugins
+1. Remember to install the requirements for mkdocs plugins using brew installer if you are on MacOS
+
+```bash
+brew install pngquant
+brew install optipng
+```
+
+or
+
 ```bash
 sudo apt-get install pngquant optipng
 ```
@@ -43,12 +51,12 @@ If you are using different operating system, please check how to do it.
 
 WARNING: this libraries are available only for Linux and MacOs. If you are using Windows, setup and use WSL2 or Docker.
 
-2. If you want to test and maintain the project locally, first you need to require the `GITHUB TOKEN` and `GITHUB USERNAME`
+1. If you want to test and maintain the project locally, first you need to require the `GITHUB TOKEN` and `GITHUB USERNAME`
 that we are using for the project.
 
 Please ask in the telegram group about it if you want to develop and contribute to the project.
 
-For the admin: you can find the credentials in the team `keeweb` under the name: `github credentials`
+For the admin: you can find the credentials in the PBG `1Password` under the name: `Github`
 
 When you have the credentials you have to create a `.env` file in the folder of the project with the following content (replacing <token> and <user> with the credentials you have received from the group):
 ```
@@ -58,14 +66,15 @@ GHCR_USERNAME=<user>
 
 This credentials are used to publish the website, use `mkdocs-material-insight` repository that we are using and sponsor, and to download the docker image from the registry.
 
-3. Remember to install `poetry` because the python libraries and dependencies are managed with it.
+1. Remember to install `poetry` because the python libraries and dependencies are managed with it.
 
 ### Testing and developing (launching the project)
 
 To launch the project locally you need to:
 1. Install the dependencies with poetry configuring the `mkdocs-material-insight` repository
 ```bash
-source .env | poetry config http-basic.mkdocs ${GHCR_USERNAME} ${GHCR_TOKEN} && poetry install --with dev
+source .env 
+poetry config http-basic.mkdocs ${GHCR_USERNAME} ${GHCR_TOKEN} && poetry install --with dev
 ```
 With this instruction you are reading the .env file, configuring the repository and installing the dependencies with also the dev requirements.
 
@@ -74,7 +83,7 @@ With this instruction you are reading the .env file, configuring the repository 
 make docs_launch
 ```
 
-3. If you need to build the mkdocs artefacts to see the resources locally, you can use:
+3. If you need to build the mkdocs artifacts to see the resources locally, you can use:
 ```bash
 make docs_build
 ```
