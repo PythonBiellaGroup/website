@@ -38,16 +38,19 @@ In the PBG website you can find:
 1. Remember to install the requirements for mkdocs plugins using brew installer if you are on MacOS
 
 ```bash
+# On macOss
 brew install pngquant
 brew install optipng
 ```
 
-or
+or on Linux
 
 ```bash
+# on Linux
 sudo apt-get install pngquant optipng
 ```
-If you are using different operating system, please check how to do it.
+
+If you are using different operating system, please search online how to do it, open an issue in the repository or send a message to PythonBiellaGroup telegram channel.
 
 WARNING: this libraries are available only for Linux and MacOs. If you are using Windows, setup and use WSL2 or Docker.
 
