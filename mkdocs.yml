@@ -16,8 +16,7 @@ repo_name: PythonBiellaGroup/Website
 nav:
   - Home:
       - index.md
-      - index.en.md
-      - codice_condotta.md
+      - code_conduct.md
       - tags.md
   - Meetup:
       - meetup/index.md
@@ -25,37 +24,37 @@ nav:
       - Airflow + PySpark: meetup/airflow_pyspark.md
       - Data versioning: meetup/data_versioning.md
       - Data Science - focus Pharma: meetup/ds_pharma.md
-      - Debito tecnico e architectural smell: meetup/debito_tecnico.md
+      - Debito tecnico e architectural smell: meetup/technical_dept.md
       - Docker: meetup/intro_docker.md
-      - Gioco dell' Orso: meetup/gioco_orso.md
+      - Gioco dell' Orso: meetup/orso_game.md
       - GitHub Actions: meetup/github_actions.md
       - GPT Detection system: meetup/gpt_detection_sys.md
       - GraphQL e Strawberry: meetup/graphql.md
-      - Introduzione a KB8: meetup/intro_kb8.md
-      - Modern python development: meetup/modern_python_dev.md
+      - Introduzione a Kubernetes: meetup/intro_k8s.md
+      - Modern python development: meetup/modern_python.md
       - MLOps - AWS: meetup/mlops_aws.md
       - NLP - topic modeling: meetup/nlp_topic_modeling.md
       - NVIDIA Triton: meetup/nvidia_triton.md
       - Python Base: meetup/python_base.md
       - Robotic Process Automation: meetup/rpa.md
-      - Squirrel Telegram Bot: meetup/squirrel_telegram_bot.md
+      - Squirrel Telegram Bot: meetup/telegram_bot_squirrel.md
       - Telegram Bot: meetup/telegram_bot.md
       - Tensorflow serving: meetup/tensorflow_serving.md
-      - Testare e documentare i dati: meetup/testare_dati.md
+      - Testare e documentare i dati: meetup/data_testing.md
       - Web scraping: meetup/web_scraping.md
       - XGBoost: meetup/xgboost.md
   - Learning:
       - learning/index.md
       - Articoli:
-          - Gestire dipendenze: learning/articles/gestire_dipendenze.md
-          - Gestire diverse versioni di python: learning/articles/gestire_versioni_python.md
-          - Struttura di progetto: learning/articles/struttura_progetto.md
+          - Gestire dipendenze: learning/articles/manage_depencendies.md
+          - Gestire diverse versioni di python: learning/articles/manage_python_version.md
+          - Struttura di progetto: learning/articles/project_structure.md
           - REPL: learning/articles/repl.md
-          - Documentare il codice: learning/articles/documentare_codice.md
+          - Documentare il codice: learning/articles/document_code.md
           - Code style: learning/articles/code_style.md
           - VS Code: learning/articles/vs_code.md
       - Wiki:
-          - Creare un package in python: learning/wiki/creare_un_package.md
+          - Creare un package in python: learning/wiki/create_package.md
   - Supporters:
       - supporters/index.md
   - Blog:
@@ -74,7 +73,6 @@ theme:
     - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   include_search_page: false
   search_index_only: true
-  language: it
   features:
     - announce.dismiss
     - content.action.edit
@@ -117,25 +115,8 @@ theme:
         name: Switch to light mode
 
 # Hooks
-hooks:
-  - theme/hooks/translations.py
-
-#Plugins
-plugins:
-  - search
-  - i18n:
-      default_language: 'it'
-      languages:
-        it: "Italian"
-        en: "English"
-  - autorefs
-  - git-revision-date-localized
-  - minify:
-      minify_html: true
-      minify_js: true
-      minify_css: true
-      htmlmin_opts:
-        remove_comments: true
+# hooks:
+#   - theme/hooks/translations.py
 
 # Markdown extensions
 markdown_extensions:
@@ -183,14 +164,39 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
+plugins:
+  - search
+  - i18n:
+      docs_structure: "suffix"
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          name: English
+          build: true
+          default: false
+          site_name: "PythonBiellaGroup website"
+          site_description:
+            "PythonBiellaGroup official website with all the guides, information, materials,
+            and resource for the community."
+        - locale: it
+          name: Italian
+          build: true
+          default: true
+          site_name: "PythonBiellaGroup website"
+          site_description:
+            "PythonBiellaGroup sito ufficiale che contiene tutte le guide, informazioni, materiale
+            e risorse per la community."
+
 #Extra material theme settings
 extra:
   alternate:
     - name: "Italian"
-      link: ""
+      # link: "/it"
       lang: it
     - name: "English"
-      link: index.en/
+      # link: "/en"
       lang: en
   disqus: PythonBiellaGroup
   annotate:
