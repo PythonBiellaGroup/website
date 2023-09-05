@@ -28,7 +28,7 @@ nav:
       - Docker: meetup/intro_docker.md
       - Gioco dell' Orso: meetup/orso_game.md
       - GitHub Actions: meetup/github_actions.md
-      - GPT Detection system: meetup/gpt_detection_sys.md
+      - GPT Detection system: meetup/gpt_detection.md
       - GraphQL e Strawberry: meetup/graphql.md
       - Introduzione a Kubernetes: meetup/intro_k8s.md
       - Modern python development: meetup/modern_python.md
@@ -46,7 +46,7 @@ nav:
   - Learning:
       - learning/index.md
       - Articoli:
-          - Gestire dipendenze: learning/articles/manage_depencendies.md
+          - Gestire dipendenze: learning/articles/manage_dependencies.md
           - Gestire diverse versioni di python: learning/articles/manage_python_version.md
           - Struttura di progetto: learning/articles/project_structure.md
           - REPL: learning/articles/repl.md
@@ -64,6 +64,7 @@ nav:
 theme:
   name: material
   docs_dir: docs
+  custom_dir: overrides
   site_dir: site
   extra_css:
     - /style/custom.css
@@ -198,6 +199,7 @@ extra:
       # link: "/en"
       lang: en
   disqus: PythonBiellaGroup
+  comments: true
   annotate:
     json: [.s2]
   analytics:

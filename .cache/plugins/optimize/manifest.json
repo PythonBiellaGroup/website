@@ -1,16 +1,16 @@
 {
+  "assets/images/favicon.png": "50c4fb6c0d449e6c8c07bd9bfbdea32b4e02b09a",
+  "static/images/articles/python-env.png": "4e01199ccaaea5c772ea67c6bd80e5b8ba95fe3f",
+  "static/images/articles/pythonversions.png": "1b5eef5f7751f41052b3d2c935c6ede19576185a",
   "static/images/logo-white.png": "dde9705fc1162bc43cd54c0f150a289f77329b03",
   "static/images/logo.png": "1da6a066ded570d2abc35777391efe8932b59ea2",
-  "static/images/articles/python-env.png": "4e01199ccaaea5c772ea67c6bd80e5b8ba95fe3f",
   "static/images/qrcode.png": "7c5f36a44a717db8e7b549c06ae82f620d1a7a08",
+  "static/images/supporters/clearboxai_logo.jpg": "4ac51759679eadb7b3f5807519ffbe9a35afae7d",
   "static/images/supporters/django_girls_logo.png": "8174deb58774001171a1a29259c2babc0d63831c",
   "static/images/supporters/genropy_logo.png": "3f1f8d5a9793049397053536dc97a8231d2e8e6f",
+  "static/images/supporters/pymi_logo.jpg": "c1793426ed39a0a2d1af0267734bc5a8ca51a0c4",
   "static/images/supporters/python_italia_logo.png": "747bcfd96564a7c23a083919af35b5687cd159df",
   "static/images/supporters/sellalab_logo.png": "6a3cc5bcfca4e6257f82128ddb27e5effd1b0501",
   "static/images/supporters/squirrel_network_logo.png": "0e326ae3127118769e0f2b4e546014547dfc0a0a",
-  "static/images/supporters/theredcode_logo.png": "52330c531e3e0e971500b8d344a907cf81b1171a",
-  "assets/images/favicon.png": "50c4fb6c0d449e6c8c07bd9bfbdea32b4e02b09a",
-  "static/images/articles/pythonversions.png": "1b5eef5f7751f41052b3d2c935c6ede19576185a",
-  "static/images/supporters/clearboxai_logo.jpg": "4ac51759679eadb7b3f5807519ffbe9a35afae7d",
-  "static/images/supporters/pymi_logo.jpg": "c1793426ed39a0a2d1af0267734bc5a8ca51a0c4"
+  "static/images/supporters/theredcode_logo.png": "52330c531e3e0e971500b8d344a907cf81b1171a"
 }
