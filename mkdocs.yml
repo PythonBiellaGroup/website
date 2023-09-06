@@ -1,10 +1,9 @@
+---
 # Project information
-site_name: "PythonBiellaGroup website"
+site_name: PythonBiellaGroup website
 site_url: https://dev.pythonbiellagroup.it
-site_author: "PythonBiellaGroup"
-site_description:
-  PythonBiellaGroup official website with all the guides, information, materials,
-  and resource for the community.
+site_author: PythonBiellaGroup
+site_description: PythonBiellaGroup official website with all the guides, information, materials, and resource for the community.
 copyright: Made with ♥ by PythonBiellaGroup
 
 # Repository
@@ -14,106 +13,106 @@ repo_name: PythonBiellaGroup/Website
 
 # Page tree
 nav:
-  - Home:
-      - index.md
-      - code_conduct.md
-      - tags.md
-  - Meetup:
-      - meetup/index.md
-      - ANTLR: meetup/antlr.md
-      - Airflow + PySpark: meetup/airflow_pyspark.md
-      - Data versioning: meetup/data_versioning.md
-      - Data Science - focus Pharma: meetup/ds_pharma.md
-      - Debito tecnico e architectural smell: meetup/technical_dept.md
-      - Docker: meetup/intro_docker.md
-      - Gioco dell' Orso: meetup/orso_game.md
-      - GitHub Actions: meetup/github_actions.md
-      - GPT Detection system: meetup/gpt_detection.md
-      - GraphQL e Strawberry: meetup/graphql.md
-      - Introduzione a Kubernetes: meetup/intro_k8s.md
-      - Modern python development: meetup/modern_python.md
-      - MLOps - AWS: meetup/mlops_aws.md
-      - NLP - topic modeling: meetup/nlp_topic_modeling.md
-      - NVIDIA Triton: meetup/nvidia_triton.md
-      - Python Base: meetup/python_base.md
-      - Robotic Process Automation: meetup/rpa.md
-      - Squirrel Telegram Bot: meetup/telegram_bot_squirrel.md
-      - Telegram Bot: meetup/telegram_bot.md
-      - Tensorflow serving: meetup/tensorflow_serving.md
-      - Testare e documentare i dati: meetup/data_testing.md
-      - Web scraping: meetup/web_scraping.md
-      - XGBoost: meetup/xgboost.md
-  - Learning:
-      - learning/index.md
-      - Articoli:
-          - Gestire dipendenze: learning/articles/manage_dependencies.md
-          - Gestire diverse versioni di python: learning/articles/manage_python_version.md
-          - Struttura di progetto: learning/articles/project_structure.md
-          - REPL: learning/articles/repl.md
-          - Documentare il codice: learning/articles/document_code.md
-          - Code style: learning/articles/code_style.md
-          - VS Code: learning/articles/vs_code.md
-      - Wiki:
-          - Creare un package in python: learning/wiki/create_package.md
-  - Supporters:
-      - supporters/index.md
-  - Blog:
-      - blog/index.md
+    - Home:
+          - index.md
+          - code_conduct.md
+          - tags.md
+    - Meetup:
+          - meetup/index.md
+          - ANTLR: meetup/antlr.md
+          - Airflow + PySpark: meetup/airflow_pyspark.md
+          - Data versioning: meetup/data_versioning.md
+          - Data Science - focus Pharma: meetup/ds_pharma.md
+          - Debito tecnico e architectural smell: meetup/technical_dept.md
+          - Docker: meetup/intro_docker.md
+          - Gioco dell' Orso: meetup/orso_game.md
+          - GitHub Actions: meetup/github_actions.md
+          - GPT Detection system: meetup/gpt_detection.md
+          - GraphQL e Strawberry: meetup/graphql.md
+          - Introduzione a Kubernetes: meetup/intro_k8s.md
+          - Modern python development: meetup/modern_python.md
+          - MLOps - AWS: meetup/mlops_aws.md
+          - NLP - topic modeling: meetup/nlp_topic_modeling.md
+          - NVIDIA Triton: meetup/nvidia_triton.md
+          - Python Base: meetup/python_base.md
+          - Robotic Process Automation: meetup/rpa.md
+          - Squirrel Telegram Bot: meetup/telegram_bot_squirrel.md
+          - Telegram Bot: meetup/telegram_bot.md
+          - Tensorflow serving: meetup/tensorflow_serving.md
+          - Testare e documentare i dati: meetup/data_testing.md
+          - Web scraping: meetup/web_scraping.md
+          - XGBoost: meetup/xgboost.md
+    - Learning:
+          - learning/index.md
+          - Articoli:
+                - Gestire dipendenze: learning/articles/manage_dependencies.md
+                - Gestire diverse versioni di python: learning/articles/manage_python_version.md
+                - Struttura di progetto: learning/articles/project_structure.md
+                - REPL: learning/articles/repl.md
+                - Documentare il codice: learning/articles/document_code.md
+                - Code style: learning/articles/code_style.md
+                - VS Code: learning/articles/vs_code.md
+          - Wiki:
+                - Creare un package in python: learning/wiki/create_package.md
+    - Supporters:
+          - supporters/index.md
+    - Blog:
+          - blog/index.md
 
 # Configuration
 theme:
-  name: material
-  docs_dir: docs
-  custom_dir: overrides
-  site_dir: site
-  extra_css:
-    - /style/custom.css
-    - /style/hide_lang_links.css
-  extra_javascript:
-    - https://polyfill.io/v3/polyfill.min.js?features=es6
-    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  include_search_page: false
-  search_index_only: true
-  features:
-    - announce.dismiss
-    - content.action.edit
-    - content.action.view
-    - content.code.annotate
-    - content.code.copy
-    - content.tooltips
-    - header.autohide
-    - navigation.footer
-    - navigation.indexes
-    - navigation.top
-    - navigation.tracking
-    - navigation.path
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - search.suggest
-    - search.highlight
-    - search.share
-    - toc.follow
+    name: material
+    docs_dir: docs
+    custom_dir: overrides
+    site_dir: site
+    extra_css:
+        - /style/custom.css
+        - /style/hide_lang_links.css
+    extra_javascript:
+        - https://polyfill.io/v3/polyfill.min.js?features=es6
+        - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    include_search_page: false
+    search_index_only: true
+    features:
+        - announce.dismiss
+        - content.action.edit
+        - content.action.view
+        - content.code.annotate
+        - content.code.copy
+        - content.tooltips
+        - header.autohide
+        - navigation.footer
+        - navigation.indexes
+        - navigation.top
+        - navigation.tracking
+        - navigation.path
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - search.suggest
+        - search.highlight
+        - search.share
+        - toc.follow
 
-  logo: static/images/logo.png
-  favicon: static/images/favicon.ico
-  font:
-    text: Roboto
-    code: Roboto mono
-  palette:
+    logo: static/images/logo.png
+    favicon: static/images/favicon.ico
+    font:
+        text: Roboto
+        code: Roboto mono
+    palette:
     # Light mode
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to dark mode
+        - scheme: default
+          primary: indigo
+          accent: indigo
+          toggle:
+              icon: material/toggle-switch
+              name: Switch to dark mode
     # Dark mode
-    - scheme: slate
-      primary: red
-      accent: red
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to light mode
+        - scheme: slate
+          primary: red
+          accent: red
+          toggle:
+              icon: material/toggle-switch-off-outline
+              name: Switch to light mode
 
 # Hooks
 # hooks:
@@ -121,106 +120,103 @@ theme:
 
 # Markdown extensions
 markdown_extensions:
-  - abbr
-  - admonition
-  - attr_list
-  - codehilite
-  - def_list
-  - footnotes
-  - meta
-  - md_in_html
-  - toc:
-      title: On this page
-      permalink: true
-      permalink_title: Anchor link to this section for reference
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-      emoji_index: !!python/name:materialx.emoji.twemoji
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.keys
-  - pymdownx.magiclink:
-      repo_url_shorthand: true
-      user: pythonbiellagroup
-      repo: website
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
+    - abbr
+    - admonition
+    - attr_list
+    - codehilite
+    - def_list
+    - footnotes
+    - meta
+    - md_in_html
+    - toc:
+          title: On this page
+          permalink: true
+          permalink_title: Anchor link to this section for reference
+    - pymdownx.arithmatex:
+          generic: true
+    - pymdownx.betterem:
+          smart_enable: all
+    - pymdownx.caret
+    - pymdownx.details
+    - pymdownx.emoji:
+          emoji_generator: !!python/name:materialx.emoji.to_svg
+          emoji_index: !!python/name:materialx.emoji.twemoji
+    - pymdownx.highlight:
+          anchor_linenums: true
+          line_spans: __span
+          pygments_lang_class: true
+    - pymdownx.inlinehilite
+    - pymdownx.keys
+    - pymdownx.magiclink:
+          repo_url_shorthand: true
+          user: pythonbiellagroup
+          repo: website
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences:
+          custom_fences:
+              - name: mermaid
+                class: mermaid
+                format: !!python/name:pymdownx.superfences.fence_code_format
+    - pymdownx.tabbed:
+          alternate_style: true
+    - pymdownx.tasklist:
+          custom_checkbox: true
+    - pymdownx.tilde
 
 plugins:
-  - i18n:
-      docs_structure: "suffix"
-      fallback_to_default: true
-      reconfigure_material: true
-      reconfigure_search: true
-      languages:
-        - locale: en
-          name: English
-          build: true
-          default: false
-          site_name: "PythonBiellaGroup website"
-          site_description:
-            "PythonBiellaGroup official website with all the guides, information, materials,
-            and resource for the community."
-        - locale: it
-          name: Italian
-          build: true
-          default: true
-          site_name: "PythonBiellaGroup website"
-          site_description:
-            "PythonBiellaGroup sito ufficiale che contiene tutte le guide, informazioni, materiale
-            e risorse per la community."
+    - meta:
+          meta_file: '**/.meta.yml'
+    - i18n:
+          docs_structure: suffix
+          fallback_to_default: true
+          reconfigure_material: true
+          reconfigure_search: true
+          languages:
+              - locale: en
+                name: English
+                build: true
+                default: false
+                site_name: PythonBiellaGroup website
+                site_description: PythonBiellaGroup official website with all the guides, information, materials, and resource for the community.
+              - locale: it
+                name: Italian
+                build: true
+                default: true
+                site_name: PythonBiellaGroup website
+                site_description: PythonBiellaGroup sito ufficiale che contiene tutte le guide, informazioni, materiale e risorse per la community.
 
 #Extra material theme settings
 extra:
-  alternate:
-    - name: "Italian"
+    alternate:
+        - name: Italian
       # link: "/it"
-      lang: it
-    - name: "English"
+          lang: it
+        - name: English
       # link: "/en"
-      lang: en
-  disqus: PythonBiellaGroup
-  comments: true
-  annotate:
-    json: [.s2]
-  analytics:
-    provider: google
-    property: !ENV GOOGLE_ANALYTICS_KEY
-  generator: false
-  social:
-    - icon: fontawesome/solid/paper-plane
-      link: mailto:pythonbiellagroup@gmail.com
-      name: Write to us
-    - icon: fontawesome/brands/gitter
-      link: https://linktr.ee/pythonbiellagroup
-      name: Contacts and social
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/PythonBiella/
-      name: Twitter
-    - icon: fontawesome/brands/github
-      link: https://github.com/PythonBiellaGroup
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/company/pythonbiellagroup/
-      name: Linkedin
-    - icon: fontawesome/brands/instagram
-      link: https://www.instagram.com/pythonbiellagroup/
-      name: Instagram
+          lang: en
+    disqus: PythonBiellaGroup
+    annotate:
+        json: [.s2]
+    analytics:
+        provider: google
+        property: !ENV GOOGLE_ANALYTICS_KEY
+    generator: false
+    social:
+        - icon: fontawesome/solid/paper-plane
+          link: mailto:pythonbiellagroup@gmail.com
+          name: Write to us
+        - icon: fontawesome/brands/gitter
+          link: https://linktr.ee/pythonbiellagroup
+          name: Contacts and social
+        - icon: fontawesome/brands/twitter
+          link: https://twitter.com/PythonBiella/
+          name: Twitter
+        - icon: fontawesome/brands/github
+          link: https://github.com/PythonBiellaGroup
+        - icon: fontawesome/brands/linkedin
+          link: https://www.linkedin.com/company/pythonbiellagroup/
+          name: Linkedin
+        - icon: fontawesome/brands/instagram
+          link: https://www.instagram.com/pythonbiellagroup/
+          name: Instagram

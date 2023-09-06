@@ -24,7 +24,7 @@ Stiamo rifacendo il sito della community integrando nuove funzionalità, il tutt
 
 <!-- more -->
 
-_This article explains how to build a standalone blog with Material for MkDocs.
+This article explains how to build a standalone blog with Material for MkDocs.
 If you want to build a blog alongside your documentation, please refer to the official documentation!
 
 
