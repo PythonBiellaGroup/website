@@ -19,29 +19,31 @@ nav:
           - tags.md
     - Meetup:
           - meetup/index.md
-          - ANTLR: meetup/antlr.md
-          - Airflow + PySpark: meetup/airflow_pyspark.md
-          - Data versioning: meetup/data_versioning.md
-          - Data Science - focus Pharma: meetup/ds_pharma.md
-          - Debito tecnico e architectural smell: meetup/technical_dept.md
-          - Docker: meetup/intro_docker.md
-          - Gioco dell' Orso: meetup/orso_game.md
-          - GitHub Actions: meetup/github_actions.md
-          - GPT Detection system: meetup/gpt_detection.md
-          - GraphQL e Strawberry: meetup/graphql.md
-          - Introduzione a Kubernetes: meetup/intro_k8s.md
-          - Modern python development: meetup/modern_python.md
-          - MLOps - AWS: meetup/mlops_aws.md
-          - NLP - topic modeling: meetup/nlp_topic_modeling.md
-          - NVIDIA Triton: meetup/nvidia_triton.md
-          - Python Base: meetup/python_base.md
-          - Robotic Process Automation: meetup/rpa.md
-          - Squirrel Telegram Bot: meetup/telegram_bot_squirrel.md
-          - Telegram Bot: meetup/telegram_bot.md
-          - Tensorflow serving: meetup/tensorflow_serving.md
-          - Testare e documentare i dati: meetup/data_testing.md
-          - Web scraping: meetup/web_scraping.md
-          - XGBoost: meetup/xgboost.md
+          - meetup/next_meetup.md
+          - Meetup passati:
+                - ANTLR: meetup/archive/antlr.md
+                - Airflow + PySpark: meetup/archive/airflow_pyspark.md
+                - Data versioning: meetup/archive/data_versioning.md
+                - Data Science - focus Pharma: meetup/archive/ds_pharma.md
+                - Debito tecnico e architectural smell: meetup/archive/technical_dept.md
+                - Docker: meetup/archive/intro_docker.md
+                - Gioco dell' Orso: meetup/archive/orso_game.md
+                - GitHub Actions: meetup/archive/github_actions.md
+                - GPT Detection system: meetup/archive/gpt_detection.md
+                - GraphQL e Strawberry: meetup/archive/graphql.md
+                - Introduzione a Kubernetes: meetup/archive/intro_k8s.md
+                - Modern python development: meetup/archive/modern_python.md
+                - MLOps - AWS: meetup/archive/mlops_aws.md
+                - NLP - topic modeling: meetup/archive/nlp_topic_modeling.md
+                - NVIDIA Triton: meetup/archive/nvidia_triton.md
+                - Python Base: meetup/archive/python_base.md
+                - Robotic Process Automation: meetup/archive/rpa.md
+                - Squirrel Telegram Bot: meetup/archive/telegram_bot_squirrel.md
+                - Telegram Bot: meetup/archive/telegram_bot.md
+                - Tensorflow serving: meetup/archive/tensorflow_serving.md
+                - Testare e documentare i dati: meetup/archive/data_testing.md
+                - Web scraping: meetup/archive/web_scraping.md
+                - XGBoost: meetup/archive/xgboost.md
     - Learning:
           - learning/index.md
           - Articoli:

@@ -14,11 +14,14 @@ disquis: PythonBiellaGroup
 
 💰 Tutti gli eventi sono gratis
 
+---
+
 # Cosa sono i Meetup di PythonBiellaGroup
 Ogni settimana organizziamo un meetup su tematiche diverse legate al mondo di Python ma non solo. Ogni meetup ha la durata di circa 2 ore e avviene online su Zoom in modo da poter consentire a tutti di poter partecipare, ovunque essi siano.
 
 Il meetup viene poi registrato e reso disponibile su Youtube pochi giorni dopo la data del meetup affinchè anche chi non ha potuto partecipare alla live possa riguardare integralmente l'evento. Chi ha poi partecipato alla live ma vuole approfondire o rivedere alcuni aspetti potrà farlo con calma in qualsiasi momento.
 
+---
 # Cosa devi fare per partecipare?
 Tutti i nostri meetup vengono pubblicati sui nostri canali social la settimana precedente all'evento in modo che tu possa organizzarti con i tuoi impegni personali e possa partecipare.
 
@@ -28,6 +31,7 @@ Tutti i nostri meetup vengono pubblicati sui nostri canali social la settimana p
 
 &nbsp;&nbsp; 🚀 Connettiti alla live e goditi la serata!
 
+---
 # Vuoi partecipare come speaker?
 
 Siamo sempre entusiasti di avere nuovi speaker per poter imparare cose nuove e permettere a tutti di condividere quello che si é imparato durante il proprio percorso accdemico o lavorativo.
