@@ -28,7 +28,10 @@ jobs:
               uses: actions/checkout@v2
             - name: Install dependencies
               shell: bash
-              run: poetry run pre-commit install
-            - name: Run pre-commit checks
+              run: poetry install
+            - name: Install pre-commit check
+              shell: bash
+              run: make install_pre_commit
+            - name: Run pre-commit check
               shell: bash
               run: poetry run pre-commit run -a
