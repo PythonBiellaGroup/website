@@ -16,6 +16,22 @@ concurrency:
     group: pages
     cancel-in-progress: false
 jobs:
+    pre-commit-check:
+        runs-on: ubuntu-latest
+        container:
+            image: ghcr.io/pythonbiellagroup/dockbase/python-base:${{vars.BASE_DOCKER_VERSION}}
+            credentials:
+                username: ${{ github.actor }}
+                password: ${{  secrets.GITHUB_TOKEN }}
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v2
+            - name: Install dependencies
+              shell: bash
+              run: poetry run pre-commit install
+            - name: Run pre-commit checks
+              shell: bash
+              run: poetry run pre-commit run -a
     deploy:
         runs-on: ubuntu-latest
     # Deploy to the github-pages environment
@@ -30,16 +46,16 @@ jobs:
         steps:
             - name: Checkout
               uses: actions/checkout@v3
-            - name: configure safe github directory
+            - name: Configure safe github directory
               shell: bash
               run: git config --global --add safe.directory /__w/website/website
             - name: Add mkdocs-material credentials
               shell: bash
               run: poetry config http-basic.mkdocs ${{secrets.GHCR_USERNAME}} ${{secrets.GHCR_TOKEN}}
-            - name: install packages
+            - name: Install packages
               shell: bash
               run: poetry install
-            - name: build mkdocs website inside docker
+            - name: Build mkdocs website inside docker
               shell: bash
               run: make docs_build
             - name: Setup Pages
