@@ -26,6 +26,9 @@ jobs:
         steps:
             - name: Checkout code
               uses: actions/checkout@v2
+            - name: Add mkdocs-material credentials
+              shell: bash
+              run: poetry config http-basic.mkdocs ${{secrets.GHCR_USERNAME}} ${{secrets.GHCR_TOKEN}}
             - name: Install dependencies
               shell: bash
               run: poetry install
