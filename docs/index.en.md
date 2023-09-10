@@ -27,7 +27,7 @@ Inside, you will find:
     - [Bear](https://github.com/PythonBiellaGroup/Bear): a template for a modern python project based on [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/)
     - [Community website](https://github.com/PythonBiellaGroup/website): website for the community based on [MkDocs](https://mkdocs.readthedocs.io/en/stable/)
 
-Here you can find our [code of conduct](codice_condotta.md)
+Here you can find our [code of conduct](code_conduct.md)
 
 ## ☎️ Contacts
 
