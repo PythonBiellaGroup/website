@@ -26,8 +26,6 @@ jobs:
         steps:
             - name: Checkout code
               uses: actions/checkout@v2
-            - name: Install Git
-              run: sudo apt-get update && sudo apt-get install git -y
             - name: Add mkdocs-material credentials
               shell: bash
               run: poetry config http-basic.mkdocs ${{secrets.GHCR_USERNAME}} ${{secrets.GHCR_TOKEN}}
@@ -36,7 +34,7 @@ jobs:
               run: poetry install
             - name: Install pre-commit check
               shell: bash
-              run: poetry run pre-commit install
+              run: poetry install --only dev --sync
             - name: Run pre-commit check
               shell: bash
               run: poetry run pre-commit run -a
