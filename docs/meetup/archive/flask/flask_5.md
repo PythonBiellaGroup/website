@@ -1,3 +1,12 @@
+---
+title: Evoluzione dell' applicazione
+disquis: PythonBiellaGroup
+tags:
+    - flask
+    - orm
+    - webserver
+---
+
 ## Intro
 
 Evoluzione dell'applicazione realizzata nelle serate precedenti con revisione ed applicazione dei concetti utilizzati nelle serate precedente.

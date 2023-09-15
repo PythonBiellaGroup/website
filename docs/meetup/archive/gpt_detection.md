@@ -1,3 +1,11 @@
+---
+title: GPT e Detection system
+disquis: PythonBiellaGroup
+tags:
+    - chatgpt
+    - gpt
+    - llm
+---
 
 ## Intro
 

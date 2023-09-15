@@ -1,3 +1,12 @@
+---
+title: Come costruire una pipeline di analisi del testo
+disquis: PythonBiellaGroup
+tags:
+    - regular expression
+    - text manipulation
+    - spacy
+---
+
 ## Intro
 
 Un esempio di progetto di classificazione con tecniche di Machine Learning.

@@ -1,3 +1,11 @@
+---
+title: Xgboost
+disquis: PythonBiellaGroup
+tags:
+    - machine learning
+    - xgboost
+---
+
 ## Intro
 
 Alla scoperta di uno dei più famosi modelli di Machine Learning con Marco Zamboni.

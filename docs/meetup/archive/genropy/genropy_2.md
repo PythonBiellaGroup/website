@@ -1,3 +1,11 @@
+---
+title: Genropy - ORM
+disquis: PythonBiellaGroup
+tags:
+    - genropy
+    - erp
+    - orm
+---
 ## Intro
 
 Questa è la seconda serata, nella quale, dopo la presentazione di Bag e Structure, due strutture dati alla base del framework, abbiamo visto l'ORM utilizzabile in Genropy e iniziato il nostro progetto open source Blood Donor.

@@ -1,3 +1,11 @@
+---
+title: Flask review with blueprints
+disquis: PythonBiellaGroup
+tags:
+    - flask
+    - orm
+    - blueprints
+---
 ## Intro
 
 L'evoluzione dell'app continua con il refactoring della versione precedente e l'inserimento dei Blueprints. Vengono anche introdotti i primi test automatici.

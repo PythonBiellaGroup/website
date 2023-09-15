@@ -1,3 +1,12 @@
+---
+title: Calcolo distribuito con Dask, Modin e Celery
+disquis: PythonBiellaGroup
+tags:
+    - dask
+    - modin
+    - celery
+---
+
 ## Intro
 
 Andrea e Nicola ci presentano tre interessanti librerie per il calcolo parallelo e distribuito in Python:

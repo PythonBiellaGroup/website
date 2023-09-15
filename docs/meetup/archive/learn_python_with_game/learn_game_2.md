@@ -1,3 +1,11 @@
+---
+title: Pygamezero
+disquis: PythonBiellaGroup
+tags:
+    - pygamezero
+    - python
+---
+
 ## Intro
 
 Questo secondo incontro sarà dedicato all'introduzione di PyGameZero e alla creazione dei primi due giochi.

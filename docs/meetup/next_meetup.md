@@ -6,9 +6,8 @@ disquis: PythonBiellaGroup
 # Prossimi eventi
 
 Non perderti neanche uno degli eventi organizzati da **PythonBiellaGroup**. Dai un' occhiata al nostro calendario!
-Oltre ai **meetup** settimanali potrai trovare:
 
----
+Oltre ai **meetup** settimanali potrai trovare:
 
 👋 Incontri in presenza con la community
 

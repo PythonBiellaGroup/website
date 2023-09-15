@@ -1,3 +1,10 @@
+---
+title: Debito tecnico e architectural smell
+disquis: PythonBiellaGroup
+tags:
+    - arcan
+    - technical debt
+---
 
 ## Intro
 

@@ -1,3 +1,12 @@
+---
+title: Operazioni con le Serie
+disquis: PythonBiellaGroup
+tags:
+    - data
+    - pandas
+    - serie
+---
+
 ## Intro
 
 Operazione con le serie ed esercitazione:

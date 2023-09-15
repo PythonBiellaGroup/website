@@ -1,3 +1,11 @@
+---
+title: GraphQL e Strawberry
+disquis: PythonBiellaGroup
+tags:
+    - graphql
+    - strawberry
+    - api
+---
 ## Intro
 
 Dopo una breve introduzione generale sul linguaggio di interrogazione dati GraphQL, scopriamo come creare API GraphQL utilizzando Python e Strawberry.

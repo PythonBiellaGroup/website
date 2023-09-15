@@ -1,3 +1,11 @@
+---
+title: Nvidia Triton
+disquis: PythonBiellaGroup
+tags:
+    - nvidia triton
+    - model serving
+---
+
 ## Intro
 
 In questo incontro andiamo alla scoperta di NVIDIA Triton, uno strumento open source che permette la messa in produzione di modelli di machine learning.

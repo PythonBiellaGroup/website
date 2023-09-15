@@ -1,4 +1,11 @@
-
+---
+title: Le GitHub actions e Pipem
+disquis: PythonBiellaGroup
+tags:
+    - pipem
+    - github
+    - github actions
+---
 ## Intro
 
 In questo meetup vediamo come utilizzare le GitHub actions per poter automatizzare i nostri workflow di sviluppo. 

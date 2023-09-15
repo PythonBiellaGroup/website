@@ -1,3 +1,12 @@
+---
+title: Sentiment analysis con python
+disquis: PythonBiellaGroup
+tags:
+    - sentiment analysis
+    - streamlit
+    - data
+---
+
 ## Intro
 
 Esploriamo insieme l'applicazione di Davide Airaghi per fare sentiment analysis su dati recuperati tramite web scraping da twitter riguardo uno specifico prodotto.

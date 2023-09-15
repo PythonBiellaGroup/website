@@ -1,4 +1,9 @@
-
+---
+title: Tensorflow serving
+disquis: PythonBiellaGroup
+tags:
+    - model serving
+---
 ## Intro
 
 TensorFlow Serving è un tool che facilita la messa in produzione di un modello di ML trasformandolo automaticamente in una API... mostreremo un esempio concreto, partendo dall'installazione, l'addestramento ed il suo utilizzo tramite docker container.

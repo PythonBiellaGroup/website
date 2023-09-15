@@ -1,3 +1,11 @@
+---
+title: Genropy - personalizzazione UI
+disquis: PythonBiellaGroup
+tags:
+    - genropy
+    - erp
+    - ui
+---
 ## Intro
 
 Questa è la quarta serata, nella quale, siamo andati avanti nello sviluppo del nostro progetto open source Blood Donor. 

@@ -1,3 +1,11 @@
+---
+title: Pandas: Strumenti per la manipolazione e l'analisi dei dati
+disquis: PythonBiellaGroup
+tags:
+    - pandas
+    - data analysis
+---
+
 ## Intro
 
 Pandas: strumenti per la manipolazione e l'analisi dei dati

@@ -1,3 +1,11 @@
+---
+title: Flask review
+disquis: PythonBiellaGroup
+tags:
+    - flask
+    - orm
+    - webserver
+---
 ## Intro
 
 Facciamo una revisione e rielaborazione dei concetti di base visti nelle serate precedenti

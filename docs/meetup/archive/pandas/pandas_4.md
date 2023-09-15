@@ -1,3 +1,11 @@
+---
+title: Pandas - approfondimenti ed esercizi
+disquis: PythonBiellaGroup
+tags:
+    - data
+    - pandas
+---
+
 ## Intro
 
 Continuiamo il percorso di apprendimento collaborativo di pandas base con:

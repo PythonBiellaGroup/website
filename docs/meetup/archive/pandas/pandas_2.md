@@ -1,3 +1,12 @@
+---
+title: Operazioni con i dataframe
+disquis: PythonBiellaGroup
+tags:
+    - data
+    - pandas
+    - dataframe
+---
+
 ## Intro
 
 Operazioni con i dataframes, somme e pivot:

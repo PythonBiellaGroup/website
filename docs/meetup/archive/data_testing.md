@@ -1,4 +1,11 @@
-
+---
+title: Data testing
+disquis: PythonBiellaGroup
+tags:
+    - data
+    - data testing
+    - great expectations
+---
 ## Intro
 Luca Gilli, CTO e founder di Clearbox.AI, ci fornisce suggerimenti su come rendere le nostre pipelines di dati piu' robuste tramite la scrittura di unit tests e documentazione, usando la libreria open-source great_expectations.
 Successivamente viene fatto un approfondimento su cosa voglia dire efficientare la creazione di test attraverso la profilazione del dato, condividendo l'esperienza acquisita durante lo sviluppo della libreria StructuredDataProfiling.

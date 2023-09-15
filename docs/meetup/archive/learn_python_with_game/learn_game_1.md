@@ -1,3 +1,11 @@
+---
+title: Intro python
+disquis: PythonBiellaGroup
+tags:
+    - pygame
+    - python
+---
+
 ## Intro
 
 Introduzione alle nozioni fondamentali di Python

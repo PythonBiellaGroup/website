@@ -1,4 +1,11 @@
-
+---
+title: Data science in ambito farmaceutico
+disquis: PythonBiellaGroup
+tags:
+    - data
+    - data science
+    - pharma
+---
 ## Intro
 
 Parliamo di dati e come ricavarne valore in un ambito molto interessante e particolarmente complesso. 

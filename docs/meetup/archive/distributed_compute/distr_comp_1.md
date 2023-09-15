@@ -1,3 +1,11 @@
+---
+title: Calcolo distribuito
+disquis: PythonBiellaGroup
+tags:
+    - distributed computed
+    - parallel computed
+---
+
 ## Intro
 
 Cezar Sas ci spiega teoria e pratica del calcolo parallelo e distribuito in Python

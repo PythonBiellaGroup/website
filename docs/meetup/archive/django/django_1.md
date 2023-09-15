@@ -1,3 +1,11 @@
+---
+title: Intro Django
+disquis: PythonBiellaGroup
+tags:
+    - django
+    - web framework
+---
+
 ## Intro
 
 Primo incontro introduttivo su Django:

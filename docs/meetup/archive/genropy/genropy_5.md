@@ -1,3 +1,11 @@
+---
+title: Genropy - progetto open source
+disquis: PythonBiellaGroup
+tags:
+    - genropy
+    - erp
+---
+
 ## Intro
 
 In questo video-bonus continuamo ad apprendere Genropy, in modalità pair programming, migliorando incrementalmente il nostro progetto open source "Blood Donor".

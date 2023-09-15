@@ -1,3 +1,10 @@
+---
+title: Pygamezero - sviluppo giochi parte 1
+disquis: PythonBiellaGroup
+tags:
+    - pygamezero
+    - python
+---
 ## Intro
 
 Questa è la terza serata, dedicata alla comprensione di altri tre giochi sviluppati con PyGameZero.

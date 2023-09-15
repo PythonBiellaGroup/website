@@ -1,3 +1,11 @@
+---
+title: Flask e Jinja avanzato con i forms
+disquis: PythonBiellaGroup
+tags:
+    - flask
+    - forms
+    - web server
+---
 ## Intro
 
 Continua l'esplorazione di Flask con Jinja avanzato e l'utilizzo di Forms

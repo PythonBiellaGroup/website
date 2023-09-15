@@ -1,3 +1,11 @@
+---
+title: Intro pandas
+disquis: PythonBiellaGroup
+tags:
+    - data
+    - pandas
+---
+
 ## Intro
 
 In questa prima parte vedremo:

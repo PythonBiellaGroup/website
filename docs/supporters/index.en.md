@@ -1,13 +1,13 @@
 # Supporters
 
-PythonBiellaGroup é una community molto attiva su tutto il terriorio italiano e in questa sezione vogliamo ringraziare tutti gli amici che ci supportano e che noi supportiamo con i quali abbiamo il piacere di condividere interessi, iniziative e attività.
-
+**PythonBiellaGroup** is a highly active community throughout the Italian territory, and in this section, we want to thank all the friends who support us and whom we support, with whom we have the pleasure of sharing interests, initiatives, and activities.
 ### 🐍 **Python Italia**
 ![Image title](../static/images/supporters/python_italia_logo.png)
 
-[Python Italia](http://www.python.it/) é la community più importante in Italia per quanto riguarda il linguaggio di programmazione **Python**. Ogni anno organizzano il [Pycon](https://pycon.it/en), l'evento di maggior rilievo a livello internazionale che permette l'incontro tra appassionati provenienti da tutto il mondo.
+[Python Italia](http://www.python.it/) is the most important community in Italy when it comes to the **Python** programming language.
+ Every year, they organize [Pycon](https://pycon.it/en), the most significant international event that allows enthusiasts from all over the world to come together.
 
-Ovviamente la community di PythonBiellaGroup partecipa sempre. Ci vediamo là? 😎
+Of course, the PythonBiellaGroup community always participates. Will we see you there? 😎
 
 ---
 
@@ -15,8 +15,7 @@ Ovviamente la community di PythonBiellaGroup partecipa sempre. Ci vediamo là? �
 
 ![Image title](../static/images/supporters/pymi_logo.jpg)
 
-[Python Milano](https://milano.python.it/) è la community meneghina per eccellenza degli appassionati di Python. Oltre agli incontri ed eventi proposti dalla community segnaliamo anche [Intervista Pythonista](https://intervistapythonista.com/), un podcast che permette di dare voce a tutti i pythonisti italiani. Lo potete trovare su tutte le piattaforme!
-
+[Python Milano](https://milano.python.it/) is the top-notch community in Milan for Python enthusiasts. In addition to the meetings and events offered by the community, we also highlight [Intervista Pythonista](https://intervistapythonista.com/), a podcast that gives a voice to all Italian Pythonistas. You can find it on all platforms!
 
 ---
 
@@ -24,25 +23,24 @@ Ovviamente la community di PythonBiellaGroup partecipa sempre. Ci vediamo là? �
 
 ![Image title](../static/images/supporters/theredcode_logo.png)
 
-[TheRedCode](https://www.theredcode.it) di [Serena Sensini](https://www.linkedin.com/in/serena-sensini/?originalSubdomain=it) è ormai un must read per tutti coloro che vogliono trovare tutorial, guide e interessanti articoli sulle ultime novità del mondo tech. **Fateci un salto se non lo conoscete !**
+[TheRedCode](https://www.theredcode.it) of [Serena Sensini](https://www.linkedin.com/in/serena-sensini/?originalSubdomain=it)
+is now a must-read for everyone who wants to find tutorials, guides, and interesting articles on the latest tech trends. **Give it a visit if you haven't already!**
 
 ---
 ### 👩 **Django Girls**
 
 ![Image title](../static/images/supporters/django_girls_logo.png)
 
-[Django Girls](https://www.fuzzybrains.org/) è una community nata a Berlino nel 2014 fondata da donne sviluppatrici con il supporto di tutta la comunità Django.
-La mission di Django Girls è introdurre piu' diversity nel mondo della programmazione sopratutto grazie ai loro fantastici workshop.
+[Django Girls](https://www.fuzzybrains.org/) is a community born in Berlin in 2014, founded by female developers with the support of the Django community. Django Girls' mission is to introduce more diversity into the programming world, primarily through their fantastic workshops.
 
-Le potete trovare anche al [Pycon](https://djangogirls.org/en/pyconitalia/)
-
+You can also find them at [Pycon](https://djangogirls.org/en/pyconitalia/)
 
 ---
 ### 🌐 **Clearbox AI**
 
 ![Image title](../static/images/supporters/clearboxai_logo.jpg)
 
-[Clearbox AI](https://www.clearbox.ai/) è un' azienda di Torino il cui core business è la generazione di dati sintetici per realtà di varia natura. Uno dei fondatori è [Luca Gilli](https://www.linkedin.com/in/luca-gilli/?originalSubdomain=it), membro attivissimo della nostra community, che è ormai una presenza fissa nei nostri meetup sia come auditore che come speaker.
+[Clearbox AI](https://www.clearbox.ai/) is a company based in Turin whose core business is the generation of synthetic data for various industries. One of the founders is [Luca Gilli](https://www.linkedin.com/in/luca-gilli/?originalSubdomain=it), a highly active member of our community, who has become a regular presence at our meetups both as an attendee and as a speaker.
 
 ---
 
@@ -50,26 +48,16 @@ Le potete trovare anche al [Pycon](https://djangogirls.org/en/pyconitalia/)
 
 ![Image title](../static/images/supporters/sellalab_logo.png)
 
-[SellaLab](https://sellalab.com/) è una piattaforma d’innovazione, nata nel Gruppo Sella, rivolta a startup e imprese con l’obiettivo di supportarne la crescita, i processi di open innovation e di trasformazione digitale.
-Organizziamo spesso insieme eventi con loro nei loro bellissimi spazi.
+[SellaLab](https://sellalab.com/) is an innovation platform, born within the Sella Group, aimed at startups and businesses with the goal of supporting their growth, open innovation processes, and digital transformation. We often organize events together with them in their beautiful spaces.
 
-Uno dei più importanti è senza dubbio il **BiDigital**. Non perdetevelo!
-
+One of the most important ones is undoubtedly the **BiDigital**. Don't miss it!
 ---
 
 ### 👾 **Genropy**
 
 ![Image title](../static/images/supporters/genropy_logo.png)
 
-[Genropy](https://www.genropy.org/) definisce un nuovo originale paradigma di programmazione, grazie al quale è possibile creare in tempi rapidissimi applicazioni desktop-like attraverso una soluzione integrata, dalla GUI all’ORM fino al deploy. In questo modo vengono forniti in modo semplice tutti gli strumenti necessari a creare e gestire una web app senza dover conoscere le specifiche caratteristiche implementative del database utilizzato (sqlite, postgres, mysql, microsoft sql ed oracle).
-Il framework si rivolge a persone che sviluppano e desiderano realizzare applicativi web, programmando in Python lato server e usando la sua sintassi lato client. Questo approccio consente di creare velocemente interfacce utente utilizzando al minimo HTML, CSS e Javascript.
+[Genropy](https://www.genropy.org/) defines a new and original programming paradigm, allowing you to create desktop-like applications in extremely fast times through an integrated solution, from GUI to ORM to deployment. This way, all the necessary tools to create and manage a web app are provided in a simple manner, without the need to know the specific implementation details of the database used (sqlite, postgres, mysql, microsoft sql, and oracle).
+The framework is aimed at people who develop and want to create web applications, programming in Python on the server-side and using its syntax on the client-side. This approach enables the rapid creation of user interfaces with minimal use of HTML, CSS, and Javascript.
 
-Anche i ragazzi di Genropy sono membri attivissimi della community! Correte a dare un' occhiata ai loro talk sul nostro canale [Youtube](https://www.youtube.com/watch?v=41M-UL3lZs4&list=PLyaoAB2kb_ZHZbEblU86R6Vttwl-Cplr2&pp=iAQB)
-
----
-
-### 🐿 **Squirrel Network**
-![Image title](../static/images/supporters/squirrel_network_logo.png)
-
-[Squirrel Network](https://squirrel-network.online/#) è una community che supporta e sviluppa progetti informatici open-source di varie dimensioni e utilità.
-Particolrmente interessante il bot [Nebula](https://squirrel-network.online/#api).
+The Genropy guys are also very active members of the community! Hurry and take a look at their talks on our channel. [Youtube](https://www.youtube.com/watch?v=41M-UL3lZs4&list=PLyaoAB2kb_ZHZbEblU86R6Vttwl-Cplr2&pp=iAQB)

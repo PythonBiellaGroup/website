@@ -1,3 +1,11 @@
+---
+title: Deep learning con le immagini
+disquis: PythonBiellaGroup
+tags:
+    - deep learning
+    - neural networks
+---
+
 ## Intro
 
 In questa seconda serata dedicata al Deep Learning con Nicola Camardi, dopo una necessaria introduzione teorica, analizziamo lo sviluppo di una rete neurale per il riconoscimento di immagini.

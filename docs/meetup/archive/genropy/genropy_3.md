@@ -1,3 +1,10 @@
+---
+title: Genropy - Blood donor
+disquis: PythonBiellaGroup
+tags:
+    - genropy
+    - erp
+---
 ## Intro
 
 Questa è la terza serata, nella quale, siamo andati avanti nello sviluppo del nostro progetto open source Blood Donor. 

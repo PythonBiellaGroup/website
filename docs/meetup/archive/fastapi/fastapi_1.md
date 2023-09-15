@@ -1,3 +1,11 @@
+---
+title: Intro FastApi
+disquis: PythonBiellaGroup
+tags:
+    - fastapi
+    - api
+---
+
 ## Intro
 
 Primo incontro di introduzione a FastAPI:

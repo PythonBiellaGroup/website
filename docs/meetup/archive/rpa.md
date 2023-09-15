@@ -1,3 +1,10 @@
+---
+title: Robot process automation
+disquis: PythonBiellaGroup
+tags:
+    - rpa
+---
+
 ## Intro
 
 In questo incontro Dario Chemello, ci introduce nel mondo della Robotic Process Automation e di come ci può aiutare ad automatizzare i task ripetitivi ma frequenti che ci accompagnano nella nostra quotidianità. 

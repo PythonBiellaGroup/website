@@ -1,3 +1,10 @@
+---
+title: Come creare un telegram bot
+disquis: PythonBiellaGroup
+tags:
+    - bot
+---
+
 ## Intro
 
 Oggi più che mai ognuno di noi si trova ad interfacciarsi consciamente o inconsciamente con i bot i quali operano in diversi servizi tra cui applicazioni web, messagistica, videogiochi e customer care. 

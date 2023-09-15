@@ -1,3 +1,12 @@
+---
+title: Deep NLP e Topic Modeling 
+disquis: PythonBiellaGroup
+tags:
+    - nlp
+    - topic modeling
+    - neural networks
+---
+
 ## Intro
 
 Scopriamo assieme il mondo del Natural Language Processing e dei Topic Modelling.

@@ -1,3 +1,11 @@
+---
+title: Intro espressioni regolari
+disquis: PythonBiellaGroup
+tags:
+    - regular expression
+    - text manipulation
+---
+
 ## Intro
 
 Introduzione alle espressioni regolari con esempi di live coding.

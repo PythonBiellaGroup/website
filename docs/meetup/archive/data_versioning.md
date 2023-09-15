@@ -1,3 +1,11 @@
+---
+title: Data versioning
+disquis: PythonBiellaGroup
+tags:
+    - data
+    - data versioning
+    - dvc
+---
 
 ## Intro
 

@@ -1,3 +1,12 @@
+---
+title: Strumenti per l'ingegnerizzazione dei dati - dai notebook alla dashboard
+disquis: PythonBiellaGroup
+tags:
+    - etl
+    - streamlit
+    - dashboard
+---
+
 ## Intro
 
 Strumenti per l'ingegnerizzazione dei dati - dai notebook alla dashboard:

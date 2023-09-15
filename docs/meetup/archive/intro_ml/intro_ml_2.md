@@ -1,3 +1,11 @@
+---
+title: ML - supervised learning
+disquis: PythonBiellaGroup
+tags:
+    - machine learning
+    - scikitlearn
+    - supervised learning
+---
 ## Intro
 
 In questa seconda serata dedicata al Machine Learning con Federico Angaramo, utilizziamo Scikit-learn per capire i concetti principali della Supervised Learning.

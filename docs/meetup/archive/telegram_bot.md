@@ -1,3 +1,9 @@
+---
+title: Come creare un telegram bot con python
+disquis: PythonBiellaGroup
+tags:
+    - bot
+---
 
 ## Intro
 

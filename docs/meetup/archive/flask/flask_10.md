@@ -1,3 +1,11 @@
+---
+title: Flask - servizio REST API
+disquis: PythonBiellaGroup
+tags:
+    - flask
+    - rest api
+---
+
 ## Intro
 
 Introduzione generale ai servizi REST API e come esporne alcuni nell'app appena sviluppata.

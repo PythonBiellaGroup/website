@@ -1,3 +1,12 @@
+---
+title: Strumenti per il passaggio in produzione
+disquis: PythonBiellaGroup
+tags:
+    - mkdocs
+    - papermill
+    - docker
+---
+
 ## Intro
 
 Strumenti per il passaggio in produzione:

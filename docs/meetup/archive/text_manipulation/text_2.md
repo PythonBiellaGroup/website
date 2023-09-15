@@ -1,3 +1,12 @@
+---
+title: Utilizzo del modulo regex in python
+disquis: PythonBiellaGroup
+tags:
+    - regular expression
+    - text manipulation
+    - regex
+---
+
 ## Intro
 
 Utilizzo del modulo regex in python ed esercizi con le espressioni regolari.

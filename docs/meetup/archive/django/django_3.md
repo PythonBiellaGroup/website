@@ -1,3 +1,12 @@
+---
+title: Django autenticazione
+disquis: PythonBiellaGroup
+tags:
+    - django
+    - authentication
+    - form
+---
+
 ## Intro
 
 In questa serata, sempre in live coding, approfondimenti sull'autenticazione, sui model form, su Django REST Framework e su come mettere in produzione le nostre Django app.

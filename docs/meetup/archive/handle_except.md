@@ -1,3 +1,9 @@
+---
+title: Come gestire le eccezioni in python
+disquis: PythonBiellaGroup
+tags:
+    - python
+---
 # Intro
 
 In questo meetup, esploreremo uno degli aspetti fondamentali della programmazione Python: la gestione delle eccezioni. Le eccezioni sono situazioni anomale o errori che possono verificarsi durante l'esecuzione di un programma, e imparare come gestirle con eleganza è cruciale per scrivere codice affidabile e robusto.

@@ -29,9 +29,6 @@ jobs:
             - name: Add mkdocs-material credentials
               shell: bash
               run: poetry config http-basic.mkdocs ${{secrets.GHCR_USERNAME}} ${{secrets.GHCR_TOKEN}}
-            - name: Install dependencies
-              shell: bash
-              run: poetry install
             - name: Install pre-commit check
               shell: bash
               run: poetry install --only dev --sync

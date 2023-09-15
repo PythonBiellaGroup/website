@@ -1,3 +1,12 @@
+---
+title: FastApi e SQL Model
+disquis: PythonBiellaGroup
+tags:
+    - fastapi
+    - sqlmodel
+    - db
+---
+
 ## Intro
 
 Questa è la terza serata, in cui abbiamo visto l'utilizzo di SQLModel come ORM da solo e successivamente, nella sessione di live coding, integrato con FastAPI.

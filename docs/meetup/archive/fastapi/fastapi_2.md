@@ -1,3 +1,12 @@
+---
+title: FastApi e pydantic
+disquis: PythonBiellaGroup
+tags:
+    - fastapi
+    - pydantic
+    - tdd
+---
+
 ## Intro
 
 Questa è la seconda serata, in cui dopo una breve introduzione su Type Hints e Pydantic alla base di FastApi, abbiamo visto come programmare le prime API CRUD sul modello Product con approccio TDD (Test Driven Development).

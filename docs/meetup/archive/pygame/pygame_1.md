@@ -1,3 +1,12 @@
+---
+title: Intro pygame
+disquis: PythonBiellaGroup
+tags:
+    - pygame
+    - python
+    - game
+---
+
 ## Intro
 
 In questa prima parte vedremo:

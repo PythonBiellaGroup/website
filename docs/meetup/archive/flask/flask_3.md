@@ -1,6 +1,15 @@
+---
+title: Flask e Jinja avanzato con i forms
+disquis: PythonBiellaGroup
+tags:
+    - flask
+    - orm
+    - sqlalchemy
+---
+
 ## Intro
 
-Continua l'esplorazione di Flask affrontanto il tema della persistenza db: ORM e SQLAlchemy
+Continua l'esplorazione di Flask affrontando il tema della persistenza db: ORM e SQLAlchemy
 
 ### Materiale
 

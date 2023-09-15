@@ -1,3 +1,12 @@
+---
+title: Flask - deploy in produzione
+disquis: PythonBiellaGroup
+tags:
+    - flask
+    - deploy
+    - heroku
+---
+
 ## Intro
 
 Come configurare le app sui diversi ambienti e predisporle per il deploy in produzione. In particolare su Heroku o dove sia possibile utilizzare Docker.

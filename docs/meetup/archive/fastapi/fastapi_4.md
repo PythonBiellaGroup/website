@@ -1,3 +1,12 @@
+---
+title: FastApi e FastCash
+disquis: PythonBiellaGroup
+tags:
+    - fastapi
+    - sqlmodel
+    - fastcash
+---
+
 ## Intro
 
 Questa è la quarta serata, in cui abbiamo visto l'utilizzo l'integrazione completa di SQLModel con FastAPI e presentato la nostra app FastCash, back-end sviluppato a scopi didattici.

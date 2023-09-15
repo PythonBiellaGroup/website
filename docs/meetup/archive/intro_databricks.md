@@ -1,3 +1,11 @@
+---
+title: Introduzione a databricks
+disquis: PythonBiellaGroup
+tags:
+    - pyspark
+    - databricks
+---
+
 ## Intro
 
 In questa serata con Marco Santoni, vediamo Apache Spark e utilizziamo Databricks.

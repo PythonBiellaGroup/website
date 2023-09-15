@@ -15,7 +15,7 @@ install: ## Install the poetry and python environment
 .PHONY: check_project
 check_project: ## Run code quality tools.
 	@echo "🚀 Checking Poetry lock file consistency with 'pyproject.toml': Running poetry lock --check"
-	@poetry lock --check
+	@poetry check --lock
 	@echo "🚀 Linting code: Running pre-commit"
 	@poetry run pre-commit run -a
 # echo "🚀 Checking for obsolete dependencies: Running deptry"

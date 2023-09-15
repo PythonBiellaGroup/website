@@ -1,3 +1,12 @@
+---
+title: Pygame - animazioni
+disquis: PythonBiellaGroup
+tags:
+    - pygame
+    - python
+    - game
+---
+
 ## Intro
 
 In questa terza e ultima parte vedremo:

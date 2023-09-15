@@ -1,3 +1,12 @@
+---
+title: Come costruire una pipeline di analisi del testo
+disquis: PythonBiellaGroup
+tags:
+    - regular expression
+    - text manipulation
+    - spacy
+---
+
 ## Intro
 
 Come costruire una pipeline di analisi del testo e alcuni esempi con la libreria SpaCy.

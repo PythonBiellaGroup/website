@@ -1,3 +1,11 @@
+---
+title: Flask review con autenticazione
+disquis: PythonBiellaGroup
+tags:
+    - flask
+    - orm
+    - authentication
+---
 ## Intro
 
 Prosegue lo sviluppo dell'app introducendo i moduli necessari alla gestione dell'autenticazione

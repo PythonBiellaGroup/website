@@ -1,3 +1,11 @@
+---
+title: FastApi e async
+disquis: PythonBiellaGroup
+tags:
+    - fastapi
+    - async
+    - authentication
+---
 ## Intro
 
 Questa è la quinta e ultima serata, in cui abbiamo visto async-await, il confronto tra FastAPI e Django, l'autenticazione Oauth2, una possibile impostazione di profiling e accenni alla dockerizzazione. 

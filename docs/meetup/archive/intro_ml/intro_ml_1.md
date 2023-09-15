@@ -1,3 +1,12 @@
+---
+title: Intro ML
+disquis: PythonBiellaGroup
+tags:
+    - machine learning
+    - scikitlearn
+    - pandas
+---
+
 ## Intro
 
 In questa prima serata dedicata al Machine Learning con Federico Angaramo, dopo una introduzione teorica e un ripasso di Numpy e Pandas, partiamo con l'utilizzo di Scikit-learn e lo sviluppo due modelli di studio.

@@ -1,3 +1,11 @@
+---
+title: Intro Genropy
+disquis: PythonBiellaGroup
+tags:
+    - genropy
+    - erp
+---
+
 ## Intro
 
 Primo incontro introduttivo su Genropy:

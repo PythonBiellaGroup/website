@@ -1,3 +1,12 @@
+---
+title: Deep learning con tensorflow
+disquis: PythonBiellaGroup
+tags:
+    - deep learning
+    - neural networks
+    - tensorflow
+---
+
 ## Intro
 
 In questa prima serata dedicata al Deep Learning con Nicola Camardi, dopo una introduzione teorico-pratica, partiamo con l'utilizzo di TensorFlow e un po' di live coding.

@@ -1,3 +1,10 @@
+---
+title: Introduzione a Git
+disquis: PythonBiellaGroup
+tags:
+    - code versioning
+    - git
+---
 ## Intro
 
 In questo incontro, esploreremo uno degli strumenti più essenziali e potenti nella scatola degli attrezzi di ogni sviluppatore: il sistema di controllo di versione Git.

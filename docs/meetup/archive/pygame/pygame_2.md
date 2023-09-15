@@ -1,3 +1,12 @@
+---
+title: Pygame - sprites e gestione collisioni
+disquis: PythonBiellaGroup
+tags:
+    - pygame
+    - python
+    - game
+---
+
 ## Intro
 
 In questa seconda parte vedremo:

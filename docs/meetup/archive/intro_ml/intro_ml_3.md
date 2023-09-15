@@ -1,3 +1,12 @@
+---
+title: ML - unsupervised learning
+disquis: PythonBiellaGroup
+tags:
+    - machine learning
+    - scikitlearn
+    - unsupervised learning
+---
+
 ## Intro
 
 In questa terza serata dedicata al Machine Learning con Federico Angaramo, utilizziamo Scikit-learn per capire i concetti fondamentali dell'apprendimento non supervisionato.

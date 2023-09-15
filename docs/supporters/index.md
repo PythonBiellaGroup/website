@@ -24,7 +24,7 @@ Ovviamente la community di PythonBiellaGroup partecipa sempre. Ci vediamo là? �
 
 ![Image title](../static/images/supporters/theredcode_logo.png)
 
-[TheRedCode](https://www.theredcode.it) di [Serena Sensini](https://www.linkedin.com/in/serena-sensini/?originalSubdomain=it) è ormai un must read per tutti coloro che vogliono trovare tutorial, guide e interessanti articoli sulle ultime novità del mondo tech. **Fateci un salto se non lo conoscete !**
+[TheRedCode](https://www.theredcode.it) di [Serena Sensini](https://www.linkedin.com/in/serena-sensini/?originalSubdomain=it) è ormai un must read per tutti coloro che vogliono trovare tutorial, guide e interessanti articoli sulle ultime novità del mondo tech. **Fateci un salto se non lo conoscete!**
 
 ---
 ### 👩 **Django Girls**
@@ -65,11 +65,3 @@ Uno dei più importanti è senza dubbio il **BiDigital**. Non perdetevelo!
 Il framework si rivolge a persone che sviluppano e desiderano realizzare applicativi web, programmando in Python lato server e usando la sua sintassi lato client. Questo approccio consente di creare velocemente interfacce utente utilizzando al minimo HTML, CSS e Javascript.
 
 Anche i ragazzi di Genropy sono membri attivissimi della community! Correte a dare un' occhiata ai loro talk sul nostro canale [Youtube](https://www.youtube.com/watch?v=41M-UL3lZs4&list=PLyaoAB2kb_ZHZbEblU86R6Vttwl-Cplr2&pp=iAQB)
-
----
-
-### 🐿 **Squirrel Network**
-![Image title](../static/images/supporters/squirrel_network_logo.png)
-
-[Squirrel Network](https://squirrel-network.online/#) è una community che supporta e sviluppa progetti informatici open-source di varie dimensioni e utilità.
-Particolrmente interessante il bot [Nebula](https://squirrel-network.online/#api).

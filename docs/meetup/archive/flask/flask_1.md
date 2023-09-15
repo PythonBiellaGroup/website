@@ -1,3 +1,11 @@
+---
+title: Intro Flask
+disquis: PythonBiellaGroup
+tags:
+    - flask
+    - jinja
+    - web server
+---
 ## Intro
 
 Introduzione a Flask e ai web server con Jinja Base

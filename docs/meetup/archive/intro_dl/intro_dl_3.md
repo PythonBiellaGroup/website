@@ -1,3 +1,12 @@
+---
+title: Deep learning - NLP
+disquis: PythonBiellaGroup
+tags:
+    - deep learning
+    - neural networks
+    - nlp
+---
+
 ## Intro
 
 In questa terza serata dedicata al Deep Learning con Nicola Camardi, dopo una necessaria introduzione teorica, analizziamo lo sviluppo di una rete neurale ricorrente e la applichiamo al linguaggio naturale.

@@ -1,3 +1,12 @@
+---
+title: Django e modelli
+disquis: PythonBiellaGroup
+tags:
+    - django
+    - orm
+    - modelli
+---
+
 ## Intro
 
 Secondo incontro introduttivo su Django:

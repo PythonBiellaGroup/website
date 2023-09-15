@@ -1,3 +1,12 @@
+---
+title: Flask review con profili, ruoli e blog
+disquis: PythonBiellaGroup
+tags:
+    - flask
+    - roles
+    - blog
+---
+
 ## Intro
 
 Seguiamo l'evoluzione dell'app del sito introducendo profili, ruoli e un blog.

@@ -1,3 +1,12 @@
+---
+title: Strumenti per la visualizzazione dei dati
+disquis: PythonBiellaGroup
+tags:
+    - pandas
+    - data visualization
+    - plotly
+---
+
 ## Intro
 
 Strumenti per la visualizzazione dei dati:

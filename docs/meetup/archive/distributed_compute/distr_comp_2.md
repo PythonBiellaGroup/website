@@ -1,3 +1,11 @@
+---
+title: Calcolo distribuito e comunicazione tra i processi
+disquis: PythonBiellaGroup
+tags:
+    - distributed computed
+    - ray
+---
+
 ## Intro
 
 Cezar Sas ci spiega teoria e pratica del calcolo parallelo e distribuito in Python:
