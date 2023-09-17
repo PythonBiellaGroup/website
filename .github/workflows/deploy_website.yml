@@ -36,8 +36,9 @@ jobs:
               shell: bash
               run: poetry run pre-commit run -a
     deploy:
+        needs: pre-commit-check
         runs-on: ubuntu-latest
-    # Deploy to the github-pages environment
+        if: success()
         environment:
             name: github-pages
             url: ${{ steps.deployment.outputs.page_url }}
