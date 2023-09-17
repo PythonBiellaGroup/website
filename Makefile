@@ -47,7 +47,7 @@ docs_build: ## Build mkdocs for local test
 	@poetry run mkdocs build --clean --quiet --config-file mkdocs.insiders.yml
 
 docs_launch_local: ## Launch mkdocs documentation locally with the local building artefacts
-	@poetry run mkdocs build --clean --quiet --config-file mkdocs.insiders.yml
+	@poetry run mkdocs build --clean --quiet --config-file mkdocs.yml
 	@poetry run mkdocs serve -v --dev-addr=0.0.0.0:8000
 
 docs_deploy: ## Deploy mkdocs documentation to github pages
