@@ -5,7 +5,7 @@ on:
         types: [published]
     push:
         branches:
-            - develop
+            - precommit-cicd
 permissions:
     contents: write
     pages: write # to deploy to Pages
@@ -26,6 +26,11 @@ jobs:
         steps:
             - name: Checkout code
               uses: actions/checkout@v2
+            - name: Set Google Analytics Key
+              env:
+                  GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
+              run: |
+                  echo "GOOGLE_ANALYTICS_KEY=$GOOGLE_ANALYTICS_KEY" >> $GITHUB_ENV
             - name: Add mkdocs-material credentials
               shell: bash
               run: poetry config http-basic.mkdocs ${{secrets.GHCR_USERNAME}} ${{secrets.GHCR_TOKEN}}
