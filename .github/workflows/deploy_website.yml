@@ -5,7 +5,7 @@ on:
         types: [published]
     push:
         branches:
-            - main
+            - develop
 permissions:
     contents: write
     pages: write # to deploy to Pages
