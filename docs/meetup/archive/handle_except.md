@@ -10,6 +10,6 @@ In questo meetup, esploreremo uno degli aspetti fondamentali della programmazion
 
 La gestione delle eccezioni è un aspetto essenziale della programmazione Python che vi permetterà di scrivere software più stabili e manutenibili. Che siate nuovi a Python o esperti sviluppatori, questa introduzione vi darà gli strumenti necessari per diventare programmatori più sicuri ed efficienti.
 
-### Video del meetup
+## Video del meetup
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4ukBZoPEGRE?si=-pKk5nWGls9tl73v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

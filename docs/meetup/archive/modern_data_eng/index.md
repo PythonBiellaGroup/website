@@ -6,7 +6,7 @@ Nella seconda parte viene presentato un progetto sviluppato da loro con una arch
 ## Struttura del percorso
 
 1. Stato dell'arte e Apache Airflow
-2. Progetto con apache airflow e stremlit
+2. Progetto con Apache Airflow e Straemlit
 
 ## Materiale
 

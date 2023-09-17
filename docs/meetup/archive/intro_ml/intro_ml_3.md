@@ -15,7 +15,7 @@ In questa terza serata dedicata al Machine Learning con Federico Angaramo, utili
 * Scikit-learn - Dimensionality reduction
 * Scikit-learn - Kmeans clustering
 
-### Materiale
+## Materiale
 
 📚 Github:
 [https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoIntroML](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoIntroML)
@@ -26,6 +26,6 @@ In questa terza serata dedicata al Machine Learning con Federico Angaramo, utili
 📐 Libreria plot con suggerimento valore corretto per Elbow:
 [https://www.scikit-yb.org/en/latest/api/cluster/elbow.html?highlight=elbow](https://www.scikit-yb.org/en/latest/api/cluster/elbow.html?highlight=elbow)
 
-### Video del meetup
+## Video del meetup
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Qfb0qkxjXnw?si=MtanO_wufhSuxBos" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

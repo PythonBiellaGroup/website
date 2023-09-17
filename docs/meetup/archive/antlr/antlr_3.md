@@ -12,7 +12,7 @@ Partendo dalle differenze tra interprete e compilatori e da alcuni concetti "flu
 
 Alessio è un membro di Strumenta, specializzata in servizi di ingegneria linguistica per la creazione di DSL, linguaggi di programmazione, editor, compilatori, interpreti, debugger e simulatori.
 
-### Materiale
+## Materiale
 
 📚 Repository:
 
@@ -26,5 +26,5 @@ Alessio è un membro di Strumenta, specializzata in servizi di ingegneria lingui
 
 ➡️ [https://strumenta.community/](https://strumenta.community/)
 
-### Video del meetup
+## Video del meetup
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ceMv9pGs4UA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

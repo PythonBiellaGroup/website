@@ -1,5 +1,5 @@
 ---
-title: Introduzione a databricks
+title: Introduzione a Databricks
 disquis: PythonBiellaGroup
 tags:
     - pyspark

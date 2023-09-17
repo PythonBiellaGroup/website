@@ -12,7 +12,7 @@ Questa è la prima di tre serate sul fantastico mondo dei compilatori ed interpr
 
 Alessio lavora in Strumenta, specializzata in servizi di ingegneria linguistica per la creazione di DSL, linguaggi di programmazione, editor, compilatori, interpreti, debugger e simulatori.
 
-### Materiale
+## Materiale
 
 📚 Repository:
 
@@ -34,6 +34,6 @@ Alessio lavora in Strumenta, specializzata in servizi di ingegneria linguistica 
 
 ➡️ [https://github.com/antlr/grammars-v4](https://github.com/antlr/grammars-v4)
 
-### Video del meetup
+## Video del meetup
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QI0uj7G8b6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -3,4 +3,4 @@ title: Learning
 disquis: PythonBiellaGroup
 ---
 
-In questa sezione viene condivisa la conoscenza che viene raccolta dalla community rispetto a librerie, metodi, tecnologie e buone pratiche.
+In this section, knowledge collected by the community regarding libraries, methods, technologies, and best practices is shared.

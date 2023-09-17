@@ -23,11 +23,11 @@ Seconda parte:
 * Raggruppamenti
 * Pivot
 
-### Materiale
+## Materiale
 
 📚 Github:
 [https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Pandas/02](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Pandas/02)
 
-### Video del meetup
+## Video del meetup
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OqvaZsYXAdk?si=GJmp4i5OetXxGTmV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -1,5 +1,5 @@
 ---
-title: Partecipate as a speaker
+title: Participate as a speaker
 disquis: PythonBiellaGroup
 tags:
     - speaker

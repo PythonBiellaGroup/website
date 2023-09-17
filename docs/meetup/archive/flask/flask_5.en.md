@@ -1,0 +1,21 @@
+---
+title: Application evolution
+disquis: PythonBiellaGroup
+tags:
+    - flask
+    - orm
+    - webserver
+---
+
+## Intro
+
+Evolution of the application created in the previous sessions with a review and application of the concepts used in the previous sessions.
+
+## Material
+
+📚 Github:
+[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione5](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione5)
+
+## Meetup video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-K3L0QkTs_4?si=IAh_0_Kgvw3BqFWD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

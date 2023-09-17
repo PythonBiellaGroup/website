@@ -16,11 +16,11 @@ In questa prima serata dedicata al Machine Learning con Federico Angaramo, dopo 
 * Refresh di Numpy e Pandas
 * Scikit-learn
 
-### Materiale
+## Materiale
 
 📚 Github:
 [https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoIntroML](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoIntroML)
 
-### Video del meetup
+## Video del meetup
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iqR9agGNVy4?si=Q9nVXAaO67naTZMW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -21,7 +21,7 @@ Vuoi imparare a realizzare dei piccoli giochi?
 
 ## Bonus
 
-Goditi la nostra intervista a Daniel Pope, creatore di PyGameZero and wasabi2d. 
+Goditi la nostra intervista a Daniel Pope, creatore di PyGameZero e wasabi2d. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OXWRhpfB7mQ?si=YnTtEiIXESai6lDL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

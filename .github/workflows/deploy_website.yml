@@ -46,6 +46,11 @@ jobs:
         steps:
             - name: Checkout
               uses: actions/checkout@v3
+            - name: Set Google Analytics Key
+              env:
+                  GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
+              run: |
+                  echo "GOOGLE_ANALYTICS_KEY=$GOOGLE_ANALYTICS_KEY" >> $GITHUB_ENV
             - name: Configure safe github directory
               shell: bash
               run: git config --global --add safe.directory /__w/website/website

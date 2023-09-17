@@ -17,11 +17,11 @@ In questa seconda serata dedicata al Machine Learning con Federico Angaramo, uti
 * Scikit-learn - Verifica stabilità modello
 * Scikit-learn - Regression tuning
 
-### Materiale
+## Materiale
 
 📚 Github:
 [https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoIntroML](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoIntroML)
 
-### Video del meetup
+## Video del meetup
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DdKshoBYwOg?si=5CoJVis6SwU_CsLL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

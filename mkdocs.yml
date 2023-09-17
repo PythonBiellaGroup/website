@@ -180,8 +180,8 @@ nav:
     - Speakers:
           - speakers/index.md
           - Guida speaker: speakers/speaker_guide.md
-          #- Blog:
-          #        - blog/index.md
+                  #- Blog:
+                  #        - blog/index.md
 
 # Configuration
 theme:
@@ -308,7 +308,95 @@ plugins:
                 default: false
                 site_name: PythonBiellaGroup website
                 site_description: PythonBiellaGroup official website with all the guides, information, materials, and resource for the community.
+                nav_translations:
+                    Guida speaker: Speaker guide
+                    Meetup passati: Previous meetup
+                    Parser e ANTLR4: Parser and ANTLR4
+                    Dal parser all'interpreter: From parser to interpreter
+                    Parser, intepreter e compilatori: Parser, intepreter and compiler
+                    Calcolo parallelo e distribuito: Parallel and distributed computing
+                    Comunicazione tra i processi: Communication between processes
+                    Librerie python Dask, Modin e Celery: Dask, Modin and Celery libraries
+                    Debito tecnico e architectural smell: Technical debt and architectural smell
+                    Introduzione a Django: Introduction to Django
+                    Modelli Django: Django models
+                    Autenticazione Django e model form: Django authentication and model form
+                    Concetti avanzati: Advanced concepts
+                    Le prime API con approccio TDD: First API with TDD approach
+                    Back-end con FastAPI e SQLModel: Back-end with FastAPI and SQLModel
+                    Async, OAuth2, profiling e dockerizzazione: Async, OAuth2, profiling and dockerization
+                    Intro a Flask: Intro to Flask
+                    Jinja avanzato e forms: Advanced Jinja and forms
+                    Flask con database: Flask with database
+                    Evoluzioni dell' app: App evolution
+                    Blueprints, refactoring e test automatici: Blueprints, refactoring and automated testing
+                    Autenticazione: Authentication
+                    Profili, ruoli e blog: Profiles, roles and blog
+                    Heroku e docker - deploy: Heroku and docker - deploy
+                    Intro, demo e primi passi: Introduction, demo, and first steps
+                    Bag, Structure, ORM e inizio progetto: Bag, Structure, ORM, and project start
+                    Risorse UI, lookup tables e formula columns: UI resources, lookup tables, and formula columns
+                    Altre risorse UI, import dati, tabelle gerarchiche, stampe, utenti, multi-tenant: Other UI resources, data import, hierarchical tables,
+                        printing, users, multi-tenancy
+                    Utenti, Staff e Donatori in ottica multi-tenant: Users, Staff, and Donors in a multi-tenant perspective
+                    Gestione delle eccezioni: Exception handling
+                    Gioco dell' Orso: Bear and hunters game
+                    Parte 1: Part 1
+                    Parte 2: Part 2
+                    Git base: Git basics
+                    GraphQL e Strawberry: GraphQL and Strawberry
+                    Introduzione al Machine Learning: Introduction to Machine Learning
+                    Introduzione al Machine Learning e a Scikit-Learn: Introduction to Machine Learning and Scikit-Learn
+                    Scikit-Learn pipeline, metriche e regressione lineare: Scikit-Learn pipeline, metrics, and linear regression
+                    Introduzione al Deep learning: Introduction to Deep Learning
+                    Introduzione a Deep Learning e TensorFlow: Introduction to Deep Learning and TensorFlow
+                    Reti Neurali per le immagini: Neural Networks for images
+                    Reti Neurali Ricorrenti: Recurrent Neural Networks
+                    Introduzione a Kubernetes: Introduction to Kubernetes
+                    Introduzione a Databricks: Introduction to Databricks
+                    Imparare Python giocando: Learning Python through games
+                    Le basi di Python: Python basics
+                    Creazione giochi: Creating games
+                    Review e creazione di giochi complessi: Review and creation of complex games
+                    Manipolazione del testo: Text manipulation
+                    Intro espressioni regolari: Introduction to regular expressions
+                    Libreria regex in python: Regex library in Python
+                    Pipeline di analisi testo e Spacy: Text analysis pipeline and Spacy
+                    Un progetto di analisi e classificazione di testi con ML: A text analysis and classification project with ML
+                    Stato dell'arte e Apache Airflow: State of the art and Apache Airflow
+                    Progetto: Project
+                    Strumenti, librerie, buone pratiche per sviluppare in Python: Tools, libraries, best practices for Python development
+                    Poetry, PDM, Ruff e altri strumenti utili: Poetry, PDM, Ruff, and other useful tools
+                    Introduzione MLOps: Introduction to MLOps
+                    MLOps su AWS: MLOps on AWS
+                    Introduzione a Pytorch: Introduction to Pytorch
+                    Introduzione a Hydra: Introduction to Hydra
+                    Pandas base: Pandas basics
+                    Intro e modulo csv: Introduction and csv module
+                    Operazioni con i dataframe: Operations with dataframes
+                    Serie ed esercitazioni: Series and exercises
+                    Live coding ed approfondimenti: Live coding and in-depth discussions
+                    Approfondimenti, indexing, filtri, multiIndexing: In-depth, indexing, filters, multiIndexing
+                    Percorso dati: Data analysis learning path
+                    Pandas - manipolazione dei dati: Pandas - data manipulation
+                    Strumenti per la visualizzazione dei dati: Tools for data visualization
+                    Strumenti per l'ingegnerizzazione dei dati: Tools for data engineering
+                    Strumenti per il passaggio in produzione: Tools for production deployment
+                    Intro a pygame: Introduction to pygame
+                    Sprites, collisioni e simulazioni: Sprites, collisions, and simulations
+                    Animazioni, camera e gravità: Animations, camera, and gravity
+                    Python base: Basic Python
+                    Concetti di base e tipi primitivi: Basic concepts and primitive types
+                    Controlli di flusso, iterazioni e funzioni: Flow control, iterations, and functions
+                    OOP base: Basic OOP
+                    OOP avanzato: Advanced OOP
+                    Concetti teorici e costruzione ambiente: Theoretical concepts and environment setup
+                    Sessione pratica e coding: Practical session and coding
+                    Testare e documentare i dati: Testing and documenting data
+                    Beautiful soup e requests: Beautiful Soup and Requests
+                    Selenium e Scrapy: Selenium and Scrapy
 
+    - git-revision-date-localized
     - optimize:
           concurrency: 2
           optimize_png: true
@@ -361,9 +449,9 @@ extra:
         title: Cookie consent
         description: >-
             We use cookies to recognize your repeated visits and preferences, as well
-            as to measure the effectiveness of our documentation and whether users
+            as to measure the effectiveness of our site and whether users
             find what they're searching for. With your consent, you're helping us to
-            make our documentation better.
+            make our site better.
     alternate:
         - name: Italian
           link: /

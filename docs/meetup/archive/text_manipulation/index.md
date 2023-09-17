@@ -4,7 +4,7 @@ Benvenuti a questo percorso dedicato all'arte delle espressioni regolari e all'a
 
 ## Struttura del percorso
 1. Introduzione ed espressioni regolari
-2. Modulo regex ed esercizi con le espressioni regolari
+2. Modulo `regex` ed esercizi con le espressioni regolari
 3. Pipeline Analisi Testo e libreria spaCy
 
 ## Materiale

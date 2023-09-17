@@ -2,8 +2,9 @@
 
 Serie di 4 serate che hanno come obiettivo lo sviluppo di una semplice soluzione di analisi dei dati partendo da un dataset open source (Rome Airbnb Data). Le serate saranno tenute da:
 
-Andrea Melloncelli
-Andrea Guzzo
+* Andrea Melloncelli
+* Andrea Guzzo
+
 Lo scopo della serata è quella di simulare un processo di analisi su un determinato dataset, lavorando in team partendo dalle analisi esplorative fino alla messa in produzione di una dashboard interattiva
 
 Link al dataset e alla dashboard di riferimento: Inside Airbnb Rome Dataset and Dashboard

@@ -14,11 +14,11 @@ Vedremo inoltre esempi pratici e una soluzione completa in via di sviluppo a mic
 
 Serate a cura di Andrea Amorosi.
 
-### Materiale
+## Materiale
 
 📚 Github:
 [https://github.com/PythonBiellaGroup/Introduzione-a-Docker](https://github.com/PythonBiellaGroup/Introduzione-a-Docker)
 
-### Video del meetup
+## Video del meetup
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0Bd3ovUxOJo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

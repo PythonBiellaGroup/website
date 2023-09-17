@@ -13,7 +13,7 @@ Dopo una carrellata sui tipi di problemi che le applicazioni di Language Enginee
 
 Federico è il fondatore di Strumenta, specializzata in servizi di ingegneria linguistica per la creazione di DSL, linguaggi di programmazione, editor, compilatori, interpreti, debugger e simulatori.
 
-### Materiale
+## Materiale
 
 
 📚 Repository:
@@ -40,5 +40,6 @@ Federico è il fondatore di Strumenta, specializzata in servizi di ingegneria li
 
 ➡️ [https://tomassetti.me/antlr-mega-tutorial/](https://tomassetti.me/antlr-mega-tutorial/)
 
-### Video del meetup
+## Video del meetup
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/70RCBzzquOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

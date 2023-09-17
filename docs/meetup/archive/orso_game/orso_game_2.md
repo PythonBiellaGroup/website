@@ -14,8 +14,8 @@ In questo meetup, guidato da Angelo Huang, il focus sarà sulla modellazione dei
 Vediamo nel dettaglio l'implementazione della AI nel gioco e i ragionamenti che sono stati implementati.
 Per finire, Angelo ci mostra la dimostrazione della correttezza dell'algoritmo.
 
-### Materiale
+## Materiale
 📚 Github: [https://github.com/Burlesco70/BearAndHuntersGame](https://github.com/Burlesco70/BearAndHuntersGame)
 
-### Video del meetup
+## Video del meetup
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nGkoyunsDPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -15,11 +15,11 @@ Abbiamo visto anche visto come utilizzare il modulo logging e come configurare p
 * SQLModel stand-alone
 * Live coding: SQLModel
 
-### Materiale
+## Materiale
 
 📚 Github:
 [https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/FastAPI/03](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/FastAPI/03)
 
-### Video del meetup
+## Video del meetup
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/P_urlT9_rBw?si=f277Mn0Hhj0fzeZD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

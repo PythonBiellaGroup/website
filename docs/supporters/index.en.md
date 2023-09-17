@@ -15,7 +15,7 @@ Of course, the PythonBiellaGroup community always participates. Will we see you 
 
 ![Image title](../static/images/supporters/pymi_logo.jpg)
 
-[Python Milano](https://milano.python.it/) is the top-notch community in Milan for Python enthusiasts. In addition to the meetings and events offered by the community, we also highlight [Intervista Pythonista](https://intervistapythonista.com/), a podcast that gives a voice to all Italian Pythonistas. You can find it on all platforms!
+[Python Milano](https://milano.python.it/) is the top-notch community in Milan for Python enthusiasts. In addition to the meetings and events offered by the community, we also highlight [Intervista Pythonista](https://intervistapythonista.com/), a podcast that gives a voice to all italian pythonistas. You can find it on all platforms!
 
 ---
 
@@ -51,6 +51,7 @@ You can also find them at [Pycon](https://djangogirls.org/en/pyconitalia/)
 [SellaLab](https://sellalab.com/) is an innovation platform, born within the Sella Group, aimed at startups and businesses with the goal of supporting their growth, open innovation processes, and digital transformation. We often organize events together with them in their beautiful spaces.
 
 One of the most important ones is undoubtedly the **BiDigital**. Don't miss it!
+
 ---
 
 ### 👾 **Genropy**

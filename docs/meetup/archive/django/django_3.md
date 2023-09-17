@@ -16,6 +16,6 @@ In questa serata, sempre in live coding, approfondimenti sull'autenticazione, su
 * Django REST Framework
 * Django in Produzione
 
-### Video del meetup
+## Video del meetup
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zT4JX5HHMuE?si=btMgHqXdxtJcJSIx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

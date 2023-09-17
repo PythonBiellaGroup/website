@@ -19,12 +19,12 @@ L'introduzione di elementi nuovi nell'applicazione è stata occasione per spiega
 * Live coding BD - Tabella Gruppi Sanguigni (Lookup tables)
 * Live coding BD - Tabella Donatori (Formula columns)
 
-### Materiale
+## Materiale
 
 📚 Github:
 [https://github.com/PythonBiellaGroup/LearnGenRopy](https://github.com/PythonBiellaGroup/LearnGenRopy)
 
 
-### Video del meetup
+## Video del meetup
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hTo-JV-2hHM?si=VT6vNv9mQJOfLbg1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
