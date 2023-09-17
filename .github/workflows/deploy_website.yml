@@ -3,9 +3,9 @@ name: deploy-website
 on:
     release:
         types: [published]
-  # push:
-  #   branches:
-  #     - main
+    push:
+        branches:
+            - main
 permissions:
     contents: write
     pages: write # to deploy to Pages
@@ -26,10 +26,13 @@ jobs:
         steps:
             - name: Checkout code
               uses: actions/checkout@v2
-            - name: Install dependencies
+            - name: Configure safe github directory
               shell: bash
-              run: poetry run pre-commit install
-            - name: Run pre-commit checks
+              run: git config --global --add safe.directory /__w/website/website
+            - name: Install pre-commit check
+              shell: bash
+              run: poetry install --only dev --sync
+            - name: Run pre-commit check
               shell: bash
               run: poetry run pre-commit run -a
     deploy:
