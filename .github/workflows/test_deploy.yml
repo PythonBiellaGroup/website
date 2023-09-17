@@ -38,6 +38,7 @@ jobs:
             - name: Install pre-commit check
               shell: bash
               run: poetry install --only dev --sync
+            - uses: pre-commit/action@v3.0.0
             - name: Run pre-commit check
               shell: bash
               run: poetry run pre-commit run -a
