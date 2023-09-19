@@ -1,3 +1,7 @@
+---
+title: Documentare il codice
+disquis: PythonBiellaGroup
+---
 
 ## Perchè documentare il codice è importante?
 E' fondamentale documentare per quanto possibile il proprio codice. Perché?
@@ -299,7 +303,3 @@ confluence_server_url = xxxxxx
 confluence_server_user = xxxxxx
 confluence_server_pass = xxxxxx
 ```
-
-
----
-### MKDocs

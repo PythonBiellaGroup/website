@@ -1,3 +1,7 @@
+---
+title: Gestire diverse versioni di Python
+disquis: PythonBiellaGroup
+---
 
 # Gestire diverse versioni di Python
 In questa prima sezione vediamo come gestire le proprie installazioni di python all’interno della macchina sfruttando: **pyenv**

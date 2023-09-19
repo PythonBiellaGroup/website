@@ -1,3 +1,9 @@
+---
+title: Gestire le dipendenze in python
+disquis: PythonBiellaGroup
+---
+## Intro
+
 Per gestire le dipendenze da Python 3.3 esiste un built-in module chiamato venv che consente di creare dei virtualenv all’interno del vostro progetto.
 
 Questa ovviamente è la “vecchia maniera” però è sempre funzionante

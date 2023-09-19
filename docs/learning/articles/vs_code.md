@@ -1,3 +1,9 @@
+---
+title: VSCode
+disquis: PythonBiellaGroup
+---
+## Intro
+
 Un code editor è lo strumento essenziale per ogni programmatore e lo strumento con cui spendiamo la maggior parte del tempo.
 
 La scelta di un editor con il quale scrivere codice è spesso un tema molto sensibile che suscita spesso molte diatribe tra i programmatori.

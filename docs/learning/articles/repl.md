@@ -1,3 +1,8 @@
+---
+title: REPL
+disquis: PythonBiellaGroup
+---
+
 REPL vuol dire: **READ** - **EVAL** - **PRINT** - **LOOP**.
 
 Si riferisce a tutti gli strumenti che consentono di aprire una versione di Python daterminale e in modo dinamico provare codice e vederne subito il risultato in modo interattivo.

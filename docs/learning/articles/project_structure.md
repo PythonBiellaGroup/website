@@ -1,3 +1,7 @@
+---
+title: Strutturare un progetto in python
+disquis: PythonBiellaGroup
+---
 
 # Struttura di progetto
 

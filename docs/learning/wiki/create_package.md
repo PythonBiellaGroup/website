@@ -1,3 +1,8 @@
+---
+title: Creare un python package
+disquis: PythonBiellaGroup
+---
+
 # Creare un package
 
 ## Cosa sono i pacchetti di python?

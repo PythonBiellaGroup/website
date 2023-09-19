@@ -180,8 +180,8 @@ nav:
     - Speakers:
           - speakers/index.md
           - Guida speaker: speakers/speaker_guide.md
-                  #- Blog:
-                  #        - blog/index.md
+                      #- Blog:
+                      #        - blog/index.md
 
 # Configuration
 theme:
@@ -222,14 +222,14 @@ theme:
         text: Roboto
         code: Roboto mono
     palette:
-                # Light mode
+            # Light mode
         - scheme: default
           primary: indigo
           accent: indigo
           toggle:
               icon: material/toggle-switch
               name: Switch to dark mode
-                                  # Dark mode
+                          # Dark mode
         - scheme: slate
           primary: red
           accent: red
@@ -395,6 +395,11 @@ plugins:
                     Testare e documentare i dati: Testing and documenting data
                     Beautiful soup e requests: Beautiful Soup and Requests
                     Selenium e Scrapy: Selenium and Scrapy
+                    Articoli: Articles
+                    Gestire dipendenze: Manage dependencies
+                    Gestire diverse versioni di python: Manage multiple python versions
+                    Struttura di progetto: Setup a python project
+                    Documentare il codice: Documenting code
 
     - git-revision-date-localized
     - optimize:
@@ -409,32 +414,32 @@ plugins:
           cache_dir: .cache/plugins/optimize
     - meta:
           meta_file: '**/.meta.yml'
-                          # - blog
-                          #         enabled: true
-                          #         blog_dir: blog
-                          #         blog_toc: true
-                          #         post_date_format: long
-                          #         post_url_date_format: yyyy-MM-dd
-                          #         # post_url_format: "{date}/{slug}/{file}"
-                          #         # post_slugify_separator: "-"
-                          #         post_readtime: true
-                          #         post_readtime_words_per_minute: 265
-                          #         archive: true
-                          #         #   archive_name: Archive
-                          #         archive_date_format: MMMM yyyy
-                          #         #   archive_url_date_format: yyyy/MM
-                          #         #   archive_toc: true
-                          #         categories: true
-                          #         categories_name: Categories
-                          #         categories_toc: true
-                          #         #   pagination: true
-                          #         #   pagination_per_page: 5
-                          #         # pagination_url_format: "page/{page}"
-                          #         #   pagination_keep_content: true
-                          #         authors: true
-                          #         # authors_file: .authors.yml
-                          #         draft: true
-                          #         draft_on_serve: true
+                    # - blog
+                    #         enabled: true
+                    #         blog_dir: blog
+                    #         blog_toc: true
+                    #         post_date_format: long
+                    #         post_url_date_format: yyyy-MM-dd
+                    #         # post_url_format: "{date}/{slug}/{file}"
+                    #         # post_slugify_separator: "-"
+                    #         post_readtime: true
+                    #         post_readtime_words_per_minute: 265
+                    #         archive: true
+                    #         #   archive_name: Archive
+                    #         archive_date_format: MMMM yyyy
+                    #         #   archive_url_date_format: yyyy/MM
+                    #         #   archive_toc: true
+                    #         categories: true
+                    #         categories_name: Categories
+                    #         categories_toc: true
+                    #         #   pagination: true
+                    #         #   pagination_per_page: 5
+                    #         # pagination_url_format: "page/{page}"
+                    #         #   pagination_keep_content: true
+                    #         authors: true
+                    #         # authors_file: .authors.yml
+                    #         draft: true
+                    #         draft_on_serve: true
     - rss:
           match_path: blog/posts/.*
           date_from_meta:

@@ -1,3 +1,8 @@
+---
+title: Code style
+disquis: PythonBiellaGroup
+---
+
 Quando si lavora su progetti e si conivide il codice con un team di lavoro è importante cercare di mantenere uno stesso stile di scrittura del codice in modo da uniformarsi ed evitare di fraintendersi.
 
 In Python esistono:
