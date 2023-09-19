@@ -44,7 +44,7 @@ docs_launch_normal: ## Launch mkdocs documentation locally
 	mkdocs serve -v --config-file mkdocs.yml
 
 docs_build: ## Build mkdocs for local test
-	@poetry run mkdocs build --clean --quiet --config-file mkdocs.insiders.yml
+	@poetry run mkdocs build --clean --quiet --config-file mkdocs.yml
 
 docs_launch_local: ## Launch mkdocs documentation locally with the local building artefacts
 	@poetry run mkdocs build --clean --quiet --config-file mkdocs.yml
