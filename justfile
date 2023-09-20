@@ -99,21 +99,21 @@ docs_launch_normal:
 
 # Build mkdocs for local test
 docs_build:
-	poetry run mkdocs build --clean --quiet --config-file mkdocs.insiders.yml
+	poetry run mkdocs build --clean --quiet --config-file mkdocs.yml
 
 # Launch mkdocs documentation locally with the local building artefacts
 docs_launch_local:
-	poetry run mkdocs build --clean --quiet --config-file mkdocs.insiders.yml
+	poetry run mkdocs build --clean --quiet --config-file mkdocs.yml
 	poetry run mkdocs serve -v --dev-addr=0.0.0.0:8000
 
 # Deploy mkdocs documentation to github pages
 docs_deploy:
-	@poetry run mkdocs build --clean --quiet --config-file mkdocs.insiders.yml
+	@poetry run mkdocs build --clean --quiet --config-file mkdocs.yml
 	@poetry run mkdocs gh-deploy --force
 
 # Build mkdocs for official online release
 docs_public:
-	@poetry run mkdocs build -c -v --site-dir public --quiet --config-file mkdocs.insiders.yml
+	@poetry run mkdocs build -c -v --site-dir public --quiet --config-file mkdocs.yml
 
 # create the docker network for the project
 create_network:

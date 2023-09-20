@@ -1,11 +1,11 @@
 ---
 name: deploy-website
 on:
-    release:
-        types: [published]
-    # push:
-    #     branches:
-    #         - develop
+    # release:
+    #     types: [published]
+    push:
+        branches:
+            - develop
 permissions:
     contents: write
     pages: write # to deploy to Pages
@@ -67,13 +67,3 @@ jobs:
             - name: Build mkdocs website inside docker
               shell: bash
               run: make docs_build
-            - name: Setup Pages
-              uses: actions/configure-pages@v3
-            - name: Upload artifact
-              uses: actions/upload-pages-artifact@v2
-              with:
-          # Upload entire repository
-                  path: ./site
-            - name: Deploy to GitHub Pages
-              id: deployment
-              uses: actions/deploy-pages@v2
