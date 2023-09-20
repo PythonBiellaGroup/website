@@ -403,16 +403,16 @@ plugins:
                     Documentare il codice: Documenting code
 
     - git-revision-date-localized
-      # - optimize:
-      #         concurrency: 2
-      #         optimize_png: true
-      #         optimize_png_speed: 10
-      #         optimize_png_strip: true
-      #         optimize_jpg: true
-      #         optimize_jpg_quality: 75
-      #         optimize_jpg_progressive: true
-      #         cache: true
-      #         cache_dir: .cache/plugins/optimize
+        # - optimize:
+        #         concurrency: 2
+        #         optimize_png: true
+        #         optimize_png_speed: 10
+        #         optimize_png_strip: true
+        #         optimize_jpg: true
+        #         optimize_jpg_quality: 75
+        #         optimize_jpg_progressive: true
+        #         cache: true
+        #         cache_dir: .cache/plugins/optimize
     - meta:
           meta_file: '**/.meta.yml'
                     # - blog
@@ -468,7 +468,7 @@ extra:
     disqus: PythonBiellaGroup
     annotate:
         json: [.s2]
-    google_analytics: !ENV GOOGLE_ANALYTICS_KEY
+      #     google_analytics: !ENV GOOGLE_ANALYTICS_KEY
     analytics:
         provider: google
         property: !ENV GOOGLE_ANALYTICS_KEY

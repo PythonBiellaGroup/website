@@ -18,8 +18,6 @@ tags:
 👨‍💻 **PythonBiellaGroup** è una community legata a Python che si pone l’obiettivo di studiare e apprendere l’omonimo linguaggio di programmazione in tutte le sue accezioni.
 
 
-var: {{google_analytics}}
-
 ## 🚀 Materiale
 Crediamo che la conoscenza debba essere condivisa ed é per questo che condividiamo tutto il materiale (codice,notebook,slides,esercizi) che viene proposto durante i meetup sul nostro [GitHub](https://github.com/PythonBiellaGroup) in modo che possa essere accessibile a chiunque
 

@@ -5,7 +5,7 @@ on:
     #     types: [published]
     push:
         branches:
-            - develop
+            - main
 permissions:
     contents: write
     pages: write # to deploy to Pages
@@ -35,7 +35,7 @@ jobs:
             - name: Run pre-commit check
               shell: bash
               run: poetry run pre-commit run -a
-    deploy:
+    check_build_website:
         needs: pre-commit-check
         runs-on: ubuntu-latest
         if: success()
@@ -72,11 +72,11 @@ jobs:
             - name: Setup Pages
               uses: actions/configure-pages@v3
             # Deploy instructions
-            - name: Upload artifact
-              uses: actions/upload-pages-artifact@v2
-              with:
-          # Upload entire repository
-                  path: ./site
-            - name: Deploy to GitHub Pages
-              id: deployment
-              uses: actions/deploy-pages@v2
+            # - name: Upload artifact
+            #   uses: actions/upload-pages-artifact@v2
+            #   with:
+            # Upload entire repository
+            #       path: ./site
+            # - name: Deploy to GitHub Pages
+            #   id: deployment
+            #   uses: actions/deploy-pages@v2
