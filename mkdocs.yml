@@ -475,8 +475,7 @@ extra:
       google_analytics: !ENV GOOGLE_ANALYTICS_KEY
       analytics:
             provider: google
-            # property: !ENV GOOGLE_ANALYTICS_KEY
-            property: !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+            property: !ENV GOOGLE_ANALYTICS_KEY
       generator: false
       social:
             - icon: fontawesome/solid/paper-plane
