@@ -1,6 +1,8 @@
 ---
 title: Codice di condotta
 disquis: PythonBiellaGroup
+hide:
+  - feedback
 ---
 
 # Codice di condotta

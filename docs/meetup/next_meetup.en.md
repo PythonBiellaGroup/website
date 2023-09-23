@@ -1,6 +1,8 @@
 ---
 title: Next events
 disquis: PythonBiellaGroup
+hide:
+  - feedback
 ---
 
 # Next events

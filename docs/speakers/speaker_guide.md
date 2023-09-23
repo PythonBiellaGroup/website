@@ -3,6 +3,8 @@ title: Guida speaker
 disquis: PythonBiellaGroup
 tags:
     - speaker
+hide:
+  - feedback
 ---
 
 # Guida per lo speaker perfetto

@@ -12,7 +12,7 @@ All'interno del percorso potrai trovare:
 
 * [Esempi pratici](https://github.com/PythonBiellaGroup/PythonBase/tree/main/esempi): alcuni esempi pratici di codice realizzato da noi o a altre persone che hanno svolto esercizi e progetti
 
-Per qualsiasi domanda, dubbio o perplessità contattaci all'interno dei nostri [canali di comunicazione](https://linktr.ee/PythonBiellaGroup)
+Per qualsiasi domanda, dubbio o perplessità contattaci all'interno dei nostri [canali di comunicazione](https://info.pythonbiellagroup.it/)
 
 Speriamo con tutto il cuore che questo percorso possa esserti utile ed accompagnarti in questo bellissimo viaggio alla scoperta di Python e della programmazione.
 

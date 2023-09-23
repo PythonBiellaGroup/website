@@ -1,5 +1,5 @@
 ---
-name: deploy-website
+name: test-deploy-website
 on:
     # release:
     #     types: [published]

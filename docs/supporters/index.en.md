@@ -1,3 +1,10 @@
+---
+title: Supporters
+disquis: PythonBiellaGroup
+hide:
+  - feedback
+---
+
 # Supporters
 
 **PythonBiellaGroup** is a highly active community throughout the Italian territory, and in this section, we want to thank all the friends who support us and whom we support, with whom we have the pleasure of sharing interests, initiatives, and activities.

@@ -3,6 +3,8 @@ title: Partecipa come speaker
 disquis: PythonBiellaGroup
 tags:
     - speaker
+hide:
+  - feedback
 ---
 
 # Vuoi partecipare come speaker?
@@ -14,7 +16,7 @@ Siamo sempre entusiasti di avere nuovi speaker per poter imparare cose nuove e p
 * Hai una startup che lavora nel mondo IT e vorresti mostrarci cosa fate?
 * Hai un approccio innovativo ad un problema o tematica in particolare?
 
-Proponiti come speaker contattandoci [Qui](https://linktr.ee/PythonBiellaGroup)
+Proponiti come speaker contattandoci [Qui](https://info.pythonbiellagroup.it/)
 
 
 

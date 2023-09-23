@@ -1,6 +1,6 @@
 # Django
 
-Eccoci per una nuova percorso di Python Biella Group per scoprire insieme Django!
+Eccoci per una nuovo percorso di Python Biella Group per scoprire insieme Django!
 
 Uno dei più importanti web framework su Python che consente di realizzare pagine web e applicativi web con il paradigma model-view-template.
 
