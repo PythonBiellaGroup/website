@@ -1,4 +1,35 @@
-# PythonBiellaGroup official website
+<a name="readme-top"></a>
+<div align="center">
+
+[![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url]
+</div>
+<div align="center">
+
+  <h1 align="center">Python Biella Group: website</h1>
+  <p align="center">
+    <h3> Official community website</h3>
+    <br />
+    <a href="https://dev.pythonbiellagroup.it"><strong> &#9889 Explore the website</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/PythonBiellaGroup/website/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/PythonBiellaGroup/website/pulls">Request Feature</a>
+  </p>
+</div>
+
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#intro">Intro</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#how-to-maintain">How to maintain</a></li>
+    <li><a href="#other-informations-and-documentation">Other informations and documentation</a></li>
+  </ol>
+</details>
+
+## Intro
 
 Official PythonBiellaGroup community website (WORK IN PROGRESS)
 
@@ -12,28 +43,30 @@ In the PBG website you can find:
 2. List of all the past meetups
 3. A reference, information and guide about python and tools
 4. A blog with all the news about Python and the community
+## Roadmap
 
-### Next step
+- [x] Multilingual support
+- [x] Identify structure of the website sections
+  - [x] Home
+  - [x] Meetup (list of all meetup with video,keywords,contents) with tag
+  - [x] Wiki and articles section
+  - [x] Next events with calendar
+  - [x] Supporters section
+  - [x] Speakers section         
+- [x] Learning section
+- [x] Quick feedback
+- [x] Cookies request form   
+- [x] Migrate contents from old site
+- [ ] Template folder for contents
+- [ ] Blog section
+- [ ] Comments section for the blog articles
+- [ ] New home page
+- [ ] New 404 page
+- [ ] New CSS to improve design
 
-1. Supporto multilingua
-2. Capire alberatura contenuti con nuove sezioni
-   1. Home
-   2. Meetup (elenco di tutti i meetup con video embedded, keywords, contenuti) in modo che siano
-   facilmente ricercabili e utilizzabili. In ordine dal più nuovo al più vecchio.
-   3. Risorse utili
-   4. Learning
-   5. About
-      1. Now (what is happening right now in the Python Community)
-      2. Contribuisci
-      3. Contattaci (capire se su mkdocs si può fare un form per i contatti)
-3. Inserire articoli del vecchio sito
-4. Cartella template con esempi di contenuti che si possono inserire
-5. Nuova home page
-6. Nuova 404 page
-7. Nuovo css con abbellimenti grafici
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## How to maintain
-
 ### Requirements
 
 1. Remember to install the requirements for mkdocs plugins using brew installer if you are on MacOS
@@ -73,7 +106,9 @@ This credentials are used to publish the website, use `mkdocs-material-insight` 
 
 1. Remember to install `poetry` because the python libraries and dependencies are managed with it.
 
-### Testing and developing (launching the project)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Testing and developing
 
 To launch the project locally you need to:
 
@@ -99,6 +134,8 @@ make docs_build
 ```
 
 Please check the `Makefile` for more informations and commands.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Launching with docker
 
@@ -126,6 +163,8 @@ Remember at the end to logout from docker registry if you are not using it anymo
 docker logout ghcr.io
 ```
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Release a new version of the website
 
 To publish the project you need to make a new `GITHUB RELEASE` going on the [webpage of the project](https://github.com/PythonBiellaGroup/website/releases).
@@ -143,6 +182,8 @@ Please remember to test before following the steps in [Building the project](#ho
 
 Remember also that only the **admins** and **organizer** can make a new release.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Other informations and documentation
 
 ### General link and documentation
@@ -157,7 +198,6 @@ Remember also that only the **admins** and **organizer** can make a new release.
 - [UP24 SDK](https://sdk.up42.com/)
 - [AWS Copilot CLI](https://aws.github.io/copilot-cli/)
 - [Ultrabug](https://github.com/ultrabug/ultrabug.fr)
-- 
 
 ### Mkdocs useful tutorials
 
@@ -172,3 +212,16 @@ Remember also that only the **admins** and **organizer** can make a new release.
 - [Mkdocs macros plugin](https://github.com/fralau/mkdocs_macros_plugin)
 - [Mkdocs redirect](https://github.com/mkdocs/mkdocs-redirects)
 - [Mdocks plus](http://bwmarrin.github.io/MkDocsPlus/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+[contributors-shield]: https://img.shields.io/github/contributors/PythonBiellaGroup/website.svg?style=for-the-badge
+[contributors-url]: https://github.com/PythonBiellaGroup/website/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/PythonBiellaGroup/website.svg?style=for-the-badge
+[forks-url]: https://github.com/PythonBiellaGroup/website/forks
+[stars-shield]: https://img.shields.io/github/stars/PythonBiellaGroup/website.svg?style=for-the-badge
+[stars-url]: https://github.com/PythonBiellaGroup/website/stargazers
+[issues-shield]: https://img.shields.io/github/issues/PythonBiellaGroup/website.svg?style=for-the-badge
+[issues-url]: https://github.com/PythonBiellaGroup/website/issues
+[contacts-shield]: https://img.shields.io/badge/linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white
+[contacts-url]: https://info.pythonbiellagroup.it/

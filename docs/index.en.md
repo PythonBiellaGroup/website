@@ -3,7 +3,7 @@ title: Home
 disquis: PythonBiellaGroup
 hide:
     - path
-    # - navigation
+    - feedback
     - toc
     - tags
 tags:
@@ -31,7 +31,7 @@ Here you can find our [code of conduct](code_conduct.md)
 
 ## ☎️ Contacts
 
-You can find all our contacts, materials, and information on this [link](https://linktr.ee/PythonBiellaGroup)
+You can find all our contacts, materials, and information on this [link](https://info.pythonbiellagroup.it/)
 
 In particular, you can find information about:
 

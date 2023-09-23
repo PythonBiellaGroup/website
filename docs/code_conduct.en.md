@@ -1,6 +1,8 @@
 ---
 title: Code of conduct
 disquis: PythonBiellaGroup
+hide:
+  - feedback
 ---
 
 # Code of Conduct

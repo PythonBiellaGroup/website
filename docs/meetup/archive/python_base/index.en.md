@@ -12,7 +12,7 @@ Within this path, you will find:
 
 * [Practical Examples](https://github.com/PythonBiellaGroup/PythonBase/tree/main/esempi): Some practical code examples created by us or by others who have completed exercises and projects.
 
-For any questions, doubts, or concerns, you can contact us through our [communication channels](https://linktr.ee/PythonBiellaGroup).
+For any questions, doubts, or concerns, you can contact us through our [communication channels](https://info.pythonbiellagroup.it/).
 
 We sincerely hope that this path will be helpful to you and accompany you on this wonderful journey of discovering Python and programming.
 

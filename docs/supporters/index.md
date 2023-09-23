@@ -1,3 +1,10 @@
+---
+title: Supporters
+disquis: PythonBiellaGroup
+hide:
+  - feedback
+---
+
 # Supporters
 
 PythonBiellaGroup é una community molto attiva su tutto il terriorio italiano e in questa sezione vogliamo ringraziare tutti gli amici che ci supportano e che noi supportiamo con i quali abbiamo il piacere di condividere interessi, iniziative e attività.

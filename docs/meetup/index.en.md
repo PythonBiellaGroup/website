@@ -1,6 +1,8 @@
 ---
 title: Meetup
 disquis: PythonBiellaGroup
+hide:
+  - feedback
 ---
 
 # Meetup in a nutshell

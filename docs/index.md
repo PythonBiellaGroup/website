@@ -3,7 +3,7 @@ title: Home
 disquis: PythonBiellaGroup
 hide:
     - path
-    # - navigation
+    - feedback
     - toc
     - tags
 tags:
@@ -33,7 +33,7 @@ Qui puoi trovare il nostro [codice di condotta](code_conduct.md)
 
 ## ☎️ Contatti
 
-Puoi trovare tutti i nostri contatti, materiale e informazioni su questo [link](https://linktr.ee/PythonBiellaGroup)
+Puoi trovare tutti i nostri contatti, materiale e informazioni su questo [link](https://info.pythonbiellagroup.it/)
 
 In particolare puoi trovare informazioni su:
 
