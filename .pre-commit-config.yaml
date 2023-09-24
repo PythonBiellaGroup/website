@@ -21,3 +21,13 @@ repos:
       rev: 0.2.1
       hooks:
           - id: yamlfmt
+
+    - repo: local
+      hooks:
+          - id: mkdocs-build
+            name: mkdocs build
+            entry: poetry run mkdocs
+            args: [build, --clean, --quiet, --config-file, mkdocs.yml]
+            language: system
+            pass_filenames: false
+            types: [python]

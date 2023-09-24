@@ -2,6 +2,9 @@
 <div align="center">
 
 [![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url]
+
+[![A label](https://github.com/<author>/<repo>/actions/workflows/<workflow.yaml>/badge.svg?branch=<your branch>)](https://github.com/<author>/<repo>/actions/workflows/<workflow.yaml>)
+
 </div>
 <div align="center">
 
@@ -31,9 +34,13 @@
 
 ## Intro
 
-Official PythonBiellaGroup community website (WORK IN PROGRESS)
+<p align="left">
+  <a href="https://github.com/PythonBiellaGroup/website/actions"><img
+    src="https://github.com/PythonBiellaGroup/website/workflows/deploy-website/badge.svg?branch=main"
+    alt="Build"
+  /></a>
 
-[![deploy-website](https://github.com/PythonBiellaGroup/website/actions/workflows/deploy_website.yml/badge.svg?branch=main)](https://github.com/PythonBiellaGroup/website/actions/workflows/deploy_website.yml)
+Official PythonBiellaGroup community website (WORK IN PROGRESS)
 
 ## Features
 
@@ -72,7 +79,7 @@ In the PBG website you can find:
 1. Remember to install the requirements for mkdocs plugins using brew installer if you are on MacOS
 
 ```bash
-# On macOss
+# On MacOs
 brew install pngquant
 brew install optipng
 ```

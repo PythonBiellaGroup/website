@@ -1,6 +1,8 @@
 ---
 title: Next events
 disquis: PythonBiellaGroup
+tags:
+    - meetup
 hide:
   - feedback
 ---
