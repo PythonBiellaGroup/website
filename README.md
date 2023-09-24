@@ -3,8 +3,6 @@
 
 [![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url]
 
-[![A label](https://github.com/<author>/<repo>/actions/workflows/<workflow.yaml>/badge.svg?branch=<your branch>)](https://github.com/<author>/<repo>/actions/workflows/<workflow.yaml>)
-
 </div>
 <div align="center">
 
