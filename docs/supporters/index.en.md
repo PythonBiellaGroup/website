@@ -1,6 +1,8 @@
 ---
 title: Supporters
 disquis: PythonBiellaGroup
+tags:
+    - supporters
 hide:
   - feedback
 ---

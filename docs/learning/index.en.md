@@ -1,6 +1,8 @@
 ---
 title: Learning
 disquis: PythonBiellaGroup
+tags:
+    - learning
 hide:
   - feedback
 ---
