@@ -2225,4 +2225,4 @@ reference = "pypi.org"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9, !=3.9.7, <3.11"
-content-hash = "820f9ca2ed8dd284d0814eadbf73cffb4db9f3ade6fa7c07c6252160a3f28527"
+content-hash = "5a24dff1b8efb8c9c54839598abc3cd00a2e54033e4a73bd5478a3b323126a1d"
