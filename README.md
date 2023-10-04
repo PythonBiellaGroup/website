@@ -1,4 +1,5 @@
 <a name="readme-top"></a>
+
 <div align="center">
 
 [![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url]
@@ -10,7 +11,7 @@
   <p align="center">
     <h3> Official community website</h3>
     <br />
-    <a href="https://dev.pythonbiellagroup.it"><strong> &#9889 Explore the website</strong></a>
+    <a href="https://pythonbiellagroup.it"><strong> &#9889 Explore the website</strong></a>
     <br />
     <br />
     <a href="https://github.com/PythonBiellaGroup/website/issues">Report Bug</a>
@@ -48,6 +49,7 @@ In the PBG website you can find:
 2. List of all the past meetups
 3. A reference, information and guide about python and tools
 4. A blog with all the news about Python and the community
+
 ## Roadmap
 
 - [x] Multilingual support
@@ -57,10 +59,10 @@ In the PBG website you can find:
   - [x] Wiki and articles section
   - [x] Next events with calendar
   - [x] Supporters section
-  - [x] Speakers section         
+  - [x] Speakers section
 - [x] Learning section
 - [x] Quick feedback
-- [x] Cookies request form   
+- [x] Cookies request form
 - [x] Migrate contents from old site
 - [ ] Template folder for contents
 - [ ] Blog section
@@ -72,6 +74,7 @@ In the PBG website you can find:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## How to maintain
+
 ### Requirements
 
 1. Remember to install the requirements for mkdocs plugins using brew installer if you are on MacOS
@@ -94,7 +97,7 @@ If you are using different operating system, please search online how to do it, 
 WARNING: this libraries are available only for Linux and MacOs. If you are using Windows, setup and use WSL2 or Docker.
 
 1. If you want to test and maintain the project locally, first you need to require the `GITHUB TOKEN` and `GITHUB USERNAME`
-that we are using for the project.
+   that we are using for the project.
 
 Please ask in the telegram group about it if you want to develop and contribute to the project.
 
@@ -120,7 +123,7 @@ To launch the project locally you need to:
 - Install the dependencies with poetry configuring the `mkdocs-material-insight` repository
 
 ```bash
-source .env 
+source .env
 poetry config http-basic.mkdocs ${GHCR_USERNAME} ${GHCR_TOKEN} && poetry install --with dev
 ```
 

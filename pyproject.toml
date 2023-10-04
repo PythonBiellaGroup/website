@@ -7,7 +7,7 @@ authors = [
 ]
 license = "APACHE2"
 readme = "README.md"
-homepage = "https://dev.pythonbiellagroup.it"
+homepage = "https://pythonbiellagroup.it"
 repository = "https://github.com/PythonBiellaGroup/website"
 documentation = "https://github.com/PythonBiellaGroup/website"
 
