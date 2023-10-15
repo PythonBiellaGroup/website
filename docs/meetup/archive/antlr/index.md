@@ -1,6 +1,6 @@
 # Alla scoperta dei linguaggi di programmazione
 
-Benvenuti al nostro percorso base su ANTLR e il language engineering!
+Benvenuti al nostro percorso base su [ANTLR](https://www.linkedin.com/company/antlr/about/) e il language engineering!
 In questa serie di serate cercheremo di rispondere a queste domande:
 
 * Cos'è un linguaggio di programmazione?
@@ -16,4 +16,4 @@ In questa serie di serate cercheremo di rispondere a queste domande:
 
 ## Materiale
 
-📚 Github: [https://github.com/PythonBiellaGroup/ANTLR](https://github.com/PythonBiellaGroup/ANTLR)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/ANTLR)

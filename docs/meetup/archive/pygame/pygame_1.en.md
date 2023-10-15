@@ -17,8 +17,7 @@ In this first part, we will see:
 
 ## Material
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PyGame/lezione1](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PyGame/lezione1)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PyGame/lezione1)
 
 ## Meetup video
 

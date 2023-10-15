@@ -7,15 +7,14 @@ tags:
 
 ## Intro
 
-Together with Alessio Stalla from Strumenta ([https://strumenta.com/](https://strumenta.com/)), we will explore the world of parsers, trying to understand their purpose and how to write them. We will discover that with ANTLR4, all we need to do is write the formal grammar to generate and use our parser. This is the first of three evenings about the fascinating world of compilers and interpreters.
+Together with [Alessio Stalla](https://www.linkedin.com/in/alessiostalla/) from [Strumenta](https://strumenta.com/), we will explore the world of parsers, trying to understand their purpose and how to write them. We will discover that with ANTLR4, all we need to do is write the formal grammar to generate and use our parser. This is the first of three evenings about the fascinating world of compilers and interpreters.
 
 Alessio works at Strumenta, specializing in linguistic engineering services for the creation of DSLs, programming languages, editors, compilers, interpreters, debuggers, and simulators.
 
 ## Material
 
 📚 Repository:
-
-➡️ [https://github.com/PythonBiellaGroup/ANTLR/tree/serata1](https://github.com/PythonBiellaGroup/ANTLR/tree/serata1)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/ANTLR/tree/serata1)
 
 📚 Slides:
 

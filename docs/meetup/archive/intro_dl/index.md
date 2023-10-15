@@ -10,4 +10,4 @@ In questo entusiasmante percorso di tre incontri, Nicola Camardi ci guiderà nel
 
 ## Materiale
 
-📚 Github: [https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/IntroDeepLearning](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/IntroDeepLearning)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/IntroDeepLearning)

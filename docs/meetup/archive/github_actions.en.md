@@ -10,7 +10,7 @@ tags:
 
 In this meetup, we will see how to use GitHub Actions to automate our development workflows. 
 We will also provide some practical examples with Pipem, a tool for monitoring CI/CD pipelines.
-Meeting hosted by Mauro Sala and Luca Anghileri from Pipem.
+Meeting hosted by [Mauro Sala](https://www.linkedin.com/in/maurosala/) and [Luca Anghileri](https://www.linkedin.com/in/luca-anghileri/) from [Pipem](https://pipem.io/).
 
 ## Material
 

@@ -8,10 +8,11 @@ tags:
 ---
 ## Intro
 
-Let's talk about data and how to extract value from a very interesting and particularly complex field. Andrea Grioni, a data scientist at Novartis, will show us how to conduct an analysis on data related to clinical and pharmacological studies and how this process takes place within a pharmaceutical company.
+Let's talk about data and how to extract value from a very interesting and particularly complex field. [Andrea Grioni](https://www.linkedin.com/in/agrioni/), a data scientist at Novartis, will show us how to conduct an analysis on data related to clinical and pharmacological studies and how this process takes place within a pharmaceutical company.
 
 ## Material
-📚 Github: [https://github.com/PythonBiellaGroup/DataScience_Pharma](https://github.com/PythonBiellaGroup/DataScience_Pharma)
+
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/DataScience_Pharma)
 
 ## Meetup video
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gXccqjug0qA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

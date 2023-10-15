@@ -10,6 +10,6 @@ We will see how to manage the environment with pyenv, how to handle dependencies
 
 ## Material
 
-📚 Github:[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/ModernPythonDevelopment](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/ModernPythonDevelopment)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/ModernPythonDevelopment)
 
-📚 Repository Bear cookiecutter: [https://github.com/PythonBiellaGroup/Bear](https://github.com/PythonBiellaGroup/Bear)
+📚 [Repository Bear cookiecutter](https://github.com/PythonBiellaGroup/Bear)

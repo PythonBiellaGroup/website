@@ -7,7 +7,7 @@ tags:
 
 ## Intro
 
-Vediamo insieme ad Alessio Stalla di Strumenta ( [https://strumenta.com/](https://strumenta.com/) ) come generare codice, ovvero come si costruisce un compilatore o un transpiler.
+Vediamo insieme ad [Alessio Stalla](https://www.linkedin.com/in/alessiostalla/) di [Strumenta](https://strumenta.com/) come generare codice, ovvero come si costruisce un compilatore o un transpiler.
 Partendo dalle differenze tra interprete e compilatori e da alcuni concetti "fluidi" che li riguardano, arriveremo alla generazione di codice attraverso un esempio di generatore di codice Python (quindi di alto livello). Vedremo un esempio di generazione tramite templating e un esempio tramite AST, o più precisamente tramite CST, usando la libreria libcst creata e gestita da Istagram.
 
 Alessio è un membro di Strumenta, specializzata in servizi di ingegneria linguistica per la creazione di DSL, linguaggi di programmazione, editor, compilatori, interpreti, debugger e simulatori.
@@ -16,7 +16,8 @@ Alessio è un membro di Strumenta, specializzata in servizi di ingegneria lingui
 
 📚 Repository:
 
-➡️ [https://github.com/PythonBiellaGroup/ANTLR/](https://github.com/PythonBiellaGroup/ANTLR/)
+
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/ANTLR/)
 
 📚 Slides:
 

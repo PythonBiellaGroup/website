@@ -12,12 +12,11 @@ Scopriamo assieme il mondo di docker, docker compose docker swarm....
 Durante questa serata vedremo alcuni concetti teorici semplici e avanzati come networking, storage, immagini, docker-compose, docker swarm e molto altro...Andrea ci racconterà della sua esperienza come Architetto in Be e come utilizza docker tutti i giorni per i suoi progetti.
 Vedremo inoltre esempi pratici e una soluzione completa in via di sviluppo a microservizi.
 
-Serate a cura di Andrea Amorosi.
+Serate a cura di [Andrea Amorosi](https://www.linkedin.com/in/andrea-amorosi-8a09528b/).
 
 ## Materiale
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/Introduzione-a-Docker](https://github.com/PythonBiellaGroup/Introduzione-a-Docker)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/Introduzione-a-Docker)
 
 ## Video del meetup
 

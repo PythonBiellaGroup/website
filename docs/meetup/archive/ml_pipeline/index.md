@@ -35,4 +35,4 @@ Ecco alcune caratteristiche chiave di Hydra:
 
 ## Materiale
 
-📚 Github: [https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/MLPipeline](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/MLPipeline)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/MLPipeline)

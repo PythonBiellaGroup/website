@@ -13,8 +13,7 @@ Un esempio di progetto di classificazione con tecniche di Machine Learning.
 
 ## Materiale
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/AnalisiTesto/Lezione4](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/AnalisiTesto/Lezione4)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/AnalisiTesto/Lezione4)
 
 ## Video del meetup
 

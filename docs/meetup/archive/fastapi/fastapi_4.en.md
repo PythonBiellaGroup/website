@@ -16,8 +16,7 @@ This is the fourth meetup, in which we explored the complete integration of SQLM
 
 ## Material
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/FastAPI/04](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/FastAPI/04)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/FastAPI/04)
 
 ## Meetup video
 

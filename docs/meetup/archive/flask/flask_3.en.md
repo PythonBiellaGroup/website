@@ -13,8 +13,7 @@ Continue exploring Flask by addressing the topic of database persistence: ORM an
 
 ## Material
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione3](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione3)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione3)
 
 ## Meetup video
 

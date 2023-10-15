@@ -34,9 +34,9 @@ In sintesi, FastAPI è una scelta eccellente per gli sviluppatori Python che des
 
 ## Materiale
 
-📚 Github: [https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/FastAPI](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/FastAPI)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/FastAPI)
 
 💻 Progetto Fast Cash:
 Dai un' occhiata a questo interessante progetto sviluppato all'interno della community durante il percorso su FastAPI e se ti va, puoi contribuire a migliorarlo.
 
-[https://github.com/PythonBiellaGroup/FastCash](https://github.com/PythonBiellaGroup/FastCash)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/FastCash)

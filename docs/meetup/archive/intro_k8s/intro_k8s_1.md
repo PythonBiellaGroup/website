@@ -7,18 +7,18 @@ tags:
 
 ## Intro
 
-Scopriamo le origini di Kubernetes e gli strumenti che lo hanno preceduto e reso possibile con Cesare Placanica, TelCo engineer @ Red Hat e organizzatore a Python Milano, nonchè host del podcast Intervista Pythonista.
+Scopriamo le origini di Kubernetes e gli strumenti che lo hanno preceduto e reso possibile con [Cesare Placanica](https://www.linkedin.com/in/cesare-placanica/), TelCo engineer @ Red Hat e organizzatore a Python Milano, nonchè host del podcast Intervista Pythonista.
 
 ## Materiale
 📚 Repo e slides della serata:
 
-➡️ [https://github.com/keobox/biella-night](https://github.com/keobox/biella-night)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/keobox/biella-night)
 
 ➡️ [https://nbviewer.org/github/keobox/biella-night/blob/main/Kubernetes.ipynb](https://nbviewer.org/github/keobox/biella-night/blob/main/Kubernetes.ipynb)
 
 📚 Repository script demo sui containers:
 
-➡️ [https://github.com/keobox/biella-night/tree/main/demos/demos/containers](https://github.com/keobox/biella-night/tree/main/demos/demos/containers)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/keobox/biella-night/tree/main/demos/demos/containers)
 
 📚 Link "containers under the hood":
 

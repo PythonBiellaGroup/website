@@ -7,7 +7,7 @@ tags:
 
 ## Intro
 
-Let's explore the world of Reinforcement Learning with Alessandro Palmas and DIAMBRA in a first evening dedicated to a theoretical introduction to the most important concepts, algorithms, and the environment we will use in the upcoming sessions.
+Let's explore the world of Reinforcement Learning with [Alessandro Palmas](https://www.linkedin.com/in/alessandropalmas/) and [DIAMBRA](https://diambra.ai) in a first evening dedicated to a theoretical introduction to the most important concepts, algorithms, and the environment we will use in the upcoming sessions.
 
 Alessandro Palmas is an R&D and Innovation Manager in the Aerospace industry, passionate about Reinforcement Learning. He has several years of experience in software development for complex systems, modeling & simulation, machine learning, and is also a co-author of the Packt book "The Reinforcement Learning Workshop."
 
@@ -15,7 +15,7 @@ He is also the creator of "DIAMBRA | Dueling AI Arena," an open-source ecosystem
 
 ## Material
 
-📚 Github [https://github.com/PythonBiellaGroup/MaterialeSerate/](https://github.com/PythonBiellaGroup/MaterialeSerate/)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/)
 
 ## Meetup video
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5FTvGF_mW1g?si=ogG64gH0sgl3yEFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

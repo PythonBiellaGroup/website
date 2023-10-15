@@ -7,7 +7,7 @@ tags:
 
 ## Intro
 
-Together with Alessio Stalla from Strumenta ([https://strumenta.com/](https://strumenta.com/)), we will explore how to generate code, that is, how to build a compiler or a transpiler. Starting from the differences between interpreters and compilers and some "fluid" concepts related to them, we will delve into code generation through an example of a Python code generator (high-level). We will see an example of generation through templating and another example through AST, or more precisely, through CST, using the libcst library created and maintained by Instagram.
+Together with [Alessio Stalla](https://www.linkedin.com/in/alessiostalla/) from [Strumenta](https://strumenta.com/), we will explore how to generate code, that is, how to build a compiler or a transpiler. Starting from the differences between interpreters and compilers and some "fluid" concepts related to them, we will delve into code generation through an example of a Python code generator (high-level). We will see an example of generation through templating and another example through AST, or more precisely, through CST, using the libcst library created and maintained by Instagram.
 
 Alessio is a member of Strumenta, specializing in linguistic engineering services for the creation of DSLs, programming languages, editors, compilers, interpreters, debuggers, and simulators.
 
@@ -15,7 +15,8 @@ Alessio is a member of Strumenta, specializing in linguistic engineering service
 
 📚 Repository:
 
-➡️ [https://github.com/PythonBiellaGroup/ANTLR/](https://github.com/PythonBiellaGroup/ANTLR/)
+
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/ANTLR/)
 
 📚 Slides:
 

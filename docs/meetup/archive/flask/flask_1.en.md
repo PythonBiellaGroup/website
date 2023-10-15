@@ -12,8 +12,7 @@ Introduction to Flask and web server with Jinja.
 
 ## Material
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione1](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione1)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione1)
 
 ## Meetup video
 

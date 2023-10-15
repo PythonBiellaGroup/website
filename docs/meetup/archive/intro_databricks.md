@@ -8,7 +8,7 @@ tags:
 
 ## Intro
 
-In questa serata con Marco Santoni, vediamo Apache Spark e utilizziamo Databricks.
+In questa serata con [Marco Santoni](https://www.linkedin.com/in/msantoni/), vediamo Apache Spark e utilizziamo Databricks.
 
 * Databricks - Workspace
 * Databricks - Reading, transforming and writing

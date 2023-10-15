@@ -26,8 +26,8 @@ All'interno potrai trovare:
 * [Tutto il materiale utilizzato durante i meetup](https://github.com/PythonBiellaGroup/MaterialeSerate)
 * [Esercizi fatti dalla community, proponi la tua soluzione!](https://github.com/PythonBiellaGroup/Esercizi)
 * Progetti sviluppati dalla community:
-    - [Bear](https://github.com/PythonBiellaGroup/Bear): a template for a modern python project based on [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/)
-    - [Community website](https://github.com/PythonBiellaGroup/website): website for the community based on [MkDocs](https://mkdocs.readthedocs.io/en/stable/)
+    - [Bear](https://github.com/PythonBiellaGroup/Bear): un template per un progetto moderno in python basato su [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/)
+    - [Community website](https://github.com/PythonBiellaGroup/website): sito della community basato con [MkDocs](https://mkdocs.readthedocs.io/en/stable/)
 
 Qui puoi trovare il nostro [codice di condotta](code_conduct.md)
 

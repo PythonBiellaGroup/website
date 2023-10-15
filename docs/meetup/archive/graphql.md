@@ -9,7 +9,7 @@ tags:
 ## Intro
 
 Dopo una breve introduzione generale sul linguaggio di interrogazione dati GraphQL, scopriamo come creare API GraphQL utilizzando Python e Strawberry.
-Lo facciamo con Patrick Arminio, il creatore della libreria e uno dei VIP italiani di Python, affrontando gli argomenti del workshop da lui preparato dal titolo "GraphQL pronto per la produzione"
+Lo facciamo con [Patrick Arminio](https://www.linkedin.com/in/patrickarminio/), il creatore della libreria e uno dei VIP italiani di Python, affrontando gli argomenti del workshop da lui preparato dal titolo "GraphQL pronto per la produzione"
 
 ## Materiale
 

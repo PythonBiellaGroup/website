@@ -16,7 +16,7 @@ Do you want to learn how to create small games?
 
 ## Material
 
-📚 Github: [https://github.com/PythonBiellaGroup/LearningPythonWithGames](https://github.com/PythonBiellaGroup/LearningPythonWithGames)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/LearningPythonWithGames)
 
 ## Bonus
 

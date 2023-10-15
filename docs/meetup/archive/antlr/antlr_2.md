@@ -7,7 +7,7 @@ tags:
 
 ## Intro
 
-Vediamo insieme a Federico Tomassetti di Strumenta ( [https://strumenta.com/](https://strumenta.com/) ) i parser all'opera.
+Vediamo insieme a [Federico Tomassetti](https://www.linkedin.com/in/federicotomassetti/) di [Strumenta](https://strumenta.com/) i parser all'opera.
 
 Dopo una carrellata sui tipi di problemi che le applicazioni di Language Engineering risolvono, vediamo come nella maggior parte dei casi convenga partire da un Abstract Syntax Tree (usando Pylasu) anzichè dal Parse Tree fornito da ANTLR; successivamente vediamo come scrivere un vero interprete, seguendo il codice di esempio che è stato preparato.
 
@@ -18,7 +18,8 @@ Federico è il fondatore di Strumenta, specializzata in servizi di ingegneria li
 
 📚 Repository:
 
-➡️ [https://github.com/PythonBiellaGroup/ANTLR/](https://github.com/PythonBiellaGroup/ANTLR/)
+
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/ANTLR/)
 
 📚 Slides:
 

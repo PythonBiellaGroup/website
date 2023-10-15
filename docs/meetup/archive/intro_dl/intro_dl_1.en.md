@@ -16,9 +16,7 @@ In this first meetup dedicated to Deep Learning with Nicola Camardi, after a the
 
 ## Material
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/IntroDeepLearning/Serata%201%20-%20Introduzione%20al%20Deep%20Learning](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/IntroDeepLearning/Serata%201%20-%20Introduzione%20al%20Deep%20Learning)
-
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/IntroDeepLearning/Serata%201%20-%20Introduzione%20al%20Deep%20Learning)
 
 ## Meetup video
 

@@ -13,8 +13,7 @@ We continue to follow the evolution of the website app by introducing profiles, 
 
 ## Material
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione8](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione8)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione8)
 
 ## Meetup video
 

@@ -9,7 +9,7 @@ tags:
 
 ## Intro
 
-In this first meetup dedicated to Machine Learning with Federico Angaramo, after a theoretical introduction and a review of Numpy and Pandas, we start using Scikit-learn and develop two study models.
+In this first meetup dedicated to Machine Learning with [Federico Angaramo](https://www.linkedin.com/in/federico-angaramo/), after a theoretical introduction and a review of Numpy and Pandas, we start using Scikit-learn and develop two study models.
 
 * ML Introduction
 * Environment setup and repository
@@ -19,8 +19,7 @@ In this first meetup dedicated to Machine Learning with Federico Angaramo, after
 
 ## Material
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoIntroML](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoIntroML)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoIntroML)
 
 ## Meetup video
 

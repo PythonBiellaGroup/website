@@ -11,8 +11,7 @@ This is the third evening, dedicated to understanding three more games developed
 
 ## Material
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/LearningPythonWithGames](https://github.com/PythonBiellaGroup/LearningPythonWithGames)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/LearningPythonWithGames)
 
 ## Meetup video
 

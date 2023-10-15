@@ -16,7 +16,7 @@ Dopo più di un anno dalla prima serata "Modern Python", vediamo insieme ad Andr
 
 📚 Repository Bear cookiecutter:
 
-➡️ [https://github.com/PythonBiellaGroup/Bear](https://github.com/PythonBiellaGroup/Bear)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/Bear)
 
 ## Video del meetup
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jtZvY7CWN1U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -9,5 +9,5 @@ Benvenuti a questo percorso dedicato all'arte delle espressioni regolari e all'a
 
 ## Materiale
 
-📚 Github: [https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/AnalisiTesto](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/AnalisiTesto)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/AnalisiTesto)
 

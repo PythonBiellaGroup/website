@@ -9,7 +9,7 @@ tags:
 
 ## Intro
 
-In questa prima serata dedicata al Machine Learning con Federico Angaramo, dopo una introduzione teorica e un ripasso di Numpy e Pandas, partiamo con l'utilizzo di Scikit-learn e lo sviluppo due modelli di studio.
+In questa prima serata dedicata al Machine Learning con [Federico Angaramo](https://www.linkedin.com/in/federico-angaramo/), dopo una introduzione teorica e un ripasso di Numpy e Pandas, partiamo con l'utilizzo di Scikit-learn e lo sviluppo due modelli di studio.
 
 * ML Intro
 * Setup ambiente e repository
@@ -18,8 +18,7 @@ In questa prima serata dedicata al Machine Learning con Federico Angaramo, dopo 
 
 ## Materiale
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoIntroML](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoIntroML)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoIntroML)
 
 ## Video del meetup
 

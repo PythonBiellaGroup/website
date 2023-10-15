@@ -8,7 +8,7 @@ tags:
 ---
 ## Intro
 
-In questa seconda serata dedicata al Machine Learning con Federico Angaramo, utilizziamo Scikit-learn per capire i concetti principali della Supervised Learning.
+In questa seconda serata dedicata al Machine Learning con [Federico Angaramo](https://www.linkedin.com/in/federico-angaramo/), utilizziamo Scikit-learn per capire i concetti principali della Supervised Learning.
 
 * Scikit-learn - Pipeline
 * Scikit-learn - Metriche
@@ -19,8 +19,7 @@ In questa seconda serata dedicata al Machine Learning con Federico Angaramo, uti
 
 ## Materiale
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoIntroML](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoIntroML)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoIntroML)
 
 ## Video del meetup
 

@@ -16,8 +16,10 @@ Siamo sempre entusiasti di avere nuovi speaker per poter imparare cose nuove e p
 * Hai una startup che lavora nel mondo IT e vorresti mostrarci cosa fate?
 * Hai un approccio innovativo ad un problema o tematica in particolare?
 
-Proponiti come speaker contattandoci [Qui](https://info.pythonbiellagroup.it/)
+!!! info
+    **Proponiti come speaker**
 
+    [Contattaci! :fontawesome-solid-circle-info:](https://info.pythonbiellagroup.it/){ .md-button }
 
 
 

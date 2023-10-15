@@ -1,6 +1,6 @@
 # Percorso Reinforcement learning
 
-Scopriamo il mondo del reinforcement learning assieme ad Alessandro Palmas, creatore di [DIAMBRA](https://diambra.ai) una dueling arena virtuale dove e' possibile addestrare i propri agenti su famosi giochi, ovviamente in python.
+Scopriamo il mondo del reinforcement learning assieme ad [Alessandro Palmas](https://www.linkedin.com/in/alessandropalmas/), creatore di [DIAMBRA](https://diambra.ai) una dueling arena virtuale dove e' possibile addestrare i propri agenti su famosi giochi, ovviamente in python.
 
 Tra le features che offre DIAMBRA ricordiamo:
 
@@ -16,6 +16,7 @@ Tra le features che offre DIAMBRA ricordiamo:
 2. Sessione pratica e coding
 
 ## Materiale
-📚 Github: [https://github.com/diambra/arena](https://github.com/diambra/arena)
+
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/diambra/arena)
 
 

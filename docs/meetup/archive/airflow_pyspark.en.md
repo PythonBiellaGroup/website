@@ -10,7 +10,7 @@ tags:
 
 Apache Airflow is now the most widely used and appreciated open-source orchestration tool in the data world. We will see it in action alongside PySpark in an enterprise context related to the development of AI solutions and data products.
 
-With **Luca Soato**, lead data engineer at **[CARDO AI](https://cardoai.com/)**, we will explore the most interesting features and best practices for getting the most out of this tool.
+With [Luca Soato](https://www.linkedin.com/in/lucasoato/), lead data engineer at **[CARDO AI](https://cardoai.com/)**, we will explore the most interesting features and best practices for getting the most out of this tool.
 
 ## Material
 

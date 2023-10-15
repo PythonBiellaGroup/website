@@ -19,8 +19,7 @@ This is the fifth and final evening, in which we covered async-await, compared F
 
 ## Material
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/FastAPI/05](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/FastAPI/05)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/FastAPI/05)
 
 ## Meetup video
 

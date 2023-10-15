@@ -7,7 +7,7 @@ tags:
 
 ## Intro
 
-In questo incontro Dario Chemello, ci introduce nel mondo della Robotic Process Automation e di come ci può aiutare ad automatizzare i task ripetitivi ma frequenti che ci accompagnano nella nostra quotidianità. 
+In questo incontro [Dario Chemello](https://www.linkedin.com/in/dario-chemello/), ci introduce nel mondo della Robotic Process Automation e di come ci può aiutare ad automatizzare i task ripetitivi ma frequenti che ci accompagnano nella nostra quotidianità. 
 Come? Con Python manco a dirlo.
 
 ## Video del meetup

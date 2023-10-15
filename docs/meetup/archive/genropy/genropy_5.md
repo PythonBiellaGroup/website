@@ -13,8 +13,7 @@ Affrontiamo tematiche legate alla gestione progetti multi-tenant e utenti con di
 
 ## Materiale
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/LearnGenRopy](https://github.com/PythonBiellaGroup/LearnGenRopy)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/LearnGenRopy)
 
 ## Video del meetup
 

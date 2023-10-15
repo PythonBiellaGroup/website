@@ -21,8 +21,7 @@ This is the fourth meetup, during which we continued developing our open-source 
 
 ## Material
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/LearnGenRopy](https://github.com/PythonBiellaGroup/LearnGenRopy)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/LearnGenRopy)
 
 ## Meetup video
 

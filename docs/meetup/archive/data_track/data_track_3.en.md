@@ -17,8 +17,7 @@ Tools for data engineering - from notebooks to the dashboard:
 
 ## Material
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/Streamlit-template](https://github.com/PythonBiellaGroup/Streamlit-template)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/Streamlit-template)
 
 ## Meetup video
 
