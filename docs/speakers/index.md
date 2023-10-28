@@ -19,7 +19,7 @@ Siamo sempre entusiasti di avere nuovi speaker per poter imparare cose nuove e p
 !!! info
     **Proponiti come speaker**
 
-    [Contattaci! :fontawesome-solid-circle-info:](https://info.pythonbiellagroup.it/){ .md-button }
+    [Contattaci!](https://info.pythonbiellagroup.it/){ .md-button }
 
 
 
