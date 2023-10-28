@@ -19,4 +19,4 @@ We are always excited to have new speakers to learn new things and allow everyon
 !!! info
     **Volunteer as a speaker**
 
-    [Contact us! :fontawesome-solid-circle-info:](https://info.pythonbiellagroup.it/){ .md-button }
+    [Contact us!](https://info.pythonbiellagroup.it/){ .md-button }

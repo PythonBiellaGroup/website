@@ -20,7 +20,7 @@ We have compiled simple guidelines based on feedback from members of the communi
 !!! info 
     You can use our slide deck to prepare your showcase 
     
-    [SLIDE DECK :fontawesome-solid-file-powerpoint:](https://drive.google.com/drive/folders/1altPHTWz0vCQ-l3WKaewQ8xRVh5sZjGN){ .md-button }
+    [SLIDE DECK](https://drive.google.com/drive/folders/1altPHTWz0vCQ-l3WKaewQ8xRVh5sZjGN){ .md-button }
 
 ---
 
