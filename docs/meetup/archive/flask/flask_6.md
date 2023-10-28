@@ -12,8 +12,7 @@ L'evoluzione dell'app continua con il refactoring della versione precedente e l'
 
 ## Materiale
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione6](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione6)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione6)
 
 ## Video del meetup
 

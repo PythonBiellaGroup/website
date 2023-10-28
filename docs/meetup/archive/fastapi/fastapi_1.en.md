@@ -18,8 +18,7 @@ First introductory meeting to FastAPI:
 
 ## Material
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/FastAPI/01](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/FastAPI/01)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/FastAPI/01)
 
 ## Meetup video
 

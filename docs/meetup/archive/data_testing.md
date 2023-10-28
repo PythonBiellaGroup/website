@@ -7,14 +7,14 @@ tags:
     - great expectations
 ---
 ## Intro
-Luca Gilli, CTO e founder di Clearbox.AI, ci fornisce suggerimenti su come rendere le nostre pipelines di dati piu' robuste tramite la scrittura di unit tests e documentazione, usando la libreria open-source great_expectations.
+[Luca Gilli](https://www.linkedin.com/in/luca-gilli/), CTO e founder di [Clearbox.AI](https://www.clearbox.ai/), ci fornisce suggerimenti su come rendere le nostre pipelines di dati piu' robuste tramite la scrittura di unit tests e documentazione, usando la libreria open-source great_expectations.
 Successivamente viene fatto un approfondimento su cosa voglia dire efficientare la creazione di test attraverso la profilazione del dato, condividendo l'esperienza acquisita durante lo sviluppo della libreria StructuredDataProfiling.
 
 
 ## Materiale
 📚 Meteriale della serata:
 
-➡️ [https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/TestareDocumentareDati](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/TestareDocumentareDati)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/TestareDocumentareDati)
 
 📚 Repository great_expectations:
 

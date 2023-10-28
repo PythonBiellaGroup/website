@@ -13,8 +13,7 @@ Evoluzione dell'applicazione realizzata nelle serate precedenti con revisione ed
 
 ## Materiale
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione5](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione5)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione5)
 
 ## Video del meetup
 

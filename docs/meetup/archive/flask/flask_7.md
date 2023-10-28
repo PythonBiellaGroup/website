@@ -12,8 +12,7 @@ Prosegue lo sviluppo dell'app introducendo i moduli necessari alla gestione dell
 
 ## Materiale
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione7](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione7)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione7)
 
 ## Video del meetup
 

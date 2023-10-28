@@ -9,7 +9,7 @@ tags:
 
 ## Intro
 
-Andrea e Nicola ci presentano tre interessanti librerie per il calcolo parallelo e distribuito in Python:
+[Andrea Guzzo](https://www.linkedin.com/in/andreaguzzo/) e Nicola ci presentano tre interessanti librerie per il calcolo parallelo e distribuito in Python:
 
 * Dask
 * Modin
@@ -17,8 +17,7 @@ Andrea e Nicola ci presentano tre interessanti librerie per il calcolo parallelo
 
 ## Materiale
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/CalcoloParalleloDistribuito](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/CalcoloParalleloDistribuito)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/CalcoloParalleloDistribuito)
 
 ## Video del meetup
 

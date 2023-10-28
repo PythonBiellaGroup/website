@@ -9,7 +9,7 @@ tags:
 
 ## Intro
 
-In this third evening dedicated to Machine Learning with Federico Angaramo, we use Scikit-learn to understand the fundamental concepts of unsupervised learning.
+In this third evening dedicated to Machine Learning with [Federico Angaramo](https://www.linkedin.com/in/federico-angaramo/), we use Scikit-learn to understand the fundamental concepts of unsupervised learning.
 
 * Unsupervised learning
 * Scikit-learn - Dimensionality reduction
@@ -17,8 +17,7 @@ In this third evening dedicated to Machine Learning with Federico Angaramo, we u
 
 ## Material
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoIntroML](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoIntroML)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoIntroML)
 
 📒 Implementation from scratch of PCA with Numpy:
 [https://github.com/SasCezar/DimensionalityReduction/blob/master/dimred/models/PCA.py](https://github.com/SasCezar/DimensionalityReduction/blob/master/dimred/models/PCA.py)

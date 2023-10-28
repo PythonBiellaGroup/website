@@ -11,17 +11,20 @@ hide:
 
 We have compiled simple guidelines based on feedback from members of the community in live streams or YouTube comments. In general, these are just common-sense tips that enable effective preparation and a good consumption of content during the event.
 
-## Event preparation
+## **Event preparation**
 
 * Coordinate with the organizers on the topics to be presented.
 * Collaborate with the organizers on the evening's presentation text, which will be shared on social media.
 * If using slides, if created for this purpose, and if possible, use the "Python Biella Group" templates.
   
-     You can use our [SLIDE DECK](https://drive.google.com/drive/folders/1altPHTWz0vCQ-l3WKaewQ8xRVh5sZjGN)
+!!! info 
+    You can use our slide deck to prepare your showcase 
+    
+    [SLIDE DECK :fontawesome-solid-file-powerpoint:](https://drive.google.com/drive/folders/1altPHTWz0vCQ-l3WKaewQ8xRVh5sZjGN){ .md-button }
 
 ---
 
-## Before the event
+## **Before the event**
 
 ### Material
 
@@ -41,7 +44,7 @@ We have compiled simple guidelines based on feedback from members of the communi
 
 ---
 
-## Immediately after the event
+## **Immediately after the event**
 
 ### Material
 
@@ -50,7 +53,7 @@ We have compiled simple guidelines based on feedback from members of the communi
 
 ---
 
-## After the event
+## **After the event**
 
 ### Youtube video
 

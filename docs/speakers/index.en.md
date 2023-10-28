@@ -16,4 +16,7 @@ We are always excited to have new speakers to learn new things and allow everyon
 * Do you have a startup in the IT world and would like to show us what you do?
 * Do you have an innovative approach to a specific problem or topic?
 
-Volunteer as a speaker by contacting us [Here](https://info.pythonbiellagroup.it/)
+!!! info
+    **Volunteer as a speaker**
+
+    [Contact us! :fontawesome-solid-circle-info:](https://info.pythonbiellagroup.it/){ .md-button }

@@ -17,8 +17,7 @@ In questa terza e ultima parte vedremo:
 
 ## Materiale
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PyGame/lezione3](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PyGame/lezione3)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PyGame/lezione3)
 
 ## Video del meetup
 

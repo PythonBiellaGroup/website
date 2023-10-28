@@ -9,14 +9,27 @@ hide:
 
 # Supporters
 
-PythonBiellaGroup é una community molto attiva su tutto il terriorio italiano e in questa sezione vogliamo ringraziare tutti gli amici che ci supportano e che noi supportiamo con i quali abbiamo il piacere di condividere interessi, iniziative e attività.
+**PythonBiellaGroup** é una community molto attiva su tutto il terriorio italiano e in questa sezione vogliamo ringraziare tutti gli amici che ci supportano e che noi supportiamo con i quali abbiamo il piacere di condividere interessi, iniziative e attività.
 
-### 🐍 **Python Italia**
+### 🐍 **Python Italia** 
+
 ![Image title](../static/images/supporters/python_italia_logo.png)
+
+![Github-sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA)
 
 [Python Italia](http://www.python.it/) é la community più importante in Italia per quanto riguarda il linguaggio di programmazione **Python**. Ogni anno organizzano il [Pycon](https://pycon.it/en), l'evento di maggior rilievo a livello internazionale che permette l'incontro tra appassionati provenienti da tutto il mondo.
 
 Ovviamente la community di PythonBiellaGroup partecipa sempre. Ci vediamo là? 😎
+
+
+---
+### 💻 **H&T**
+
+![Image title](../static/images/supporters/h&t.png)
+
+![Github-sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA)
+
+[H&T](https://het.it/) é un' azienda specializzata nel trovare soluzioni informatiche per ogni tipo di esigenza: app, siti web, e-commerce,  sviluppo software personalizzato e consulenza presso il cliente.
 
 ---
 

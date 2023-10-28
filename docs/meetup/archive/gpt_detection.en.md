@@ -21,10 +21,11 @@ GPT and Detection System, during this evening, we will try to answer the followi
 
 And much, much more!
 
-Meetup presented by Luca Gilli (Clearbox.ai) and Andrea Guzzo (MDPI).
+Meetup presented by [Luca Gilli](https://www.linkedin.com/in/luca-gilli/) ([Clearbox.ai](https://www.clearbox.ai/)) and [Andrea Guzzo](https://www.linkedin.com/in/andreaguzzo/) ([MDPI](https://www.mdpi.com/)).
 
 ## Material
-📚 Github: [https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/ChatGPT_Detection](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/ChatGPT_Detection)
+
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/ChatGPT_Detection)
 
 ## Meetup video
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2hqZrIubG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

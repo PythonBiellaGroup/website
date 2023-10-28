@@ -12,17 +12,20 @@ hide:
 Abbiamo raccolto semplici linee guida frutto dei feedback dei membri delle community nelle dirette o nei commenti YT.
 In generale sono solo piccoli accorgimenti di buon senso che permettono una preparazione efficace e una buona fruizione dei contenuti durante l’evento.
 
-## Preparazione dell’evento
+## **Preparazione dell’evento**
 
 * Concordare con gli organizzatori gli argomenti presentati
 * Concordare con gli organizzatori il testo della presentazione della serata che sarà condiviso nei social
 * In caso di slides, se create allo scopo e se possibile, usare i template “Python Biella Group”.  
 
-      Usa pure il nostro [SLIDE DECK](https://drive.google.com/drive/folders/1altPHTWz0vCQ-l3WKaewQ8xRVh5sZjGN)
+!!! info
+    Puoi usare il nostro slide deck per preparare la tua presentazione.
+
+    [SLIDE DECK :fontawesome-solid-file-powerpoint:](https://drive.google.com/drive/folders/1altPHTWz0vCQ-l3WKaewQ8xRVh5sZjGN){ .md-button }
 
 ---
 
-## Poco prima e durante l’evento
+## **Poco prima e durante l’evento**
 
 ### Materiale
 
@@ -41,7 +44,7 @@ In generale sono solo piccoli accorgimenti di buon senso che permettono una prep
 
 ---
 
-## Subito dopo l'evento
+## **Subito dopo l'evento**
 
 ### Materiale
 
@@ -50,7 +53,7 @@ In generale sono solo piccoli accorgimenti di buon senso che permettono una prep
 
 ---
 
-## Dopo l'evento
+## **Dopo l'evento**
 
 ### Video Youtube
 

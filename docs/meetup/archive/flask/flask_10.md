@@ -12,8 +12,7 @@ Introduzione generale ai servizi REST API e come esporne alcuni nell'app appena 
 
 ## Materiale
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione10](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione10)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione10)
 
 ## Video del meetup
 

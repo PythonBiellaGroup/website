@@ -12,4 +12,4 @@ Il Machine Learning è una disciplina che ha rivoluzionato il modo in cui affron
 
 ## Materiale
 
-📚 Github: [https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoIntroML](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoIntroML)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoIntroML)

@@ -7,7 +7,7 @@ tags:
 
 ## Intro
 
-Nella seconda serata con Alessandro Palmas continuiamo l'esplorazione del mondo del Reinforcement Learning focalizzandoci sull'ambiente di DIAMBRA.
+Nella seconda serata con [Alessandro Palmas](https://www.linkedin.com/in/alessandropalmas/) continuiamo l'esplorazione del mondo del Reinforcement Learning focalizzandoci sull'ambiente di [DIAMBRA](https://diambra.ai).
 Registrazione del 10/03/2022
 
 Alessandro Palmas è R&D e Innovation Manager nell'industria Aerospaziale, appassionato di Reinforcement Learning.
@@ -17,7 +17,7 @@ Ha diversi anni di esperienza nello sviluppo software su sistemi complessi, mode
 
 ## Materiale
 
-📚 Github [https://github.com/PythonBiellaGroup/MaterialeSerate/](https://github.com/PythonBiellaGroup/MaterialeSerate/)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/)
 
 ## Video del meetup
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TeFdKdRY_BY?si=rQHoVKcoxbACQggr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

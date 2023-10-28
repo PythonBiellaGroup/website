@@ -13,7 +13,8 @@ The community is composed of enthusiasts from the programming world and individu
 
 Additionally, the code of conduct also contains suggestions on how each member can contribute to making the community a better place through their participation.
 
-**By joining the PythonBiellaGroup community, you agree to respect the following code of conduct.**
+!!! warning "Warning!"
+    **By joining the PythonBiellaGroup community, you agree to respect the following code of conduct.**
 
 ---
 
@@ -43,7 +44,7 @@ Additionally, the code of conduct also contains suggestions on how each member c
 
 12. Any community participant who receives a notice regarding their violation must promptly and immediately correct their behavior while complying with any corrective requests made by the Administrators.
 
-13. Every community participant who receives or observes shortcomings or violations that undermine their or others' dignity is encouraged to promptly report the incident to the Administrators.
+13. Every community participant who receives or observes shortcomings or violations that undermine their or others' dignity is encouraged to promptly report the incident to the organizers.
 
 ---
 ## Social
@@ -62,3 +63,13 @@ Additionally, the code of conduct also contains suggestions on how each member c
 1. It is possible to share material that complies with the above rules, but every community member who shares material must ensure that the said material is not covered by copyright or, in general, that its distribution and sharing are permissible.
 
 2. When sharing a link to content, it is necessary to ensure beforehand that the address is secure.
+   
+    ??? note "How to do it?"
+
+          * Use a link checker tool
+    
+          * Make sure the site uses HTTPS
+    
+          * Examine Google reviews
+    
+          * Check the domain age and ownership

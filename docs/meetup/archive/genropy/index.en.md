@@ -11,5 +11,5 @@ In this series of 4 evenings, we will see how to build a rich single page applic
 
 ## Material
 
-📚 Github: [https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Genropy](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Genropy)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Genropy)
 

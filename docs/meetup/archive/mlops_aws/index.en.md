@@ -9,4 +9,4 @@ In this series of two meetings, we will explore the concepts related to MLOps, a
 
 ## Material
 
-📚 Github: [https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/MLOps](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/MLOps)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/MLOps)

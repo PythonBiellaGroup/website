@@ -6,7 +6,7 @@ tags:
 ---
 
 ## Intro
-Vediamo insieme ad Alessio Stalla di Strumenta ( [https://strumenta.com/](https://strumenta.com/) ) il mondo dei parser, cercando di capire a cosa servono e come si scrivono.
+Vediamo insieme ad [Alessio Stalla](https://www.linkedin.com/in/alessiostalla/) di [Strumenta](https://strumenta.com/) il mondo dei parser, cercando di capire a cosa servono e come si scrivono.
 Scopriremo che con ANTLR4 ci basterà scrivere la grammatica formale per generare ed usare il nostro parser.
 Questa è la prima di tre serate sul fantastico mondo dei compilatori ed interpreti.
 
@@ -16,7 +16,7 @@ Alessio lavora in Strumenta, specializzata in servizi di ingegneria linguistica 
 
 📚 Repository:
 
-➡️ [https://github.com/PythonBiellaGroup/ANTLR/tree/serata1](https://github.com/PythonBiellaGroup/ANTLR/tree/serata1)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/ANTLR/tree/serata1)
 
 📚 Slides:
 

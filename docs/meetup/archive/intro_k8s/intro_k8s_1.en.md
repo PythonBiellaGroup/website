@@ -13,13 +13,13 @@ Let's explore the origins of Kubernetes and the tools that preceded and made it 
 
 📚 Repo and slides of the meetup:
 
-➡️ [https://github.com/keobox/biella-night](https://github.com/keobox/biella-night)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/keobox/biella-night)
 
 ➡️ [https://nbviewer.org/github/keobox/biella-night/blob/main/Kubernetes.ipynb](https://nbviewer.org/github/keobox/biella-night/blob/main/Kubernetes.ipynb)
 
 📚 Repository script demo on containers:
 
-➡️ [https://github.com/keobox/biella-night/tree/main/demos/demos/containers](https://github.com/keobox/biella-night/tree/main/demos/demos/containers)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/keobox/biella-night/tree/main/demos/demos/containers)
 
 📚 Link "containers under the hood":
 

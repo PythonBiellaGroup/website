@@ -18,8 +18,7 @@ Questa è la seconda serata, nella quale, dopo la presentazione di Bag e Structu
 
 ## Materiale
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Genropy/02](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Genropy/02)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Genropy/02)
 
 ## Video del meetup
 

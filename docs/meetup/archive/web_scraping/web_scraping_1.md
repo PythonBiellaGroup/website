@@ -11,8 +11,7 @@ Prima serata di approfondimento sul Web Scraping a cura di Stefano Bosisio con t
 
 ## Materiale
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/webScraping](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/webScraping)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/webScraping)
 
 ## Video del meetup
 

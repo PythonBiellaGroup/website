@@ -13,8 +13,7 @@ Evolution of the application created in the previous sessions with a review and 
 
 ## Material
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione5](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione5)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione5)
 
 ## Meetup video
 

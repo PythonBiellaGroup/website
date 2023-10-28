@@ -17,8 +17,7 @@ Strumenti per l'ingegnerizzazione dei dati - dai notebook alla dashboard:
 
 ## Materiale
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/Streamlit-template](https://github.com/PythonBiellaGroup/Streamlit-template)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/Streamlit-template)
 
 ## Video del meetup
 

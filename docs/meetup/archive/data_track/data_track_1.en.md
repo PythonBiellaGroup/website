@@ -12,8 +12,7 @@ Pandas: tools for data manipulation and analysis
 
 ## Material
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoDati/lab1](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoDati/lab1)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoDati/lab1)
 
 ## Meetup video
 

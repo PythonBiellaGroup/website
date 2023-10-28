@@ -13,8 +13,8 @@ Utilizzo del modulo regex in python ed esercizi con le espressioni regolari.
 
 ## Materiale
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/AnalisiTesto/Lezione2](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/AnalisiTesto/Lezione2)
+
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/AnalisiTesto/Lezione2)
 
 ## Video del meetup
 

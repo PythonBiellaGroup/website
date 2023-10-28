@@ -1,6 +1,6 @@
 # Introduction to Kubernetes
 
-In this series of two meetings, Cesare Placanica will talk to us about Kubernetes. But what is Kubernetes?
+In this series of two meetings, [Cesare Placanica](https://www.linkedin.com/in/cesare-placanica/) will talk to us about Kubernetes. But what is Kubernetes?
 
 Kubernetes is a powerful open-source platform for container orchestration that has revolutionized the management of distributed applications and cloud-native services. Born from an internal project at Google and later made available as open-source software, Kubernetes has quickly become the de facto standard for managing and automating containerized applications in cloud, hybrid, and on-premises environments.
 
@@ -13,4 +13,4 @@ This orchestration system offers a wide range of advanced features that simplify
 
 ## Material
 
-📚 Github: [https://github.com/keobox/biella-night/tree/main/demos/demos/containers](https://github.com/keobox/biella-night/tree/main/demos/demos/containers)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/keobox/biella-night/tree/main/demos/demos/containers)

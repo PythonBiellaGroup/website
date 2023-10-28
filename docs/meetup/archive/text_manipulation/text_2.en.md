@@ -13,8 +13,8 @@ Using the `regex` module in Python and exercises with regular expressions.
 
 ## Material
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/AnalisiTesto/Lezione2](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/AnalisiTesto/Lezione2)
+
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/AnalisiTesto/Lezione2)
 
 ## Meetup video
 

@@ -17,9 +17,7 @@ In this third meetup dedicated to Deep Learning with Nicola Camardi, after a nec
 
 ## Material
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/IntroDeepLearning/Serata%203%20-%20Recurrent%20Neural%20Net](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/IntroDeepLearning/Serata%203%20-%20Recurrent%20Neural%20Net)
-
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/IntroDeepLearning/Serata%203%20-%20Recurrent%20Neural%20Net)
 
 ## Meetup video
 

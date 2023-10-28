@@ -10,7 +10,7 @@ tags:
 
 In questo meetup vediamo come utilizzare le GitHub actions per poter automatizzare i nostri workflow di sviluppo. 
 Inoltre faremo qualche esempio pratico con Pipem, uno strumento per poter monitorare le pipeline di CI/CD.
-Incontro a cura di Mauro Sala e Luca Anghileri, di Pipem.
+Incontro a cura di [Mauro Sala](https://www.linkedin.com/in/maurosala/) e [Luca Anghileri](https://www.linkedin.com/in/luca-anghileri/), di [Pipem](https://pipem.io/).
 
 ## Materiale
 

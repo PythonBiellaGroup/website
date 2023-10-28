@@ -124,6 +124,12 @@ nav:
                       - Introduzione a Hydra: meetup/archive/ml_pipeline/ml_pipeline_2.md
                 - NLP - topic modeling: meetup/archive/nlp_topic_modeling.md
                 - NVIDIA Triton: meetup/archive/nvidia_triton.md
+                - Open Source:
+                      - meetup/archive/open_source/index.md
+                      - Primo incontro - Marcelo Trylesinski: meetup/archive/open_source/open_source_1.md
+                      - Secondo incontro - Patrick Arminio: meetup/archive/open_source/open_source_2.md
+                      - Terzo incontro - Juliana Nicacio: meetup/archive/open_source/open_source_3.md
+                      - Quarto incontro - Giovanni Barillari: meetup/archive/open_source/open_source_4.md
                 - Pandas base:
                       - meetup/archive/pandas/index.md
                       - Intro e modulo csv: meetup/archive/pandas/pandas_1.md
@@ -251,6 +257,9 @@ markdown_extensions:
     - footnotes
     - meta
     - md_in_html
+    - pymdownx.emoji:
+          emoji_index: !!python/name:material.extensions.emoji.twemoji
+          emoji_generator: !!python/name:material.extensions.emoji.to_svg
     - toc:
           title: On this page
           permalink: true
@@ -401,6 +410,10 @@ plugins:
                     Gestire diverse versioni di python: Manage multiple python versions
                     Struttura di progetto: Setup a python project
                     Documentare il codice: Documenting code
+                    Primo incontro - Marcelo Trylesinski: First interview - Marcelo Trylesinski
+                    Secondo incontro - Patrick Arminio: Second interview - Patrick Arminio
+                    Terzo incontro - Juliana Nicacio: Third interview - Juliana Nicacio
+                    Quarto incontro - Giovanni Barillari: Fourth interview - Giovanni Barillari
 
     - git-revision-date-localized
         # - optimize:

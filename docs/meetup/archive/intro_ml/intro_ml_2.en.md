@@ -8,7 +8,7 @@ tags:
 ---
 ## Intro
 
-In this second meetup dedicated to Machine Learning with Federico Angaramo, we use Scikit-learn to understand the main concepts of Supervised Learning.
+In this second meetup dedicated to Machine Learning with [Federico Angaramo](https://www.linkedin.com/in/federico-angaramo/), we use Scikit-learn to understand the main concepts of Supervised Learning.
 
 * Scikit-learn - Pipeline
 * Scikit-learn - Metrics
@@ -19,8 +19,7 @@ In this second meetup dedicated to Machine Learning with Federico Angaramo, we u
 
 ## Material
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoIntroML](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoIntroML)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoIntroML)
 
 ## Meetup video
 

@@ -7,7 +7,7 @@ tags:
 
 ## Intro
 
-Esploriamo assieme ad Alessandro Palmas e a DIAMBRA il mondo del Reinforcement Learning con una prima serata dedicata ad un'introduzione teorica ai concetti più importanti, algoritmi e all'ambiente che utilizzeremo nelle prossime serate.
+Esploriamo assieme ad [Alessandro Palmas](https://www.linkedin.com/in/alessandropalmas/) e a [DIAMBRA](https://diambra.ai) il mondo del Reinforcement Learning con una prima serata dedicata ad un'introduzione teorica ai concetti più importanti, algoritmi e all'ambiente che utilizzeremo nelle prossime serate.
 
 Alessandro Palmas è R&D e Innovation Manager nell'industria Aerospaziale, appassionato di Reinforcement Learning.
 Ha diversi anni di esperienza nello sviluppo software su sistemi complessi, modeling & simulation, machine learning ed è ancora Co-autore del libro di Packt “The Reinforcement Learning Workshop”.
@@ -16,7 +16,7 @@ Ha diversi anni di esperienza nello sviluppo software su sistemi complessi, mode
 
 ## Materiale
 
-📚 Github [https://github.com/PythonBiellaGroup/MaterialeSerate/](https://github.com/PythonBiellaGroup/MaterialeSerate/)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/)
 
 ## Video del meetup
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5FTvGF_mW1g?si=ogG64gH0sgl3yEFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -1,6 +1,6 @@
 # Exploring Programming Languages
 
-Welcome to our basic course on ANTLR and language engineering!
+Welcome to our basic course on [ANTLR](https://www.linkedin.com/company/antlr/about/) and language engineering!
 In this series of evenings, we will try to answer these questions:
 
 * What is a programming language?
@@ -16,4 +16,4 @@ In this series of evenings, we will try to answer these questions:
 
 ## Material
 
-📚 Github: [https://github.com/PythonBiellaGroup/ANTLR](https://github.com/PythonBiellaGroup/ANTLR)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/ANTLR)

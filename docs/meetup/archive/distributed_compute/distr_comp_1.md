@@ -8,12 +8,11 @@ tags:
 
 ## Intro
 
-Cezar Sas ci spiega teoria e pratica del calcolo parallelo e distribuito in Python
+[Cezar Sas](https://www.linkedin.com/in/cezarsas/) ci spiega teoria e pratica del calcolo parallelo e distribuito in Python
 
 ## Materiale
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/CalcoloParalleloDistribuito](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/CalcoloParalleloDistribuito)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/CalcoloParalleloDistribuito)
 
 ## Video del meetup
 

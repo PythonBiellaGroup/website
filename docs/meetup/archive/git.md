@@ -15,7 +15,8 @@ Durante questa serata, vi guideremo attraverso i concetti fondamentali di Git. I
 
 ## Materiale
 
-📚 Github: [https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Git](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Git)
+
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Git)
 
 ## Video del meetup
 

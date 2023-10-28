@@ -8,15 +8,14 @@ tags:
 
 ## Intro
 
-Cezar Sas explains the theory and practice of parallel and distributed computing in Python:
+[Cezar Sas](https://www.linkedin.com/in/cezarsas/) explains the theory and practice of parallel and distributed computing in Python:
 
 * Parallel and distributed computing: communication between processes
 * Ray
 
 ## Material
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/CalcoloParalleloDistribuito](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/CalcoloParalleloDistribuito)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/CalcoloParalleloDistribuito)
 
 ## Meetup video
 

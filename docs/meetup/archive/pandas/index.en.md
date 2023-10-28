@@ -13,5 +13,5 @@ In this path, we will guide you through the fundamentals of Pandas and provide y
 
 ## Material
 
-📚 Github: [https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Pandas](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Pandas)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Pandas)
 

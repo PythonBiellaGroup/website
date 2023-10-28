@@ -12,8 +12,7 @@ In this bonus video, we continue learning Genropy through pair programming, incr
 
 ## Material
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/LearnGenRopy](https://github.com/PythonBiellaGroup/LearnGenRopy)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/LearnGenRopy)
 
 ## Meetup video
 

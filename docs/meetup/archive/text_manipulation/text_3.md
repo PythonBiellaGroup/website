@@ -13,8 +13,7 @@ Come costruire una pipeline di analisi del testo e alcuni esempi con la libreria
 
 ## Materiale
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/AnalisiTesto/Lezione3](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/AnalisiTesto/Lezione3)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/AnalisiTesto/Lezione3)
 
 ## Video del meetup
 

@@ -9,7 +9,7 @@ tags:
 
 ## Intro
 
-In questa terza serata dedicata al Machine Learning con Federico Angaramo, utilizziamo Scikit-learn per capire i concetti fondamentali dell'apprendimento non supervisionato.
+In questa terza serata dedicata al Machine Learning con [Federico Angaramo](https://www.linkedin.com/in/federico-angaramo/), utilizziamo Scikit-learn per capire i concetti fondamentali dell'apprendimento non supervisionato.
 
 * Unsupervised learning
 * Scikit-learn - Dimensionality reduction
@@ -17,8 +17,7 @@ In questa terza serata dedicata al Machine Learning con Federico Angaramo, utili
 
 ## Materiale
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoIntroML](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoIntroML)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoIntroML)
 
 📒 Implementazione from scratch di PCA in Numpy:
 [https://github.com/SasCezar/DimensionalityReduction/blob/master/dimred/models/PCA.py](https://github.com/SasCezar/DimensionalityReduction/blob/master/dimred/models/PCA.py)

@@ -9,7 +9,7 @@ tags:
 
 ## Intro
 
-Andrea and Nicola introduce us to three interesting libraries for parallel and distributed computing in Python:
+[Andrea Guzzo](https://www.linkedin.com/in/andreaguzzo/) and Nicola introduce us to three interesting libraries for parallel and distributed computing in Python:
 
 * Dask
 * Modin
@@ -17,8 +17,7 @@ Andrea and Nicola introduce us to three interesting libraries for parallel and d
 
 ## Material
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/CalcoloParalleloDistribuito](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/CalcoloParalleloDistribuito)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/CalcoloParalleloDistribuito)
 
 ## Meetup video
 

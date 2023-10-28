@@ -12,8 +12,7 @@ Facciamo una revisione e rielaborazione dei concetti di base visti nelle serate 
 
 ## Materiale
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione4](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione4)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/Flask/Lezione4)
 
 ## Video del meetup
 

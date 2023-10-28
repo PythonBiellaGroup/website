@@ -11,8 +11,7 @@ The first evening of in-depth exploration on Web Scraping presented by Stefano B
 
 ## Material
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/webScraping](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/webScraping)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/webScraping)
 
 ## Meetup video
 

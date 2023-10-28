@@ -16,8 +16,7 @@ Questa è la quarta serata, in cui abbiamo visto l'utilizzo l'integrazione compl
 
 ## Materiale
 
-📚 Github:
-[https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/FastAPI/04](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/FastAPI/04)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/FastAPI/04)
 
 ## Video del meetup
 

@@ -2,8 +2,8 @@
 
 Serie di 4 serate che hanno come obiettivo lo sviluppo di una semplice soluzione di analisi dei dati partendo da un dataset open source (Rome Airbnb Data). Le serate saranno tenute da:
 
-* Andrea Melloncelli
-* Andrea Guzzo
+* [Andrea Melloncelli](https://www.linkedin.com/in/andrea-melloncelli-baa873104/)
+* [Andrea Guzzo](https://www.linkedin.com/in/andreaguzzo/)
 
 Lo scopo della serata è quella di simulare un processo di analisi su un determinato dataset, lavorando in team partendo dalle analisi esplorative fino alla messa in produzione di una dashboard interattiva
 
@@ -21,5 +21,5 @@ Le serate saranno divise in quattro laboratori
 
 ## Materiale
 
-📚 Github: [https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoDati](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoDati)
+[![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/PythonBiellaGroup/MaterialeSerate/tree/master/PercorsoDati)
 

@@ -9,7 +9,7 @@ tags:
 ## Intro
 
 After a brief general introduction to the GraphQL data query language, we discover how to create GraphQL APIs using Python and Strawberry.
-We do this with Patrick Arminio, the creator of the library and one of the leading Italian figures in Python, addressing the topics of the workshop he prepared titled "GraphQL Ready for Production."
+We do this with [Patrick Arminio](https://www.linkedin.com/in/patrickarminio/), the creator of the library and one of the leading Italian figures in Python, addressing the topics of the workshop he prepared titled "GraphQL Ready for Production."
 
 ## Material
 
