@@ -23,8 +23,7 @@ hide:
 
 # What are PythonBiellaGroup meetup ?
 
-Every week, we organize a meetup on various topics related to the world of Python and beyond. Each meetup lasts approximately 1 hour and takes place online on Zoom, allowing everyone to participate from wherever they are.
-
+Every week, we organize a meetup on various topics relaEvery week, we organize a meetup on various topics related to the world of Python and beyond. Each meetup lasts approximately one hour anted to the world of Python and beyond. Each meetup lasts approximately 1 hour and takes place online on Zoom, allowing everyone to participate from wherever they are.
 The meetup is then recorded and made available on YouTube a few days after the meetup date so that even those who couldn't attend the live session can watch the entire event. Those who participated in the live session but want to delve deeper into or review certain aspects can do so at their convenience at any time.
 
 ---
