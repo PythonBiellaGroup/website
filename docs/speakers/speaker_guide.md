@@ -2,7 +2,7 @@
 title: Guida speaker
 disquis: PythonBiellaGroup
 tags:
-    - speaker
+  - speaker
 hide:
   - feedback
 ---
@@ -14,9 +14,9 @@ In generale sono solo piccoli accorgimenti di buon senso che permettono una prep
 
 ## **Preparazione dell’evento**
 
-* Concordare con gli organizzatori gli argomenti presentati
-* Concordare con gli organizzatori il testo della presentazione della serata che sarà condiviso nei social
-* In caso di slides, se create allo scopo e se possibile, usare i template “Python Biella Group”.  
+- Concordare con gli organizzatori gli argomenti presentati
+- Concordare con gli organizzatori il testo della presentazione della serata che sarà condiviso nei social
+- In caso di slides, se create allo scopo e se possibile, usare i template “Python Biella Group”.
 
 !!! info
     Puoi usare il nostro slide deck per preparare la tua presentazione.
@@ -29,27 +29,28 @@ In generale sono solo piccoli accorgimenti di buon senso che permettono una prep
 
 ### Materiale
 
-* Predisporre il materiale che si andrà a presentare in modo che sia raggiungibile con pochi click
-* Chiudere le finestre con documenti o chat personali in modo che non finiscano per errore in condivisione
+- Predisporre il materiale che si andrà a presentare in modo che sia raggiungibile con pochi click
+- Chiudere le finestre con documenti o chat personali in modo che non finiscano per errore in condivisione
 
 ### Audio
 
-* Controllare che il microfono sia “adeguatamente” vicino alla bocca
-* Che il volume sia corretto
-* Che non ci siano fattori di disturbo audio in zona
+- Controllare che il microfono sia “adeguatamente” vicino alla bocca
+- Che il volume sia corretto
+- Che non ci siano fattori di disturbo audio in zona
 
 ### Video
-* E’ opportuno che lo speaker abiliti il video durante la presentazione
-* In caso di live coding o di presentazione codice in IDE, controllare che il font sia “adeguatamente” ingrandito, esser sicuri che materiale sia pronto.
+
+- E’ opportuno che lo speaker abiliti il video durante la presentazione
+- In caso di live coding o di presentazione codice in IDE, controllare che il font sia “adeguatamente” ingrandito, esser sicuri che materiale sia pronto.
 
 ---
 
 ## **Subito dopo l'evento**
 
-### Materiale
+### Condivisione
 
-* Fornire agli organizzatori le eventuali slides presentate
-* Fornire agli organizzatori l’eventuale link github con il codice presentato
+- Fornire agli organizzatori le eventuali slides presentate
+- Fornire agli organizzatori l’eventuale link github con il codice presentato
 
 ---
 
@@ -57,8 +58,8 @@ In generale sono solo piccoli accorgimenti di buon senso che permettono una prep
 
 ### Video Youtube
 
-* Una volta pubblicato il video, segnalare eventuali correzioni alla descrizione
+- Una volta pubblicato il video, segnalare eventuali correzioni alla descrizione
 
 ### Supporto per domande offline
 
-* Almeno per i primi giorni post serata e post pubblicazione video, seguire i commenti per rispondere ad eventuali domande
+- Almeno per i primi giorni post serata e post pubblicazione video, seguire i commenti per rispondere ad eventuali domande

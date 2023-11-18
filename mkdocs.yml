@@ -1,6 +1,6 @@
 ---
 # Project information
-site_name: PythonBiellaGroup website
+site_name: PythonBiellaGroup
 site_url: https://pythonbiellagroup.it
 site_author: PythonBiellaGroup
 site_description: PythonBiellaGroup official website with all the guides, information, materials, and resource for the community.
@@ -178,36 +178,48 @@ nav:
                 - XGBoost: meetup/archive/xgboost.md
     - Learning:
           - learning/index.md
-          - Articoli:
-                - Gestire dipendenze: learning/articles/manage_dependencies.md
-                - Gestire diverse versioni di python: learning/articles/manage_python_version.md
-                - Struttura di progetto: learning/articles/project_structure.md
-                - REPL: learning/articles/repl.md
-                - Documentare il codice: learning/articles/document_code.md
-                - Code style: learning/articles/code_style.md
-                - VS Code: learning/articles/vs_code.md
-          - Wiki:
-                - Creare un package in python: learning/wiki/create_package.md
-          - Percorsi di apprendimento:
-                - Testing con python:
-                      - learning/learning_path/pytesting/index.md
-                      - Tutorial:
-                            - learning/learning_path/pytesting/tutorial/index.md
-                            - Introduzione: learning/learning_path/pytesting/tutorial/intro.md
-                            - L'aspetto di un test: learning/learning_path/pytesting/tutorial/test.md
-                            - Categorie, granularità, livelli e tipi di test: learning/learning_path/pytesting/tutorial/tipi.md
-                            - Buone pratiche per scrivere test di qualità: learning/learning_path/pytesting/tutorial/pratiche.md
-                            - Il test framework unittest: learning/learning_path/pytesting/tutorial/unittest.md
-                            - Utilizzare Pytest: learning/learning_path/pytesting/tutorial/pytest.md
-                            - Test semplici con doctest: learning/learning_path/pytesting/tutorial/doctest.md
-                            - Test BDD con Behave: learning/learning_path/pytesting/tutorial/behave.md
-                      - Risorse:
-                            - learning/learning_path/pytesting/resources/index.md
-                            - Letteratura: learning/learning_path/pytesting/resources/letteratura.md
-                            - Software: learning/learning_path/pytesting/resources/software.md
-                            - Snippet: learning/learning_path/pytesting/resources/snippet.md
-                            - Talk: learning/learning_path/pytesting/resources/talk.md
-
+          - Code style: learning/code_style/index.md
+          - Creare un pacchetto: learning/create_package/index.md
+          - Documentare il codice: learning/document_code/index.md
+          - Linux base: learning/linux_base/index.md
+          - Gestire dipendenze:
+                - learning/manage_dependencies/index.md
+                - PDM: learning/manage_dependencies/pdm/index.md
+                - Pipx: learning/manage_dependencies/pipx/index.md
+                - Poetry: learning/manage_dependencies/poetry/index.md
+                - Pyenv: learning/manage_dependencies/pyenv/index.md
+          - Struttura di progetto:
+                - learning/project_structure/index.md
+                - Bear: learning/project_structure/bear/index.md
+          - Python base:
+                - learning/python_base/index.md
+          - Gestire diverse versioni di python:
+                - learning/python_version/info.md
+                - ASDF: learning/python_version/asdf/index.md
+                - Conda: learning/python_version/conda/index.md
+                - Pyenv: learning/python_version/pyenv/index.md
+                - REPL: learning/python_version/repl/index.md
+          - Indipendenza tecnologica:
+                - learning/tech_independence/info.md
+          - Testing:
+                - learning/testing_python/index.md
+                - Tutorial:
+                      - learning/testing_python/tutorial/index.md
+                      - learning/testing_python/tutorial/intro.md
+                      - learning/testing_python/tutorial/test.md
+                      - learning/testing_python/tutorial/tipi.md
+                      - learning/testing_python/tutorial/pratiche.md
+                      - learning/testing_python/tutorial/unittest.md
+                      - learning/testing_python/tutorial/pytest.md
+                      - learning/testing_python/tutorial/doctest.md
+                      - learning/testing_python/tutorial/behave.md
+                - Risorse:
+                      - learning/testing_python/resources/index.md
+                      - learning/testing_python/resources/letteratura.md
+                      - learning/testing_python/resources/software.md
+                      - learning/testing_python/resources/snippet.md
+                      - learning/testing_python/resources/talk.md
+          - VS Code: learning/vscode/index.md
     - Supporters:
           - supporters/index.md
     - Speakers:
@@ -254,14 +266,14 @@ theme:
         text: Roboto
         code: Roboto mono
     palette:
-            # Light mode
+                # Light mode
         - scheme: default
           primary: indigo
           accent: indigo
           toggle:
               icon: material/toggle-switch
               name: Switch to dark mode
-                          # Dark mode
+                                  # Dark mode
         - scheme: slate
           primary: red
           accent: red
@@ -290,6 +302,7 @@ markdown_extensions:
     - pymdownx.betterem:
           smart_enable: all
     - pymdownx.caret
+    - pymdownx.superfences
     - pymdownx.details
     - pymdownx.highlight:
           anchor_linenums: true
@@ -454,44 +467,44 @@ plugins:
                     Testing - Doctest e behave: Testing - Doctest and behave
 
     - git-revision-date-localized
-        # - optimize:
-        #         concurrency: 2
-        #         optimize_png: true
-        #         optimize_png_speed: 10
-        #         optimize_png_strip: true
-        #         optimize_jpg: true
-        #         optimize_jpg_quality: 75
-        #         optimize_jpg_progressive: true
-        #         cache: true
-        #         cache_dir: .cache/plugins/optimize
-        #- meta:
-        #     meta_file: '**/.meta.yml'
-        # - blog
-        #         enabled: true
-        #         blog_dir: blog
-        #         blog_toc: true
-        #         post_date_format: long
-        #         post_url_date_format: yyyy-MM-dd
-        #         # post_url_format: "{date}/{slug}/{file}"
-        #         # post_slugify_separator: "-"
-        #         post_readtime: true
-        #         post_readtime_words_per_minute: 265
-        #         archive: true
-        #         #   archive_name: Archive
-        #         archive_date_format: MMMM yyyy
-        #         #   archive_url_date_format: yyyy/MM
-        #         #   archive_toc: true
-        #         categories: true
-        #         categories_name: Categories
-        #         categories_toc: true
-        #         #   pagination: true
-        #         #   pagination_per_page: 5
-        #         # pagination_url_format: "page/{page}"
-        #         #   pagination_keep_content: true
-        #         authors: true
-        #         # authors_file: .authors.yml
-        #         draft: true
-        #         draft_on_serve: true
+          # - optimize:
+          #         concurrency: 2
+          #         optimize_png: true
+          #         optimize_png_speed: 10
+          #         optimize_png_strip: true
+          #         optimize_jpg: true
+          #         optimize_jpg_quality: 75
+          #         optimize_jpg_progressive: true
+          #         cache: true
+          #         cache_dir: .cache/plugins/optimize
+          #- meta:
+          #     meta_file: '**/.meta.yml'
+          # - blog
+          #         enabled: true
+          #         blog_dir: blog
+          #         blog_toc: true
+          #         post_date_format: long
+          #         post_url_date_format: yyyy-MM-dd
+          #         # post_url_format: "{date}/{slug}/{file}"
+          #         # post_slugify_separator: "-"
+          #         post_readtime: true
+          #         post_readtime_words_per_minute: 265
+          #         archive: true
+          #         #   archive_name: Archive
+          #         archive_date_format: MMMM yyyy
+          #         #   archive_url_date_format: yyyy/MM
+          #         #   archive_toc: true
+          #         categories: true
+          #         categories_name: Categories
+          #         categories_toc: true
+          #         #   pagination: true
+          #         #   pagination_per_page: 5
+          #         # pagination_url_format: "page/{page}"
+          #         #   pagination_keep_content: true
+          #         authors: true
+          #         # authors_file: .authors.yml
+          #         draft: true
+          #         draft_on_serve: true
     - rss:
           match_path: blog/posts/.*
           date_from_meta:

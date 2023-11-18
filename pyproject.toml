@@ -1,8 +1,10 @@
 [tool.poetry]
-name = "Website"
+name = "PythonBiellaGroup"
 version = "0.0.1"
-description = "PythonBiellaGroup website"
-authors = ["PythonBiellaGroup <pythonbiellagroup@gmail.com>"]
+description = "PythonBiellaGroup official website"
+authors = [
+    "PythonBiellaGroup <pythonbiellagroup@gmail.com>"
+]
 license = "APACHE2"
 readme = "README.md"
 homepage = "https://pythonbiellagroup.it"
