@@ -1,6 +1,7 @@
 ---
 title: Creare un python package
 disquis: PythonBiellaGroup
+timetoread: true
 ---
 
 # Creare un package

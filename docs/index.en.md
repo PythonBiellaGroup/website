@@ -33,13 +33,52 @@ Here you can find our [code of conduct](code_conduct.md)
 
 You can find all our contacts, materials, and information on this [link](https://info.pythonbiellagroup.it/)
 
-In particular, you can find information about:
+In particular, you can find informations about:
 
-* Telegram channel that we use for communication and discussions within the community
-* YouTube channel with all the videos and recordings of the sessions
-* Github: with all our open-source code and materials
-* Eventbrite: where you can get tickets to access our live meetups
-* All our social channels and contacts
+::cards:: cols=4
+
+- title: Telegram
+  content: Telegram channel for communications and discussions within the community
+  image: ./static/images/contacts/telegram.png
+  url: https://t.me/pythonbiellagroup
+
+- title: Github
+  content: Our Github profile containing code and open source material
+  image: ./static/images/contacts/github.png
+  url: https://github.com/PythonBiellaGroup
+
+- title: Eventbrite
+  content: Take part of our events by grabbing your free tickets on Eventbrite
+  image: ./static/images/contacts/eventbrite.png
+  url: https://www.eventbrite.it/o/pythonbiellagroup-33249843991
+
+- title: Youtube
+  content: Youtube channel with all meetup and events videos
+  image: ./static/images/contacts/youtube.png
+  url: https://www.youtube.com/@PythonBiellaGroup
+
+- title: Linkedin
+  content: Official community Linkedin profile
+  image: ./static/images/contacts/linkedin.png
+  url: https://www.linkedin.com/company/pythonbiellagroup/
+
+- title: Instagram
+  content: Official community Instagram profile
+  image: ./static/images/contacts/instagram.png
+  url: https://www.instagram.com/pythonbiellagroup/
+
+- title: Facebook
+  content: Official community Facebook profile
+  image: ./static/images/contacts/facebook.png
+  url: https://www.facebook.com/pythonbiellagroup/
+
+- title: Twitter
+  content: Official community Twitter profile
+  image: ./static/images/contacts/twitter.png
+  url: https://twitter.com/PythonBiella/
+
+::/cards::
+
 
 ## 🤲 Want to help us? Interested in our project?
 Contribute to the community!

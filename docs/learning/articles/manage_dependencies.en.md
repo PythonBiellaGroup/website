@@ -1,6 +1,7 @@
 ---
 title: Manage dependencies in python
 disquis: PythonBiellaGroup
+timetoread: true
 ---
 
 ## Introduction

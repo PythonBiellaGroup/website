@@ -1,6 +1,7 @@
 ---
 title: Gestire le dipendenze in python
 disquis: PythonBiellaGroup
+timetoread: true
 ---
 ## Intro
 

@@ -15,6 +15,8 @@ edit_uri: edit/main/docs
 nav:
     - Home:
           - index.md
+          - board.md
+          - community_history.md
           - code_conduct.md
           - tags.md
     - Meetup:
@@ -163,6 +165,11 @@ nav:
                 - Telegram Bot: meetup/archive/telegram_bot.md
                 - Tensorflow serving: meetup/archive/tensorflow_serving.md
                 - Testare e documentare i dati: meetup/archive/data_testing.md
+                - Testing con python:
+                      - meetup/archive/testing_python/index.md
+                      - Testing - Intro: meetup/archive/testing_python/testing_1.md
+                      - Testing - Pytest e unittest: meetup/archive/testing_python/testing_2.md
+                      - Testing - Doctest e behave: meetup/archive/testing_python/testing_3.md
                 - Twitter sentiment analysis: meetup/archive/sentiment_analysis.md
                 - Web scraping:
                       - meetup/archive/web_scraping/index.md
@@ -181,22 +188,41 @@ nav:
                 - VS Code: learning/articles/vs_code.md
           - Wiki:
                 - Creare un package in python: learning/wiki/create_package.md
+          - Percorsi di apprendimento:
+                - Testing con python:
+                      - learning/learning_path/pytesting/index.md
+                      - Tutorial:
+                            - learning/learning_path/pytesting/tutorial/index.md
+                            - Introduzione: learning/learning_path/pytesting/tutorial/intro.md
+                            - L'aspetto di un test: learning/learning_path/pytesting/tutorial/test.md
+                            - Categorie, granularità, livelli e tipi di test: learning/learning_path/pytesting/tutorial/tipi.md
+                            - Buone pratiche per scrivere test di qualità: learning/learning_path/pytesting/tutorial/pratiche.md
+                            - Il test framework unittest: learning/learning_path/pytesting/tutorial/unittest.md
+                            - Utilizzare Pytest: learning/learning_path/pytesting/tutorial/pytest.md
+                            - Test semplici con doctest: learning/learning_path/pytesting/tutorial/doctest.md
+                            - Test BDD con Behave: learning/learning_path/pytesting/tutorial/behave.md
+                      - Risorse:
+                            - learning/learning_path/pytesting/resources/index.md
+                            - Letteratura: learning/learning_path/pytesting/resources/letteratura.md
+                            - Software: learning/learning_path/pytesting/resources/software.md
+                            - Snippet: learning/learning_path/pytesting/resources/snippet.md
+                            - Talk: learning/learning_path/pytesting/resources/talk.md
+
     - Supporters:
           - supporters/index.md
     - Speakers:
           - speakers/index.md
           - Guida speaker: speakers/speaker_guide.md
-                      #- Blog:
-                      #        - blog/index.md
 
+extra_css:
+    - style/neoteroi-mkdocs.css
 # Configuration
 theme:
     name: material
     docs_dir: docs
     site_dir: site
     extra_css:
-        - /style/custom.css
-        - /style/hide_lang_links.css
+        - style/custom.css
     extra_javascript:
         - https://polyfill.io/v3/polyfill.min.js?features=es6
         - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
@@ -243,10 +269,6 @@ theme:
               icon: material/toggle-switch-off-outline
               name: Switch to light mode
 
-# Hooks
-# hooks:
-#   - theme/hooks/translations.py
-
 # Markdown extensions
 markdown_extensions:
     - abbr
@@ -254,12 +276,11 @@ markdown_extensions:
     - attr_list
     - codehilite
     - def_list
+    - neoteroi.cards
+    - neoteroi.timeline
     - footnotes
     - meta
     - md_in_html
-    #- pymdownx.emoji:
-    #      emoji_index: !!python/name:material.extensions.emoji.twemoji
-    #      emoji_generator: !!python/name:material.extensions.emoji.to_svg
     - toc:
           title: On this page
           permalink: true
@@ -290,6 +311,8 @@ markdown_extensions:
 
 plugins:
     - macros
+    - timetoread:
+          allPages: false
     - minify:
           minify_html: true
           minify_js: true
@@ -346,11 +369,12 @@ plugins:
                     Intro, demo e primi passi: Introduction, demo, and first steps
                     Bag, Structure, ORM e inizio progetto: Bag, Structure, ORM, and project start
                     Risorse UI, lookup tables e formula columns: UI resources, lookup tables, and formula columns
-                    Altre risorse UI, import dati, tabelle gerarchiche, stampe, utenti, multi-tenant: Other UI resources, data import, hierarchical tables,
-                        printing, users, multi-tenancy
+                    Altre risorse UI, import dati, tabelle gerarchiche, stampe, utenti, multi-tenant: Other UI resources, data import, hierarchical tables,printing,
+                        users, multi-tenancy
                     Utenti, Staff e Donatori in ottica multi-tenant: Users, Staff, and Donors in a multi-tenant perspective
                     Gestione delle eccezioni: Exception handling
                     Gioco dell' Orso: Bear and hunters game
+                    Creare un package in python: Create a python package
                     Parte 1: Part 1
                     Parte 2: Part 2
                     Git base: Git basics
@@ -414,6 +438,20 @@ plugins:
                     Secondo incontro - Patrick Arminio: Second interview - Patrick Arminio
                     Terzo incontro - Juliana Nicacio: Third interview - Juliana Nicacio
                     Quarto incontro - Giovanni Barillari: Fourth interview - Giovanni Barillari
+                    Percorsi di apprendimento: Learning path
+                    Testing con python: Testing with python
+                    Introduzione: Introduction
+                    L'aspetto di un test: What a test looks like
+                    Categorie, granularità, livelli e tipi di test: Categories, granularity, levels and types of tests
+                    Buone pratiche per scrivere test di qualità: Good practices for writing tests
+                    Il test framework unittest: Using the unittest framework
+                    Utilizzare Pytest: Using pytest
+                    Test semplici con doctest: Simple tests with doctest
+                    Test BDD con Behave: BDD tests with Behave
+                    Risorse: Resources
+                    Letteratura: Bibliography
+                    Testing - Pytest e unittest: Testing - Pytest and unittest
+                    Testing - Doctest e behave: Testing - Doctest and behave
 
     - git-revision-date-localized
         # - optimize:
@@ -426,34 +464,34 @@ plugins:
         #         optimize_jpg_progressive: true
         #         cache: true
         #         cache_dir: .cache/plugins/optimize
-    - meta:
-          meta_file: '**/.meta.yml'
-                    # - blog
-                    #         enabled: true
-                    #         blog_dir: blog
-                    #         blog_toc: true
-                    #         post_date_format: long
-                    #         post_url_date_format: yyyy-MM-dd
-                    #         # post_url_format: "{date}/{slug}/{file}"
-                    #         # post_slugify_separator: "-"
-                    #         post_readtime: true
-                    #         post_readtime_words_per_minute: 265
-                    #         archive: true
-                    #         #   archive_name: Archive
-                    #         archive_date_format: MMMM yyyy
-                    #         #   archive_url_date_format: yyyy/MM
-                    #         #   archive_toc: true
-                    #         categories: true
-                    #         categories_name: Categories
-                    #         categories_toc: true
-                    #         #   pagination: true
-                    #         #   pagination_per_page: 5
-                    #         # pagination_url_format: "page/{page}"
-                    #         #   pagination_keep_content: true
-                    #         authors: true
-                    #         # authors_file: .authors.yml
-                    #         draft: true
-                    #         draft_on_serve: true
+        #- meta:
+        #     meta_file: '**/.meta.yml'
+        # - blog
+        #         enabled: true
+        #         blog_dir: blog
+        #         blog_toc: true
+        #         post_date_format: long
+        #         post_url_date_format: yyyy-MM-dd
+        #         # post_url_format: "{date}/{slug}/{file}"
+        #         # post_slugify_separator: "-"
+        #         post_readtime: true
+        #         post_readtime_words_per_minute: 265
+        #         archive: true
+        #         #   archive_name: Archive
+        #         archive_date_format: MMMM yyyy
+        #         #   archive_url_date_format: yyyy/MM
+        #         #   archive_toc: true
+        #         categories: true
+        #         categories_name: Categories
+        #         categories_toc: true
+        #         #   pagination: true
+        #         #   pagination_per_page: 5
+        #         # pagination_url_format: "page/{page}"
+        #         #   pagination_keep_content: true
+        #         authors: true
+        #         # authors_file: .authors.yml
+        #         draft: true
+        #         draft_on_serve: true
     - rss:
           match_path: blog/posts/.*
           date_from_meta:
@@ -507,6 +545,9 @@ extra:
         - icon: fontawesome/brands/gitter
           link: https://info.pythonbiellagroup.it/
           name: Contacts and social
+        - icon: fontawesome/brands/youtube
+          link: https://www.youtube.com/@PythonBiellaGroup
+          name: Youtube
         - icon: fontawesome/brands/twitter
           link: https://twitter.com/PythonBiella/
           name: Twitter

@@ -1,6 +1,7 @@
 ---
 title: Documentare il codice
 disquis: PythonBiellaGroup
+timetoread: true
 ---
 
 ## Perchè documentare il codice è importante?

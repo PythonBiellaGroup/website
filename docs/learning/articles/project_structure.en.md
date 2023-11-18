@@ -1,6 +1,7 @@
 ---
 title: Setup a python project
 disquis: PythonBiellaGroup
+timetoread: true
 ---
 
 # Project Structure

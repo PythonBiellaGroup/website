@@ -1,6 +1,7 @@
 ---
 title: REPL
 disquis: PythonBiellaGroup
+timetoread: true
 ---
 
 REPL vuol dire: **READ** - **EVAL** - **PRINT** - **LOOP**.

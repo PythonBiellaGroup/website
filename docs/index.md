@@ -31,17 +31,57 @@ All'interno potrai trovare:
 
 Qui puoi trovare il nostro [codice di condotta](code_conduct.md)
 
+
 ## ☎️ Contatti
 
-Puoi trovare tutti i nostri contatti, materiale e informazioni su questo [link](https://info.pythonbiellagroup.it/)
+Puoi trovare tutti i nostri contatti, materiale e informazioni a questo [link](https://info.pythonbiellagroup.it/)
 
 In particolare puoi trovare informazioni su:
 
-* Canale Telegram che usiamo per comunicare e discutere all’interno della community
-* Canale Youtube con tutti i video e le registrazioni delle serate
-* Github: con tutto il nostro codice e materiale open source
-* Eventbrite: dove potrai ottenere i biglietti per accedere ai nostri meetup live
-* Tutti i nostri canali e contatti social
+::cards:: cols=4
+
+- title: Telegram
+  content: Canale Telegram che usiamo per comunicare e discutere all’interno della community
+  image: ./static/images/contacts/telegram.png
+  url: https://t.me/pythonbiellagroup
+
+- title: Github
+  content: Il nostro profilo Github con tutto il nostro codice e il materiale open source
+  image: ./static/images/contacts/github.png
+  url: https://github.com/PythonBiellaGroup
+
+- title: Eventbrite
+  content: Accedi ai nostri eventi prendendo il tuo biglietto gratuito su Eventbrite
+  image: ./static/images/contacts/eventbrite.png
+  url: https://www.eventbrite.it/o/pythonbiellagroup-33249843991
+
+- title: Youtube
+  content: Canale Youtube con tutti i video e le registrazioni delle serate
+  image: ./static/images/contacts/youtube.png
+  url: https://www.youtube.com/@PythonBiellaGroup
+
+- title: Linkedin
+  content: Profilo Linkedin ufficiale della community
+  image: ./static/images/contacts/linkedin.png
+  url: https://www.linkedin.com/company/pythonbiellagroup/
+
+- title: Instagram
+  content: Profilo Instagram ufficiale della community
+  image: ./static/images/contacts/instagram.png
+  url: https://www.instagram.com/pythonbiellagroup/
+
+
+- title: Facebook
+  content: Profilo Facebook ufficiale della community
+  image: ./static/images/contacts/facebook.png
+  url: https://www.facebook.com/pythonbiellagroup/
+
+- title: Twitter
+  content: Profilo Twitter ufficiale della community
+  image: ./static/images/contacts/twitter.png
+  url: https://twitter.com/PythonBiella/
+
+::/cards::
 
 
 ## 🤲 Vuoi aiutarci? Ti interessa il nostro progetto?

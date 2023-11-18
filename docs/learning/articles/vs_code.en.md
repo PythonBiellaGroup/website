@@ -1,6 +1,7 @@
 ---
 title: VSCode
 disquis: PythonBiellaGroup
+timetoread: true
 ---
 
 ## Intro

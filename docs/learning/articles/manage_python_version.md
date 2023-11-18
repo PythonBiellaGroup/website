@@ -1,6 +1,7 @@
 ---
 title: Gestire diverse versioni di Python
 disquis: PythonBiellaGroup
+timetoread: true
 ---
 
 # Gestire diverse versioni di Python

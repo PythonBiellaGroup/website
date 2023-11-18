@@ -1,6 +1,7 @@
 ---
 title: Code style
 disquis: PythonBiellaGroup
+timetoread: true
 ---
 
 ## Intro
