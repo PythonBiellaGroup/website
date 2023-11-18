@@ -17,25 +17,9 @@ tags:
 
 👨‍💻 **PythonBiellaGroup** is a community dedicated to Python, with the goal of studying and learning the programming language in all its aspects.
 
-## 🚀 Materials
-
-We believe that knowledge should be shared, and that's why we share all the materials (code, notebooks, slides, exercises) that are presented during our meetups on our [GitHub](https://github.com/PythonBiellaGroup), making it accessible to everyone.
-
-Inside, you will find:
-
-- [All the materials used during our meetups](https://github.com/PythonBiellaGroup/MaterialeSerate)
-- [Exercises done by the community; propose your solution!](https://github.com/PythonBiellaGroup/Esercizi)
-- Community-developed projects:
-  - [Bear](https://github.com/PythonBiellaGroup/Bear): a template for a modern python project based on [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/)
-  - [Community website](https://github.com/PythonBiellaGroup/website): website for the community based on [MkDocs](https://mkdocs.readthedocs.io/en/stable/)
-
-Here you can find our [code of conduct](code_conduct.md)
-
 ## ☎️ Contacts
 
-You can find all our contacts, materials, and information on this [link](https://info.pythonbiellagroup.it/)
-
-In particular, you can find informations about:
+Here are all our contacts and social profiles where you can reach us
 
 ::cards:: cols=4
 
@@ -81,6 +65,19 @@ In particular, you can find informations about:
 
 ::/cards::
 
+## 🚀 Materials
+
+We believe that knowledge should be shared, and that's why we share all the materials (code, notebooks, slides, exercises) that are presented during our meetups on our [GitHub](https://github.com/PythonBiellaGroup), making it accessible to everyone.
+
+Inside, you will find:
+
+- [All the materials used during our meetups](https://github.com/PythonBiellaGroup/MaterialeSerate)
+- [Exercises done by the community; propose your solution!](https://github.com/PythonBiellaGroup/Esercizi)
+- Community-developed projects:
+  - [Bear](https://github.com/PythonBiellaGroup/Bear): a template for a modern python project based on [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/)
+  - [Community website](https://github.com/PythonBiellaGroup/website): website for the community based on [MkDocs](https://mkdocs.readthedocs.io/en/stable/)
+
+Here you can find our [code of conduct](code_conduct.md)
 
 ## 🤲 Want to help us? Interested in our project?
 

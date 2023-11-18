@@ -17,26 +17,9 @@ tags:
 
 👨‍💻 **PythonBiellaGroup** è una community legata a Python che si pone l’obiettivo di studiare e apprendere l’omonimo linguaggio di programmazione in tutte le sue accezioni.
 
-## 🚀 Materiale
-
-Crediamo che la conoscenza debba essere condivisa ed é per questo che condividiamo tutto il materiale (codice,notebook,slides,esercizi) che viene proposto durante i meetup sul nostro [GitHub](https://github.com/PythonBiellaGroup) in modo che possa essere accessibile a chiunque
-
-All'interno potrai trovare:
-
-- [Tutto il materiale utilizzato durante i meetup](https://github.com/PythonBiellaGroup/MaterialeSerate)
-- [Esercizi fatti dalla community, proponi la tua soluzione!](https://github.com/PythonBiellaGroup/Esercizi)
-- Progetti sviluppati dalla community:
-  - [Bear](https://github.com/PythonBiellaGroup/Bear): un template per un progetto moderno in python basato su [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/)
-  - [Community website](https://github.com/PythonBiellaGroup/website): sito della community basato con [MkDocs](https://mkdocs.readthedocs.io/en/stable/)
-
-Qui puoi trovare il nostro [codice di condotta](code_conduct.md)
-
-
 ## ☎️ Contatti
 
-Puoi trovare tutti i nostri contatti, materiale e informazioni a questo [link](https://info.pythonbiellagroup.it/)
-
-In particolare puoi trovare informazioni su:
+Ecco tutti i nostri contatti e profili social dove puoi contattarci
 
 ::cards:: cols=4
 
@@ -82,6 +65,23 @@ In particolare puoi trovare informazioni su:
   url: https://twitter.com/PythonBiella/
 
 ::/cards::
+
+## 🚀 Materiale
+
+Crediamo che la conoscenza debba essere condivisa ed é per questo che condividiamo tutto il materiale (codice,notebook,slides,esercizi) che viene proposto durante i meetup sul nostro [GitHub](https://github.com/PythonBiellaGroup) in modo che possa essere accessibile a chiunque
+
+All'interno potrai trovare:
+
+- [Tutto il materiale utilizzato durante i meetup](https://github.com/PythonBiellaGroup/MaterialeSerate)
+- [Esercizi fatti dalla community, proponi la tua soluzione!](https://github.com/PythonBiellaGroup/Esercizi)
+- Progetti sviluppati dalla community:
+  - [Bear](https://github.com/PythonBiellaGroup/Bear): un template per un progetto moderno in python basato su [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/)
+  - [Community website](https://github.com/PythonBiellaGroup/website): sito della community basato con [MkDocs](https://mkdocs.readthedocs.io/en/stable/)
+
+Qui puoi trovare il nostro [codice di condotta](code_conduct.md)
+
+
+
 
 
 ## 🤲 Vuoi aiutarci? Ti interessa il nostro progetto?
