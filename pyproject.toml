@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "Website"
+name = "PythonBiellaGroup"
 version = "0.0.1"
-description = "PythonBiellaGroup website"
+description = "PythonBiellaGroup official website"
 authors = [
     "PythonBiellaGroup <pythonbiellagroup@gmail.com>"
 ]
