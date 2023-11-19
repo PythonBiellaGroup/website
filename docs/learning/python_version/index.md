@@ -4,7 +4,6 @@ disquis: PythonBiellaGroup
 timetoread: true
 ---
 
-# Gestire diverse versioni di Python
 In questa prima sezione vediamo come gestire le proprie installazioni di python all’interno della macchina sfruttando: **pyenv**
 
 ![Python env](../../static/images/articles/python-env.png)
@@ -12,6 +11,7 @@ In questa prima sezione vediamo come gestire le proprie installazioni di python 
 ![Python versions](../../static/images/articles/pythonversions.png)
 
 ---
+
 ## **Pyenv**
 
 ### Overview
@@ -20,21 +20,21 @@ Pyenv consente di gestire diverse versioni di python installate nella vostra mac
 
 È semplice e non troppo invasivo, inoltre potete utilizzarlo su qualsiasi sistema operativo
 
-* Consente di cambiare la versione globale di python oppure locale per ogni progetto o utente
-* Consente di gestire una versione locale di ogni progetto con la propria specifica versione di python
-* Permette di fare override della versione di Python come variabili d’ambiente (non dovete più gestirle a mano)
-* Consente di ricercare diverse versioni di python e gestirle (con tox)
+- Consente di cambiare la versione globale di python oppure locale per ogni progetto o utente
+- Consente di gestire una versione locale di ogni progetto con la propria specifica versione di python
+- Permette di fare override della versione di Python come variabili d’ambiente (non dovete più gestirle a mano)
+- Consente di ricercare diverse versioni di python e gestirle (con tox)
 
 ### Alcuni aspetti molto importanti
 
-* Non ci sono problemi di bootstrap, è costruito utilizzando script shell puri
-* Non è necessario caricarlo all’interno della propria shell, basta inserire la sua directory nelle variabili di ambiente e funziona “da solo”
-* Consente inoltre (ed eventualmente) di gestire in moldo più efficiente i virtualenviroments
-* [Documentazione](https://github.com/pyenv/pyenv) fatta molto bene con moltissimo supporto online.
+- Non ci sono problemi di bootstrap, è costruito utilizzando script shell puri
+- Non è necessario caricarlo all’interno della propria shell, basta inserire la sua directory nelle variabili di ambiente e funziona “da solo”
+- Consente inoltre (ed eventualmente) di gestire in moldo più efficiente i virtualenviroments
+- [Documentazione](https://github.com/pyenv/pyenv) fatta molto bene con moltissimo supporto online.
 
 ### Comandi utili
 
-```
+```bash
 pyenv install --list
 
 # Installare una specifica versione di python
@@ -65,27 +65,19 @@ Ecco che entrano in gioco i **virtualenvironments**
 
 È importante utilizzare separati virtualenvs per ogni progetto che si fa su python, iniziando ad esercitarsi da quelli più semplici.
 
----
-
-## **Pyenv avanzato**
+## Pyenv avanzato
 
 In questa sezione avanzata sono presenti appunti, best practice e guide per approfondire tutto ciò che riguarda Pyenv
 
 ### Documentazione utile
 
-https://realpython.com/intro-to-pyenv/
+[Intro to pyenv](https://realpython.com/intro-to-pyenv/)
 
-Pyenv con poetry
+[Pyenv con poetry](https://blog.jayway.com/2019/12/28/pyenv-poetry-saviours-in-the-python-chaos/)
 
-https://blog.jayway.com/2019/12/28/pyenv-poetry-saviours-in-the-python-chaos/
+[Guida per configurare pyenv su Mac](https://opensource.com/article/20/4/pyenv)
 
-Guida per configurare pyenv su Mac
-
-https://opensource.com/article/20/4/pyenv
-
-Notes su un Github Gist
-
-https://gist.github.com/Geoyi/f55ed54d24cc9ff1c14bd95fac21c042
+[Notes su un Github Gist](https://gist.github.com/Geoyi/f55ed54d24cc9ff1c14bd95fac21c042)
 
 Pyenv è un gestore di installazione di python. Permette di installare e eseguire più installazioni di python sulla stessa macchina.
 Pyenv gestisce le differenti versioni di python per te, in modo da evitare il chaos di dipendenze, versioni e installazioni illustrato nell’immagine iniziale.
@@ -93,7 +85,6 @@ Pyenv gestisce le differenti versioni di python per te, in modo da evitare il ch
 **Perchè non utilizzare python installato di default nel proprio sistema operativo?**
 
 Perchè possono creare problemi nei progetti, ognuno ha la propria versione e ci possono essere problemi di migrazione e riproducibilità quando si usano in contesti di produzione.
-
 
 ### Cosa ci consente di fare pyenv? (flusso operativo)
 
@@ -115,7 +106,7 @@ Verificare installazione di Pyenv
 
 Una volta installato e configurato correttamente sul vostro terminale terminale fare:
 
-```
+```bash
 pyenv --version
 ```
 
@@ -123,31 +114,36 @@ pyenv --version
 
 Visualizzare le versioni di python
 
-```
+```bash
 pyenv install --list | grep " 3\.[678]"
 ```
-```
+
+```bash
 pyenv install -v 3.7.2
 ```
 
 Visualizzare dove vengono installate le varie versioni su Python
-```
+
+```bash
 ls ~/.pyenv/versions/
 ```
 
 Disinstallare una versione di Python
-```
+
+```bash
 pyenv uninstall <version>
 ```
 
 Ogni volta che su windows (e altri sistemi operativi) si installa una nuova versione di Python con pyenv è importante anche fare rehash
-```
+
+```bash
 #rehash to update shims
 pyenv rehash
 ```
 
 #### Usare una versione di Pyenv
-```
+
+```bash
 #Visualize the installed (available) versions
 pyenv versions
 
@@ -163,12 +159,13 @@ pyenv global system
 
 È anche possibile impostare una versione di pyenv python locale per ogni progetto facendo all’interno della cartella di progetto:
 
-```
+```bash
 pyenv local <version>
 ```
+
 Oppure impostare la versione di una determinata shell
 
-```
+```bash
 pyenv shell <version>
 ```
 
@@ -176,16 +173,18 @@ pyenv shell <version>
 Dopo aver installato la versione di Python global di pyenv è necessario eliminare dalla variabile di ambiente PATH i riferimenti al Python base installato inizialmente.
 
 #### Virtualenvs con pyenv
+
 Pyenv ha un bellissimo plugin chiamato: pyenv-virtualenv che consente di gestire appunto i vari virtualenv in modo semplice.
 
 Ci sono diversi modi per gestire un virtualenv (pyenv consente di gestirli tutti e 3 in modo molto semplice e comodo)
 
-* pyenv manages multiple versions of Python itself.
-* virtualenv/venv manages virtual environments for a specific Python version.
-* pyenv-virtualenv manages virtual environments for across varying versions of Python.
+- pyenv manages multiple versions of Python itself.
+- virtualenv/venv manages virtual environments for a specific Python version.
+- pyenv-virtualenv manages virtual environments for across varying versions of Python.
 
 Creare un virtualenv
-```
+
+```bash
 pyenv virtualenv <python_version> <environment_name>
 
 #<pythonversion> is optional
@@ -193,7 +192,7 @@ pyenv virtualenv <python_version> <environment_name>
 
 Attivare un virtualenv
 
-```
+```bash
 pyenv local myproject
 
 #verify python version
@@ -204,7 +203,8 @@ pyenv which pip
 ```
 
 È quindi possibile attivare o disattivare un particolare ambiente (virtualenv) (un po' come succede con anaconda)
-```
+
+```bash
 pyenv activate <environment_name>
 
 pyenv deactivate
@@ -217,6 +217,6 @@ Con pyenv è anche possibile utilizzare più versioni di python contemporaneamen
 
 Informazione: Impedire a conda di partire di default
 
-```
+```bash
 conda config --set auto_activate_base false
 ```

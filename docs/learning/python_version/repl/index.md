@@ -14,7 +14,7 @@ Ci sono alcune alternative, la più comune e popolare è certamente: iPython che
 
 Per installare e usare iPython è possibile fare
 
-```
+```bash
 pip install ipython
 #Oppure utilizzando pipx
 pipx install ipython
@@ -24,8 +24,8 @@ Si raccomanda di utilizzare pipx perchè è uno di quelli strumenti che si vuole
 
 ### Vantaggi di iPython
 
-* Autocompletamento tramite tab
-* highlight della sintassi
-* Indentazione automatica
-* Magic commands
-* Tanto tanto altro
+- Autocompletamento tramite tab
+- highlight della sintassi
+- Indentazione automatica
+- Magic commands
+- Tanto tanto altro

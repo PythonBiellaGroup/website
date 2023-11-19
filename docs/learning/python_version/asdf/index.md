@@ -7,8 +7,6 @@ tags:
   - tools
 ---
 
-# ASDF
-
 ASDF è uno strumento molto potente che consente di gestire diverse installazioni di tool, linguaggi di programmazione e strumenti.
 
 È molto comodo anche per gestire diverse versioni di Python all'interno della stessa macchina o dello stesso server, molto più di strumenti python nativi come pyenv, pipx, virtualenv, etc...
