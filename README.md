@@ -65,8 +65,6 @@ In the PBG website you can find:
 - [x] Cookies request form
 - [x] Migrate contents from old site
 - [ ] Template folder for contents
-- [ ] Blog section
-- [ ] Comments section for the blog articles
 - [ ] New home page
 - [ ] New 404 page
 - [ ] New CSS to improve design
@@ -170,6 +168,26 @@ Remember at the end to logout from docker registry if you are not using it anymo
 ```bash
 docker logout ghcr.io
 ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Check before commit
+
+Inside the repository we are using `pre-commit` to check the quality of the code.
+
+Pre commit it's automatically installed and added inside the repository.
+
+Before committing something launch the command to check the code quality:
+
+```bash
+# Precommit check launch with mkdocs
+make check_project
+
+# Precommit check launch with just
+just check_project
+```
+
+If you are not launching this 2 commands before pushing something you risk to not pass pre-commit checks and you will have to commit again because automatically pre-commit will fix the problems in the repo.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

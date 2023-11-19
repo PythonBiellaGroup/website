@@ -47,6 +47,7 @@ Additionally, the code of conduct also contains suggestions on how each member c
 13. Every community participant who receives or observes shortcomings or violations that undermine their or others' dignity is encouraged to promptly report the incident to the organizers.
 
 ---
+
 ## Social
 
 1. Do not send anything that can be perceived as discriminatory, vulgar, or offensive; for example, racist, sexist, pornographic, blasphemous, vulgar, arrogant, unpleasant, or threatening content, as well as images or websites.
@@ -58,18 +59,19 @@ Additionally, the code of conduct also contains suggestions on how each member c
 4. Do not use bots or algorithms to disseminate messages or content of any kind that violate the community rules listed above and deliberately spam users, except for automatic moderation tools provided by various communication platforms.
 
 ---
+
 ## Content and material sharing
 
-1. It is possible to share material that complies with the above rules, but every community member who shares material must ensure that the said material is not covered by copyright or, in general, that its distribution and sharing are permissible.
+1.  It is possible to share material that complies with the above rules, but every community member who shares material must ensure that the said material is not covered by copyright or, in general, that its distribution and sharing are permissible.
 
-2. When sharing a link to content, it is necessary to ensure beforehand that the address is secure.
-   
+2.  When sharing a link to content, it is necessary to ensure beforehand that the address is secure.
+
     ??? note "How to do it?"
 
           * Use a link checker tool
-    
+
           * Make sure the site uses HTTPS
-    
+
           * Examine Google reviews
-    
+
           * Check the domain age and ownership

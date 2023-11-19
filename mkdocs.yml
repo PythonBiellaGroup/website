@@ -1,6 +1,6 @@
 ---
 # Project information
-site_name: PythonBiellaGroup website
+site_name: PythonBiellaGroup
 site_url: https://pythonbiellagroup.it
 site_author: PythonBiellaGroup
 site_description: PythonBiellaGroup official website with all the guides, information, materials, and resource for the community.
@@ -15,6 +15,8 @@ edit_uri: edit/main/docs
 nav:
     - Home:
           - index.md
+          - board.md
+          - community_history.md
           - code_conduct.md
           - tags.md
     - Meetup:
@@ -163,6 +165,11 @@ nav:
                 - Telegram Bot: meetup/archive/telegram_bot.md
                 - Tensorflow serving: meetup/archive/tensorflow_serving.md
                 - Testare e documentare i dati: meetup/archive/data_testing.md
+                - Testing con python:
+                      - meetup/archive/testing_python/index.md
+                      - Testing - Intro: meetup/archive/testing_python/testing_1.md
+                      - Testing - Pytest e unittest: meetup/archive/testing_python/testing_2.md
+                      - Testing - Doctest e behave: meetup/archive/testing_python/testing_3.md
                 - Twitter sentiment analysis: meetup/archive/sentiment_analysis.md
                 - Web scraping:
                       - meetup/archive/web_scraping/index.md
@@ -171,32 +178,89 @@ nav:
                 - XGBoost: meetup/archive/xgboost.md
     - Learning:
           - learning/index.md
-          - Articoli:
-                - Gestire dipendenze: learning/articles/manage_dependencies.md
-                - Gestire diverse versioni di python: learning/articles/manage_python_version.md
-                - Struttura di progetto: learning/articles/project_structure.md
-                - REPL: learning/articles/repl.md
-                - Documentare il codice: learning/articles/document_code.md
-                - Code style: learning/articles/code_style.md
-                - VS Code: learning/articles/vs_code.md
-          - Wiki:
-                - Creare un package in python: learning/wiki/create_package.md
+          - Better code:
+                - learning/better_code/index.md
+                - Bandit: learning/better_code/bandit/index.md
+                - Black: learning/better_code/black/index.md
+                - Flake8: learning/better_code/flake8/index.md
+                - Mypy: learning/better_code/mypy/index.md
+                - Pydantic: learning/better_code/pydantic/index.md
+                - Ruff: learning/better_code/ruff/index.md
+          - Creare un pacchetto:
+                - learning/create_package/index.md
+          - Data analysis:
+                - learning/data_analysis/index.md
+                - DuckDB: learning/data_analysis/duckdb/index.md
+                - Numpy: learning/data_analysis/numpy/index.md
+                - Pandas: learning/data_analysis/pandas/index.md
+                - Polars: learning/data_analysis/polars/index.md
+          - Documentare il codice:
+                - learning/document_code/index.md
+          - Linux base:
+                - learning/linux_base/index.md
+          - Gestire dipendenze:
+                - learning/manage_dependencies/index.md
+                - Anaconda: learning/manage_dependencies/anaconda/index.md
+                - PDM: learning/manage_dependencies/pdm/index.md
+                - Pipx: learning/manage_dependencies/pipx/index.md
+                - Poetry: learning/manage_dependencies/poetry/index.md
+                - Poetry avanzato: learning/manage_dependencies/poetry/advance.md
+                - Pyenv: learning/manage_dependencies/pyenv/index.md
+                - Virtualenv: learning/manage_dependencies/virtualenv/index.md
+          - Materiale extra: learning/material/index.md
+          - Pre-commit: learning/pre-commit/index.md
+          - Struttura di progetto:
+                - learning/project_structure/index.md
+                - Bear: learning/project_structure/bear/index.md
+          - Python base:
+                - learning/python_base/index.md
+                - Perchè Python: learning/python_base/why_python/index.md
+          - Python avanzato:
+                - learning/python_advanced/index.md
+          - Gestire diverse versioni di python:
+                - learning/python_version/index.md
+                - ASDF: learning/python_version/asdf/index.md
+                - REPL: learning/python_version/repl/index.md
+          - Roadmap:
+                - learning/roadmap/index.md
+          - Gestione delle configurazioni:
+                - learning/settings_management/index.md
+          - Indipendenza tecnologica:
+                - learning/tech_independence/index.md
+          - Testing:
+                - learning/testing_python/index.md
+                - Tutorial:
+                      - learning/testing_python/tutorial/index.md
+                      - learning/testing_python/tutorial/intro.md
+                      - learning/testing_python/tutorial/test.md
+                      - learning/testing_python/tutorial/tipi.md
+                      - learning/testing_python/tutorial/pratiche.md
+                      - learning/testing_python/tutorial/unittest.md
+                      - learning/testing_python/tutorial/pytest.md
+                      - learning/testing_python/tutorial/doctest.md
+                      - learning/testing_python/tutorial/behave.md
+                - Risorse:
+                      - learning/testing_python/resources/index.md
+                      - learning/testing_python/resources/letteratura.md
+                      - learning/testing_python/resources/software.md
+                      - learning/testing_python/resources/snippet.md
+                      - learning/testing_python/resources/talk.md
+          - VS Code: learning/vscode/index.md
     - Supporters:
           - supporters/index.md
     - Speakers:
           - speakers/index.md
           - Guida speaker: speakers/speaker_guide.md
-                      #- Blog:
-                      #        - blog/index.md
 
+extra_css:
+    - style/neoteroi-mkdocs.css
 # Configuration
 theme:
     name: material
     docs_dir: docs
     site_dir: site
     extra_css:
-        - /style/custom.css
-        - /style/hide_lang_links.css
+        - style/custom.css
     extra_javascript:
         - https://polyfill.io/v3/polyfill.min.js?features=es6
         - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
@@ -228,24 +292,20 @@ theme:
         text: Roboto
         code: Roboto mono
     palette:
-            # Light mode
+                # Light mode
         - scheme: default
           primary: indigo
           accent: indigo
           toggle:
               icon: material/toggle-switch
               name: Switch to dark mode
-                          # Dark mode
+                                  # Dark mode
         - scheme: slate
           primary: red
           accent: red
           toggle:
               icon: material/toggle-switch-off-outline
               name: Switch to light mode
-
-# Hooks
-# hooks:
-#   - theme/hooks/translations.py
 
 # Markdown extensions
 markdown_extensions:
@@ -254,12 +314,11 @@ markdown_extensions:
     - attr_list
     - codehilite
     - def_list
+    - neoteroi.cards
+    - neoteroi.timeline
     - footnotes
     - meta
     - md_in_html
-    #- pymdownx.emoji:
-    #      emoji_index: !!python/name:material.extensions.emoji.twemoji
-    #      emoji_generator: !!python/name:material.extensions.emoji.to_svg
     - toc:
           title: On this page
           permalink: true
@@ -269,6 +328,7 @@ markdown_extensions:
     - pymdownx.betterem:
           smart_enable: all
     - pymdownx.caret
+    - pymdownx.superfences
     - pymdownx.details
     - pymdownx.highlight:
           anchor_linenums: true
@@ -290,6 +350,8 @@ markdown_extensions:
 
 plugins:
     - macros
+    - timetoread:
+          allPages: false
     - minify:
           minify_html: true
           minify_js: true
@@ -310,13 +372,13 @@ plugins:
                 name: Italian
                 build: true
                 default: true
-                site_name: PythonBiellaGroup website
+                site_name: PythonBiellaGroup
                 site_description: PythonBiellaGroup sito ufficiale che contiene tutte le guide, informazioni, materiale e risorse per la community.
               - locale: en
                 name: English
                 build: true
                 default: false
-                site_name: PythonBiellaGroup website
+                site_name: PythonBiellaGroup
                 site_description: PythonBiellaGroup official website with all the guides, information, materials, and resource for the community.
                 nav_translations:
                     Guida speaker: Speaker guide
@@ -346,11 +408,12 @@ plugins:
                     Intro, demo e primi passi: Introduction, demo, and first steps
                     Bag, Structure, ORM e inizio progetto: Bag, Structure, ORM, and project start
                     Risorse UI, lookup tables e formula columns: UI resources, lookup tables, and formula columns
-                    Altre risorse UI, import dati, tabelle gerarchiche, stampe, utenti, multi-tenant: Other UI resources, data import, hierarchical tables,
-                        printing, users, multi-tenancy
+                    Altre risorse UI, import dati, tabelle gerarchiche, stampe, utenti, multi-tenant: Other UI resources, data import, hierarchical tables,printing,
+                        users, multi-tenancy
                     Utenti, Staff e Donatori in ottica multi-tenant: Users, Staff, and Donors in a multi-tenant perspective
                     Gestione delle eccezioni: Exception handling
                     Gioco dell' Orso: Bear and hunters game
+                    Creare un package in python: Create a python package
                     Parte 1: Part 1
                     Parte 2: Part 2
                     Git base: Git basics
@@ -395,7 +458,6 @@ plugins:
                     Intro a pygame: Introduction to pygame
                     Sprites, collisioni e simulazioni: Sprites, collisions, and simulations
                     Animazioni, camera e gravità: Animations, camera, and gravity
-                    Python base: Basic Python
                     Concetti di base e tipi primitivi: Basic concepts and primitive types
                     Controlli di flusso, iterazioni e funzioni: Flow control, iterations, and functions
                     OOP base: Basic OOP
@@ -406,61 +468,49 @@ plugins:
                     Beautiful soup e requests: Beautiful Soup and Requests
                     Selenium e Scrapy: Selenium and Scrapy
                     Articoli: Articles
-                    Gestire dipendenze: Manage dependencies
-                    Gestire diverse versioni di python: Manage multiple python versions
-                    Struttura di progetto: Setup a python project
-                    Documentare il codice: Documenting code
                     Primo incontro - Marcelo Trylesinski: First interview - Marcelo Trylesinski
                     Secondo incontro - Patrick Arminio: Second interview - Patrick Arminio
                     Terzo incontro - Juliana Nicacio: Third interview - Juliana Nicacio
                     Quarto incontro - Giovanni Barillari: Fourth interview - Giovanni Barillari
+                    Percorsi di apprendimento: Learning path
+                    Testing con python: Testing with python
+                    Introduzione: Introduction
+                    L'aspetto di un test: What a test looks like
+                    Categorie, granularità, livelli e tipi di test: Categories, granularity, levels and types of tests
+                    Buone pratiche per scrivere test di qualità: Good practices for writing tests
+                    Il test framework unittest: Using the unittest framework
+                    Utilizzare Pytest: Using pytest
+                    Test semplici con doctest: Simple tests with doctest
+                    Test BDD con Behave: BDD tests with Behave
+                    Letteratura: Bibliography
+                    Testing - Pytest e unittest: Testing - Pytest and unittest
+                    Testing - Doctest e behave: Testing - Doctest and behave
+
+                                    # learning
+                    Better code: Better code
+                    Creare un pacchetto: Create a package
+                    Data analysis: Data analysis
+                    Documentare il codice: Document your code
+                    Linux base: Linux basics
+                    Gestire dipendenze: Manage dependencies
+                    Materiale extra: Extra material
+                    Struttura di progetto: Project structure
+                    Python base: Python basics
+                    Python avanzato: Advanced Python
+                    Gestire diverse versioni di python: Manage different python versions
+                    Gestione delle configurazioni: Manage configurations
+                    Indipendenza tecnologica: Tech independence
+                    Risorse: Resources
+
 
     - git-revision-date-localized
-        # - optimize:
-        #         concurrency: 2
-        #         optimize_png: true
-        #         optimize_png_speed: 10
-        #         optimize_png_strip: true
-        #         optimize_jpg: true
-        #         optimize_jpg_quality: 75
-        #         optimize_jpg_progressive: true
-        #         cache: true
-        #         cache_dir: .cache/plugins/optimize
-    - meta:
-          meta_file: '**/.meta.yml'
-                    # - blog
-                    #         enabled: true
-                    #         blog_dir: blog
-                    #         blog_toc: true
-                    #         post_date_format: long
-                    #         post_url_date_format: yyyy-MM-dd
-                    #         # post_url_format: "{date}/{slug}/{file}"
-                    #         # post_slugify_separator: "-"
-                    #         post_readtime: true
-                    #         post_readtime_words_per_minute: 265
-                    #         archive: true
-                    #         #   archive_name: Archive
-                    #         archive_date_format: MMMM yyyy
-                    #         #   archive_url_date_format: yyyy/MM
-                    #         #   archive_toc: true
-                    #         categories: true
-                    #         categories_name: Categories
-                    #         categories_toc: true
-                    #         #   pagination: true
-                    #         #   pagination_per_page: 5
-                    #         # pagination_url_format: "page/{page}"
-                    #         #   pagination_keep_content: true
-                    #         authors: true
-                    #         # authors_file: .authors.yml
-                    #         draft: true
-                    #         draft_on_serve: true
-    - rss:
-          match_path: blog/posts/.*
-          date_from_meta:
-              as_creation: date
-          categories:
-              - categories
-              - tags
+#     - rss:
+#           match_path: blog/posts/.*
+#           date_from_meta:
+#               as_creation: date
+#           categories:
+#               - categories
+#               - tags
 
 #Extra material theme settings
 extra:
@@ -507,6 +557,9 @@ extra:
         - icon: fontawesome/brands/gitter
           link: https://info.pythonbiellagroup.it/
           name: Contacts and social
+        - icon: fontawesome/brands/youtube
+          link: https://www.youtube.com/@PythonBiellaGroup
+          name: Youtube
         - icon: fontawesome/brands/twitter
           link: https://twitter.com/PythonBiella/
           name: Twitter
