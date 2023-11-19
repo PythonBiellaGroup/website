@@ -218,17 +218,15 @@ nav:
           - Python avanzato:
                 - learning/python_advanced/index.md
           - Gestire diverse versioni di python:
-                - learning/python_version/info.md
+                - learning/python_version/index.md
                 - ASDF: learning/python_version/asdf/index.md
-                - Conda: learning/python_version/conda/index.md
-                - Pyenv: learning/python_version/pyenv/index.md
                 - REPL: learning/python_version/repl/index.md
           - Roadmap:
                 - learning/roadmap/index.md
           - Gestione delle configurazioni:
                 - learning/settings_management/index.md
           - Indipendenza tecnologica:
-                - learning/tech_independence/info.md
+                - learning/tech_independence/index.md
           - Testing:
                 - learning/testing_python/index.md
                 - Tutorial:

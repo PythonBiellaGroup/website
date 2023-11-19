@@ -16,7 +16,7 @@ In this series of meetups, we will explore together with [Peter Bittner](https:/
 
 ## Learning path
 
-Take a look to the complete learning path in out [Learning](../../../learning/learning_path/pytesting/index.en.md) section.
+Take a look to the complete learning path in out [Learning](../../../learning/testing_python/index.en.md) section.
 
 ## Material
 

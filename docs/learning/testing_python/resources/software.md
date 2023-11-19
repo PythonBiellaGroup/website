@@ -2,17 +2,15 @@
 title: Software
 disquis: PythonBiellaGroup
 tags:
-    - testing
+  - testing
 timetoread: true
 ---
-
-# Software
 
 Strumenti per lo sviluppo di test, nell'ordine di apparizione nel
 tutorial.
 
 | Nome                 | Descrizione                                                                               | Tutorial               |
-|----------------------|-------------------------------------------------------------------------------------------|------------------------|
+| -------------------- | ----------------------------------------------------------------------------------------- | ---------------------- |
 | [unittest][unittest] | Framework di test unitari della Python Standard Library                                   | [unittest][t:unittest] |
 | [pytest][pytest]     | Framework per il testing in Python che evita il codice a boilerplate                      | [pytest][t:pytest]     |
 | [doctest][doctest]   | Modulo Python che esegue i test scritti nelle stringhe di documentazione                  | [doctest][t:doctest]   |
@@ -24,7 +22,6 @@ tutorial.
 [doctest]: https://docs.python.org/3/library/doctest.html
 [behave]: https://behave.readthedocs.io/
 [tox]: https://tox.wiki/
-
 [t:unittest]: ../tutorial/unittest.md
 [t:pytest]: ../tutorial/pytest.md
 [t:doctest]: ../tutorial/doctest.md

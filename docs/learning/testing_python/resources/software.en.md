@@ -6,8 +6,6 @@ tags:
 timetoread: true
 ---
 
-# Software
-
 Test development tools, sorted by order of appearance in the tutorial.
 
 | Name                 | Description                                                                     | Tutorial               |

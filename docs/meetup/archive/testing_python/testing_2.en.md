@@ -11,7 +11,7 @@ Second meetup of the journey with [Peter Bittner](https://www.linkedin.com/in/pe
 
 ## Learning path
 
-Take a look to the complete learning path in our [Learning](../../../learning/learning_path/pytesting/index.en.md) section.
+Take a look to the complete learning path in our [Learning](../../../learning/testing_python/index.en.md) section.
 
 ## Material
 

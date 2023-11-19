@@ -11,7 +11,7 @@ Terza serata del percorso con [Peter Bittner](https://www.linkedin.com/in/peterb
 
 ## Percorso di apprendimento
 
-Dai uno sguardo al percorso di apprendimento nella nostra sezione [Learning](../../../learning/learning_path/pytesting/index.md)
+Dai uno sguardo al percorso di apprendimento nella nostra sezione [Learning](../../../learning/testing_python/index.md)
 
 ## Materiale
 
