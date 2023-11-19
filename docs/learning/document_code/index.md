@@ -5,15 +5,15 @@ timetoread: true
 ---
 
 ## Perchè documentare il codice è importante?
+
 E' fondamentale documentare per quanto possibile il proprio codice. Perché?
 
-* **Miglior comprensione del codice**: aiuta a comprendere quello che abbiamo sviluppato aiutandoci a navigare il codice in maniera lineare. Una buona documentazione spiega lo scopo e la funzionalità di ciascun modulo e funzione, il che semplifica la modifica o l’estensione del codice.
-  
-* **Collaborazione**: la documentazione ci permette di facilitare la risoluzione di bug o l'implementazione di modifiche in modo efficiente anche per i membri del team che devono lavorare sulla nostra soluzione.
+- **Miglior comprensione del codice**: aiuta a comprendere quello che abbiamo sviluppato aiutandoci a navigare il codice in maniera lineare. Una buona documentazione spiega lo scopo e la funzionalità di ciascun modulo e funzione, il che semplifica la modifica o l’estensione del codice.
+- **Collaborazione**: la documentazione ci permette di facilitare la risoluzione di bug o l'implementazione di modifiche in modo efficiente anche per i membri del team che devono lavorare sulla nostra soluzione.
 
-* **Manutenzione**: con una buona documentazione la manutenzione del codice sarà più semplice e immediata proprio perchè saranno più facilmente gli intenti implementativi.
+- **Manutenzione**: con una buona documentazione la manutenzione del codice sarà più semplice e immediata proprio perchè saranno più facilmente gli intenti implementativi.
 
-* **Qualità**: la documentazione é parte integrante di un prodotto software ed é uno step mandatorio per il rilascio finale della soluzione. Fondamentale ancora di più nel contesto consulenziale dove il software sarà consegnato nelle mani di un cliente finale che poi dovrà gestirlo in autonomia.
+- **Qualità**: la documentazione é parte integrante di un prodotto software ed é uno step mandatorio per il rilascio finale della soluzione. Fondamentale ancora di più nel contesto consulenziale dove il software sarà consegnato nelle mani di un cliente finale che poi dovrà gestirlo in autonomia.
 
 ---
 
@@ -23,9 +23,9 @@ Ci sono moltissimi strumenti di documentazione del codice e tanti altri modi per
 
 Tre degli strumenti più utilizzati per documentare il proprio codice sono:
 
-* Python classico: utilizzando docstrings, commenti , ..
-* Sphinx
-* MKDocs
+- Python classico: utilizzando docstrings, commenti , ..
+- Sphinx
+- MKDocs
 
 ---
 
@@ -35,7 +35,7 @@ Tre degli strumenti più utilizzati per documentare il proprio codice sono:
 
 In python possiamo utilizzare innanzitutto i commenti nel nostro codice per meglio spiegare il funzionamento di una certa porzione di codice.
 
-Per creare un commento basta aggiungere il carattere **#** al testo del nostro commento    
+Per creare un commento basta aggiungere il carattere **#** al testo del nostro commento
 
 ```
 # commento per il seguente codice
@@ -49,6 +49,7 @@ print('Hello World') #commento
 ```
 
 Ci sono anche le varianti per un commento multiline
+
 ```
 #This is a comment
 #written in
@@ -70,6 +71,7 @@ print("Hello, World!")
 ---
 
 #### Docstrings
+
 Sono stringhe che ci permettono di andare a descrivere un metodo,una funzione,una classe o un modulo subito dopo la loro definizione
 
 ```
@@ -83,6 +85,7 @@ Le docstring sono definite formalmente in [PEP257](https://peps.python.org/pep-0
 Ci sono comunque varie convenzioni che possono essere seguite:
 
 - [Google](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings)
+
 ```
 """
 This is an example of Google style.
@@ -98,7 +101,9 @@ Raises:
     KeyError: Raises an exception.
 """
 ```
+
 - [reST](https://www.sphinx-doc.org/en/master/) (reStructuredText)
+
 ```
 """
 This is a reST style.
@@ -109,7 +114,9 @@ This is a reST style.
 :raises keyError: raises an exception
 """
 ```
+
 - [Numpy](https://numpydoc.readthedocs.io/en/latest/)
+
 ```
 """
 My numpydoc description of a kind
@@ -146,9 +153,7 @@ OtherError
 
 Per cambiare il formato andare nelle impostazioni dell'estensione e modificare il parametro **autoDocstring.docstringFormat**
 
-
-
-** Utilizzo delle docstrings **
+**Utilizzo delle docstrings**
 
 E' possibile consultare le docstrings, se presenti, tramite i seguenti comandi per ottenere una descrizione di un modulo o una funzione di una libreria esterna che vogliamo usare nel nostro progetto
 
@@ -173,9 +178,7 @@ help(some_function)
 Alcune delle caratteristiche più importanti:
 
 - Output di vari formati pronti per la pubblicazione (possibilità di generare un sito web statico)
-  
 - Usa il formato **reStructured Text** ma é possibile parasare anche markdown con l'apposita estensione
-  
 - Temi: ce ne sono moltissimi, il più utilizzato é [Read the docs](https://sphinx-rtd-theme.readthedocs.io/en/stable/)
 
 - Estensioni: sono disponibili diverse estensioni create dagli utenti, la maggior parte installabili tramite PyPI
@@ -184,40 +187,39 @@ Alcune delle caratteristiche più importanti:
 
 Per prima cosa posizionarsi all'interno della root di progetto:
 
-
 1. Installare sphinx
-    
-    ```
-    pip install sphinx
-    ```
+
+   ```
+   pip install sphinx
+   ```
 
 2. Creare una folder dedicata all'interno del progetto
-    
-    ```
-    mkdir docs
-    ```
-    
-    ```
-    cd docs
-    ```
+
+   ```
+   mkdir docs
+   ```
+
+   ```
+   cd docs
+   ```
 
 3. Il comando **sphinx-quickstart** permette di fare un rapido setup di tutto ciò che é necessario per poter effettuare la build della documentazione
-   
-    ```
-    sphinx-quickstart --quiet --project="Default project" --author="Author name" --language="en"
-    ```
+
+   ```
+   sphinx-quickstart --quiet --project="Default project" --author="Author name" --language="en"
+   ```
 
 4. Eseguire la build
-    
-    ```
-    make html (on Unix)
-    ```
-    
-    ```
-    .\make.bat html (on Windows PowerShell)
-    ```
 
-Con il setup iniziale all'interno della folder *docs* troveremo il file **conf.py** che é il file di configurazione per la nostra documentazione dove potremo specificare le estensioni da utilizzare e molto altro.
+   ```
+   make html (on Unix)
+   ```
+
+   ```
+   .\make.bat html (on Windows PowerShell)
+   ```
+
+Con il setup iniziale all'interno della folder _docs_ troveremo il file **conf.py** che é il file di configurazione per la nostra documentazione dove potremo specificare le estensioni da utilizzare e molto altro.
 
 Ecco un esempio:
 
@@ -272,14 +274,15 @@ html_theme_options = {
 
 #### Estensioni utili
 
-* [sphinx.ext.napoleon](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/): estensione che permette di considerare le docstring scritte nello stile Google e poterle incorporare così nella documentazione al posto di utilizzare quelle nel formato nativo di sphinx (reSt)
-* [autoapi.extension](https://sphinx-autoapi.readthedocs.io/en/latest/tutorials.html): permette di generare documentazione automatica a partire dalle docstring che avete inserito nel vostro codice mediante parsing dello stesso. Fondamentale é specificare all'interno del conf.py il parametro **autoapi_dirs = ['../src']** indicante la folder da parsare.
-* [autodocsumm](https://autodocsumm.readthedocs.io/en/latest/): permette di creare un table of contents in un certo punto della documentazione
-* [sphinx_copybutton](https://sphinx-copybutton.readthedocs.io/en/latest/): permette di aggiungere un tasto "copy to clipboard" alle porzioni di codice all'interno della documentazione.
-* [myst_parser](https://myst-parser.readthedocs.io/en/latest/): permette di considerare markdown come testi sorgenti per sphinx.
+- [sphinx.ext.napoleon](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/): estensione che permette di considerare le docstring scritte nello stile Google e poterle incorporare così nella documentazione al posto di utilizzare quelle nel formato nativo di sphinx (reSt)
+- [autoapi.extension](https://sphinx-autoapi.readthedocs.io/en/latest/tutorials.html): permette di generare documentazione automatica a partire dalle docstring che avete inserito nel vostro codice mediante parsing dello stesso. Fondamentale é specificare all'interno del conf.py il parametro **autoapi_dirs = ['../src']** indicante la folder da parsare.
+- [autodocsumm](https://autodocsumm.readthedocs.io/en/latest/): permette di creare un table of contents in un certo punto della documentazione
+- [sphinx_copybutton](https://sphinx-copybutton.readthedocs.io/en/latest/): permette di aggiungere un tasto "copy to clipboard" alle porzioni di codice all'interno della documentazione.
+- [myst_parser](https://myst-parser.readthedocs.io/en/latest/): permette di considerare markdown come testi sorgenti per sphinx.
 
 #### Pubblicare su Confluence
-[Confluence](https://support.atlassian.com/confluence-cloud/resources/) é un servizio di creazione e condivisioni di documenti 
+
+[Confluence](https://support.atlassian.com/confluence-cloud/resources/) é un servizio di creazione e condivisioni di documenti
 di Atlassian.
 E' stata creata un'estensione per poter pubblicare direttamente da sphinx su Confluence.
 
@@ -289,7 +292,7 @@ Di seguito gli step per poter configurare l'estensione correttamente
 
 1. Creare un account su Confluence
 2. Creare un token API [https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/](https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/)
-3. Installare l'estensione ```pip install sphinxcontrib-confluencebuilder```
+3. Installare l'estensione `pip install sphinxcontrib-confluencebuilder`
 4. Configurare il file **conf.py**
 
 ```
