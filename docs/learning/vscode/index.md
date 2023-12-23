@@ -106,7 +106,7 @@ All’interno del progetto potete anche creare un file: settings.json all’inte
 
 ```
 {
-  "python.pythonPath": "/Users/jeydi/Progetti/mioprogetto/.venv/bin/python"
+  "python.defaultInterpreterPath": "/Users/jeydi/Progetti/mioprogetto/.venv/bin/python"
 }
 ```
 
