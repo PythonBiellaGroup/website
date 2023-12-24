@@ -107,7 +107,7 @@ Inside the project, you can also create a file: settings.json inside the .vscode
 
 ```
 {
-  "python.pythonPath": "/Users/jeydi/Progetti/mioprogetto/.venv/bin/python"
+  "python.defaultInterpreterPath": "/Users/jeydi/Progetti/mioprogetto/.venv/bin/python"
 }
 ```
 
