@@ -292,14 +292,14 @@ theme:
         text: Roboto
         code: Roboto mono
     palette:
-                # Light mode
+            # Light mode
         - scheme: default
           primary: indigo
           accent: indigo
           toggle:
               icon: material/toggle-switch
               name: Switch to dark mode
-                                  # Dark mode
+                          # Dark mode
         - scheme: slate
           primary: red
           accent: red
@@ -486,7 +486,7 @@ plugins:
                     Testing - Pytest e unittest: Testing - Pytest and unittest
                     Testing - Doctest e behave: Testing - Doctest and behave
 
-                                    # learning
+                                  # learning
                     Better code: Better code
                     Creare un pacchetto: Create a package
                     Data analysis: Data analysis
@@ -501,7 +501,6 @@ plugins:
                     Gestione delle configurazioni: Manage configurations
                     Indipendenza tecnologica: Tech independence
                     Risorse: Resources
-
 
     - git-revision-date-localized
 #     - rss:
