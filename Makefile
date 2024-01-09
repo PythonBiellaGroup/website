@@ -6,7 +6,7 @@ install_pre_commit: ## configure and install pre commit tool
 .PHONY: init_project
 init_project: 
 	@echo "📝 Creating virtual environment using pyenv and poetry"
-	@poetry install --only dev --sync
+	@poetry install --with dev --sync
 	@echo "📝 Update dependencies"
 	@poetry update
 	@echo "👓 Show installed dependencies"
