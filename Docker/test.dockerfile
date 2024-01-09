@@ -17,9 +17,11 @@ COPY poetry.toml .
 # With GHCR_USERNAME and GHCR_TOKEN
 # By default the Docker shell it's sh and not bash
 # This is not very secure, but it's only for internal testing, not for release
-COPY .env .
-RUN . /app/.env && poetry config http-basic.mkdocs ${GHCR_USERNAME} ${GHCR_TOKEN} && \
-    poetry install --no-interaction --no-ansi --only main && \
+# COPY .env .
+# RUN . /app/.env && poetry config http-basic.mkdocs ${GHCR_USERNAME} ${GHCR_TOKEN} && \
+#     poetry install --no-interaction --no-ansi --only main && \
+#     rm -rf /root/.cache/pypoetry
+RUN poetry install --no-interaction --no-ansi --only main && \
     rm -rf /root/.cache/pypoetry
 RUN poetry cache clear --all pypi
 
@@ -28,7 +30,7 @@ COPY theme ./theme
 # COPY notebooks ./notebooks
 COPY Makefile .
 COPY mkdocs.yml .
-COPY mkdocs.insiders.yml .
+# COPY mkdocs.insiders.yml .
 
 RUN make docs_build
 
