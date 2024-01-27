@@ -100,6 +100,7 @@ def sum_even_numbers(numbers: List[int]) -> int:
 #### Ignorare errori nel file di configurazione
 
 ```ini
+[lint]
 # Enable flake8-bugbear (`B`) rules.
 select = ["E", "F", "B"]
 
@@ -110,7 +111,7 @@ ignore = ["E501"]
 unfixable = ["B"]
 
 # Ignore `E402` (import violations) in all `__init__.py` files, and in `path/to/file.py`.
-[per-file-ignores]
+[lint.per-file-ignores]
 "__init__.py" = ["E402"]
 "path/to/file.py" = ["E402"]
 ```
