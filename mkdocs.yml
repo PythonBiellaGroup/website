@@ -13,499 +13,496 @@ edit_uri: edit/main/docs
 
 # Page tree
 nav:
-      - Home:
-              - index.md
-              - board.md
-              - community_history.md
-              - code_conduct.md
-              - tags.md
-      - Meetup:
-              - meetup/index.md
-              - meetup/next_meetup.md
-              - Meetup passati:
-                      - ANTLR:
-                              - meetup/archive/antlr/index.md
-                              - Parser e ANTLR4: meetup/archive/antlr/antlr_1.md
-                              - Dal parser all'interpreter: meetup/archive/antlr/antlr_2.md
-                              - Parser, intepreter e compilatori: meetup/archive/antlr/antlr_3.md
-                      - Airflow + PySpark: meetup/archive/airflow_pyspark.md
-                      - Calcolo parallelo e distribuito:
-                              - meetup/archive/distributed_compute/index.md
-                              - Intro: meetup/archive/distributed_compute/distr_comp_1.md
-                              - Comunicazione tra i processi: meetup/archive/distributed_compute/distr_comp_2.md
-                              - Librerie python Dask, Modin e Celery: meetup/archive/distributed_compute/distr_comp_3.md
-                      - Data versioning: meetup/archive/data_versioning.md
-                      - Data Science - focus Pharma: meetup/archive/ds_pharma.md
-                      - Debito tecnico e architectural smell: meetup/archive/technical_dept.md
-                      - Django:
-                              - meetup/archive/django/index.md
-                              - Introduzione a Django: meetup/archive/django/django_1.md
-                              - Modelli Django: meetup/archive/django/django_2.md
-                              - Autenticazione Django e model form: meetup/archive/django/django_3.md
-                      - Docker:
-                              - meetup/archive/docker_track/index.md
-                              - Intro Docker: meetup/archive/docker_track/docker_1.md
-                              - Concetti avanzati: meetup/archive/docker_track/docker_2.md
-                      - FastAPI:
-                              - meetup/archive/fastapi/index.md
-                              - Intro: meetup/archive/fastapi/fastapi_1.md
-                              - Le prime API con approccio TDD: meetup/archive/fastapi/fastapi_2.md
-                              - SQLModel: meetup/archive/fastapi/fastapi_3.md
-                              - Back-end con FastAPI e SQLModel: meetup/archive/fastapi/fastapi_4.md
-                              - Async, OAuth2, profiling e dockerizzazione: meetup/archive/fastapi/fastapi_5.md
-                      - Flask:
-                              - meetup/archive/flask/index.md
-                              - Intro a Flask: meetup/archive/flask/flask_1.md
-                              - Jinja avanzato e forms: meetup/archive/flask/flask_2.md
-                              - Flask con database: meetup/archive/flask/flask_3.md
-                              - Review: meetup/archive/flask/flask_4.md
-                              - Evoluzioni dell' app: meetup/archive/flask/flask_5.md
-                              - Blueprints, refactoring e test automatici: meetup/archive/flask/flask_6.md
-                              - Autenticazione: meetup/archive/flask/flask_7.md
-                              - Profili, ruoli e blog: meetup/archive/flask/flask_8.md
-                              - Heroku e docker - deploy: meetup/archive/flask/flask_9.md
-                              - Rest API: meetup/archive/flask/flask_10.md
-                      - Genropy:
-                              - meetup/archive/genropy/index.md
-                              - Intro, demo e primi passi: meetup/archive/genropy/genropy_1.md
-                              - Bag, Structure, ORM e inizio progetto: meetup/archive/genropy/genropy_2.md
-                              - Risorse UI, lookup tables e formula columns: meetup/archive/genropy/genropy_3.md
-                              - Altre risorse UI, import dati, tabelle gerarchiche, stampe, utenti, multi-tenant: meetup/archive/genropy/genropy_4.md
-                              - Utenti, Staff e Donatori in ottica multi-tenant: meetup/archive/genropy/genropy_5.md
-                      - Gestione delle eccezioni: meetup/archive/handle_except.md
-                      - Gioco dell' Orso:
-                              - meetup/archive/orso_game/index.md
-                              - Parte 1: meetup/archive/orso_game/orso_game_1.md
-                              - Parte 2: meetup/archive/orso_game/orso_game_2.md
-                      - Git base: meetup/archive/git.md
-                      - GitHub Actions: meetup/archive/github_actions.md
-                      - GPT Detection system: meetup/archive/gpt_detection.md
-                      - GraphQL e Strawberry: meetup/archive/graphql.md
-                      - Introduzione al Machine Learning:
-                              - meetup/archive/intro_ml/index.md
-                              - Introduzione al Machine Learning e a Scikit-Learn: meetup/archive/intro_ml/intro_ml_1.md
-                              - Scikit-Learn pipeline, metriche e regressione lineare: meetup/archive/intro_ml/intro_ml_2.md
-                              - Scikit-Learn - unsupervised learning: meetup/archive/intro_ml/intro_ml_3.md
-                      - Introduzione al Deep learning:
-                              - meetup/archive/intro_dl/index.md
-                              - Introduzione a Deep Learning e TensorFlow: meetup/archive/intro_dl/intro_dl_1.md
-                              - Reti Neurali per le immagini: meetup/archive/intro_dl/intro_dl_2.md
-                              - Reti Neurali Ricorrenti: meetup/archive/intro_dl/intro_dl_3.md
-                      - Introduzione a Kubernetes:
-                              - meetup/archive/intro_k8s/index.md
-                              - Parte 1: meetup/archive/intro_k8s/intro_k8s_1.md
-                              - Parte 2: meetup/archive/intro_k8s/intro_k8s_2.md
-                      - Introduzione a Databricks: meetup/archive/intro_databricks.md
-                      - Imparare Python giocando:
-                              - meetup/archive/learn_python_with_game/index.md
-                              - Le basi di Python: meetup/archive/learn_python_with_game/learn_game_1.md
-                              - PyGameZero: meetup/archive/learn_python_with_game/learn_game_2.md
-                              - Creazione giochi: meetup/archive/learn_python_with_game/learn_game_3.md
-                              - Review e creazione di giochi complessi: meetup/archive/learn_python_with_game/learn_game_4.md
-                      - Manipolazione del testo:
-                              - meetup/archive/text_manipulation/index.md
-                              - Intro espressioni regolari: meetup/archive/text_manipulation/text_1.md
-                              - Libreria regex in python: meetup/archive/text_manipulation/text_2.md
-                              - Pipeline di analisi testo e Spacy: meetup/archive/text_manipulation/text_3.md
-                              - Un progetto di analisi e classificazione di testi con ML: meetup/archive/text_manipulation/text_4.md
-                      - Modern data engineering:
-                              - meetup/archive/modern_data_eng/index.md
-                              - Stato dell'arte e Apache Airflow: meetup/archive/modern_data_eng/modern_de_1.md
-                              - Progetto: meetup/archive/modern_data_eng/modern_de_2.md
-                      - Modern python development:
-                              - meetup/archive/modern_python/index.md
-                              - Strumenti, librerie, buone pratiche per sviluppare in Python: meetup/archive/modern_python/modern_python_1.md
-                              - Poetry, PDM, Ruff e altri strumenti utili: meetup/archive/modern_python/modern_python_2.md
-                      - MLOps:
-                              - meetup/archive/mlops_aws/index.md
-                              - Introduzione MLOps: meetup/archive/mlops_aws/mlops_aws_1.md
-                              - MLOps su AWS: meetup/archive/mlops_aws/mlops_aws_2.md
-                      - ML Pipeline:
-                              - meetup/archive/ml_pipeline/index.md
-                              - Introduzione a Pytorch: meetup/archive/ml_pipeline/ml_pipeline_1.md
-                              - Introduzione a Hydra: meetup/archive/ml_pipeline/ml_pipeline_2.md
-                      - NLP - topic modeling: meetup/archive/nlp_topic_modeling.md
-                      - NVIDIA Triton: meetup/archive/nvidia_triton.md
-                      - Open Source:
-                              - meetup/archive/open_source/index.md
-                              - Primo incontro - Marcelo Trylesinski: meetup/archive/open_source/open_source_1.md
-                              - Secondo incontro - Patrick Arminio: meetup/archive/open_source/open_source_2.md
-                              - Terzo incontro - Juliana Nicacio: meetup/archive/open_source/open_source_3.md
-                              - Quarto incontro - Giovanni Barillari: meetup/archive/open_source/open_source_4.md
-                      - Pandas base:
-                              - meetup/archive/pandas/index.md
-                              - Intro e modulo csv: meetup/archive/pandas/pandas_1.md
-                              - Operazioni con i dataframe: meetup/archive/pandas/pandas_2.md
-                              - Serie ed esercitazioni: meetup/archive/pandas/pandas_3.md
-                              - Live coding ed approfondimenti: meetup/archive/pandas/pandas_4.md
-                              - Approfondimenti, indexing, filtri, multiIndexing: meetup/archive/pandas/pandas_5.md
-                      - Percorso dati:
-                              - meetup/archive/data_track/index.md
-                              - Pandas - manipolazione dei dati: meetup/archive/data_track/data_track_1.md
-                              - Strumenti per la visualizzazione dei dati: meetup/archive/data_track/data_track_2.md
-                              - Strumenti per l'ingegnerizzazione dei dati: meetup/archive/data_track/data_track_3.md
-                              - Strumenti per il passaggio in produzione: meetup/archive/data_track/data_track_4.md
-                      - Pygame:
-                              - meetup/archive/pygame/index.md
-                              - Intro a pygame: meetup/archive/pygame/pygame_1.md
-                              - Sprites, collisioni e simulazioni: meetup/archive/pygame/pygame_2.md
-                              - Animazioni, camera e gravità: meetup/archive/pygame/pygame_3.md
-                      - Python base:
-                              - meetup/archive/python_base/index.md
-                              - Concetti di base e tipi primitivi: meetup/archive/python_base/python_base_1.md
-                              - Controlli di flusso, iterazioni e funzioni: meetup/archive/python_base/python_base_2.md
-                              - OOP base: meetup/archive/python_base/python_base_3.md
-                              - OOP avanzato: meetup/archive/python_base/python_base_4.md
-                      - Reinforcement learning - DIAMBRA:
-                              - meetup/archive/reinforcement_learning/index.md
-                              - Concetti teorici e costruzione ambiente: meetup/archive/reinforcement_learning/rl_1.md
-                              - Sessione pratica e coding: meetup/archive/reinforcement_learning/rl_2.md
-                      - Robotic Process Automation: meetup/archive/rpa.md
-                      - Squirrel Telegram Bot: meetup/archive/telegram_bot_squirrel.md
-                      - Telegram Bot: meetup/archive/telegram_bot.md
-                      - Tensorflow serving: meetup/archive/tensorflow_serving.md
-                      - Testare e documentare i dati: meetup/archive/data_testing.md
-                      - Testing con python:
-                              - meetup/archive/testing_python/index.md
-                              - Testing - Intro: meetup/archive/testing_python/testing_1.md
-                              - Testing - Pytest e unittest: meetup/archive/testing_python/testing_2.md
-                              - Testing - Doctest e behave: meetup/archive/testing_python/testing_3.md
-                      - Twitter sentiment analysis: meetup/archive/sentiment_analysis.md
-                      - Web scraping:
-                              - meetup/archive/web_scraping/index.md
-                              - Beautiful soup e requests: meetup/archive/web_scraping/web_scraping_1.md
-                              - Selenium e Scrapy: meetup/archive/web_scraping/web_scraping_2.md
-                      - XGBoost: meetup/archive/xgboost.md
-      - Learning:
-              - learning/index.md
-              - Better code:
-                      - learning/better_code/index.md
-                      - Bandit: learning/better_code/bandit/index.md
-                      - Black: learning/better_code/black/index.md
-                      - Flake8: learning/better_code/flake8/index.md
-                      - Mypy: learning/better_code/mypy/index.md
-                      - Pydantic: learning/better_code/pydantic/index.md
-                      - Ruff: learning/better_code/ruff/index.md
-              - Creare un pacchetto:
-                      - learning/create_package/index.md
-              - Data analysis:
-                      - learning/data_analysis/index.md
-                      - DuckDB: learning/data_analysis/duckdb/index.md
-                      - Numpy: learning/data_analysis/numpy/index.md
-                      - Pandas: learning/data_analysis/pandas/index.md
-                      - Polars: learning/data_analysis/polars/index.md
-              - Documentare il codice:
-                      - learning/document_code/index.md
-              - Linux base:
-                      - learning/linux_base/index.md
-              - Gestire dipendenze:
-                      - learning/manage_dependencies/index.md
-                      - Anaconda: learning/manage_dependencies/anaconda/index.md
-                      - PDM: learning/manage_dependencies/pdm/index.md
-                      - Pipx: learning/manage_dependencies/pipx/index.md
-                      - Poetry: learning/manage_dependencies/poetry/index.md
-                      - Poetry avanzato: learning/manage_dependencies/poetry/advance.md
-                      - Pyenv: learning/manage_dependencies/pyenv/index.md
-                      - Virtualenv: learning/manage_dependencies/virtualenv/index.md
-              - Materiale extra: learning/material/index.md
-              - Pre-commit: learning/pre-commit/index.md
-              - Struttura di progetto:
-                      - learning/project_structure/index.md
-                      - Bear: learning/project_structure/bear/index.md
-              - Python base:
-                      - learning/python_base/index.md
-                      - Perchè Python: learning/python_base/why_python/index.md
-              - Python avanzato:
-                      - learning/python_advanced/index.md
-              - Gestire diverse versioni di python:
-                      - learning/python_version/index.md
-                      - ASDF: learning/python_version/asdf/index.md
-                      - REPL: learning/python_version/repl/index.md
-              - Roadmap:
-                      - learning/roadmap/index.md
-              - Gestione delle configurazioni:
-                      - learning/settings_management/index.md
-              - Indipendenza tecnologica:
-                      - learning/tech_independence/index.md
-              - Testing:
-                      - learning/testing_python/index.md
-                      - Tutorial:
-                              - learning/testing_python/tutorial/index.md
-                              - learning/testing_python/tutorial/intro.md
-                              - learning/testing_python/tutorial/test.md
-                              - learning/testing_python/tutorial/tipi.md
-                              - learning/testing_python/tutorial/pratiche.md
-                              - learning/testing_python/tutorial/unittest.md
-                              - learning/testing_python/tutorial/pytest.md
-                              - learning/testing_python/tutorial/doctest.md
-                              - learning/testing_python/tutorial/behave.md
-                      - Risorse:
-                              - learning/testing_python/resources/index.md
-                              - learning/testing_python/resources/letteratura.md
-                              - learning/testing_python/resources/software.md
-                              - learning/testing_python/resources/snippet.md
-                              - learning/testing_python/resources/talk.md
-              - VS Code: learning/vscode/index.md
-      - Supporters:
-              - supporters/index.md
-      - Speakers:
-              - speakers/index.md
-              - Guida speaker: speakers/speaker_guide.md
+    - Home:
+          - index.md
+          - board.md
+          - community_history.md
+          - code_conduct.md
+          - tags.md
+    - Meetup:
+          - meetup/index.md
+          - meetup/next_meetup.md
+          - Meetup passati:
+                - ANTLR:
+                      - meetup/archive/antlr/index.md
+                      - Parser e ANTLR4: meetup/archive/antlr/antlr_1.md
+                      - Dal parser all'interpreter: meetup/archive/antlr/antlr_2.md
+                      - Parser, intepreter e compilatori: meetup/archive/antlr/antlr_3.md
+                - Airflow + PySpark: meetup/archive/airflow_pyspark.md
+                - Calcolo parallelo e distribuito:
+                      - meetup/archive/distributed_compute/index.md
+                      - Intro: meetup/archive/distributed_compute/distr_comp_1.md
+                      - Comunicazione tra i processi: meetup/archive/distributed_compute/distr_comp_2.md
+                      - Librerie python Dask, Modin e Celery: meetup/archive/distributed_compute/distr_comp_3.md
+                - Data versioning: meetup/archive/data_versioning.md
+                - Data Science - focus Pharma: meetup/archive/ds_pharma.md
+                - Debito tecnico e architectural smell: meetup/archive/technical_dept.md
+                - Django:
+                      - meetup/archive/django/index.md
+                      - Introduzione a Django: meetup/archive/django/django_1.md
+                      - Modelli Django: meetup/archive/django/django_2.md
+                      - Autenticazione Django e model form: meetup/archive/django/django_3.md
+                - Docker:
+                      - meetup/archive/docker_track/index.md
+                      - Intro Docker: meetup/archive/docker_track/docker_1.md
+                      - Concetti avanzati: meetup/archive/docker_track/docker_2.md
+                - FastAPI:
+                      - meetup/archive/fastapi/index.md
+                      - Intro: meetup/archive/fastapi/fastapi_1.md
+                      - Le prime API con approccio TDD: meetup/archive/fastapi/fastapi_2.md
+                      - SQLModel: meetup/archive/fastapi/fastapi_3.md
+                      - Back-end con FastAPI e SQLModel: meetup/archive/fastapi/fastapi_4.md
+                      - Async, OAuth2, profiling e dockerizzazione: meetup/archive/fastapi/fastapi_5.md
+                - Flask:
+                      - meetup/archive/flask/index.md
+                      - Intro a Flask: meetup/archive/flask/flask_1.md
+                      - Jinja avanzato e forms: meetup/archive/flask/flask_2.md
+                      - Flask con database: meetup/archive/flask/flask_3.md
+                      - Review: meetup/archive/flask/flask_4.md
+                      - Evoluzioni dell' app: meetup/archive/flask/flask_5.md
+                      - Blueprints, refactoring e test automatici: meetup/archive/flask/flask_6.md
+                      - Autenticazione: meetup/archive/flask/flask_7.md
+                      - Profili, ruoli e blog: meetup/archive/flask/flask_8.md
+                      - Heroku e docker - deploy: meetup/archive/flask/flask_9.md
+                      - Rest API: meetup/archive/flask/flask_10.md
+                - Genropy:
+                      - meetup/archive/genropy/index.md
+                      - Intro, demo e primi passi: meetup/archive/genropy/genropy_1.md
+                      - Bag, Structure, ORM e inizio progetto: meetup/archive/genropy/genropy_2.md
+                      - Risorse UI, lookup tables e formula columns: meetup/archive/genropy/genropy_3.md
+                      - Altre risorse UI, import dati, tabelle gerarchiche, stampe, utenti, multi-tenant: meetup/archive/genropy/genropy_4.md
+                      - Utenti, Staff e Donatori in ottica multi-tenant: meetup/archive/genropy/genropy_5.md
+                - Gestione delle eccezioni: meetup/archive/handle_except.md
+                - Gioco dell' Orso:
+                      - meetup/archive/orso_game/index.md
+                      - Parte 1: meetup/archive/orso_game/orso_game_1.md
+                      - Parte 2: meetup/archive/orso_game/orso_game_2.md
+                - Git base: meetup/archive/git.md
+                - GitHub Actions: meetup/archive/github_actions.md
+                - GPT Detection system: meetup/archive/gpt_detection.md
+                - GraphQL e Strawberry: meetup/archive/graphql.md
+                - Introduzione al Machine Learning:
+                      - meetup/archive/intro_ml/index.md
+                      - Introduzione al Machine Learning e a Scikit-Learn: meetup/archive/intro_ml/intro_ml_1.md
+                      - Scikit-Learn pipeline, metriche e regressione lineare: meetup/archive/intro_ml/intro_ml_2.md
+                      - Scikit-Learn - unsupervised learning: meetup/archive/intro_ml/intro_ml_3.md
+                - Introduzione al Deep learning:
+                      - meetup/archive/intro_dl/index.md
+                      - Introduzione a Deep Learning e TensorFlow: meetup/archive/intro_dl/intro_dl_1.md
+                      - Reti Neurali per le immagini: meetup/archive/intro_dl/intro_dl_2.md
+                      - Reti Neurali Ricorrenti: meetup/archive/intro_dl/intro_dl_3.md
+                - Introduzione a Kubernetes:
+                      - meetup/archive/intro_k8s/index.md
+                      - Parte 1: meetup/archive/intro_k8s/intro_k8s_1.md
+                      - Parte 2: meetup/archive/intro_k8s/intro_k8s_2.md
+                - Introduzione a Databricks: meetup/archive/intro_databricks.md
+                - Imparare Python giocando:
+                      - meetup/archive/learn_python_with_game/index.md
+                      - Le basi di Python: meetup/archive/learn_python_with_game/learn_game_1.md
+                      - PyGameZero: meetup/archive/learn_python_with_game/learn_game_2.md
+                      - Creazione giochi: meetup/archive/learn_python_with_game/learn_game_3.md
+                      - Review e creazione di giochi complessi: meetup/archive/learn_python_with_game/learn_game_4.md
+                - Manipolazione del testo:
+                      - meetup/archive/text_manipulation/index.md
+                      - Intro espressioni regolari: meetup/archive/text_manipulation/text_1.md
+                      - Libreria regex in python: meetup/archive/text_manipulation/text_2.md
+                      - Pipeline di analisi testo e Spacy: meetup/archive/text_manipulation/text_3.md
+                      - Un progetto di analisi e classificazione di testi con ML: meetup/archive/text_manipulation/text_4.md
+                - Modern data engineering:
+                      - meetup/archive/modern_data_eng/index.md
+                      - Stato dell'arte e Apache Airflow: meetup/archive/modern_data_eng/modern_de_1.md
+                      - Progetto: meetup/archive/modern_data_eng/modern_de_2.md
+                - Modern python development:
+                      - meetup/archive/modern_python/index.md
+                      - Strumenti, librerie, buone pratiche per sviluppare in Python: meetup/archive/modern_python/modern_python_1.md
+                      - Poetry, PDM, Ruff e altri strumenti utili: meetup/archive/modern_python/modern_python_2.md
+                - MLOps:
+                      - meetup/archive/mlops_aws/index.md
+                      - Introduzione MLOps: meetup/archive/mlops_aws/mlops_aws_1.md
+                      - MLOps su AWS: meetup/archive/mlops_aws/mlops_aws_2.md
+                - ML Pipeline:
+                      - meetup/archive/ml_pipeline/index.md
+                      - Introduzione a Pytorch: meetup/archive/ml_pipeline/ml_pipeline_1.md
+                      - Introduzione a Hydra: meetup/archive/ml_pipeline/ml_pipeline_2.md
+                - NLP - topic modeling: meetup/archive/nlp_topic_modeling.md
+                - NVIDIA Triton: meetup/archive/nvidia_triton.md
+                - Open Source:
+                      - meetup/archive/open_source/index.md
+                      - Primo incontro - Marcelo Trylesinski: meetup/archive/open_source/open_source_1.md
+                      - Secondo incontro - Patrick Arminio: meetup/archive/open_source/open_source_2.md
+                      - Terzo incontro - Juliana Nicacio: meetup/archive/open_source/open_source_3.md
+                      - Quarto incontro - Giovanni Barillari: meetup/archive/open_source/open_source_4.md
+                - Pandas base:
+                      - meetup/archive/pandas/index.md
+                      - Intro e modulo csv: meetup/archive/pandas/pandas_1.md
+                      - Operazioni con i dataframe: meetup/archive/pandas/pandas_2.md
+                      - Serie ed esercitazioni: meetup/archive/pandas/pandas_3.md
+                      - Live coding ed approfondimenti: meetup/archive/pandas/pandas_4.md
+                      - Approfondimenti, indexing, filtri, multiIndexing: meetup/archive/pandas/pandas_5.md
+                - Percorso dati:
+                      - meetup/archive/data_track/index.md
+                      - Pandas - manipolazione dei dati: meetup/archive/data_track/data_track_1.md
+                      - Strumenti per la visualizzazione dei dati: meetup/archive/data_track/data_track_2.md
+                      - Strumenti per l'ingegnerizzazione dei dati: meetup/archive/data_track/data_track_3.md
+                      - Strumenti per il passaggio in produzione: meetup/archive/data_track/data_track_4.md
+                - Pygame:
+                      - meetup/archive/pygame/index.md
+                      - Intro a pygame: meetup/archive/pygame/pygame_1.md
+                      - Sprites, collisioni e simulazioni: meetup/archive/pygame/pygame_2.md
+                      - Animazioni, camera e gravità: meetup/archive/pygame/pygame_3.md
+                - Python base:
+                      - meetup/archive/python_base/index.md
+                      - Concetti di base e tipi primitivi: meetup/archive/python_base/python_base_1.md
+                      - Controlli di flusso, iterazioni e funzioni: meetup/archive/python_base/python_base_2.md
+                      - OOP base: meetup/archive/python_base/python_base_3.md
+                      - OOP avanzato: meetup/archive/python_base/python_base_4.md
+                - Reinforcement learning - DIAMBRA:
+                      - meetup/archive/reinforcement_learning/index.md
+                      - Concetti teorici e costruzione ambiente: meetup/archive/reinforcement_learning/rl_1.md
+                      - Sessione pratica e coding: meetup/archive/reinforcement_learning/rl_2.md
+                - Robotic Process Automation: meetup/archive/rpa.md
+                - Squirrel Telegram Bot: meetup/archive/telegram_bot_squirrel.md
+                - Telegram Bot: meetup/archive/telegram_bot.md
+                - Tensorflow serving: meetup/archive/tensorflow_serving.md
+                - Testare e documentare i dati: meetup/archive/data_testing.md
+                - Testing con python:
+                      - meetup/archive/testing_python/index.md
+                      - Testing - Intro: meetup/archive/testing_python/testing_1.md
+                      - Testing - Pytest e unittest: meetup/archive/testing_python/testing_2.md
+                      - Testing - Doctest e behave: meetup/archive/testing_python/testing_3.md
+                - Twitter sentiment analysis: meetup/archive/sentiment_analysis.md
+                - Web scraping:
+                      - meetup/archive/web_scraping/index.md
+                      - Beautiful soup e requests: meetup/archive/web_scraping/web_scraping_1.md
+                      - Selenium e Scrapy: meetup/archive/web_scraping/web_scraping_2.md
+                - XGBoost: meetup/archive/xgboost.md
+    - Learning:
+          - learning/index.md
+          - Better code:
+                - learning/better_code/index.md
+                - Bandit: learning/better_code/bandit/index.md
+                - Black: learning/better_code/black/index.md
+                - Flake8: learning/better_code/flake8/index.md
+                - Mypy: learning/better_code/mypy/index.md
+                - Pydantic: learning/better_code/pydantic/index.md
+                - Ruff: learning/better_code/ruff/index.md
+          - Creare un pacchetto:
+                - learning/create_package/index.md
+          - Data analysis:
+                - learning/data_analysis/index.md
+                - DuckDB: learning/data_analysis/duckdb/index.md
+                - Numpy: learning/data_analysis/numpy/index.md
+                - Pandas: learning/data_analysis/pandas/index.md
+                - Polars: learning/data_analysis/polars/index.md
+          - Documentare il codice:
+                - learning/document_code/index.md
+          - Linux base:
+                - learning/linux_base/index.md
+          - Gestire dipendenze:
+                - learning/manage_dependencies/index.md
+                - Anaconda: learning/manage_dependencies/anaconda/index.md
+                - PDM: learning/manage_dependencies/pdm/index.md
+                - Pipx: learning/manage_dependencies/pipx/index.md
+                - Poetry: learning/manage_dependencies/poetry/index.md
+                - Poetry avanzato: learning/manage_dependencies/poetry/advance.md
+                - Pyenv: learning/manage_dependencies/pyenv/index.md
+                - Virtualenv: learning/manage_dependencies/virtualenv/index.md
+          - Materiale extra: learning/material/index.md
+          - Pre-commit: learning/pre-commit/index.md
+          - Struttura di progetto:
+                - learning/project_structure/index.md
+                - Bear: learning/project_structure/bear/index.md
+          - Python base:
+                - learning/python_base/index.md
+                - Perchè Python: learning/python_base/why_python/index.md
+          - Python avanzato:
+                - learning/python_advanced/index.md
+          - Gestire diverse versioni di python:
+                - learning/python_version/index.md
+                - ASDF: learning/python_version/asdf/index.md
+                - REPL: learning/python_version/repl/index.md
+          - Roadmap:
+                - learning/roadmap/index.md
+          - Gestione delle configurazioni:
+                - learning/settings_management/index.md
+          - Indipendenza tecnologica:
+                - learning/tech_independence/index.md
+          - Testing:
+                - learning/testing_python/index.md
+                - Tutorial:
+                      - learning/testing_python/tutorial/index.md
+                      - learning/testing_python/tutorial/intro.md
+                      - learning/testing_python/tutorial/test.md
+                      - learning/testing_python/tutorial/tipi.md
+                      - learning/testing_python/tutorial/pratiche.md
+                      - learning/testing_python/tutorial/unittest.md
+                      - learning/testing_python/tutorial/pytest.md
+                      - learning/testing_python/tutorial/doctest.md
+                      - learning/testing_python/tutorial/behave.md
+                - Risorse:
+                      - learning/testing_python/resources/index.md
+                      - learning/testing_python/resources/letteratura.md
+                      - learning/testing_python/resources/software.md
+                      - learning/testing_python/resources/snippet.md
+                      - learning/testing_python/resources/talk.md
+          - VS Code: learning/vscode/index.md
+    - Supporters:
+          - supporters/index.md
+    - Speakers:
+          - speakers/index.md
+          - Guida speaker: speakers/speaker_guide.md
 
 extra_css:
-      - style/neoteroi-mkdocs.css
+    - style/neoteroi-mkdocs.css
 # Configuration
 theme:
-      name: material
-      docs_dir: docs
-      site_dir: site
-      extra_css:
-            - style/custom.css
-      extra_javascript:
-            - https://polyfill.io/v3/polyfill.min.js?features=es6
-            - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-      include_search_page: false
-      search_index_only: true
-      features:
-            - announce.dismiss
-            - content.action.edit
-            - content.action.view
-            - content.code.annotate
-            - content.code.copy
-            - content.tooltips
-            - header.autohide
-            - navigation.footer
-            - navigation.indexes
-            - navigation.top
-            - navigation.tracking
-            - navigation.path
-            - navigation.tabs
-            - navigation.tabs.sticky
-            - search.suggest
-            - search.highlight
-            - search.share
-            - toc.follow
+    name: material
+    docs_dir: docs
+    site_dir: site
+    extra_css:
+        - style/custom.css
+    extra_javascript:
+        - https://polyfill.io/v3/polyfill.min.js?features=es6
+        - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    include_search_page: false
+    search_index_only: true
+    features:
+        - announce.dismiss
+        - content.action.edit
+        - content.action.view
+        - content.code.annotate
+        - content.code.copy
+        - content.tooltips
+        - header.autohide
+        - navigation.footer
+        - navigation.indexes
+        - navigation.top
+        - navigation.tracking
+        - navigation.path
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - search.suggest
+        - search.highlight
+        - search.share
+        - toc.follow
 
-      logo: static/images/logo/PBG_logo_W_2@300x.png
-      favicon: static/images/favicon.ico
-      font:
-            text: Helvetica
-            code: Roboto mono
-      palette:
+    logo: static/images/logo/PBG_logo_W_2@300x.png
+    favicon: static/images/favicon.ico
+    font:
+        text: Helvetica
+        code: Roboto mono
+    palette:
             # Light mode
-            - scheme: default
-              primary: black
-              accent: black
-              toggle:
-                    icon: material/toggle-switch
-                    name:
-                          Switch to dark mode
+        - scheme: default
+          primary: black
+          accent: black
+          toggle:
+              icon: material/toggle-switch
+              name: Switch to dark mode
                           # Dark mode
-            - scheme: slate
-              primary: white
-              accent: white
-              toggle:
-                    icon: material/toggle-switch-off-outline
-                    name: Switch to light mode
+        - scheme: slate
+          primary: white
+          accent: white
+          toggle:
+              icon: material/toggle-switch-off-outline
+              name: Switch to light mode
 
 # Markdown extensions
 markdown_extensions:
-      - abbr
-      - admonition
-      - attr_list
-      - codehilite
-      - def_list
-      - neoteroi.cards
-      - neoteroi.timeline
-      - footnotes
-      - meta
-      - md_in_html
-      - toc:
-              title: On this page
-              permalink: true
-              permalink_title: Anchor link to this section for reference
-      - pymdownx.arithmatex:
-              generic: true
-      - pymdownx.betterem:
-              smart_enable: all
-      - pymdownx.caret
-      - pymdownx.superfences
-      - pymdownx.details
-      - pymdownx.highlight:
-              anchor_linenums: true
-              line_spans: __span
-              pygments_lang_class: true
-      - pymdownx.inlinehilite
-      - pymdownx.keys
-      - pymdownx.magiclink:
-              repo_url_shorthand: true
-              user: pythonbiellagroup
-              repo: website
-      - pymdownx.mark
-      - pymdownx.smartsymbols
-      - pymdownx.tabbed:
-              alternate_style: true
-      - pymdownx.tasklist:
-              custom_checkbox: true
-      - pymdownx.tilde
+    - abbr
+    - admonition
+    - attr_list
+    - codehilite
+    - def_list
+    - neoteroi.cards
+    - neoteroi.timeline
+    - footnotes
+    - meta
+    - md_in_html
+    - toc:
+          title: On this page
+          permalink: true
+          permalink_title: Anchor link to this section for reference
+    - pymdownx.arithmatex:
+          generic: true
+    - pymdownx.betterem:
+          smart_enable: all
+    - pymdownx.caret
+    - pymdownx.superfences
+    - pymdownx.details
+    - pymdownx.highlight:
+          anchor_linenums: true
+          line_spans: __span
+          pygments_lang_class: true
+    - pymdownx.inlinehilite
+    - pymdownx.keys
+    - pymdownx.magiclink:
+          repo_url_shorthand: true
+          user: pythonbiellagroup
+          repo: website
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.tabbed:
+          alternate_style: true
+    - pymdownx.tasklist:
+          custom_checkbox: true
+    - pymdownx.tilde
 
 plugins:
-      - macros
-      - timetoread:
-              allPages: false
-      - minify:
-              minify_html: true
-              minify_js: true
-              minify_css: true
-              htmlmin_opts:
-                    remove_comments: true
-      - tags:
-              tags_file: tags.md
-      - search:
-              separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-      - i18n:
-              docs_structure: suffix
-              fallback_to_default: true
-              reconfigure_material: true
-              reconfigure_search: true
-              languages:
-                    - locale: it
-                      name: Italian
-                      build: true
-                      default: true
-                      site_name: PythonBiellaGroup
-                      site_description: PythonBiellaGroup sito ufficiale che contiene tutte le guide, informazioni, materiale e risorse per la community.
-                    - locale: en
-                      name: English
-                      build: true
-                      default: false
-                      site_name: PythonBiellaGroup
-                      site_description: PythonBiellaGroup official website with all the guides, information, materials, and resource for the community.
-                      nav_translations:
-                            Guida speaker: Speaker guide
-                            Meetup passati: Previous meetup
-                            Parser e ANTLR4: Parser and ANTLR4
-                            Dal parser all'interpreter: From parser to interpreter
-                            Parser, intepreter e compilatori: Parser, intepreter and compiler
-                            Calcolo parallelo e distribuito: Parallel and distributed computing
-                            Comunicazione tra i processi: Communication between processes
-                            Librerie python Dask, Modin e Celery: Dask, Modin and Celery libraries
-                            Debito tecnico e architectural smell: Technical debt and architectural smell
-                            Introduzione a Django: Introduction to Django
-                            Modelli Django: Django models
-                            Autenticazione Django e model form: Django authentication and model form
-                            Concetti avanzati: Advanced concepts
-                            Le prime API con approccio TDD: First API with TDD approach
-                            Back-end con FastAPI e SQLModel: Back-end with FastAPI and SQLModel
-                            Async, OAuth2, profiling e dockerizzazione: Async, OAuth2, profiling and dockerization
-                            Intro a Flask: Intro to Flask
-                            Jinja avanzato e forms: Advanced Jinja and forms
-                            Flask con database: Flask with database
-                            Evoluzioni dell' app: App evolution
-                            Blueprints, refactoring e test automatici: Blueprints, refactoring and automated testing
-                            Autenticazione: Authentication
-                            Profili, ruoli e blog: Profiles, roles and blog
-                            Heroku e docker - deploy: Heroku and docker - deploy
-                            Intro, demo e primi passi: Introduction, demo, and first steps
-                            Bag, Structure, ORM e inizio progetto: Bag, Structure, ORM, and project start
-                            Risorse UI, lookup tables e formula columns: UI resources, lookup tables, and formula columns
-                            ? Altre risorse UI, import dati, tabelle gerarchiche, stampe, utenti, multi-tenant
-                            : Other UI resources, data import, hierarchical tables,printing,
-                              users, multi-tenancy
-                            Utenti, Staff e Donatori in ottica multi-tenant: Users, Staff, and Donors in a multi-tenant perspective
-                            Gestione delle eccezioni: Exception handling
-                            Gioco dell' Orso: Bear and hunters game
-                            Creare un package in python: Create a python package
-                            Parte 1: Part 1
-                            Parte 2: Part 2
-                            Git base: Git basics
-                            GraphQL e Strawberry: GraphQL and Strawberry
-                            Introduzione al Machine Learning: Introduction to Machine Learning
-                            Introduzione al Machine Learning e a Scikit-Learn: Introduction to Machine Learning and Scikit-Learn
-                            Scikit-Learn pipeline, metriche e regressione lineare: Scikit-Learn pipeline, metrics, and linear regression
-                            Introduzione al Deep learning: Introduction to Deep Learning
-                            Introduzione a Deep Learning e TensorFlow: Introduction to Deep Learning and TensorFlow
-                            Reti Neurali per le immagini: Neural Networks for images
-                            Reti Neurali Ricorrenti: Recurrent Neural Networks
-                            Introduzione a Kubernetes: Introduction to Kubernetes
-                            Introduzione a Databricks: Introduction to Databricks
-                            Imparare Python giocando: Learning Python through games
-                            Le basi di Python: Python basics
-                            Creazione giochi: Creating games
-                            Review e creazione di giochi complessi: Review and creation of complex games
-                            Manipolazione del testo: Text manipulation
-                            Intro espressioni regolari: Introduction to regular expressions
-                            Libreria regex in python: Regex library in Python
-                            Pipeline di analisi testo e Spacy: Text analysis pipeline and Spacy
-                            Un progetto di analisi e classificazione di testi con ML: A text analysis and classification project with ML
-                            Stato dell'arte e Apache Airflow: State of the art and Apache Airflow
-                            Progetto: Project
-                            Strumenti, librerie, buone pratiche per sviluppare in Python: Tools, libraries, best practices for Python development
-                            Poetry, PDM, Ruff e altri strumenti utili: Poetry, PDM, Ruff, and other useful tools
-                            Introduzione MLOps: Introduction to MLOps
-                            MLOps su AWS: MLOps on AWS
-                            Introduzione a Pytorch: Introduction to Pytorch
-                            Introduzione a Hydra: Introduction to Hydra
-                            Pandas base: Pandas basics
-                            Intro e modulo csv: Introduction and csv module
-                            Operazioni con i dataframe: Operations with dataframes
-                            Serie ed esercitazioni: Series and exercises
-                            Live coding ed approfondimenti: Live coding and in-depth discussions
-                            Approfondimenti, indexing, filtri, multiIndexing: In-depth, indexing, filters, multiIndexing
-                            Percorso dati: Data analysis learning path
-                            Pandas - manipolazione dei dati: Pandas - data manipulation
-                            Strumenti per la visualizzazione dei dati: Tools for data visualization
-                            Strumenti per l'ingegnerizzazione dei dati: Tools for data engineering
-                            Strumenti per il passaggio in produzione: Tools for production deployment
-                            Intro a pygame: Introduction to pygame
-                            Sprites, collisioni e simulazioni: Sprites, collisions, and simulations
-                            Animazioni, camera e gravità: Animations, camera, and gravity
-                            Concetti di base e tipi primitivi: Basic concepts and primitive types
-                            Controlli di flusso, iterazioni e funzioni: Flow control, iterations, and functions
-                            OOP base: Basic OOP
-                            OOP avanzato: Advanced OOP
-                            Concetti teorici e costruzione ambiente: Theoretical concepts and environment setup
-                            Sessione pratica e coding: Practical session and coding
-                            Testare e documentare i dati: Testing and documenting data
-                            Beautiful soup e requests: Beautiful Soup and Requests
-                            Selenium e Scrapy: Selenium and Scrapy
-                            Articoli: Articles
-                            Primo incontro - Marcelo Trylesinski: First interview - Marcelo Trylesinski
-                            Secondo incontro - Patrick Arminio: Second interview - Patrick Arminio
-                            Terzo incontro - Juliana Nicacio: Third interview - Juliana Nicacio
-                            Quarto incontro - Giovanni Barillari: Fourth interview - Giovanni Barillari
-                            Percorsi di apprendimento: Learning path
-                            Testing con python: Testing with python
-                            Introduzione: Introduction
-                            L'aspetto di un test: What a test looks like
-                            Categorie, granularità, livelli e tipi di test: Categories, granularity, levels and types of tests
-                            Buone pratiche per scrivere test di qualità: Good practices for writing tests
-                            Il test framework unittest: Using the unittest framework
-                            Utilizzare Pytest: Using pytest
-                            Test semplici con doctest: Simple tests with doctest
-                            Test BDD con Behave: BDD tests with Behave
-                            Letteratura: Bibliography
-                            Testing - Pytest e unittest: Testing - Pytest and unittest
-                            Testing - Doctest e behave:
-                                  Testing - Doctest and behave
+    - macros
+    - timetoread:
+          allPages: false
+    - minify:
+          minify_html: true
+          minify_js: true
+          minify_css: true
+          htmlmin_opts:
+              remove_comments: true
+    - tags:
+          tags_file: tags.md
+    - search:
+          separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+    - i18n:
+          docs_structure: suffix
+          fallback_to_default: true
+          reconfigure_material: true
+          reconfigure_search: true
+          languages:
+              - locale: it
+                name: Italian
+                build: true
+                default: true
+                site_name: PythonBiellaGroup
+                site_description: PythonBiellaGroup sito ufficiale che contiene tutte le guide, informazioni, materiale e risorse per la community.
+              - locale: en
+                name: English
+                build: true
+                default: false
+                site_name: PythonBiellaGroup
+                site_description: PythonBiellaGroup official website with all the guides, information, materials, and resource for the community.
+                nav_translations:
+                    Guida speaker: Speaker guide
+                    Meetup passati: Previous meetup
+                    Parser e ANTLR4: Parser and ANTLR4
+                    Dal parser all'interpreter: From parser to interpreter
+                    Parser, intepreter e compilatori: Parser, intepreter and compiler
+                    Calcolo parallelo e distribuito: Parallel and distributed computing
+                    Comunicazione tra i processi: Communication between processes
+                    Librerie python Dask, Modin e Celery: Dask, Modin and Celery libraries
+                    Debito tecnico e architectural smell: Technical debt and architectural smell
+                    Introduzione a Django: Introduction to Django
+                    Modelli Django: Django models
+                    Autenticazione Django e model form: Django authentication and model form
+                    Concetti avanzati: Advanced concepts
+                    Le prime API con approccio TDD: First API with TDD approach
+                    Back-end con FastAPI e SQLModel: Back-end with FastAPI and SQLModel
+                    Async, OAuth2, profiling e dockerizzazione: Async, OAuth2, profiling and dockerization
+                    Intro a Flask: Intro to Flask
+                    Jinja avanzato e forms: Advanced Jinja and forms
+                    Flask con database: Flask with database
+                    Evoluzioni dell' app: App evolution
+                    Blueprints, refactoring e test automatici: Blueprints, refactoring and automated testing
+                    Autenticazione: Authentication
+                    Profili, ruoli e blog: Profiles, roles and blog
+                    Heroku e docker - deploy: Heroku and docker - deploy
+                    Intro, demo e primi passi: Introduction, demo, and first steps
+                    Bag, Structure, ORM e inizio progetto: Bag, Structure, ORM, and project start
+                    Risorse UI, lookup tables e formula columns: UI resources, lookup tables, and formula columns
+                    Altre risorse UI, import dati, tabelle gerarchiche, stampe, utenti, multi-tenant: Other UI resources, data import, hierarchical tables,printing,
+                        users, multi-tenancy
+                    Utenti, Staff e Donatori in ottica multi-tenant: Users, Staff, and Donors in a multi-tenant perspective
+                    Gestione delle eccezioni: Exception handling
+                    Gioco dell' Orso: Bear and hunters game
+                    Creare un package in python: Create a python package
+                    Parte 1: Part 1
+                    Parte 2: Part 2
+                    Git base: Git basics
+                    GraphQL e Strawberry: GraphQL and Strawberry
+                    Introduzione al Machine Learning: Introduction to Machine Learning
+                    Introduzione al Machine Learning e a Scikit-Learn: Introduction to Machine Learning and Scikit-Learn
+                    Scikit-Learn pipeline, metriche e regressione lineare: Scikit-Learn pipeline, metrics, and linear regression
+                    Introduzione al Deep learning: Introduction to Deep Learning
+                    Introduzione a Deep Learning e TensorFlow: Introduction to Deep Learning and TensorFlow
+                    Reti Neurali per le immagini: Neural Networks for images
+                    Reti Neurali Ricorrenti: Recurrent Neural Networks
+                    Introduzione a Kubernetes: Introduction to Kubernetes
+                    Introduzione a Databricks: Introduction to Databricks
+                    Imparare Python giocando: Learning Python through games
+                    Le basi di Python: Python basics
+                    Creazione giochi: Creating games
+                    Review e creazione di giochi complessi: Review and creation of complex games
+                    Manipolazione del testo: Text manipulation
+                    Intro espressioni regolari: Introduction to regular expressions
+                    Libreria regex in python: Regex library in Python
+                    Pipeline di analisi testo e Spacy: Text analysis pipeline and Spacy
+                    Un progetto di analisi e classificazione di testi con ML: A text analysis and classification project with ML
+                    Stato dell'arte e Apache Airflow: State of the art and Apache Airflow
+                    Progetto: Project
+                    Strumenti, librerie, buone pratiche per sviluppare in Python: Tools, libraries, best practices for Python development
+                    Poetry, PDM, Ruff e altri strumenti utili: Poetry, PDM, Ruff, and other useful tools
+                    Introduzione MLOps: Introduction to MLOps
+                    MLOps su AWS: MLOps on AWS
+                    Introduzione a Pytorch: Introduction to Pytorch
+                    Introduzione a Hydra: Introduction to Hydra
+                    Pandas base: Pandas basics
+                    Intro e modulo csv: Introduction and csv module
+                    Operazioni con i dataframe: Operations with dataframes
+                    Serie ed esercitazioni: Series and exercises
+                    Live coding ed approfondimenti: Live coding and in-depth discussions
+                    Approfondimenti, indexing, filtri, multiIndexing: In-depth, indexing, filters, multiIndexing
+                    Percorso dati: Data analysis learning path
+                    Pandas - manipolazione dei dati: Pandas - data manipulation
+                    Strumenti per la visualizzazione dei dati: Tools for data visualization
+                    Strumenti per l'ingegnerizzazione dei dati: Tools for data engineering
+                    Strumenti per il passaggio in produzione: Tools for production deployment
+                    Intro a pygame: Introduction to pygame
+                    Sprites, collisioni e simulazioni: Sprites, collisions, and simulations
+                    Animazioni, camera e gravità: Animations, camera, and gravity
+                    Concetti di base e tipi primitivi: Basic concepts and primitive types
+                    Controlli di flusso, iterazioni e funzioni: Flow control, iterations, and functions
+                    OOP base: Basic OOP
+                    OOP avanzato: Advanced OOP
+                    Concetti teorici e costruzione ambiente: Theoretical concepts and environment setup
+                    Sessione pratica e coding: Practical session and coding
+                    Testare e documentare i dati: Testing and documenting data
+                    Beautiful soup e requests: Beautiful Soup and Requests
+                    Selenium e Scrapy: Selenium and Scrapy
+                    Articoli: Articles
+                    Primo incontro - Marcelo Trylesinski: First interview - Marcelo Trylesinski
+                    Secondo incontro - Patrick Arminio: Second interview - Patrick Arminio
+                    Terzo incontro - Juliana Nicacio: Third interview - Juliana Nicacio
+                    Quarto incontro - Giovanni Barillari: Fourth interview - Giovanni Barillari
+                    Percorsi di apprendimento: Learning path
+                    Testing con python: Testing with python
+                    Introduzione: Introduction
+                    L'aspetto di un test: What a test looks like
+                    Categorie, granularità, livelli e tipi di test: Categories, granularity, levels and types of tests
+                    Buone pratiche per scrivere test di qualità: Good practices for writing tests
+                    Il test framework unittest: Using the unittest framework
+                    Utilizzare Pytest: Using pytest
+                    Test semplici con doctest: Simple tests with doctest
+                    Test BDD con Behave: BDD tests with Behave
+                    Letteratura: Bibliography
+                    Testing - Pytest e unittest: Testing - Pytest and unittest
+                    Testing - Doctest e behave: Testing - Doctest and behave
 
                                   # learning
-                            Better code: Better code
-                            Creare un pacchetto: Create a package
-                            Data analysis: Data analysis
-                            Documentare il codice: Document your code
-                            Linux base: Linux basics
-                            Gestire dipendenze: Manage dependencies
-                            Materiale extra: Extra material
-                            Struttura di progetto: Project structure
-                            Python base: Python basics
-                            Python avanzato: Advanced Python
-                            Gestire diverse versioni di python: Manage different python versions
-                            Gestione delle configurazioni: Manage configurations
-                            Indipendenza tecnologica: Tech independence
-                            Risorse: Resources
+                    Better code: Better code
+                    Creare un pacchetto: Create a package
+                    Data analysis: Data analysis
+                    Documentare il codice: Document your code
+                    Linux base: Linux basics
+                    Gestire dipendenze: Manage dependencies
+                    Materiale extra: Extra material
+                    Struttura di progetto: Project structure
+                    Python base: Python basics
+                    Python avanzato: Advanced Python
+                    Gestire diverse versioni di python: Manage different python versions
+                    Gestione delle configurazioni: Manage configurations
+                    Indipendenza tecnologica: Tech independence
+                    Risorse: Resources
 
-      - git-revision-date-localized
+    - git-revision-date-localized
 #     - rss:
 #           match_path: blog/posts/.*
 #           date_from_meta:
@@ -516,60 +513,60 @@ plugins:
 
 #Extra material theme settings
 extra:
-      consent:
-            title: Cookie consent
-            description: >-
-                  We use cookies to recognize your repeated visits and preferences, as well
-                  as to measure the effectiveness of our site and whether users
-                  find what they're searching for. With your consent, you're helping us to
-                  make our site better.
-      alternate:
-            - name: Italian
-              link: /
-              lang: it
-            - name: English
-              link: /en
-              lang: en
-      disqus: PythonBiellaGroup
-      annotate:
-            json: [.s2]
-      analytics:
-            provider: google
-            property: !ENV GOOGLE_ANALYTICS_KEY
-            feedback:
-                  title: Ti é stato utile? / Was this page helpful?
-                  ratings:
-                        - icon: material/emoticon-happy-outline
-                          name: Si, mi é stato utile! / This page was helpful!
-                          data: 1
-                          note: >-
-                                Grazie per il tuo feedback! / Thanks for your feedback!
-                        - icon: material/emoticon-sad-outline
-                          name: No, ma si può migliorare / This page could be improved
-                          data: 0
-                          note: >-
-                                Grazie per il tuo feedback! Aiutaci a migliorare il contenuto scrivendoci <a href="https://info.pythonbiellagroup.it/" target="_blank"
-                                rel="noopener">qui</a>.  /  Thanks for your feedback! Help us improve this page by contact us <a href="https://info.pythonbiellagroup.it/"
-                                target="_blank" rel="noopener">here</a>.
-      generator: false
-      social:
-            - icon: fontawesome/solid/paper-plane
-              link: mailto:pythonbiellagroup@gmail.com
-              name: Write to us
-            - icon: fontawesome/brands/gitter
-              link: https://info.pythonbiellagroup.it/
-              name: Contacts and social
-            - icon: fontawesome/brands/youtube
-              link: https://www.youtube.com/@PythonBiellaGroup
-              name: Youtube
-            - icon: fontawesome/brands/twitter
-              link: https://twitter.com/PythonBiella/
-              name: Twitter
-            - icon: fontawesome/brands/github
-              link: https://github.com/PythonBiellaGroup
-            - icon: fontawesome/brands/linkedin
-              link: https://www.linkedin.com/company/pythonbiellagroup/
-              name: Linkedin
-            - icon: fontawesome/brands/instagram
-              link: https://www.instagram.com/pythonbiellagroup/
-              name: Instagram
+    consent:
+        title: Cookie consent
+        description: >-
+            We use cookies to recognize your repeated visits and preferences, as well
+            as to measure the effectiveness of our site and whether users
+            find what they're searching for. With your consent, you're helping us to
+            make our site better.
+    alternate:
+        - name: Italian
+          link: /
+          lang: it
+        - name: English
+          link: /en
+          lang: en
+    disqus: PythonBiellaGroup
+    annotate:
+        json: [.s2]
+    analytics:
+        provider: google
+        property: !ENV GOOGLE_ANALYTICS_KEY
+        feedback:
+            title: Ti é stato utile? / Was this page helpful?
+            ratings:
+                - icon: material/emoticon-happy-outline
+                  name: Si, mi é stato utile! / This page was helpful!
+                  data: 1
+                  note: >-
+                      Grazie per il tuo feedback! / Thanks for your feedback!
+                - icon: material/emoticon-sad-outline
+                  name: No, ma si può migliorare / This page could be improved
+                  data: 0
+                  note: >-
+                      Grazie per il tuo feedback! Aiutaci a migliorare il contenuto scrivendoci <a href="https://info.pythonbiellagroup.it/" target="_blank"
+                      rel="noopener">qui</a>.  /  Thanks for your feedback! Help us improve this page by contact us <a href="https://info.pythonbiellagroup.it/"
+                      target="_blank" rel="noopener">here</a>.
+    generator: false
+    social:
+        - icon: fontawesome/solid/paper-plane
+          link: mailto:pythonbiellagroup@gmail.com
+          name: Write to us
+        - icon: fontawesome/brands/gitter
+          link: https://info.pythonbiellagroup.it/
+          name: Contacts and social
+        - icon: fontawesome/brands/youtube
+          link: https://www.youtube.com/@PythonBiellaGroup
+          name: Youtube
+        - icon: fontawesome/brands/twitter
+          link: https://twitter.com/PythonBiella/
+          name: Twitter
+        - icon: fontawesome/brands/github
+          link: https://github.com/PythonBiellaGroup
+        - icon: fontawesome/brands/linkedin
+          link: https://www.linkedin.com/company/pythonbiellagroup/
+          name: Linkedin
+        - icon: fontawesome/brands/instagram
+          link: https://www.instagram.com/pythonbiellagroup/
+          name: Instagram
