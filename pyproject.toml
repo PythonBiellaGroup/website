@@ -15,26 +15,26 @@ keywords = ["MKDocs", "Documentation", "Example", "Template"]
 
 [tool.poetry.dependencies]
 python = ">=3.9, !=3.9.7, <3.11"
-mkdocs = "^1.5.3"
+mkdocs = ">=1.5.3"
 mkdocs-autorefs = ">=0.5.0"
-mkdocs-awesome-pages-plugin = "^2.9.2"
-mkdocs-git-revision-date-localized-plugin = "^1.2.0"
+mkdocs-awesome-pages-plugin = ">=2.9.2"
+mkdocs-git-revision-date-localized-plugin = ">=1.2.0"
 mkdocs-macros-plugin = ">=1.0.4"
-mkdocs-material = "^9.4.7"
+mkdocs-material = ">=9.4.7"
 mkdocs-minify-plugin = ">=0.7.1"
 mkdocs-redirects = ">=1.2.1"
 mkdocs-rss-plugin = ">=1.8.0"
 mkdocs-simple-plugin = ">=3.1.0"
 mkdocs-static-i18n = ">=1.0.5"
-mkdocs-timetoread-plugin = "^0.0.4"
-neoteroi-mkdocs = "^1.0.4"
+mkdocs-timetoread-plugin = ">=0.0.4"
+neoteroi-mkdocs = ">=1.0.4"
 pillow = ">=10.0.1"
 pngquant = ">=1.0.7"
 pre-commit = ">=3.4.0"
 pyaml = ">=23.9.6"
 pydantic = ">=2.3.0"
 python-dotenv = ">=1.0.0"
-pyyaml-env-tag = "^0.1"
+pyyaml-env-tag = ">=0.1"
 types-PyYAML = ">=6.0.12.11"
 types-requests = ">=2.31.0.3"
 types-urllib3 = ">=1.26.25.14"
@@ -45,7 +45,7 @@ optional = true
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = ">=3.4.0"
-yamlfmt = "^1.1.1"
+yamlfmt = ">=1.1.1"
 
 [build-system]
 requires = ["poetry-core>=1.5.1"]
