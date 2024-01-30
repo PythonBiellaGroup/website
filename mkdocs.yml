@@ -208,6 +208,13 @@ nav:
                 - Pyenv: learning/manage_dependencies/pyenv/index.md
                 - Virtualenv: learning/manage_dependencies/virtualenv/index.md
           - Materiale extra: learning/material/index.md
+          - MkDocs tutorial:
+                - learning/mkdocs_tutorial/index.md
+                - Setup: learning/mkdocs_tutorial/setup.md
+                - Deploy:
+                      - learning/mkdocs_tutorial/deploy.md
+                      - Github pages: learning/mkdocs_tutorial/github_pages.md
+                - Estensioni: learning/mkdocs_tutorial/extensions.md
           - Pre-commit: learning/pre-commit/index.md
           - Struttura di progetto:
                 - learning/project_structure/index.md
