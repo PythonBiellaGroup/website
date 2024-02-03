@@ -211,8 +211,8 @@ nav:
           - MkDocs tutorial:
                 - learning/mkdocs_tutorial/index.md
                 - Setup: learning/mkdocs_tutorial/setup.md
-                - Documentare il codice: learning/document_code.md
-                - Funzionalità extra: learning/extra_functions.md
+                - Documentare il codice: learning/mkdocs_tutorial/document_code.md
+                - Funzionalità extra: learning/mkdocs_tutorial/extra_functions.md
                 - Deploy:
                       - learning/mkdocs_tutorial/deploy.md
                       - Github pages: learning/mkdocs_tutorial/github_pages.md
