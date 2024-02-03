@@ -8,6 +8,14 @@ tags:
 
 ## Installazione
 
+In questa guida e tutorial utilizzeremo principalmente `poetry` come gestore delle librerie, per diverse motivazioni che potete guardare nella nostra serie: `Modern Python Development` e nel nostro [template python chiamato Bear](https://github.com/PythonBiellaGroup/Bear).
+
+In particolare vi ricordiamo di:
+
+1. Installare Poetry
+2. Inizializzare un nuovo progetto: `poetry init` oppure clonare il nostro template `Bear`.
+3. Ricordarsi di aggiungere il file `pyproject.toml` con il flag `in-project = true` per creare un nuovo virtualenv `.venv` direttamente nella cartella di progetto.
+
 Puoi installare mkdocs come ogni altra libreria di python ma ovviamente il consiglio é di utilizzare un dependencies manager come pdm o poetry.
 
 ```shell
@@ -17,7 +25,6 @@ poetry add mkdocs
 Oltre all' installazione base di mkdocs puoi usare diversi template che vanno ad arricchire la configurazione e il layout iniziale di mkdocs.
 La libreria che preferiamo e suggeriamo é [mkdocs material](https://squidfunk.github.io/mkdocs-material/) che é tra le più usate ed apprezzate.
 Alcune delle features che mette a disposizione le vedremo in questo tutorial.
-
 
 ```shell
 poetry add mkdocs-material
@@ -32,6 +39,7 @@ Una volta che avrai finito di sviluppare il tuo codice potrai lanciare questo co
 ```shell
 poetry mkdocs new .
 ```
+
 Il risultato di questa istruzione é la creazione di:
 
 - **cartella docs**: in questa folder potrai mettere tutti i markdown che andranno a costituire la documentazione.
@@ -43,7 +51,7 @@ Questo file é il più importante in mkdocs e fornisce tutte le informazioni per
 
 Ecco alcune delle sezioni principali:
 
-| Sezione      | Attributi                          | Descrizione | 
+| Sezione      | Attributi                          | Descrizione |
 | ----------- | ------------------------------------ |-----------------|
 | project information | site_name, site_url, author, site_description |  informazioni di base per il sito  |
 | repo information | repo_name, repo_url | é possibile linkare la repository al sito in modo da poter permettere ai visitatori di visionare il codice sorgente  |

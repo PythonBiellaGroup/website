@@ -23,11 +23,11 @@ Ecco alcune caratteristiche:
 2. Dopo aver creato la propria repository é necessario assicurarsi che la repository sia pubblica per poter usufruire di Github Pages. Per chi possiede una sottoscrizione a github enterprise é possibile mantenere la repository privata.
 
     !!! note "tip"
-    
+
         Per verificare che la repository sia pubblica andare su **Settings > Danger Zone > Change repository visibility.**
 
 3. Per poter pubblicare su github Pages noi utilizziamo le github actions che permettono di costruire delle pipeline di CI/CD a partire da un file di configurazione YAML.
 
     !!! note "tip"
-    
+
         Bisogna quindi impostare questa opzione in **Settings > Pages > Build and deployment > Source = Github Actions**

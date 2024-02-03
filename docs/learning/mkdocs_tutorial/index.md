@@ -10,7 +10,7 @@ tags:
 
 MkDocs è uno strumento di generazione di documentazione progettato per semplificare il processo di creazione di documenti per progetti software, pagine web personali e altro ancora. Con MkDocs, è possibile scrivere la documentazione utilizzando il linguaggio di markup Markdown, rendendo il processo di creazione e manutenzione della documentazione accessibile anche a chi non è esperto di HTML o altri linguaggi di markup più complessi.
 
-##  Perchè utilizzare MkDocs?
+## Perchè utilizzare MkDocs?
 
 Ci sono diverse ragioni per scegliere MkDocs come strumento per la creazione della documentazione. Ecco qualche esempio:
 
@@ -29,8 +29,26 @@ Ci sono diverse ragioni per scegliere MkDocs come strumento per la creazione del
 In questo tutorial, esploreremo passo dopo passo come utilizzare MkDocs per creare una documentazione pulita e facilmente navigabile per il tuo progetto. Puoi usare Mkdocs anche per poter realizzare un sito per una community (come abbiamo fatto noi 😉)
 
 * Introduzione a MkDocs
-* Inizializzare il progetto 
+* Inizializzare il progetto
 * Creare pagine di documentazione utilizzando il Markdown.
 * Personalizzare l'aspetto del tuo sito di documentazione.
 * Sviluppare il tuo sito in locale
 * Deployare il tuo sito
+
+## Alcune considerazioni personali
+
+Ci sentiamo di condividere alcune considerazioni dopo aver utilizzato mkdocs sia al lavoro che qui nella community:
+
+* È un'ottima libreria che consente di ottenere buoni risultati, ma che spesso sono simili tra loro, se cerchi la personalizzazione estrema che un frontend con javascript può offrirti non fa al caso tuo
+* È uno strumento molto flessibile, ma è difficile a volte integrare librerie diverse che vanno in conflitto
+* Ci sono delle ottime e valide alternative su Python, ma spesso sono meno belle
+* Wordpress è sicuramente un'alternativa valida alle landing page, ma siamo nerd e ci piaccono le cose un po' nerd :) Inoltre puoi versionare il codice e i tuoi file, oltre ad essere molto più collaborativo, senza strani punta e clicca o strani plugins
+* Personalizzare il template per creare un proprio stile non è così facile
+
+Tuttavia noi ci siamo trovati molto bene con la libreria, consente di realizzare degli ottimi siti web molto veloci e leggeri.
+
+## Perchè Markdown?
+
+Markdown è un formato standard molto usato per creare testo ricco in maniera facile e veloce, è lo stesso formato utilizzato anche nei file README su Github in ogni repository.
+
+Ci sono tante estensioni che consentono di arricchire Markdown, tuttavia vi consigliamo di guardare e fare pratica con la guida standard di Github, in particolare tenendo sempre sotto mano questo [comodissimo cheatsheet ufficiale di Github](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).

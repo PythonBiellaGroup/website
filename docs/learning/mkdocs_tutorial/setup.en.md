@@ -8,11 +8,20 @@ tags:
 
 ## Installation
 
+In this guide and tutorial we will mainly use `poetry` as a library manager, for several reasons that you can look at in our series: `Modern Python Development` and in our [python template called Bear](https://github.com/PythonBiellaGroup/Bear).
+
+In particular we remind you to:
+
+1. Install Poetry
+2. Initialize a new project: `poetry init` or clone our `Bear` template.
+3. Remember to add the `pyproject.toml` file with the `in-project = true` flag to create a new virtualenv `.venv` directly in the project folder.
+
 You can install MkDocs like any other Python library, but it is advisable to use a dependency manager such as PDM or Poetry.
 
 ```shell
 poetry add mkdocs
 ```
+
 In addition to the basic installation of MkDocs, you can use various templates that enhance the configuration and initial layout of MkDocs. The library we prefer and recommend is MkDocs Material, which is among the most widely used and appreciated. We will explore some of the features it provides in this tutorial.
 
 ```shell
@@ -40,7 +49,7 @@ This file is the most important in MkDocs and provides all the information neede
 
 Here are some of the main sections:
 
-| Section               | Attributes                                               | Description                                   | 
+| Section               | Attributes                                               | Description                                   |
 |-----------------------|----------------------------------------------------------|-----------------------------------------------|
 | project information    | site_name, site_url, author, site_description             | Basic information for the site                |
 | repo information       | repo_name, repo_url                                      | It is possible to link the repository to the site, allowing visitors to view the source code |
@@ -52,11 +61,12 @@ Here are some of the main sections:
 | extra                 | analytics, social, consent, alternate                    | In this section, we can specify additional functionalities for our site, including: linking to Google Analytics, social links in the footer of the site, consent to use cookies, and a switcher for multilingual sites |
 
 ## Run locally
+
 After compiling the mkdocs.yml file and creating the Markdown files inside the docs folder, you can check the final result locally by running:
 
 ```shell
 poetry run mkdocs serve
 ```
 
-MkDocs will generate all artifacts in the **site** folder and make the site available at **http://127.0.0.1:8000/**.
+MkDocs will generate all artifacts in the **site** folder and make the site available at **http://127.0.0.1:8000/**
 

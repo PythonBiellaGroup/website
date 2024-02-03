@@ -34,3 +34,21 @@ In this tutorial, we will explore step by step how to use MkDocs to create clean
 * Customizing the appearance of your documentation site.
 * Developing your site locally
 * Deploying your site
+
+## Some personal considerations
+
+We feel like sharing some considerations after using mkdocs both at work and here in the community:
+
+* It is a very good library that allows you to get good results, but which are often similar to each other, if you are looking for the extreme customization that a frontend with javascript can offer you it is not for you
+* It is a very flexible tool, but it is difficult sometimes to integrate different libraries that conflict.
+* There are very good and viable alternatives on Python, but they are often less beautiful.
+* Wordpress is definitely a good alternative to landing pages, but we are nerds and like things a little nerdy :) Plus you can version the code and your own files, plus it's much more collaborative, without weird point-and-clicks or weird plugins
+* Customizing the template to create your own style is not that easy
+
+However we were very happy with the library, it allows you to make very good websites very fast and light.
+
+## Why Markdown?
+
+Markdown is a widely used standard format for creating rich text quickly and easily, it is also the same format used in README files on Github in every repository.
+
+There are many extensions that allow you to enrich Markdown, however we recommend that you look at and practice with Github's standard help, especially keeping this [very handy official Github cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) handy at all times.
