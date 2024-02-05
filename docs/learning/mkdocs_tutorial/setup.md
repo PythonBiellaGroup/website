@@ -37,7 +37,7 @@ Con mkdocs abbiamo la possibilità di ampliare le funzionalità con tantissime e
 Una volta che avrai finito di sviluppare il tuo codice potrai lanciare questo comando
 
 ```shell
-poetry mkdocs new .
+poetry run mkdocs new .
 ```
 
 Il risultato di questa istruzione é la creazione di:
