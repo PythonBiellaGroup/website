@@ -31,3 +31,33 @@ Ecco alcune caratteristiche:
     !!! note "tip"
 
         Bisogna quindi impostare questa opzione in **Settings > Pages > Build and deployment > Source = Github Actions**
+
+## Gestione dei secrets
+
+Spesso capita che all'interno dei nostri progetti dobbiamo utilizzare dei valori che non devono essere mostrati in chiaro perchè riservati.
+
+In mkdocs é possibile inserire delle variabili di ambiente all'interno di mkdocs.yml e poi passare il vero valore dinamicamente per esempio tramite la pipeline di cicd.
+
+Un esempio é l'estensione per google analytics fornita da mkdocs material:
+
+``` { .yaml .copy }
+analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+```
+
+In questo caso abbiamo passato il valore **GOOGLE_ANALYTICS_KEY** tramite la github actions che si occupa del deploy del sito.
+Come fare?
+
+1. Nella vostra repo andate nella sezione **Settings** e poi in **Secrets and variables**
+2. Nella sezione actions selezionate **New repository secret** e aggiungete il vostro secret
+3. All' interno dello yaml di configurazione della github actions richiamate il valore del secret in questo modo:
+
+``` { .yaml .copy }
+- name: Build mkdocs website inside docker
+  shell: bash
+  run: make docs_build
+  env:
+    GOOGLE_ANALYTICS_KEY: $<double curly brackets> secrets.GOOGLE_ANALYTICS_KEY <double curly brackets>
+
+```

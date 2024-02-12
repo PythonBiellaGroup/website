@@ -217,6 +217,7 @@ nav:
                       - learning/mkdocs_tutorial/deploy.md
                       - Github pages: learning/mkdocs_tutorial/github_pages.md
                 - Estensioni: learning/mkdocs_tutorial/extensions.md
+                - MkDocs vs Sphinx: learning/mkdocs_tutorial/mkdocs_vs_sphinx.md
           - Pre-commit: learning/pre-commit/index.md
           - Struttura di progetto:
                 - learning/project_structure/index.md
