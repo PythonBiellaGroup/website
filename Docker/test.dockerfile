@@ -1,4 +1,4 @@
-FROM ghcr.io/pythonbiellagroup/dockbase/python-base:0.0.3 as python
+FROM --platform=linux/amd64 ghcr.io/pythonbiellagroup/dockbase/python-base:0.0.4 as python
 
 # Metadata
 LABEL name="PBG Website"
@@ -8,10 +8,11 @@ LABEL version="0.1"
 # Project Python definition
 WORKDIR /app
 
-#Copy all the project files
-COPY pyproject.toml .
-COPY poetry.lock .
-COPY poetry.toml .
+#Copy poetry files
+COPY pyproject.toml poetry.lock poetry.toml ./
+
+RUN poetry install --no-interaction --no-ansi --only main && \
+    rm -rf /root/.cache/pypoetry
 
 # You need to create a .env file in your project to download the private package from github
 # With GHCR_USERNAME and GHCR_TOKEN
@@ -21,8 +22,7 @@ COPY poetry.toml .
 # RUN . /app/.env && poetry config http-basic.mkdocs ${GHCR_USERNAME} ${GHCR_TOKEN} && \
 #     poetry install --no-interaction --no-ansi --only main && \
 #     rm -rf /root/.cache/pypoetry
-RUN poetry install --no-interaction --no-ansi --only main && \
-    rm -rf /root/.cache/pypoetry
+
 RUN poetry cache clear --all pypi
 
 COPY docs ./docs
@@ -32,9 +32,10 @@ COPY Makefile .
 COPY mkdocs.yml .
 # COPY mkdocs.insiders.yml .
 
-RUN make docs_build
+# RUN make docs_build
+RUN mkdocs build --clean --quiet --config-file mkdocs.yml
 
-FROM nginx as deploy
+FROM --platform=linux/amd64 nginx as deploy
 
 COPY --from=python /app/site /usr/share/nginx/html
 

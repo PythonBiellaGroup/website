@@ -1,12 +1,12 @@
-FROM --platform=linux/amd64 python:3.9-slim-buster as python
+FROM --platform=linux/amd64 python:3.10.12-slim-buster as python
 
 # Metadata
-LABEL name="PBG Website"
+LABEL name="Mkdocs website"
 LABEL maintainer="PBG"
 LABEL version="0.1"
 
 ARG YOUR_ENV="virtualenv"
-ARG POETRY_VERSION="1.5.1"
+ARG POETRY_VERSION="1.7.1"
 
 ENV YOUR_ENV=${YOUR_ENV} \
     PYTHONDONTWRITEBYTECODE=1 \
@@ -31,22 +31,8 @@ ENV PATH="$POETRY_HOME/bin:$PATH"
 # COPY bin/ssh-config.sh /usr/bin
 # RUN chmod +x /usr/bin/ssh-config.sh
 
-# Install libraries
 RUN DEBIAN_FRONTEND=noninteractive apt update && apt install -y \
-    libpq-dev gcc wget gnupg2 curl openssh-client git make build-essential \
-    make build-essential libssl-dev zlib1g-dev \
-    libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm \
-    libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev \
-    pngquant optipng
-
-# # add custom host file for your services
-# COPY hosts tmp/
-# ADD hosts /tmp/hosts
-# # Warning: if you test on M1 and arch64 architecture you could have an issue with this line
-# RUN mkdir -p -- /lib-override && cp /lib/x86_64-linux-gnu/libnss_files.so.2 /lib-override
-# # If you are using mac or arch64 change X86_64-linux-gnu with aarch64-linux-gnu
-# RUN perl -pi -e 's:/etc/hosts:/tmp/hosts:g' /lib-override/libnss_files.so.2
-# ENV LD_LIBRARY_PATH /lib-override
+    wget curl libpq-dev gcc wget gnupg2 curl openssh-client make git build-essential
 
 RUN  wget -O install-poetry.py https://install.python-poetry.org/ \
     && python install-poetry.py --version ${POETRY_VERSION}
@@ -64,6 +50,7 @@ RUN poetry install --no-interaction --no-ansi --only main && \
 RUN poetry cache clear --all pypi
 
 COPY docs ./docs
+COPY myapp ./myapp
 COPY Makefile .
 COPY mkdocs.yml .
 
