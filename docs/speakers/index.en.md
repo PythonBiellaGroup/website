@@ -2,7 +2,7 @@
 title: Participate as a speaker
 disquis: PythonBiellaGroup
 tags:
-  - speaker
+  - speakers
 hide:
   - feedback
 ---

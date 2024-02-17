@@ -6,6 +6,9 @@ timetoread: true
 tags:
  - brand identity
  - design
+hide:
+  - toc
+  - feedback
 ---
 
 # Our new brand identity

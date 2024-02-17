@@ -139,7 +139,74 @@ extra_css:
 
 ## Scrivere equazioni scientifiche
 
+Con mkdocs material é possibile includere espressioni matematiche complesse tramite **MathJax** e **KaTex**
+
+https://squidfunk.github.io/mkdocs-material/reference/math/
+
+```markdown
+$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
+
+Inline Equation: \(E=mc^2\)
+
+Exponents: \(x^2\)
+
+Square Root: \(\sqrt{x}\)
+
+Summation: \(\sum_{i=1}^{n} x_i\)
+
+Integrals: \(\int_{a}^{b} f(x) dx\)
+
+Greek Letters: \(\alpha, \beta, \gamma\)
+
+Matrices: 
+\[
+\begin{bmatrix}
+1 & 2 \\    
+3 & 4
+\end{bmatrix}
+\]
+
+Limits: \(\lim_{x \to \infty} f(x)\)
+
+Vector: \(\vec{v} = \langle v_1, v_2, v_3 \rangle\)
+
+Piecewise function:
+\[f(x) = 
+\begin{cases} 
+x, & \text{if } x \geq 0 \\
+-x, & \text{if } x < 0 
+\end{cases}
+\]
+
+Probability: \(P(A \cup B) = P(A) + P(B) - P(A \cap B)\)
+
+Derivatives: \(\frac{d}{dx} (x^2 + 2x + 1)\)
+
+Binomial Coefficients: \(\binom{n}{k}\)
+
+Trigonometric Functions: \(\sin(\theta)\), \(\cos(\theta)\), \(\tan(\theta)\)
+```
+
 ## Utilizzare i tags
+
+Per favorire la ricerca di contenuti all'interno del vostro sito vi consigliamo di inserire un tag all'interno dei vostri file markdown.
+Con mkdocs material é sufficiente inserire nel file mkdocs.yml:
+
+
+```markdown
+plugins:
+  - tags
+```
+
+All'interno del markdown per cui volete aggiungere un tag basterà inserire questo elemento nei metadati:
+
+```markdown
+---
+title: My title
+tags:
+    - mdkocs
+---
+```
 
 ## Componenti neuteroi
 
@@ -180,6 +247,22 @@ Qui un esempio con la timeline:
 
 
 ::/timeline::
+```
+
+Qui un esempio con le cards:
+
+```markdown
+::cards::
+
+- title: Bards
+  content: Lorem ipsum dolor sit amet.
+  image: https://upload.wikimedia.org/wikipedia/commons/f/f0/Google_Bard_logo.svg
+
+- title: ChatGPT
+  content: Lorem ipsum dolor sit amet.
+  image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1024px-ChatGPT_logo.svg.png
+
+::/cards::
 ```
 
 Ovviamente rimandiamo al [sito ufficiale](https://www.neoteroi.dev/mkdocs-plugins/timeline/) per vedere esempi e differenti configurazioni

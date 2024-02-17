@@ -23,7 +23,8 @@ Argomenti principali
 | Wiki   | [PBG Learning](https://pythonbiellagroup.it/learning/mkdocs_tutorial/)|
 | Mkdocs material  | https://squidfunk.github.io/mkdocs-material/|
 | Github pages  | https://pages.github.com/|
-| Github actions | https://docs.github.com/en/actions|
+| Github actions | https://docs.github.com/en/actions |
+
 ## Video del meetup
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mbT5xptiYOo?si=GSIslUeiknjGOqJf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
