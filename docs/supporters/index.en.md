@@ -40,6 +40,15 @@ Of course, the PythonBiellaGroup community always participates. Will we see you 
 
 ---
 
+### ✒️  **Gradient**
+
+![Image title](../static/images/supporters/gradient_logo.png)
+
+[Gradient](https://www.hypergradient.it/) is a design studio in Biella that specializes in creating the image and communication for significant brands and associations. They are the authors of the graphics of PythonBiellaGroup and have assisted us in creating our brand identity.
+
+---
+
+
 ### 🎒 **TheRedCode**
 
 ![Image title](../static/images/supporters/theredcode_logo.png)

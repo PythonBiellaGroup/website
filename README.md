@@ -33,6 +33,10 @@
 
 ## Intro
 
+[![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+
+![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
+
 <p align="left">
   <a href="https://github.com/PythonBiellaGroup/website/actions"><img
     src="https://github.com/PythonBiellaGroup/website/workflows/deploy-website/badge.svg?branch=main"

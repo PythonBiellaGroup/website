@@ -841,6 +841,47 @@ url = "https://pypi.org/simple"
 reference = "pypi.org"
 
 [[package]]
+name = "mkdocs-blogging-plugin"
+version = "2.2.11"
+description = "Mkdocs plugin that generates a blog index page sorted by creation date."
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "mkdocs-blogging-plugin-2.2.11.tar.gz", hash = "sha256:91b3ebc1ee3870958a0f9304d985f73a8e170a1f8d17948488415fa1a4257b2e"},
+    {file = "mkdocs_blogging_plugin-2.2.11-py3-none-any.whl", hash = "sha256:7e0f14e5a5d9d7fa106ee014b04a49e2fdb5ffe70a0026106dceb79930ba8ac2"},
+]
+
+[package.dependencies]
+babel = ">=2.7.0"
+GitPython = ">=3.1.18"
+jinja2 = ">=2"
+mkdocs = ">=1.0"
+
+[package.source]
+type = "legacy"
+url = "https://pypi.org/simple"
+reference = "pypi.org"
+
+[[package]]
+name = "mkdocs-git-authors-plugin"
+version = "0.7.2"
+description = "Mkdocs plugin to display git authors of a page"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "mkdocs-git-authors-plugin-0.7.2.tar.gz", hash = "sha256:f541730e4cabdafa0ac758c94d28ba5e8ddca4c859e5de4c89f1226cb6ccd0ad"},
+    {file = "mkdocs_git_authors_plugin-0.7.2-py3-none-any.whl", hash = "sha256:c8a2784a867db79ad3b477a96ee96875d17b09192b6d3be71f08df25afff76c4"},
+]
+
+[package.dependencies]
+mkdocs = ">=1.0"
+
+[package.source]
+type = "legacy"
+url = "https://pypi.org/simple"
+reference = "pypi.org"
+
+[[package]]
 name = "mkdocs-git-revision-date-localized-plugin"
 version = "1.2.2"
 description = "Mkdocs plugin that enables displaying the localized date of the last git modification of a markdown file."
@@ -2227,4 +2268,4 @@ reference = "pypi.org"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9, !=3.9.7, <3.11"
-content-hash = "46aa5ce8c4052e3471fe129d7a14707580f35d6b7732ed324d8b314a8de16700"
+content-hash = "06481cab04a49e1aa9219bedeb9277859e8ed8f01690efb26afd2b21c7b946f0"

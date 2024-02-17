@@ -17,6 +17,7 @@ nav:
           - index.md
           - board.md
           - community_history.md
+          - brand_identity.md
           - code_conduct.md
           - tags.md
     - Meetup:
@@ -65,6 +66,10 @@ nav:
                       - Profili, ruoli e blog: meetup/archive/flask/flask_8.md
                       - Heroku e docker - deploy: meetup/archive/flask/flask_9.md
                       - Rest API: meetup/archive/flask/flask_10.md
+                - Generative AI:
+                      - meetup/archive/generative_ai/index.md
+                      - Alla scoperta dei Large Language Model: meetup/archive/generative_ai/gen_ai_1.md
+                      - Come costruire un agente intelligente: meetup/archive/generative_ai/gen_ai_2.md
                 - Genropy:
                       - meetup/archive/genropy/index.md
                       - Intro, demo e primi passi: meetup/archive/genropy/genropy_1.md
@@ -108,6 +113,14 @@ nav:
                       - Libreria regex in python: meetup/archive/text_manipulation/text_2.md
                       - Pipeline di analisi testo e Spacy: meetup/archive/text_manipulation/text_3.md
                       - Un progetto di analisi e classificazione di testi con ML: meetup/archive/text_manipulation/text_4.md
+                - Micropython:
+                      - meetup/archive/intro_micropython/index.md
+                      - Introduzione al mondo dei makers: meetup/archive/intro_micropython/micropython_1.md
+                      - IoT e cloud: meetup/archive/intro_micropython/micropython_2.md
+                - MkDocs:
+                      - meetup/archive/mkdocs/index.md
+                      - Elementi principali di mkdocs: meetup/archive/mkdocs/tutorial_1.md
+                      - Extra, plugins e deploy del sito: meetup/archive/mkdocs/tutorial_2.md
                 - Modern data engineering:
                       - meetup/archive/modern_data_eng/index.md
                       - Stato dell'arte e Apache Airflow: meetup/archive/modern_data_eng/modern_de_1.md
@@ -145,6 +158,11 @@ nav:
                       - Strumenti per la visualizzazione dei dati: meetup/archive/data_track/data_track_2.md
                       - Strumenti per l'ingegnerizzazione dei dati: meetup/archive/data_track/data_track_3.md
                       - Strumenti per il passaggio in produzione: meetup/archive/data_track/data_track_4.md
+                - Polars:
+                      - meetup/archive/intro_polars/index.md
+                      - Introduzione a Polars: meetup/archive/intro_polars/intro_polars_1.md
+                      - Manipolazione dei dati con Polars: meetup/archive/intro_polars/intro_polars_2.md
+                      - Alla scoperta di functime: meetup/archive/intro_polars/polars_functime.md
                 - Pygame:
                       - meetup/archive/pygame/index.md
                       - Intro a pygame: meetup/archive/pygame/pygame_1.md
@@ -256,6 +274,8 @@ nav:
                       - learning/testing_python/resources/snippet.md
                       - learning/testing_python/resources/talk.md
           - VS Code: learning/vscode/index.md
+    - Blog:
+          - blog/index.md
     - Supporters:
           - supporters/index.md
     - Speakers:
@@ -269,6 +289,7 @@ theme:
     name: material
     docs_dir: docs
     site_dir: site
+    custom_dir: overrides
     extra_css:
         - style/custom.css
     extra_javascript:
@@ -302,14 +323,14 @@ theme:
         text: Helvetica
         code: Roboto mono
     palette:
-            # Light mode
+                # Light mode
         - scheme: default
           primary: black
           accent: black
           toggle:
               icon: material/toggle-switch
               name: Switch to dark mode
-                          # Dark mode
+                                  # Dark mode
         - scheme: slate
           primary: white
           accent: white
@@ -360,6 +381,14 @@ markdown_extensions:
 
 plugins:
     - macros
+    - git-authors
+    - blogging:
+          dirs:
+              - blog
+          features:
+              tags: {}
+          theme:
+              name: card
     - timetoread:
           allPages: false
     - minify:
@@ -496,7 +525,7 @@ plugins:
                     Testing - Pytest e unittest: Testing - Pytest and unittest
                     Testing - Doctest e behave: Testing - Doctest and behave
 
-                                  # learning
+                                            # learning
                     Better code: Better code
                     Creare un pacchetto: Create a package
                     Data analysis: Data analysis
@@ -511,15 +540,16 @@ plugins:
                     Gestione delle configurazioni: Manage configurations
                     Indipendenza tecnologica: Tech independence
                     Risorse: Resources
-
+                    Introduzione a Polars: Introduction to Polars
+                    Manipolazione dei dati con Polars: Data wrangling with Polars
+                    Alla scoperta di functime: Discover functime
+                    Introduzione al mondo dei makers: Introduction to the makers world
+                    Iot e Cloud: Iot and Cloud
+                    Alla scoperta dei Large Language Model: Discovering large language model
+                    Come costruire un agente intelligente: Building an intelligent agent with LangChain, Gradio, and OpenAI
+                    Elementi principali di mkdocs: Main elements of mkdocs
+                    Extra, plugins e deploy del sito: Extra, plugins and site deployment
     - git-revision-date-localized
-#     - rss:
-#           match_path: blog/posts/.*
-#           date_from_meta:
-#               as_creation: date
-#           categories:
-#               - categories
-#               - tags
 
 #Extra material theme settings
 extra:
