@@ -138,7 +138,73 @@ extra_css:
 
 ## Writing scientific equations
 
+With MkDocs Material, it's possible to include complex mathematical expressions using **MathJax** and **KaTeX**.
+
+https://squidfunk.github.io/mkdocs-material/reference/math/
+
+```markdown
+$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
+
+Inline Equation: \(E=mc^2\)
+
+Exponents: \(x^2\)
+
+Square Root: \(\sqrt{x}\)
+
+Summation: \(\sum_{i=1}^{n} x_i\)
+
+Integrals: \(\int_{a}^{b} f(x) dx\)
+
+Greek Letters: \(\alpha, \beta, \gamma\)
+
+Matrices: 
+\[
+\begin{bmatrix}
+1 & 2 \\    
+3 & 4
+\end{bmatrix}
+\]
+
+Limits: \(\lim_{x \to \infty} f(x)\)
+
+Vector: \(\vec{v} = \langle v_1, v_2, v_3 \rangle\)
+
+Piecewise function:
+\[f(x) = 
+\begin{cases} 
+x, & \text{if } x \geq 0 \\
+-x, & \text{if } x < 0 
+\end{cases}
+\]
+
+Probability: \(P(A \cup B) = P(A) + P(B) - P(A \cap B)\)
+
+Derivatives: \(\frac{d}{dx} (x^2 + 2x + 1)\)
+
+Binomial Coefficients: \(\binom{n}{k}\)
+
+Trigonometric Functions: \(\sin(\theta)\), \(\cos(\theta)\), \(\tan(\theta)\)
+```
+
 ## Using tags
+
+To facilitate content search within your site, we recommend inserting a tag inside your Markdown files.
+With MkDocs Material, it's sufficient to add the following to your mkdocs.yml file:
+
+```markdown
+plugins:
+  - tags
+```
+
+Within the Markdown file where you want to add a tag, simply include this element in the metadata:
+
+```markdown
+---
+title: My title
+tags:
+    - mkdocs
+---
+```
 
 ## Neuteroi components
 
@@ -179,6 +245,23 @@ Here is an example with the timeline:
 
 
 ::/timeline::
+```
+
+Here is an example with the cards:
+
+```markdown
+
+::cards::
+
+- title: Bards
+  content: Lorem ipsum dolor sit amet.
+  image: https://upload.wikimedia.org/wikipedia/commons/f/f0/Google_Bard_logo.svg
+
+- title: ChatGPT
+  content: Lorem ipsum dolor sit amet.
+  image: https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1024px-ChatGPT_logo.svg.png
+
+::/cards::
 ```
 
 Of course we refer to the [official site](https://www.neoteroi.dev/mkdocs-plugins/timeline/) to see examples and different configurations

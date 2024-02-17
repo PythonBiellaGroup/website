@@ -21,7 +21,7 @@ In this first meeting, we will explore the fundamental aspects of MkDocs with pa
 | Wiki   | [PBG Learning](https://pythonbiellagroup.it/learning/mkdocs_tutorial/)|
 | Mkdocs material  | https://squidfunk.github.io/mkdocs-material/|
 | Github pages  | https://pages.github.com/|
-| Github actions | https://docs.github.com/en/actions|
+| Github actions | https://docs.github.com/en/actions |
 
 ## Meetup video
 

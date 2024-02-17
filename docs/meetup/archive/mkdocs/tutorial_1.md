@@ -21,7 +21,7 @@ In questo primo incontro vedremo gli aspetti fondamentali di mkdocs con particol
 | Wiki   | [PBG Learning](https://pythonbiellagroup.it/learning/mkdocs_tutorial/)|
 | Mkdocs material  | https://squidfunk.github.io/mkdocs-material/|
 | Github pages  | https://pages.github.com/|
-| Github actions | https://docs.github.com/en/actions|
+| Github actions | https://docs.github.com/en/actions |
 
 ## Video del meetup
 

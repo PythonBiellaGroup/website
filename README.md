@@ -68,7 +68,7 @@ In the PBG website you can find:
 - [x] Quick feedback
 - [x] Cookies request form
 - [x] Migrate contents from old site
-- [ ] Template folder for contents
+- [x] Template folder for contents
 - [ ] New home page
 - [ ] New 404 page
 - [ ] New CSS to improve design

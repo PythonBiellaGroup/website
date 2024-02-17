@@ -549,6 +549,9 @@ plugins:
                     Come costruire un agente intelligente: Building an intelligent agent with LangChain, Gradio, and OpenAI
                     Elementi principali di mkdocs: Main elements of mkdocs
                     Extra, plugins e deploy del sito: Extra, plugins and site deployment
+                    Estensioni: Extensions
+                    Funzionalità extra: Extra functionalities
+
     - git-revision-date-localized
 
 #Extra material theme settings
