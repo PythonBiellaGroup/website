@@ -4,7 +4,7 @@ disquis: PythonBiellaGroup
 tags:
     - chatgpt
     - gpt
-    - llm
+    - LLM
 ---
 
 ## Intro
