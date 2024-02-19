@@ -281,9 +281,12 @@ nav:
     - Speakers:
           - speakers/index.md
           - Guida speaker: speakers/speaker_guide.md
+watch:
+    - overrides/
 
 extra_css:
     - style/neoteroi-mkdocs.css
+    - style/extra.css
 # Configuration
 theme:
     name: material

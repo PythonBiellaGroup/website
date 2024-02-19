@@ -1,0 +1,86 @@
+{% extends "main.html" %}
+{% block tabs %}
+{{ super() }}
+
+<!-- The big featured header  -->
+<header
+    style="background-image: url('static/images/logo/pbg_site_cover.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center center; height: 100vh;">
+
+
+    <div style="text-align: center; padding-top: calc(65vh - 100px);">
+
+        <h1 style="color: white;">
+            C’è sempre qualcosa da imparare per migliorarci e crescere…insieme!
+        </h1>
+      
+
+        <a href="https://t.me/pythonbiellagroup" title="Canale telegram della community PBG">
+            <span class="twemoji homepage_icon">
+                {% include ".icons/fontawesome/brands/telegram.svg" %}
+            </span>
+        </a>
+
+        <a href="https://github.com/PythonBiellaGroup" title="Il nostro profilo Github con tutto il nostro codice e il materiale open source">
+            <span class="twemoji homepage_icon">
+                {% include ".icons/fontawesome/brands/square-github.svg" %}
+            </span>
+        </a>
+
+        <a href="https://www.eventbrite.it/o/pythonbiellagroup-33249843991" title="Accedi ai nostri eventi prendendo il tuo biglietto gratuito su Eventbrite">
+            <span class="twemoji homepage_icon">
+                {% include ".icons/fontawesome/solid/ticket.svg" %}
+            </span>
+        </a>
+
+        <a href="https://www.youtube.com/@PythonBiellaGroup" title="Canale Youtube con tutti i video e le registrazioni delle serate">
+            <span class="twemoji homepage_icon">
+                {% include ".icons/fontawesome/brands/square-youtube.svg" %}
+            </span>
+        </a>
+
+        <a href="https://www.linkedin.com/company/pythonbiellagroup/" title="Profilo Linkedin ufficiale della community">
+            <span class="twemoji homepage_icon">
+                {% include ".icons/fontawesome/brands/linkedin.svg" %}
+            </span>
+        </a>
+
+        <a href="https://www.facebook.com/pythonbiellagroup/" title="Profilo Facebook ufficiale della community">
+            <span class="twemoji homepage_icon">
+                {% include ".icons/fontawesome/brands/square-facebook.svg" %}
+            </span>
+        </a>
+
+        <a href="https://www.instagram.com/pythonbiellagroup/" title="Profilo Instagram ufficiale della community">
+            <span class="twemoji homepage_icon">
+                {% include ".icons/fontawesome/brands/square-instagram.svg" %}
+            </span>
+        </a>
+
+        <a href="https://twitter.com/PythonBiella/" title="Profilo Twitter ufficiale della community">
+            <span class="twemoji homepage_icon">
+                {% include ".icons/fontawesome/brands/square-x-twitter.svg" %}
+            </span>
+        </a>
+
+    </div>
+
+    <div style="text-align: center; padding-top: 2rem;">
+
+        <a href="#benvenut" title="Home">
+            <span class="twemoji homepage_icon homepage_arrow" style="width: 2rem">
+                {% include ".icons/octicons/chevron-down-24.svg" %}
+            </span>
+        </a>
+
+    </div>
+
+</header>
+
+
+
+{% endblock %}
+
+
+{% block footer %}
+{{ super() }}
+{% endblock %}
