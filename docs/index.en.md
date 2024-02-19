@@ -17,6 +17,8 @@ tags:
 
 👨‍💻 **PythonBiellaGroup** is a community dedicated to Python, with the goal of studying and learning the programming language in all its aspects.
 
+Here you can find our [code of conduct](code_conduct.md).
+
 ## 🚀 Materials
 
 We believe that knowledge should be shared, and that's why we share all the materials (code, notebooks, slides, exercises) that are presented during our meetups on our [GitHub](https://github.com/PythonBiellaGroup), making it accessible to everyone.
@@ -29,7 +31,7 @@ Inside, you will find:
   - [Bear](https://github.com/PythonBiellaGroup/Bear): a template for a modern python project based on [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/)
   - [Community website](https://github.com/PythonBiellaGroup/website): website for the community based on [MkDocs](https://mkdocs.readthedocs.io/en/stable/)
 
-Here you can find our [code of conduct](code_conduct.md)
+You can find here our [digital graphical kit](https://drive.google.com/drive/folders/1taRpUveQo5MBget-uS4nC9wqNLJvMOy3?usp=sharing).
 
 ## 🤲 Want to help us? Interested in our project?
 
