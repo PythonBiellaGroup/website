@@ -69,8 +69,8 @@ In the PBG website you can find:
 - [x] Cookies request form
 - [x] Migrate contents from old site
 - [x] Template folder for contents
-- [ ] New home page
-- [ ] New 404 page
+- [x] New home page
+- [x] New 404 page
 - [ ] New CSS to improve design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
