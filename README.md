@@ -43,18 +43,24 @@
     alt="Build"
   /></a>
 
-Official PythonBiellaGroup community website (WORK IN PROGRESS)
+Official PythonBiellaGroup community website
 
 ## Features
 
 In the PBG website you can find:
 
 1. Home page and information about the community
-2. List of all the past meetups
-3. A reference, information and guide about python and tools
-4. A blog with all the news about Python and the community
+2. The code of conduct of the community
+3. List of all the past meetups
+4. Calendar with the upcoming events and meetups
+5. A reference and learning material with guides about python, technology and different tools
+6. A blog with all the news about Python and the community
+7. The list of our sponsors and partners
+8. The speaker guide
 
 ## Roadmap
+
+The first version and release of the website it's completed with all the features.
 
 - [x] Multilingual support
 - [x] Identify structure of the website sections
@@ -71,7 +77,7 @@ In the PBG website you can find:
 - [x] Template folder for contents
 - [x] New home page
 - [x] New 404 page
-- [ ] New CSS to improve design
+- [x] New CSS to improve design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
