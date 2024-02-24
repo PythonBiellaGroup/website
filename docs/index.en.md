@@ -1,5 +1,6 @@
 ---
 title: Home
+template: home.en.html
 disquis: PythonBiellaGroup
 hide:
   - path

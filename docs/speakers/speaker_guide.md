@@ -21,7 +21,7 @@ In generale sono solo piccoli accorgimenti di buon senso che permettono una prep
 !!! info
     Puoi usare il nostro slide deck per preparare la tua presentazione.
 
-    [SLIDE DECK](https://drive.google.com/drive/folders/1altPHTWz0vCQ-l3WKaewQ8xRVh5sZjGN){ .md-button }
+    [SLIDE DECK](https://drive.google.com/drive/folders/1taRpUveQo5MBget-uS4nC9wqNLJvMOy3){ .md-button }
 
 ---
 
