@@ -2,71 +2,87 @@
 {% block tabs %}
 {{ super() }}
 
-<!-- The big featured header  -->
 <header
-    style="background-image: url('../static/images/logo/pbg_site_cover.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center center; height: 100vh;">
+    style="background-image: url('static/images/logo/web_cover.png'); background-size: cover; background-repeat: no-repeat; background-position: center center; height: 100vh;">
 
+    <div >
+        <img class="homepage_logo" src="static/images/logo/website_logo.png" alt="Logo"/>
+    </div>
 
-    <div style="text-align: center; padding-top: calc(65vh - 100px);">
+    <div style="text-align: center; padding-top: calc(10vh);">
 
-        <h1 style="color: white;">
-            There is always something to learn to improve ourselves and grow... together!
-        </h1>
-      
+        <p class="home_normal_text middle-content">
+            We are a community of Python and technology enthusiasts, meeting live and online to share
+            knowledge, experiences and projects.
+        </p>
+        <p class="home_normal_text middle-content" style="font-weight: bold;">
+            There is always something new to learn as a way to improve and grow...together!
+        </p>
 
-        <a href="https://t.me/pythonbiellagroup" title="Official telegram channel of the community">
-            <span class="twemoji homepage_icon">
-                {% include ".icons/fontawesome/brands/telegram.svg" %}
-            </span>
-        </a>
+    </div>
 
-        <a href="https://github.com/PythonBiellaGroup" title="Our GitHub profile with all our code and open-source materials">
-            <span class="twemoji homepage_icon">
-                {% include ".icons/fontawesome/brands/square-github.svg" %}
-            </span>
-        </a>
+    <div style="text-align: center; padding-top: calc(10vh);">
 
-        <a href="https://www.eventbrite.it/o/pythonbiellagroup-33249843991" title="Access our events by getting your free ticket on Eventbrite">
-            <span class="twemoji homepage_icon">
-                {% include ".icons/fontawesome/solid/calendar-days.svg" %}
-            </span>
-        </a>
+        <p class="home_normal_text middle-content">
+            Here you can find all our contacts and social channels to stay updated on our activities
+        </p>
 
-        <a href="https://www.youtube.com/@PythonBiellaGroup" title="YouTube channel with all the videos and recordings of the events">
-            <span class="twemoji homepage_icon">
-                {% include ".icons/fontawesome/brands/square-youtube.svg" %}
-            </span>
-        </a>
+        <div class="homepage_icons_column">
+            <a href="https://t.me/pythonbiellagroup" title="Official telegram channel">
+                <span class="twemoji homepage_icon">
+                    {% include ".icons/fontawesome/brands/telegram.svg" %}
+                </span>
+            </a>
 
-        <a href="https://www.linkedin.com/company/pythonbiellagroup/" title="Official LinkedIn profile of the community">
-            <span class="twemoji homepage_icon">
-                {% include ".icons/fontawesome/brands/linkedin.svg" %}
-            </span>
-        </a>
+            <a href="https://github.com/PythonBiellaGroup" title="Github profile with all our code and open source material">
+                <span class="twemoji homepage_icon">
+                    {% include ".icons/fontawesome/brands/square-github.svg" %}
+                </span>
+            </a>
 
-        <a href="https://www.facebook.com/pythonbiellagroup/" title="Official Facebook profile of the community">
-            <span class="twemoji homepage_icon">
-                {% include ".icons/fontawesome/brands/square-facebook.svg" %}
-            </span>
-        </a>
+            <a href="https://www.eventbrite.it/o/pythonbiellagroup-33249843991" title="Join our events on Eventbrite">
+                <span class="twemoji homepage_icon">
+                    {% include ".icons/fontawesome/solid/calendar-days.svg" %}
+                </span>
+            </a>
 
-        <a href="https://www.instagram.com/pythonbiellagroup/" title="Official Instagram profile of the community">
-            <span class="twemoji homepage_icon">
-                {% include ".icons/fontawesome/brands/square-instagram.svg" %}
-            </span>
-        </a>
+            <a href="https://www.youtube.com/@PythonBiellaGroup" title="Our Youtube channel with all the videos, tutorial and recordings">
+                <span class="twemoji homepage_icon">
+                    {% include ".icons/fontawesome/brands/square-youtube.svg" %}
+                </span>
+            </a>
 
-        <a href="https://twitter.com/PythonBiella/" title="Official Twitter profile of the community">
-            <span class="twemoji homepage_icon">
-                {% include ".icons/fontawesome/brands/square-x-twitter.svg" %}
-            </span>
-        </a>
+            <a href="https://www.linkedin.com/company/pythonbiellagroup/" title="Official Linkedin profile of the community">
+                <span class="twemoji homepage_icon">
+                    {% include ".icons/fontawesome/brands/linkedin.svg" %}
+                </span>
+            </a>
+
+            <a href="https://www.instagram.com/pythonbiellagroup/" title="Official Instagram profile of the community">
+                <span class="twemoji homepage_icon">
+                    {% include ".icons/fontawesome/brands/square-instagram.svg" %}
+                </span>
+            </a>
+
+            <a href="https://twitter.com/PythonBiella/" title="Official Twitter profile of the community">
+                <span class="twemoji homepage_icon">
+                    {% include ".icons/fontawesome/brands/square-x-twitter.svg" %}
+                </span>
+            </a>
+
+            <a href="https://www.facebook.com/pythonbiellagroup/" title="Official Facebook profile of the community">
+                <span class="twemoji homepage_icon">
+                    {% include ".icons/fontawesome/brands/square-facebook.svg" %}
+                </span>
+            </a>
+
+        </div>
 
     </div>
 
     <div style="text-align: center; padding-top: 2rem;">
 
-        <a href="#welcome" title="Home">
+        <a href="#benvenut" title="Home">
             <span class="twemoji homepage_icon homepage_arrow" style="width: 2rem">
                 {% include ".icons/octicons/chevron-down-24.svg" %}
             </span>
