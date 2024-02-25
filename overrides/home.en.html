@@ -3,13 +3,13 @@
 {{ super() }}
 
 <header
-    style="background-image: url('static/images/logo/web_cover.png'); background-size: cover; background-repeat: no-repeat; background-position: center center; height: 100vh;">
+    style="background-image: url('../static/images/logo/web_cover.png'); background-size: cover; background-repeat: no-repeat; background-position: center center; height: 100vh;">
 
     <div >
-        <img class="homepage_logo" src="static/images/logo/website_logo.png" alt="Logo"/>
+        <img class="homepage_logo" src="../static/images/logo/website_logo.png" alt="Logo"/>
     </div>
 
-    <div style="text-align: center; padding-top: calc(10vh);">
+    <div class="homepage_container">
 
         <p class="home_normal_text middle-content">
             We are a community of Python and technology enthusiasts, meeting live and online to share
@@ -24,7 +24,7 @@
     <div style="text-align: center; padding-top: calc(10vh);">
 
         <p class="home_normal_text middle-content">
-            Here you can find all our contacts and social channels to stay updated on our activities
+            Here you can find all our contacts
         </p>
 
         <div class="homepage_icons_column">
@@ -82,7 +82,7 @@
 
     <div style="text-align: center; padding-top: 2rem;">
 
-        <a href="#benvenut" title="Home">
+        <a href="#welcome" title="Home">
             <span class="twemoji homepage_icon homepage_arrow" style="width: 2rem">
                 {% include ".icons/octicons/chevron-down-24.svg" %}
             </span>
