@@ -54,6 +54,10 @@ nav:
                       - SQLModel: meetup/archive/fastapi/fastapi_3.md
                       - Back-end con FastAPI e SQLModel: meetup/archive/fastapi/fastapi_4.md
                       - Async, OAuth2, profiling e dockerizzazione: meetup/archive/fastapi/fastapi_5.md
+                - FastAPI - Quiz maker:
+                      - meetup/archive/fastapi_quizmaker/index.md
+                      - Parte 1: meetup/archive/fastapi_quizmaker/quizmaker_1.md
+                      - Parte 2: meetup/archive/fastapi_quizmaker/quizmaker_2.md
                 - Flask:
                       - meetup/archive/flask/index.md
                       - Intro a Flask: meetup/archive/flask/flask_1.md
@@ -86,6 +90,10 @@ nav:
                 - GitHub Actions: meetup/archive/github_actions.md
                 - GPT Detection system: meetup/archive/gpt_detection.md
                 - GraphQL e Strawberry: meetup/archive/graphql.md
+                - High frequency trading:
+                      - meetup/archive/high_frequency_trading/index.md
+                      - Parte 1: meetup/archive/high_frequency_trading/hft_1.md
+                      - Parte 2: meetup/archive/high_frequency_trading/hft_2.md
                 - Introduzione al Machine Learning:
                       - meetup/archive/intro_ml/index.md
                       - Introduzione al Machine Learning e a Scikit-Learn: meetup/archive/intro_ml/intro_ml_1.md
