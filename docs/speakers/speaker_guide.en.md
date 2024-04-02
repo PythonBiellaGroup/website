@@ -15,12 +15,12 @@ We have compiled simple guidelines based on feedback from members of the communi
 
 - Coordinate with the organizers on the topics to be presented.
 
-    !!! warning
+    !!! warning "Confidential material"
         One of the cornerstones of our community is the sharing of knowledge, and that's why we ensure that all materials (meetup recordings, slides, code examples, etc.) are available to everyone, even for those who didn't directly participate in the event.
         If you have any concerns about sharing material because it might be potentially sensitive, protected by NDA, copyrighted, or anything else, don't hesitate to inform the community organizers in advance so that we can understand how to set up the meetup considering the aforementioned constraints. 
         We would really appreciate it ❤️
 
-- Collaborate with the organizers on the evening's presentation text, which will be shared on social media.
+- Collaborate with the organizers on the meetup's presentation text, which will be shared on social media.
 - If using slides, if created for this purpose, and if possible, use the "Python Biella Group" templates.
 
     !!! info

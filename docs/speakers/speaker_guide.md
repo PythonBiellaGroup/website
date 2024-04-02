@@ -16,7 +16,7 @@ In generale sono solo piccoli accorgimenti di buon senso che permettono una prep
 
 - Concordare con gli organizzatori gli argomenti da presentare
   
-    !!! warning
+    !!! warning "Materiale riservato"
         Uno dei capisaldi della nostra community é la condivisione della conoscenza ed é per questo che ci teniamo che tutto il materiale (registrazione del meetup, slides, esempi di codice, etc.) sia a disposizione di tutti, anche per chi non ha partecipato direttamente alla serata.
         Se hai qualche dubbio in merito al materiale da condividere perché potenzialmente riservato, protetto da NDA, protetto da copyright o altro non esitare ad avvertire gli organizzatori della community per tempo in modo da poter capire come impostare il meetup dati i vincoli sopra citati. 
         Lo apprezzeremo molto ❤️  

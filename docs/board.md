@@ -8,7 +8,7 @@ hide:
 
 # Board organizzativo
 
-Vi presentiamo qui il board organizzativo della community **PythonBiellaGroup**. Il board é formato da membri della community che mettono a disposizione il loro tempo e le loro competenze per portare avanti l' attività della community e arricchirla con nuove iniziative.
+Vi presentiamo qui il board organizzativo della community **PythonBiellaGroup**. Il board é formato da membri della community che mettono a disposizione il loro tempo e le loro competenze per portare avanti l'attività della community e arricchirla con nuove iniziative.
 
 !!! success "Unisciti a noi!"
 
@@ -19,7 +19,7 @@ Vi presentiamo qui il board organizzativo della community **PythonBiellaGroup**.
 ::cards::
 
 - title: Andrea Guzzo
-  content: CTO and founder @Intella
+  content: CTO @Intella
   image: ./static/images/profiles/andrea-guzzo-gen-profile.png
   url: https://www.linkedin.com/in/andreaguzzo/
 
