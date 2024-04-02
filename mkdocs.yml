@@ -24,6 +24,7 @@ nav:
           - meetup/index.md
           - meetup/next_meetup.md
           - Meetup passati:
+                - Agile: meetup/archive/agile.md
                 - ANTLR:
                       - meetup/archive/antlr/index.md
                       - Parser e ANTLR4: meetup/archive/antlr/antlr_1.md

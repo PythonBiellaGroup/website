@@ -19,7 +19,7 @@ Vi presentiamo qui il board organizzativo della community **PythonBiellaGroup**.
 ::cards::
 
 - title: Andrea Guzzo
-  content: AI Tech lead @MDPI
+  content: CTO and founder @Intella
   image: ./static/images/profiles/andrea-guzzo-gen-profile.png
   url: https://www.linkedin.com/in/andreaguzzo/
 
