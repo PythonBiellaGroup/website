@@ -22,7 +22,7 @@ jobs:
                 password: ${{  secrets.GITHUB_TOKEN }}
         steps:
             - name: Checkout code
-              uses: actions/checkout@v2
+              uses: actions/checkout@v4
             - name: Configure safe github directory
               shell: bash
               run: git config --global --add safe.directory /__w/website/website
@@ -46,7 +46,7 @@ jobs:
                 password: ${{  secrets.GITHUB_TOKEN }}
         steps:
             - name: Checkout
-              uses: actions/checkout@v3
+              uses: actions/checkout@v4
             - name: Configure safe github directory
               shell: bash
               run: git config --global --add safe.directory /__w/website/website
@@ -62,12 +62,12 @@ jobs:
               env:
                   GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
             - name: Setup Pages
-              uses: actions/configure-pages@v3
+              uses: actions/configure-pages@v5
             - name: Upload artifact
-              uses: actions/upload-pages-artifact@v2
+              uses: actions/upload-pages-artifact@v4
               with:
           # Upload entire repository
                   path: ./site
             - name: Deploy to GitHub Pages
               id: deployment
-              uses: actions/deploy-pages@v2
+              uses: actions/deploy-pages@v4
