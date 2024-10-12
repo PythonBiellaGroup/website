@@ -24,6 +24,7 @@ nav:
           - meetup/index.md
           - meetup/next_meetup.md
           - Meetup passati:
+                - Agile: meetup/archive/agile.md
                 - ANTLR:
                       - meetup/archive/antlr/index.md
                       - Parser e ANTLR4: meetup/archive/antlr/antlr_1.md
@@ -35,6 +36,7 @@ nav:
                       - Intro: meetup/archive/distributed_compute/distr_comp_1.md
                       - Comunicazione tra i processi: meetup/archive/distributed_compute/distr_comp_2.md
                       - Librerie python Dask, Modin e Celery: meetup/archive/distributed_compute/distr_comp_3.md
+                - Data privacy con Nerpii: meetup/archive/nerpii.md
                 - Data versioning: meetup/archive/data_versioning.md
                 - Data Science - focus Pharma: meetup/archive/ds_pharma.md
                 - Debito tecnico e architectural smell: meetup/archive/technical_dept.md
@@ -54,6 +56,10 @@ nav:
                       - SQLModel: meetup/archive/fastapi/fastapi_3.md
                       - Back-end con FastAPI e SQLModel: meetup/archive/fastapi/fastapi_4.md
                       - Async, OAuth2, profiling e dockerizzazione: meetup/archive/fastapi/fastapi_5.md
+                - FastAPI - Quiz maker:
+                      - meetup/archive/fastapi_quizmaker/index.md
+                      - Parte 1: meetup/archive/fastapi_quizmaker/quizmaker_1.md
+                      - Parte 2: meetup/archive/fastapi_quizmaker/quizmaker_2.md
                 - Flask:
                       - meetup/archive/flask/index.md
                       - Intro a Flask: meetup/archive/flask/flask_1.md
@@ -86,6 +92,11 @@ nav:
                 - GitHub Actions: meetup/archive/github_actions.md
                 - GPT Detection system: meetup/archive/gpt_detection.md
                 - GraphQL e Strawberry: meetup/archive/graphql.md
+                - High frequency trading:
+                      - meetup/archive/high_frequency_trading/index.md
+                      - Parte 1: meetup/archive/high_frequency_trading/hft_1.md
+                      - Parte 2: meetup/archive/high_frequency_trading/hft_2.md
+                - Introduzione ad Apache Beam: meetup/archive/intro_apache_beam.md
                 - Introduzione al Machine Learning:
                       - meetup/archive/intro_ml/index.md
                       - Introduzione al Machine Learning e a Scikit-Learn: meetup/archive/intro_ml/intro_ml_1.md
@@ -527,7 +538,8 @@ plugins:
                     Letteratura: Bibliography
                     Testing - Pytest e unittest: Testing - Pytest and unittest
                     Testing - Doctest e behave: Testing - Doctest and behave
-
+                    Introduzione ad Apache Beam: Introduction to Apache Beam
+                    Data privacy con Nerpii: Data Privacy with Nerpii
                                             # learning
                     Better code: Better code
                     Creare un pacchetto: Create a package
