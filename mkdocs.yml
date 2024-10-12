@@ -36,6 +36,7 @@ nav:
                       - Intro: meetup/archive/distributed_compute/distr_comp_1.md
                       - Comunicazione tra i processi: meetup/archive/distributed_compute/distr_comp_2.md
                       - Librerie python Dask, Modin e Celery: meetup/archive/distributed_compute/distr_comp_3.md
+                - Data privacy con Nerpii: meetup/archive/nerpii.md
                 - Data versioning: meetup/archive/data_versioning.md
                 - Data Science - focus Pharma: meetup/archive/ds_pharma.md
                 - Debito tecnico e architectural smell: meetup/archive/technical_dept.md
@@ -95,6 +96,7 @@ nav:
                       - meetup/archive/high_frequency_trading/index.md
                       - Parte 1: meetup/archive/high_frequency_trading/hft_1.md
                       - Parte 2: meetup/archive/high_frequency_trading/hft_2.md
+                - Introduzione ad Apache Beam: meetup/archive/intro_apache_beam.md
                 - Introduzione al Machine Learning:
                       - meetup/archive/intro_ml/index.md
                       - Introduzione al Machine Learning e a Scikit-Learn: meetup/archive/intro_ml/intro_ml_1.md
@@ -536,7 +538,8 @@ plugins:
                     Letteratura: Bibliography
                     Testing - Pytest e unittest: Testing - Pytest and unittest
                     Testing - Doctest e behave: Testing - Doctest and behave
-
+                    Introduzione ad Apache Beam: Introduction to Apache Beam
+                    Data privacy con Nerpii: Data Privacy with Nerpii
                                             # learning
                     Better code: Better code
                     Creare un pacchetto: Create a package
