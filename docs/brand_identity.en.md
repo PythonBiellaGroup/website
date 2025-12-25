@@ -8,7 +8,7 @@ hide:
 
 # Brand identity
 
-![Logo](../../static/images/brand_identity/pbg_brand_identity.gif)
+![Logo](./static/images/brand_identity/pbg_brand_identity.gif)
 
 At the heart of our community, the redesign presents itself not only as a visual metamorphosis but as a true manifesto of principles, where form meets function in an aesthetic embrace that celebrates clarity, precision, and openness. The new logo, bold in its simplicity, stands as a beacon of recognition, exuding a sober confidence in black and white that recalls the purity of intent and commitment to accessibility.
 

@@ -26,7 +26,7 @@ Ogni grande storia ha un inizio: la nostra comincia con un piccolo gruppo di ami
   sub_title: 06/2022
   title: SPQB (Sono Pythonisti Questi Biellesi) e partecipazione al PyConIT 2022
 - content: Presentazione live in SellaLab dedicata a Python e al suo apprendimento.
-  sub_title: 10/2022 
+  sub_title: 10/2022
   title: BiDigital 2022
 - content: Siamo community partner del Pycon 2023. Nicola e Gioele si uniscono al board organizzativo.
   sub_title: 06/2023
@@ -34,5 +34,8 @@ Ogni grande storia ha un inizio: la nostra comincia con un piccolo gruppo di ami
 - content: Organizzazione e copertura di un completo stream sull'AI, presso la Sala Dev & Tech, in SellaLab, con l'aiuto dei nostri "amici". Il giorno successivo all'evento organizziamo un' esperienza di "forest bathing" nei dintorni di Biella. Davide C. si riunisce al board organizzativo.
   sub_title: 10/2023
   title: BiDigital 2023
+- content: Avvio del progetto di collaborazione con il Liceo Scientifico di Biella per una diversa modalità di condivisione. Alessandro, unitosi al board organizzativo dal 2024, è uno dei protagonisti del percorso.
+  sub_title: 10/2025
+  title: Progetto Scuole
 
 ::/timeline::

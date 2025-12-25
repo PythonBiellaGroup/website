@@ -9,7 +9,7 @@ hide:
 
 # Meetup in a nutshell
 
-📆 Every Monday at 9.00 p.m (GMT+2) on Zoom meeting
+📆 From 2020 to 2025, every Monday at 9.00 p.m (GMT+2) on Zoom meeting
 
 🗣 Expert speakers from both our community and external sources.
 
@@ -29,6 +29,7 @@ The meetup is then recorded and made available on YouTube a few days after the m
 ---
 
 # What do you need to do to participate?
+
 All our meetups are posted on our social channels the week before the event so that you can plan your personal commitments and join us.
 
 📬 Follow us on our social channels to stay updated on all upcoming news.

@@ -1,6 +1,8 @@
 {
   "python.terminal.activateEnvInCurrentTerminal": true,
-  "python.testing.pytestArgs": ["test"],
+  "python.testing.pytestArgs": [
+    "test"
+  ],
   "python.testing.unittestEnabled": false,
   "python.testing.pytestEnabled": true,
   "editor.formatOnSave": true,
@@ -14,5 +16,6 @@
   "files.exclude": {
     "**/__pycache__": true
   },
-  "cSpell.language": "en,it,lorem,en-US,en-GB"
+  "cSpell.language": "en,it,lorem,en-US,en-GB",
+  "makefile.configureOnOpen": false
 }

@@ -18,34 +18,24 @@ We present to you the organizing board of the PythonBiellaGroup community. The b
 
 ::cards::
 
-- title: Andrea Guzzo
-  content: CTO @Intella
-  image: ./static/images/profiles/andrea-guzzo-gen-profile.png
-  url: https://www.linkedin.com/in/andreaguzzo/
-
-- title: Davide Airaghi
-  content: Senior Data engineer @Hype
-  image: ./static/images/profiles/davide-airaghi-gen-profile.png
-  url: https://www.linkedin.com/in/airaghidavide/
-
 - title: Mario Nardi
-  content: Senior IT specialist @BancaSellaHolding
+  content: IT Governance Specialist @Banca Sella Holding
   image: ./static/images/profiles/mario-nardi-gen-profile.png
-  url: https://www.linkedin.com/in/mario-nardi/
+  url: <https://www.linkedin.com/in/mario-nardi/>
+
+- title: Alessandro Magliola
+  content: Data Analyst & Python Developer @Orbyta Tech
+  image: ./static/images/profiles/ale-magliola-gen-profile.png
+  url: <https://www.linkedin.com/in/alessandro-magliola/>
 
 - title: Nicola Sottani
   content: Software engineer @H&T
   image: ./static/images/profiles/nicola-sottani-gen-profile.png
-  url: https://www.linkedin.com/in/nisot/
+  url: <https://www.linkedin.com/in/nisot/>
 
-- title: Gioele Raiano
-  content: Python developer @Thux
-  image: ./static/images/profiles/gioele-raiano-gen-profile.png
-  url: https://www.linkedin.com/in/gioeleraiano/
-
-- title: Davide Cominato
-  content: Freelance software engineer
-  image: ./static/images/profiles/davide-cominato-gen-profile.png
-  url: https://www.linkedin.com/in/davidecominato/
+- title: Andrea Guzzo
+  content: CTO @Intella
+  image: ./static/images/profiles/andrea-guzzo-gen-profile.png
+  url: <https://www.linkedin.com/in/andreaguzzo/>
 
 ::/cards::

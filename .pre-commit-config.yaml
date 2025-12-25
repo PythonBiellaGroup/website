@@ -1,23 +1,21 @@
----
 default_language_version:
-    python: python3.9
+  python: python3.9
 default_stages: [commit, push]
 repos:
-    - repo: https://github.com/pre-commit/pre-commit-hooks
-      rev: v4.5.0
-      hooks:
-          - id: check-added-large-files # Prevent giant files from being committed
-            args: [--maxkb=5000]
-          - id: check-json # Attempts to load all json files to verify syntax
-            exclude: ^.vscode
-          - id: check-merge-conflict # Check for files that contain merge conflict strings
-          - id: check-toml # Attempts to load all TOML files to verify syntax
-          - id: detect-private-key # Checks for the existence of private keys
-          - id: pretty-format-json # Checks that all your JSON files are pretty. "Pretty" here means that keys are sorted and indented. You can configure this with the following commandline options
-            args: [--autofix]
-            exclude: ^.vscode
-
-    - repo: https://github.com/jumanjihouse/pre-commit-hook-yamlfmt
-      rev: 0.2.3
-      hooks:
-          - id: yamlfmt
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: check-added-large-files # Prevent giant files from being committed
+        args: [--maxkb=5000]
+      - id: check-json # Attempts to load all json files to verify syntax
+        exclude: ^.vscode
+      - id: check-merge-conflict # Check for files that contain merge conflict strings
+      - id: check-toml # Attempts to load all TOML files to verify syntax
+      - id: detect-private-key # Checks for the existence of private keys
+      - id: pretty-format-json # Checks that all your JSON files are pretty. "Pretty" here means that keys are sorted and indented. You can configure this with the following commandline options
+        args: [--autofix]
+        exclude: ^.vscode
+  - repo: https://github.com/google/yamlfmt
+    rev: v0.10.0
+    hooks:
+      - id: yamlfmt

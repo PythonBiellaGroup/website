@@ -1,68 +1,68 @@
----
 name: test-deploy-website
 on:
   # release:
   #     types: [published]
-    push:
-        branches:
-            - main
+  push:
+    branches:
+      - main
 permissions:
-    contents: write
-    pages: write # to deploy to Pages
-    id-token: write # to verify the deployment originates from an appropriate source
+  contents: write
+  pages: write # to deploy to Pages
+  id-token: write # to verify the deployment originates from an appropriate source
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
-    group: pages
-    cancel-in-progress: false
+  group: pages
+  cancel-in-progress: false
 jobs:
-    pre-commit-check:
-        runs-on: ubuntu-latest
-        container:
-            image: ghcr.io/pythonbiellagroup/dockbase/python-base:${{vars.BASE_DOCKER_VERSION}}
-            credentials:
-                username: ${{ github.actor }}
-                password: ${{  secrets.GITHUB_TOKEN }}
-        steps:
-            - name: Checkout code
-              uses: actions/checkout@v2
-            - name: Configure safe github directory
-              shell: bash
-              run: git config --global --add safe.directory /__w/website/website
-            - name: Install pre-commit check
-              shell: bash
-              run: poetry install --only dev --sync
-            - name: Run pre-commit check
-              shell: bash
-              run: poetry run pre-commit run -a
-    check_build_website:
-        needs: pre-commit-check
-        runs-on: ubuntu-latest
-        if: success()
-        environment:
-            name: github-pages
-            url: ${{ steps.deployment.outputs.page_url }}
-        container:
-            image: ghcr.io/pythonbiellagroup/dockbase/python-base:${{vars.BASE_DOCKER_VERSION}}
-            credentials:
-                username: ${{ github.actor }}
-                password: ${{  secrets.GITHUB_TOKEN }}
-        steps:
-            - name: Checkout
-              uses: actions/checkout@v3
-            - name: Configure safe github directory
-              shell: bash
-              run: git config --global --add safe.directory /__w/website/website
-            - name: Add mkdocs-material credentials
-              shell: bash
-              run: poetry config http-basic.mkdocs ${{secrets.GHCR_USERNAME}} ${{secrets.GHCR_TOKEN}}
-            - name: Install packages
-              shell: bash
-              run: poetry install
-            - name: Build mkdocs website inside docker
-              shell: bash
-              run: make docs_build
-              env:
-                  GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
-            - name: Setup Pages
-              uses: actions/configure-pages@v3
+  pre-commit-check:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/pythonbiellagroup/dockbase/python-base:${{vars.BASE_DOCKER_VERSION}}
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{  secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Configure safe github directory
+        shell: bash
+        run: git config --global --add safe.directory /__w/website/website
+      - name: Install pre-commit check
+        shell: bash
+        run: poetry install --only dev --sync
+      - name: Run pre-commit check
+        shell: bash
+        run: poetry run pre-commit run -a
+  check_build_website:
+    needs: pre-commit-check
+    runs-on: ubuntu-latest
+    if: success()
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    container:
+      image: ghcr.io/pythonbiellagroup/dockbase/python-base:${{vars.BASE_DOCKER_VERSION}}
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{  secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Configure safe github directory
+        shell: bash
+        run: git config --global --add safe.directory /__w/website/website
+      - name: Add mkdocs-material credentials
+        shell: bash
+        run: poetry config http-basic.mkdocs ${{secrets.GHCR_USERNAME}} ${{secrets.GHCR_TOKEN}}
+      - name: Install packages
+        shell: bash
+        run: poetry install
+      - name: Build mkdocs website inside docker
+        shell: bash
+        run: make docs_build
+        env:
+          GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
